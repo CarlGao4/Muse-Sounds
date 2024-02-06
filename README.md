@@ -72,7 +72,7 @@ Piano
 
 ## SF2 and SF3
 
-I will also convert the soundfont into SF2 and SF3 formats as they are more common and can be used in more software. However, these formats will be lossy but the loss can be ignored in most cases.
+I will also convert the soundfont into SF2 and SF3 formats as they are more common and can be used in more software. However, these formats will be lossy but the loss can be ignored in most cases. I'll use 24-bit wav as the audio format in SF2.
 
 The loss of SF2 format comes from conversion from opus to 24-bit wav. Though both Muse Sounds and SF3 use opus as the audio format, I can't find a way to directly use opus in SF3, but have to compress the SF2 into SF3.
 
