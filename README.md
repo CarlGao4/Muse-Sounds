@@ -8,6 +8,10 @@ The Muse Sounds library was released along with MuseScore Studio 4 and is a very
 
 **This repository DOES NOT contain any license and is only for research purpose. You must follow the license of the original Muse Sounds library.**
 
+## Help needed
+
+I'm not so familiar with sfz and soundfont formats, so my output SF2 and SF3 sounds may not be perfect. If you find any problems, please open an issue or pull request.
+
 ## Folder structure
 
 This is an example of the folder structure of original Muse Sounds library:
