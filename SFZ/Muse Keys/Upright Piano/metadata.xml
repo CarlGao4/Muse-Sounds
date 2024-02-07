@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Keys" DefaultStaffType="GRAND" Volume="0" Reverb="20.0" FriendlyName="Upright Piano" Abbreviation="Pno." Pan="0" MixerEffectsGroup="keys">
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="0.5"/>
+      <Param Name="Gain" Value="-6"/>
+      <Param Name="Freq" Value="250"/>
+    </Processor>
+  </SamplerEffect>
+  <Articulation File="SFZ\Upright Piano Sustain.sfz" Class="Sustain"/>
+  <MusicXML InstrumentSound="keyboard.piano.upright"/>
+  <MPE InstrumentSound="keyboards.piano.upright"/>
+</Instrument>
