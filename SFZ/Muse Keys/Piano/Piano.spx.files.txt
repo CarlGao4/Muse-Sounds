@@ -1,0 +1,3 @@
+SFZ\Piano - Pop.sfz
+SFZ\Piano - Realtime.sfz
+SFZ\Piano - Studio.sfz

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Keys" BracketGroup="None" DefaultStaffType="GRAND" Reverb="15" FriendlyName="Grand Piano" Abbreviation="Pno." MixerEffectsGroup="keys">
+  <Preset Name="Studio">
+    <SamplerEffect>
+      <Processor Name="ParametricEqBand">
+        <Param Name="Q" Value="1"/>
+        <Param Name="Gain" Value="-6"/>
+        <Param Name="Freq" Value="6000"/>
+      </Processor>
+    </SamplerEffect>
+    <Articulation File="SFZ\Piano - Studio.sfz" Class="Sustain" OffsetStart="10"/>
+  </Preset>
+  <Preset Name="Pop">
+    <Articulation File="SFZ\Piano - Pop.sfz" Class="Sustain" OffsetStart="10"/>
+  </Preset>
+  <Preset Name="Orchestral">
+    <SamplerEffect>
+      <Processor Name="VfdnReverb">
+        <Param Name="ModAmp" Value="0.07"/>
+        <Param Name="PeakQ" Value="0.5"/>
+        <Param Name="VelvetOut" Value="1"/>
+        <Param Name="DryLevel" Value="0"/>
+        <Param Name="LateLevel" Value="-9"/>
+        <Param Name="ERDirect" Value="-0.5"/>
+        <Param Name="LateRoomScale" Value="1.2"/>
+        <Param Name="HighCut" Value="3500"/>
+        <Param Name="PeakFreq" Value="343.7"/>
+        <Param Name="PeakGain" Value="-11.71"/>
+        <Param Name="FeedbackTop" Value="10000"/>
+        <Param Name="Stereo" Value="100"/>
+        <Param Name="PreDelay" Value="20"/>
+        <Param Name="ERtoLate" Value="-9"/>
+        <Param Name="ReverbTimeMs" Value="1600"/>
+        <Param Name="MidHighFreq" Value="2500"/>
+        <Param Name="ModType" Value="0"/>
+      </Processor>
+    </SamplerEffect>
+    <Articulation File="SFZ\Piano - Studio.sfz" Class="Sustain" OffsetStart="60"/>
+    <Articulation File="SFZ\Piano - Realtime.sfz" Symbol="Realtime" OffsetStart="60"/>
+  </Preset>
+  <MusicXML InstrumentSound="keyboard.piano"/>
+  <MPE InstrumentSound="keyboards.piano"/>
+</Instrument>

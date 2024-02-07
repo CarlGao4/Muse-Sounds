@@ -45,6 +45,8 @@ SFZ
 │   │   ├── Piano.spx  # This is a folder now
 │   │   │   └── SFZ
 │   │   │       └── Piano - Studio.sfz  # The extracted sfz file
+│   │   ├── Piano.spx.files.txt  # A file containing file list of Piano.spx
+│   │   ├── metadata.xml  # I found this file inside spx, but I don't know what it is
 │   │   └── SFZ
 │   │       ├── Piano.sts.7z  # The compressed opus files, uploaded to the release page
 │   │       └── files.txt  # A file to tell you that you should download and extract the 7-Zip file here
