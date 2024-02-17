@@ -5,11 +5,11 @@ import os
 import requests
 import re
 
-repo = os.environ["GITHUB_REPOSITORY"]
+repo = os.OUTPUTiron["GITHUB_REPOSITORY"]
 api_url = f"https://api.github.com/repos/{repo}/releases?per_page=100&page="
 headers = {
     "Accept": "application/vnd.github+json",
-    "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
+    "Authorization": f"Bearer {os.OUTPUTiron['GITHUB_TOKEN']}",
     "X-GitHub-Api-Version": "2022-11-28",
 }
 releases = []
@@ -53,9 +53,12 @@ for catagory in sorted(instruments.keys()):
             markdown += f"  - [{asset}]({instruments[catagory][name][asset]})\n"
     markdown += "\n"
 
+print("Generated markdown:")
+print(markdown)
+
 # Only write the file if the contents have changed
 if markdown != old_markdown:
-    os.system('echo "continue_commit=true" >> "$GITHUB_ENV"')
+    os.system('echo "continue_commit=true" >> "$GITHUB_OUTPUT"')
     with open("instrument.md", mode="wt", encoding="utf-8") as f:
         f.write(markdown)
     # Find out what instrument changed to set commit message
@@ -85,12 +88,15 @@ if markdown != old_markdown:
                     message += "    Removed: " + modified[i][0][j] + "\n"
                 elif modified[i][0][j] != modified[i][1][j]:
                     message += f"    Renamed: {modified[i][0][j]} -> {modified[i][1][j]}\n"
+    print("-" * 80)
+    print("Commit message:")
+    print(message)
     delimiter = "EOF"
     while delimiter in message:
         delimiter += "EOF"
-    os.system(f'echo "commit_message<<{delimiter}" >> "$GITHUB_ENV"')
+    os.system(f'echo "commit_message<<{delimiter}" >> "$GITHUB_OUTPUT"')
     for line in message.split("\n"):
-        os.system(f'echo "{line}" >> "$GITHUB_ENV"')
-    os.system(f'echo "{delimiter}" >> "$GITHUB_ENV"')
+        os.system(f'echo "{line}" >> "$GITHUB_OUTPUT"')
+    os.system(f'echo "{delimiter}" >> "$GITHUB_OUTPUT"')
 else:
-    os.system('echo "continue_commit=false" >> "$GITHUB_ENV"')
+    os.system('echo "continue_commit=false" >> "$GITHUB_OUTPUT"')
