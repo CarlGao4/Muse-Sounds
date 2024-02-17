@@ -1,0 +1,35 @@
+name: Generate Instrument Table of Contents
+
+on: 
+  - release
+  - workflow_dispatch
+
+permissions:
+  contents: write
+
+jobs:
+  generate-instrument-toc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Prepare Python environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install dependencies
+        run: pip install -U requests
+
+      - name: Generate Instrument Table of Contents
+        run: python gh-actions-generate-toc.py
+        id: generate-toc
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push changes
+        uses: actions4git/add-commit-push@v1
+        if: ${{ steps.generate-toc.outputs.continue_commit != 'false' }}
+        with:
+          commit-message: ${{ steps.generate-toc.outputs.commit_message }}
