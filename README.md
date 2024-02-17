@@ -16,6 +16,15 @@ I'm not so familiar with sfz and soundfont formats, so my output SF2 and SF3 sou
 
 See [instruments](instruments.md) for the list of instruments and download links.
 
+### Release files
+
+I use different versions to upload different instruments. Until now, each version contains only one instrument and each instrument may contain multiple files. Here is an explanation of the files:
+
+- `*.sts.7z`: The compressed opus files. See [Folder structure](#folder-structure) for more information.
+- `*.sf2`: The soundfont in SF2 format. See [SF2 and SF3](#sf2-and-sf3) for more information.
+- `*.sf3`: The soundfont in SF3 format. See [SF2 and SF3](#sf2-and-sf3) for more information.
+- `*_sfz+flac.zip`: Converted sfz file and flac files. I add this file because the original sfz file is not standard and may not be supported by some software, and not all software supports opus files. This file is ready-to-use, which means that you can directly unpack it (with the folder structure) and load it with a sfz player. The zip is not compressed at all.
+
 ## Folder structure
 
 This is an example of the folder structure of original Muse Sounds library:
