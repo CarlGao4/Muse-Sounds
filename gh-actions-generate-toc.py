@@ -5,7 +5,7 @@ import os
 import requests
 import re
 
-repo = os.OUTPUTiron["GITHUB_REPOSITORY"]
+repo = os.environ["GITHUB_REPOSITORY"]
 api_url = f"https://api.github.com/repos/{repo}/releases?per_page=100&page="
 headers = {
     "Accept": "application/vnd.github+json",
