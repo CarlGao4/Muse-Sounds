@@ -1,8 +1,12 @@
 name: Generate Instrument Table of Contents
 
 on: 
-  - release
-  - workflow_dispatch
+  release:
+  workflow_dispatch:
+  push:
+    paths:
+      - "gh-actions-generate-toc.py"
+      - ".github/workflows/generate-toc.yml"
 
 permissions:
   contents: write
