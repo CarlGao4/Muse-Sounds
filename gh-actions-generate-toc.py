@@ -38,7 +38,7 @@ for release in releases:
         instruments[catagory][name][asset["name"]] = asset["browser_download_url"]
 
 try:
-    with open("instrument.md", mode="rt", encoding="utf-8") as f:
+    with open("instruments.md", mode="rt", encoding="utf-8") as f:
         old_markdown = f.read()
 except FileNotFoundError:
     old_markdown = ""
@@ -59,7 +59,7 @@ print(markdown)
 # Only write the file if the contents have changed
 if markdown != old_markdown:
     os.system('echo "continue_commit=true" >> "$GITHUB_OUTPUT"')
-    with open("instrument.md", mode="wt", encoding="utf-8") as f:
+    with open("instruments.md", mode="wt", encoding="utf-8") as f:
         f.write(markdown)
     # Find out what instrument changed to set commit message
     old_markdown_insts = dict((i[1], i[0]) for i in re.findall(r"(- \[(.*)\].*\r?\n(  - .*\r?\n?)*)", old_markdown))
