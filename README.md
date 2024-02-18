@@ -93,7 +93,7 @@ The loss of SF2 format comes from conversion from opus to 24-bit wav. Though bot
 
 I will keep only one instrument in each SF2 or SF3 file. The reason is that the original Muse Sounds library is too large and contains too many files, exceeding the limit of SF2 and SF3 formats.
 
-You can download SF2 and SF3 soundfonts from [release](https://github.com/CarlGao4/Muse-Sounds/releases).
+You can download SF2 and SF3 soundfonts from [release](https://github.com/CarlGao4/Muse-Sounds/releases), though you may prefer a table of contents: [instruments](instruments.md).
 
 ## How I extract the soundfont
 
