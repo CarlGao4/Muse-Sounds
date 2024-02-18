@@ -49,7 +49,7 @@ for catagory in sorted(instruments.keys()):
     markdown += f"## {catagory}\n\n"
     for name in sorted(instruments[catagory].keys()):
         markdown += f"- [{name}]({instrument_urls[catagory][name]})\n"
-        for asset in sorted(instruments[catagory][name].keys()):
+        for asset in sorted(instruments[catagory][name].keys(), key=lambda x: x.rsplit(".", 1)[1]):
             markdown += f"  - [{asset}]({instruments[catagory][name][asset]})\n"
     markdown += "\n"
 
