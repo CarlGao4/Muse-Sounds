@@ -1,0 +1,5 @@
+SFZ\Harp - Bisbigliando.sfz
+SFZ\Harp - Harmonics.sfz
+SFZ\Harp - PDLT.sfz
+SFZ\Harp - Staccato.sfz
+SFZ\Harp - Sustain.sfz

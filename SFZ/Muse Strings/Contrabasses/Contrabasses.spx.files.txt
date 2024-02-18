@@ -1,0 +1,26 @@
+SFZ\Contrabasses - Col Legno.sfz
+SFZ\Contrabasses - Fall.sfz
+SFZ\Contrabasses - Fast Runs.sfz
+SFZ\Contrabasses - Legato Control.sfz
+SFZ\Contrabasses - Legato Intervals.sfz
+SFZ\Contrabasses - Pizzicato Snap.sfz
+SFZ\Contrabasses - Pizzicato.sfz
+SFZ\Contrabasses - Realtime.sfz
+SFZ\Contrabasses - Staccatissimo.sfz
+SFZ\Contrabasses - Staccato.sfz
+SFZ\Contrabasses - Sustain Fall.sfz
+SFZ\Contrabasses - Sustain Harmonic.sfz
+SFZ\Contrabasses - Sustain Marcato.sfz
+SFZ\Contrabasses - Sustain Nonvib.sfz
+SFZ\Contrabasses - Sustain Sul Ponticello.sfz
+SFZ\Contrabasses - Sustain Sul Tasto.sfz
+SFZ\Contrabasses - Sustain.sfz
+SFZ\Contrabasses - Tenuto - Eighth.sfz
+SFZ\Contrabasses - Tenuto - Half.sfz
+SFZ\Contrabasses - Tenuto - Quarter.sfz
+SFZ\Contrabasses - Tremolo Accent.sfz
+SFZ\Contrabasses - Tremolo.sfz
+SFZ\Contrabasses - Trill Half Accent.sfz
+SFZ\Contrabasses - Trill Half.sfz
+SFZ\Contrabasses - Trill Whole Accent.sfz
+SFZ\Contrabasses - Trill Whole.sfz

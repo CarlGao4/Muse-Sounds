@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Strings" BracketGroup="Strings" Volume="3" Reverb="30" DefaultClef="BASS" FriendlyName="Contrabasses" Abbreviation="Cb." Pan="0" InsertableSymbols="Bow|OpenHarmonic|Mute|Pizz">
+  <Transposition ImplicitOctaves="-1" TransposeOctaves="-1"/>
+  <!-- DSP FX -->
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1"/>
+      <Param Name="Gain" Value="-3"/>
+      <Param Name="Freq" Value="450"/>
+    </Processor>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="0.5"/>
+      <Param Name="Freq" Value="1500"/>
+      <Param Name="Gain" Value="-2"/>
+    </Processor>
+  </SamplerEffect>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Contrabasses - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Contrabasses - Fast Runs.sfz" Class="Sustain" ForDuration="|100ms"/>
+  <Articulation File="SFZ\Contrabasses - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Sustain Sul Ponticello.sfz" Symbol="Text" Name="Sul Ponticello" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Sustain Sul Tasto.sfz" Symbol="Text" Name="Sul Tasto" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Sustain Harmonic.sfz" Class="Harmonics" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Sustain Marcato.sfz" Symbol="Marcato" Name="marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Sustain Marcato.sfz" Symbol="Accent" Name="accent"/>
+  <Articulation File="SFZ\Contrabasses - Tremolo.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Fall.sfz" Symbol="Fall" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Sustain Fall.sfz" Symbol="Fall" ForDuration="|500ms" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Contrabasses - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Contrabasses - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Staccatissimo.sfz" Class="Staccato" OffsetStart="30" ForDuration="|125ms"/>
+  <Articulation File="SFZ\Contrabasses - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Tenuto - Eighth.sfz" Symbol="Tenuto" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Tenuto - Quarter.sfz" Symbol="Tenuto" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Tenuto - Half.sfz" Symbol="Tenuto" ForDuration="1000ms|1500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Pizzicato.sfz" Class="Pizzicato" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Pizzicato Snap.sfz" Class="Bartok" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Col Legno.sfz" Symbol="Text" Name="Col Legno" OffsetStart="30"/>
+  <!-- Accent Variations -->
+  <Articulation File="SFZ\Contrabasses - Tremolo Accent.sfz" Symbol="Accent|Tremolo3" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Trill Half Accent.sfz" Symbol="Accent|Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabasses - Trill Whole Accent.sfz" Symbol="Accent|Trill" ForInterval="2" OffsetStart="30"/>
+  <!--Export -->
+  <!-- Realtime Input Articulation -->
+  <Articulation File="SFZ\Contrabasses - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="strings.contrabass"/>
+  <MPE InstrumentSound="strings.contrabass.orchestral:section"/>
+</Instrument>

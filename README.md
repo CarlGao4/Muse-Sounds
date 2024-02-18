@@ -1,6 +1,6 @@
 # Muse-Sounds
 
-The Muse Sounds soundfont only for research purpose
+The Muse Sounds soundfont in sf2 and sf3 format only for research purpose
 
 ## Why this repo
 
