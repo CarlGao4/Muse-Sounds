@@ -49,6 +49,8 @@ Instruments
 └── ...
 ```
 
+Until now, there are 4 soundfonts has different folder structures. `Electric LP - Heavy` `Electric LP - Lead` `Electric SC - Heavy` `Electric SC - Lead` only have spx file (which means that they share samples with other soundfonts).
+
 And this is an example of the folder structure of the converted soundfont:
 
 ```plaintext

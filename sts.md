@@ -57,7 +57,7 @@ All files concatenated without a delimiter
 # sts-extractor.py
 # Muse Sounds sts extractor
 # See https://github.com/CarlGao4/Muse-Sounds
-import os
+
 import pathlib
 import struct
 import sys
