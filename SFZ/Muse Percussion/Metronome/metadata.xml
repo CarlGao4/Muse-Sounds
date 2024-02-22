@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Instrument Category="Muse Percussion" Reverb="0" FriendlyName="Metronome" StaffLines="1" DefaultClef="PERCUSSION" Abbreviation="Click" DefaultNotehead="X">
+  <Articulation Class="Sustain" File="SFZ\Metronome.sfz"/>
+  <MusicXML ExportTranspose="20" InstrumentSound="effect.metronome-click"/>
+  <MPE InstrumentSound="percussions.metronome.electronic"/>
+</Instrument>

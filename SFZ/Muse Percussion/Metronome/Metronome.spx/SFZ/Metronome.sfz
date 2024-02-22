@@ -1,0 +1,17 @@
+
+<global>
+volume=4.0
+</global>
+
+<group>
+group_label=Click
+
+<region>
+hikey=c8
+hivel=127
+lokey=c2
+lovel=0
+pitch_keycenter=c4
+sample=Click-Stereo-48kHz.opus
+</region>
+</group>
