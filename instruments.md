@@ -13,3 +13,11 @@
   - [Muse_Keys_-_Upright_Piano.sf3](https://github.com/CarlGao4/Muse-Sounds/releases/download/Upright-Piano/Muse_Keys_-_Upright_Piano.sf3)
   - [Upright_Piano_Sustain_sfz+flac.zip](https://github.com/CarlGao4/Muse-Sounds/releases/download/Upright-Piano/Upright_Piano_Sustain_sfz%2Bflac.zip)
 
+## Muse Percussion
+
+- [Metronome](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Metronome)
+  - [Metronome.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sts.7z)
+  - [Metronome.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sf2)
+  - [Metronome.sf3](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sf3)
+  - [Metronome_sfz+flac.zip](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome_sfz%2Bflac.zip)
+
