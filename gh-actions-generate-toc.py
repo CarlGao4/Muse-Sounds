@@ -27,6 +27,8 @@ while True:
 instruments = {}
 instrument_urls = {}
 for release in releases:
+    if " - " not in release["name"]:
+        continue
     catagory, name = release["name"].split(" - ", 1)
     if catagory not in instruments:
         instruments[catagory] = {}

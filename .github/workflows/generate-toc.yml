@@ -1,4 +1,5 @@
 name: Generate Instrument Table of Contents
+run-name: Generate Instrument Table of Contents
 
 on: 
   release:
@@ -7,6 +8,10 @@ on:
     paths:
       - "gh-actions-generate-toc.py"
       - ".github/workflows/generate-toc.yml"
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
 
 permissions:
   contents: write
