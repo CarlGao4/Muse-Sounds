@@ -20,6 +20,7 @@ jobs:
 
       - name: Pull latest changes
         run: |
+          git switch main
           git fetch --prune --unshallow
           git pull
 
