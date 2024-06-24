@@ -107,6 +107,6 @@ See [sts](sts.md) for more information.
 
 Actually, I didn't find out how this file is encrypted. Instead, I used [frida](https://frida.re/) and other deassemblers to trace the MuseSamplerCoreLib and read the memory.
 
-I've created a demo Python script ([read-decrypted-sfz.py](read-decrypted-sfz.py)) to capture all decrypted chunks by reading the memory. The script is only designed for Windows and MuseSampler version `0.5.1`. To use it, you will need to start MuseScore Studio 4 and run the script (You may need to install `frida-tools`).
+I've created a demo Python script ([read-decrypted-sfz.py](read-decrypted-sfz.py)) to capture all decrypted chunks by reading the memory. The script is only designed for Windows and MuseSampler version `0.5.1` and `0.6.3`. To use it, you will need to start MuseScore Studio 4 and run the script (You may need to install `frida-tools`).
 
 If your MuseSampler version is different, you can download version `0.5.1` from [release](https://github.com/CarlGao4/Muse-Sounds/releases/tag/MuseSamplerCoreLib) and replace the MuseSamplerCoreLib.dll file (usually located at `C:\Windows\System32\`).
