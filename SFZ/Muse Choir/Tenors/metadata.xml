@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Choir" BracketGroup="Voices" Volume="-6" Name="Tenors" Reverb="30" DefaultClef="LowerOctaveTreble" FriendlyName="Tenors" Abbreviation="T." InsertableSymbols="">
+
+  <StaffPad>
+<Instrument Category="Muse Choir" BracketGroup="Voices" Volume="-6" Name="Tenors" Reverb="30" DefaultClef="LowerOctaveTreble" FriendlyName="Tenors" Abbreviation="T." InsertableSymbols="">  
+  <!--Default - Ahh -->
+  <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain"/>
+  <!--Lyric - Ooh -->
+  <Articulation File="SFZ\Tenors - Ooh - Legato Control.sfz" Symbol="Legato|lyric" Lyric="Oo|Ooh"/>
+  <Articulation File="SFZ\Tenors - Ooh - Legato Control.sfz" Symbol="lyric" Lyric="Oo|Ooh"/>
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Marcato.sfz" Symbol="Marcato|lyric" Lyric="Oo|Ooh"/>
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Marcato.sfz" Symbol="Accent|lyric" Lyric="Oo|Ooh"/>
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Nonvib.sfz" Symbol="Text|lyric" Name="Nonvib|Senza Vibrato" Lyric="Oo|Ooh"/>
+  <Articulation File="SFZ\Tenors - Ooh - Staccato.sfz" Symbol="Staccato|lyric" Lyric="Oo|Ooh"/>
+  <Articulation File="SFZ\Tenors - Ooh - Staccatissimo.sfz" Symbol="Staccatissimo|lyric" Lyric="Oo|Ooh"/>
+  <!--Lyric - Mmm -->
+  <Articulation File="SFZ\Tenors - Mmm - Legato Control.sfz" Symbol="Legato|lyric" Lyric="Mm|Mmm"/>
+  <Articulation File="SFZ\Tenors - Mmm - Legato Control.sfz" Symbol="lyric" Lyric="Mm|Mmm"/>
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Marcato.sfz" Symbol="Marcato|lyric" Lyric="Mm|Mmm"/>
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Marcato.sfz" Symbol="Accent|lyric" Lyric="Mm|Mmm"/>
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Nonvib.sfz" Symbol="Text|lyric" Lyric="Mm|Mmm"/>
+  <Articulation File="SFZ\Tenors - Mmm - Staccato.sfz" Symbol="Staccato|lyric" Lyric="Mm|Mmm"/>
+  <Articulation File="SFZ\Tenors - Mmm - Staccatissimo.sfz" Symbol="Staccatissimo|lyric" Lyric="Mm|Mmm"/>
+  <!--Default - Ahh -->
+  <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ahh|Aaa|Aah" />
+  <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ahh|Aaa|Aah" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ahh|Aaa|Aah" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ahh|Aaa|Aah" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ahh|Aaa|Aah" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccato.sfz" Class="Staccato" ForDuration="|2" Symbol="lyric" Lyric="Ahh|Aaa|Aah" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" Symbol="lyric" Lyric="Ahh|Aaa|Aah" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccatissimo" />
+  <!--   Realtime -->
+  <Articulation File="SFZ\Tenors - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="voice.tenor"/>
+</Instrument>  
+  </StaffPad>
+  
+  <Preset Name="Ahh">
+  <!--Tenors - Default - Ahh -->
+  <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" />
+  <!--Lyric - Ahh -->
+  <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" />
+  <!--Lyric - Ooh -->
+  <Articulation File="SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" />
+  <!--Lyric - Mmm -->
+  <Articulation File="SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" />
+  <!--Default - Ahh -->
+  <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" />
+  <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Marcato" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Accent" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Nonvib.sfz" Class="Nonvib" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccato.sfz" Class="Staccato" ForDuration="|2" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccatissimo" />
+  <!--   Realtime Articulation -->
+  <Articulation File="SFZ\Tenors - Realtime.sfz" Symbol="Realtime" />  
+  </Preset>    
+  
+  <Preset Name="Ooh">
+  <!--Tenors - Default - Ohh -->
+  <Articulation File="SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" />
+  <!--Lyric - Ahh -->
+  <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" />
+  <!--Lyric - Ooh -->
+  <Articulation File="SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" />
+  <!--Lyric - Mmm -->
+  <Articulation File="SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" />
+  <!--Default - Ooh -->
+  <Articulation File="SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" />
+  <Articulation File="SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" />
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Marcato" />
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Accent" />
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Nonvib.sfz" Class="Nonvib" />
+  <Articulation File="SFZ\Tenors - Ooh - Staccato.sfz" Class="Staccato" ForDuration="|2" />
+  <Articulation File="SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" />
+  <Articulation File="SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccatissimo" />
+  <!--   Realtime Articulation -->
+  <Articulation File="SFZ\Tenors - Realtime.sfz" Symbol="Realtime" />  
+  </Preset>  
+
+  <Preset Name="Mmm">
+  <!--Tenors - Default - Mmm -->
+  <Articulation File="SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" />
+  <!--Lyric - Ahh -->
+  <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" />
+  <Articulation File="SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" />
+  <!--Lyric - Ooh -->
+  <Articulation File="SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" />
+  <Articulation File="SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" />
+  <!--Lyric - Mmm -->
+  <Articulation File="SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" />
+  <Articulation File="SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" />
+  <!--Default - Mmm -->
+  <Articulation File="SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" />
+  <Articulation File="SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" />
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Marcato" />
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Accent" />
+  <Articulation File="SFZ\Tenors - Mmm - Sustain Nonvib.sfz" Class="Nonvib" />
+  <Articulation File="SFZ\Tenors - Mmm - Staccato.sfz" Class="Staccato" ForDuration="|2" />
+  <Articulation File="SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" />
+  <Articulation File="SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccatissimo" />
+  <!--   Realtime Articulation -->
+  <Articulation File="SFZ\Tenors - Realtime.sfz" Symbol="Realtime" />  
+  </Preset>    
+  
+  <MusicXML InstrumentSound="voice.tenor"/>
+  <MPE InstrumentSound="voices.choir.tenor"/>
+</Instrument>

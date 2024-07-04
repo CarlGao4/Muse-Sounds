@@ -1,0 +1,44 @@
+..\Basses\SFZ\Basses - Ahh - Legato Control.sfz
+..\Basses\SFZ\Basses - Ahh - Legato Intervals.sfz
+..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz
+..\Basses\SFZ\Basses - Ahh - Staccato.sfz
+..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz
+..\Basses\SFZ\Basses - Ahh - Sustain Nonvib.sfz
+..\Basses\SFZ\Basses - Ahh - Sustain.sfz
+..\Basses\SFZ\Basses - Mmm - Legato Control.sfz
+..\Basses\SFZ\Basses - Mmm - Legato Intervals.sfz
+..\Basses\SFZ\Basses - Mmm - Staccatissimo.sfz
+..\Basses\SFZ\Basses - Mmm - Staccato.sfz
+..\Basses\SFZ\Basses - Mmm - Sustain Marcato.sfz
+..\Basses\SFZ\Basses - Mmm - Sustain Nonvib.sfz
+..\Basses\SFZ\Basses - Mmm - Sustain.sfz
+..\Basses\SFZ\Basses - Ooh - Legato Control.sfz
+..\Basses\SFZ\Basses - Ooh - Legato Intervals.sfz
+..\Basses\SFZ\Basses - Ooh - Staccatissimo.sfz
+..\Basses\SFZ\Basses - Ooh - Staccato.sfz
+..\Basses\SFZ\Basses - Ooh - Sustain Marcato.sfz
+..\Basses\SFZ\Basses - Ooh - Sustain Nonvib.sfz
+..\Basses\SFZ\Basses - Ooh - Sustain.sfz
+..\Basses\SFZ\Basses - Realtime.sfz
+..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz
+..\Tenors\SFZ\Tenors - Ahh - Legato Intervals.sfz
+..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz
+..\Tenors\SFZ\Tenors - Ahh - Staccato.sfz
+..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz
+..\Tenors\SFZ\Tenors - Ahh - Sustain Nonvib.sfz
+..\Tenors\SFZ\Tenors - Ahh - Sustain.sfz
+..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz
+..\Tenors\SFZ\Tenors - Mmm - Legato Intervals.sfz
+..\Tenors\SFZ\Tenors - Mmm - Staccatissimo.sfz
+..\Tenors\SFZ\Tenors - Mmm - Staccato.sfz
+..\Tenors\SFZ\Tenors - Mmm - Sustain Marcato.sfz
+..\Tenors\SFZ\Tenors - Mmm - Sustain Nonvib.sfz
+..\Tenors\SFZ\Tenors - Mmm - Sustain.sfz
+..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz
+..\Tenors\SFZ\Tenors - Ooh - Legato Intervals.sfz
+..\Tenors\SFZ\Tenors - Ooh - Staccatissimo.sfz
+..\Tenors\SFZ\Tenors - Ooh - Staccato.sfz
+..\Tenors\SFZ\Tenors - Ooh - Sustain Marcato.sfz
+..\Tenors\SFZ\Tenors - Ooh - Sustain Nonvib.sfz
+..\Tenors\SFZ\Tenors - Ooh - Sustain.sfz
+..\Tenors\SFZ\Tenors - Realtime.sfz

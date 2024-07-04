@@ -1,0 +1,22 @@
+SFZ\Altos - Ahh - Legato Control.sfz
+SFZ\Altos - Ahh - Legato Intervals.sfz
+SFZ\Altos - Ahh - Staccatissimo.sfz
+SFZ\Altos - Ahh - Staccato.sfz
+SFZ\Altos - Ahh - Sustain Marcato.sfz
+SFZ\Altos - Ahh - Sustain Nonvib.sfz
+SFZ\Altos - Ahh - Sustain.sfz
+SFZ\Altos - Mmm - Legato Control.sfz
+SFZ\Altos - Mmm - Legato Intervals.sfz
+SFZ\Altos - Mmm - Staccatissimo.sfz
+SFZ\Altos - Mmm - Staccato.sfz
+SFZ\Altos - Mmm - Sustain Marcato.sfz
+SFZ\Altos - Mmm - Sustain Nonvib.sfz
+SFZ\Altos - Mmm - Sustain.sfz
+SFZ\Altos - Ooh - Legato Control.sfz
+SFZ\Altos - Ooh - Legato Intervals.sfz
+SFZ\Altos - Ooh - Staccatissimo.sfz
+SFZ\Altos - Ooh - Staccato.sfz
+SFZ\Altos - Ooh - Sustain Marcato.sfz
+SFZ\Altos - Ooh - Sustain Nonvib.sfz
+SFZ\Altos - Ooh - Sustain.sfz
+SFZ\Altos - Realtime.sfz

@@ -105,9 +105,14 @@ script = session.create_script(script_code)
 script.on("message", on_message)
 script.load()
 
-input("Press Enter to stop monitoring")
-if out_name:
-    with open(out_name, mode="wb") as f:
-        f.write(out)
+while True:
+    r = input("Press Enter to write out file, enter q to stop monitoring")
+    if r == "q":
+        break
+    if out_name:
+        with open(out_name, mode="wb") as f:
+            f.write(out)
+        out = b""
+
 script.unload()
 session.detach()

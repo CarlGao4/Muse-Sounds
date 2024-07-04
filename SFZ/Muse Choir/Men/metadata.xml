@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Choir" BracketGroup="Voices" Name="Men" Volume="-6" Reverb="30" DefaultClef="BASS" FriendlyName="Men" Abbreviation="Men" InsertableSymbols="">
+   
+  <StaffPad>
+<Instrument Category="Muse Choir" BracketGroup="Voices" Name="Men" Volume="-6" Reverb="30" DefaultClef="BASS" FriendlyName="Men" Abbreviation="Men" InsertableSymbols="">  
+  <!--Basses - Default - Ahh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <!--Default - Ahh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz" Class="Marcato" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz" Class="Accent" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Nonvib.sfz" Class="Nonvib" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz" Class="Staccatissimo" ForNote="g1|g3" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Basses\SFZ\Basses - Realtime.sfz" Symbol="Realtime" ForNote="g1|g3" />
+
+  <!--Tenors - Default - Ahh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g#3|c5" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <!--Default - Ahh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Marcato" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Accent" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Nonvib.sfz" Class="Nonvib" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccatissimo" ForNote="g#3|c5" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Realtime.sfz" Symbol="Realtime" ForNote="g#3|c5" />  
+  <MusicXML InstrumentSound="voice.male" />
+</Instrument>  
+  </StaffPad>   
+   
+  <Preset Name="Ahh">
+  <!--Basses - Default - Ahh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <!--Default - Ahh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz" Class="Marcato" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz" Class="Accent" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Nonvib.sfz" Class="Nonvib" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz" Class="Staccatissimo" ForNote="g1|g3" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Basses\SFZ\Basses - Realtime.sfz" Symbol="Realtime" ForNote="g1|g3" />
+
+  <!--Tenors - Default - Ahh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g#3|c5" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <!--Default - Ahh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Marcato" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Accent" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Nonvib.sfz" Class="Nonvib" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccatissimo" ForNote="g#3|c5" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Realtime.sfz" Symbol="Realtime" ForNote="g#3|c5" />  
+  </Preset>    
+  
+  <Preset Name="Ooh">
+  <!--Basses Default - Ohh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <!--Default - Ooh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Marcato.sfz" Class="Marcato" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Marcato.sfz" Class="Accent" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Nonvib.sfz" Class="Nonvib" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccatissimo.sfz" Class="Staccatissimo" ForNote="g1|g3" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Basses\SFZ\Basses - Realtime.sfz" Symbol="Realtime" ForNote="g1|g3" />
+  
+  <!--Tenors - Default - Ohh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" ForNote="g#3|c5" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <!--Default - Ooh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Marcato" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Accent" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Nonvib.sfz" Class="Nonvib" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccatissimo" ForNote="g#3|c5" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Realtime.sfz" Symbol="Realtime" ForNote="g#3|c5" />  
+  </Preset>  
+
+  <Preset Name="Mmm">
+  <!--Basses - Default - Mmm -->
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g1|g3" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g1|g3" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g1|g3" />
+  <!--Default - Mmm -->
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Marcato.sfz" Class="Marcato" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Marcato.sfz" Class="Accent" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Sustain Nonvib.sfz" Class="Nonvib" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="g1|g3" />
+  <Articulation File="..\Basses\SFZ\Basses - Mmm - Staccatissimo.sfz" Class="Staccatissimo" ForNote="g1|g3" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Basses\SFZ\Basses - Realtime.sfz" Symbol="Realtime" ForNote="g1|g3" />
+  
+  <!--Tenors - Default - Mmm -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" ForNote="g#3|c5" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#3|c5" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#3|c5" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#3|c5" />
+  <!--Default - Mmm -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz" Class="Sustain" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Marcato" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Marcato.sfz" Class="Accent" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Sustain Nonvib.sfz" Class="Nonvib" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="g#3|c5" />
+  <Articulation File="..\Tenors\SFZ\Tenors - Mmm - Staccatissimo.sfz" Class="Staccatissimo" ForNote="g#3|c5" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Tenors\SFZ\Tenors - Realtime.sfz" Symbol="Realtime" ForNote="g#3|c5" />  
+  </Preset>  
+  
+  <MusicXML InstrumentSound="voice.male" />
+  <MPE InstrumentSound="voices.choir.male" />
+</Instrument>

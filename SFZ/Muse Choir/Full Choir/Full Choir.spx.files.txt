@@ -1,0 +1,88 @@
+..\Altos\SFZ\Altos - Ahh - Legato Control.sfz
+..\Altos\SFZ\Altos - Ahh - Legato Intervals.sfz
+..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz
+..\Altos\SFZ\Altos - Ahh - Staccato.sfz
+..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz
+..\Altos\SFZ\Altos - Ahh - Sustain Nonvib.sfz
+..\Altos\SFZ\Altos - Ahh - Sustain.sfz
+..\Altos\SFZ\Altos - Mmm - Legato Control.sfz
+..\Altos\SFZ\Altos - Mmm - Legato Intervals.sfz
+..\Altos\SFZ\Altos - Mmm - Staccatissimo.sfz
+..\Altos\SFZ\Altos - Mmm - Staccato.sfz
+..\Altos\SFZ\Altos - Mmm - Sustain Marcato.sfz
+..\Altos\SFZ\Altos - Mmm - Sustain Nonvib.sfz
+..\Altos\SFZ\Altos - Mmm - Sustain.sfz
+..\Altos\SFZ\Altos - Ooh - Legato Control.sfz
+..\Altos\SFZ\Altos - Ooh - Legato Intervals.sfz
+..\Altos\SFZ\Altos - Ooh - Staccatissimo.sfz
+..\Altos\SFZ\Altos - Ooh - Staccato.sfz
+..\Altos\SFZ\Altos - Ooh - Sustain Marcato.sfz
+..\Altos\SFZ\Altos - Ooh - Sustain Nonvib.sfz
+..\Altos\SFZ\Altos - Ooh - Sustain.sfz
+..\Altos\SFZ\Altos - Realtime.sfz
+..\Basses\SFZ\Basses - Ahh - Legato Control.sfz
+..\Basses\SFZ\Basses - Ahh - Legato Intervals.sfz
+..\Basses\SFZ\Basses - Ahh - Staccatissimo.sfz
+..\Basses\SFZ\Basses - Ahh - Staccato.sfz
+..\Basses\SFZ\Basses - Ahh - Sustain Marcato.sfz
+..\Basses\SFZ\Basses - Ahh - Sustain Nonvib.sfz
+..\Basses\SFZ\Basses - Ahh - Sustain.sfz
+..\Basses\SFZ\Basses - Mmm - Legato Control.sfz
+..\Basses\SFZ\Basses - Mmm - Legato Intervals.sfz
+..\Basses\SFZ\Basses - Mmm - Staccatissimo.sfz
+..\Basses\SFZ\Basses - Mmm - Staccato.sfz
+..\Basses\SFZ\Basses - Mmm - Sustain Marcato.sfz
+..\Basses\SFZ\Basses - Mmm - Sustain Nonvib.sfz
+..\Basses\SFZ\Basses - Mmm - Sustain.sfz
+..\Basses\SFZ\Basses - Ooh - Legato Control.sfz
+..\Basses\SFZ\Basses - Ooh - Legato Intervals.sfz
+..\Basses\SFZ\Basses - Ooh - Staccatissimo.sfz
+..\Basses\SFZ\Basses - Ooh - Staccato.sfz
+..\Basses\SFZ\Basses - Ooh - Sustain Marcato.sfz
+..\Basses\SFZ\Basses - Ooh - Sustain Nonvib.sfz
+..\Basses\SFZ\Basses - Ooh - Sustain.sfz
+..\Basses\SFZ\Basses - Realtime.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Legato Intervals.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Staccato.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Sustain Nonvib.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Sustain.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Legato Intervals.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Staccatissimo.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Staccato.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Sustain Marcato.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Sustain Nonvib.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Sustain.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Legato Intervals.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Staccatissimo.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Staccato.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Sustain Marcato.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Sustain Nonvib.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Sustain.sfz
+..\Sopranos\SFZ\Sopranos - Realtime.sfz
+..\Tenors\SFZ\Tenors - Ahh - Legato Control.sfz
+..\Tenors\SFZ\Tenors - Ahh - Legato Intervals.sfz
+..\Tenors\SFZ\Tenors - Ahh - Staccatissimo.sfz
+..\Tenors\SFZ\Tenors - Ahh - Staccato.sfz
+..\Tenors\SFZ\Tenors - Ahh - Sustain Marcato.sfz
+..\Tenors\SFZ\Tenors - Ahh - Sustain Nonvib.sfz
+..\Tenors\SFZ\Tenors - Ahh - Sustain.sfz
+..\Tenors\SFZ\Tenors - Mmm - Legato Control.sfz
+..\Tenors\SFZ\Tenors - Mmm - Legato Intervals.sfz
+..\Tenors\SFZ\Tenors - Mmm - Staccatissimo.sfz
+..\Tenors\SFZ\Tenors - Mmm - Staccato.sfz
+..\Tenors\SFZ\Tenors - Mmm - Sustain Marcato.sfz
+..\Tenors\SFZ\Tenors - Mmm - Sustain Nonvib.sfz
+..\Tenors\SFZ\Tenors - Mmm - Sustain.sfz
+..\Tenors\SFZ\Tenors - Ooh - Legato Control.sfz
+..\Tenors\SFZ\Tenors - Ooh - Legato Intervals.sfz
+..\Tenors\SFZ\Tenors - Ooh - Staccatissimo.sfz
+..\Tenors\SFZ\Tenors - Ooh - Staccato.sfz
+..\Tenors\SFZ\Tenors - Ooh - Sustain Marcato.sfz
+..\Tenors\SFZ\Tenors - Ooh - Sustain Nonvib.sfz
+..\Tenors\SFZ\Tenors - Ooh - Sustain.sfz
+..\Tenors\SFZ\Tenors - Realtime.sfz

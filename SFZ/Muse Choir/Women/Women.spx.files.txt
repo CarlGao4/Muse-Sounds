@@ -1,0 +1,44 @@
+..\Altos\SFZ\Altos - Ahh - Legato Control.sfz
+..\Altos\SFZ\Altos - Ahh - Legato Intervals.sfz
+..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz
+..\Altos\SFZ\Altos - Ahh - Staccato.sfz
+..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz
+..\Altos\SFZ\Altos - Ahh - Sustain Nonvib.sfz
+..\Altos\SFZ\Altos - Ahh - Sustain.sfz
+..\Altos\SFZ\Altos - Mmm - Legato Control.sfz
+..\Altos\SFZ\Altos - Mmm - Legato Intervals.sfz
+..\Altos\SFZ\Altos - Mmm - Staccatissimo.sfz
+..\Altos\SFZ\Altos - Mmm - Staccato.sfz
+..\Altos\SFZ\Altos - Mmm - Sustain Marcato.sfz
+..\Altos\SFZ\Altos - Mmm - Sustain Nonvib.sfz
+..\Altos\SFZ\Altos - Mmm - Sustain.sfz
+..\Altos\SFZ\Altos - Ooh - Legato Control.sfz
+..\Altos\SFZ\Altos - Ooh - Legato Intervals.sfz
+..\Altos\SFZ\Altos - Ooh - Staccatissimo.sfz
+..\Altos\SFZ\Altos - Ooh - Staccato.sfz
+..\Altos\SFZ\Altos - Ooh - Sustain Marcato.sfz
+..\Altos\SFZ\Altos - Ooh - Sustain Nonvib.sfz
+..\Altos\SFZ\Altos - Ooh - Sustain.sfz
+..\Altos\SFZ\Altos - Realtime.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Legato Intervals.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Staccato.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Sustain Nonvib.sfz
+..\Sopranos\SFZ\Sopranos - Ahh - Sustain.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Legato Intervals.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Staccatissimo.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Staccato.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Sustain Marcato.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Sustain Nonvib.sfz
+..\Sopranos\SFZ\Sopranos - Mmm - Sustain.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Legato Intervals.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Staccatissimo.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Staccato.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Sustain Marcato.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Sustain Nonvib.sfz
+..\Sopranos\SFZ\Sopranos - Ooh - Sustain.sfz
+..\Sopranos\SFZ\Sopranos - Realtime.sfz

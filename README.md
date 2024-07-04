@@ -32,8 +32,6 @@ This is an example of the folder structure of original Muse Sounds library:
 ```plaintext
 Instruments
 ├── .instrument  # A SQLite database file containing instrument metadata.
-│                # TODO: I don't know how to read SQLite databases. 
-│                # Waiting for someone to decode it.
 ├── Muse Keys
 │   ├── Piano
 │   │   ├── Piano.spx  # Encrypted, archive of sfz files
@@ -49,7 +47,7 @@ Instruments
 └── ...
 ```
 
-Until now, there are 4 soundfonts has different folder structures. `Electric LP - Heavy` `Electric LP - Lead` `Electric SC - Heavy` `Electric SC - Lead` only have spx file (which means that they share samples with other soundfonts).
+Until now, there are some soundfonts having different folder structures, which only have spx file (which means that they share samples with other soundfonts).
 
 And this is an example of the folder structure of the converted soundfont:
 
@@ -109,4 +107,4 @@ Actually, I didn't find out how this file is encrypted. Instead, I used [frida](
 
 I've created a demo Python script ([read-decrypted-sfz.py](read-decrypted-sfz.py)) to capture all decrypted chunks by reading the memory. The script is only designed for Windows and MuseSampler version `0.5.1` and `0.6.3`. To use it, you will need to start MuseScore Studio 4 and run the script (You may need to install `frida-tools`).
 
-If your MuseSampler version is different, you can download version `0.5.1` from [release](https://github.com/CarlGao4/Muse-Sounds/releases/tag/MuseSamplerCoreLib) and replace the MuseSamplerCoreLib.dll file (usually located at `C:\Windows\System32\`).
+If your MuseSampler version is different, you can download version `0.5.1` and `0.6.3` from [release](https://github.com/CarlGao4/Muse-Sounds/releases/tag/MuseSamplerCoreLib) and replace the MuseSamplerCoreLib.dll file (usually located at `C:\Windows\System32\`).

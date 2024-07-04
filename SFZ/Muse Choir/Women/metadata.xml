@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Choir" BracketGroup="Voices" Name="Women" Reverb="30" DefaultClef="TREBLE" FriendlyName="Women" Abbreviation="Women" InsertableSymbols="">
+ 
+  <StaffPad>
+<Instrument Category="Muse Choir" BracketGroup="Voices" Name="Women" Reverb="30" DefaultClef="TREBLE" FriendlyName="Women" Abbreviation="Women" InsertableSymbols="">  
+  <!--Default - Ahh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <!--Default - Ahh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz" Class="Marcato" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz" Class="Accent" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Nonvib.sfz" Class="Nonvib" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz" Class="Staccatissimo" ForNote="d3|g4" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Altos\SFZ\Altos - Realtime.sfz" Symbol="Realtime" ForNote="d3|g4" />
+  
+  <!--Soprano - Default - Ahh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g#4|f6" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <!--Default - Ahh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz" Class="Marcato" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz" Class="Accent" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Nonvib.sfz" Class="Nonvib" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz" Class="Staccatissimo" ForNote="g#4|f6" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Realtime.sfz" Symbol="Realtime" ForNote="g#4|f6" />  
+  <MusicXML InstrumentSound="voice.female" />
+</Instrument>    
+  </StaffPad>   
+   
+  <Preset Name="Ahh">
+  <!--Default - Ahh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <!--Default - Ahh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz" Class="Marcato" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz" Class="Accent" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Nonvib.sfz" Class="Nonvib" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz" Class="Staccatissimo" ForNote="d3|g4" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Altos\SFZ\Altos - Realtime.sfz" Symbol="Realtime" ForNote="d3|g4" />
+  
+  <!--Soprano - Default - Ahh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g#4|f6" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <!--Default - Ahh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz" Class="Marcato" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz" Class="Accent" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Nonvib.sfz" Class="Nonvib" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz" Class="Staccatissimo" ForNote="g#4|f6" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Realtime.sfz" Symbol="Realtime" ForNote="g#4|f6" />  
+  </Preset>    
+  
+  <Preset Name="Ooh">
+  <!--Alto - Default - Ohh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <!--Default - Ooh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Marcato.sfz" Class="Marcato" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Marcato.sfz" Class="Accent" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Nonvib.sfz" Class="Nonvib" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccatissimo.sfz" Class="Staccatissimo" ForNote="d3|g4" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Altos\SFZ\Altos - Realtime.sfz" Symbol="Realtime" ForNote="d3|g4" />
+  
+  <!--Soprano - Default - Ohh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz" Class="Sustain" ForNote="g#4|f6" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <!--Default - Ooh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz" Class="Sustain" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz" Class="Sustain" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Marcato.sfz" Class="Marcato" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Marcato.sfz" Class="Accent" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Nonvib.sfz" Class="Nonvib" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccatissimo.sfz" Class="Staccatissimo" ForNote="g#4|f6" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Realtime.sfz" Symbol="Realtime" ForNote="g#4|f6" />  
+  </Preset>  
+
+  <Preset Name="Mmm">
+  <!--Alto - Default - Mmm -->
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="d3|g4" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="d3|g4" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="d3|g4" />
+  <!--Default - Mmm -->
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Marcato.sfz" Class="Marcato" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Marcato.sfz" Class="Accent" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Sustain Nonvib.sfz" Class="Nonvib" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="d3|g4" />
+  <Articulation File="..\Altos\SFZ\Altos - Mmm - Staccatissimo.sfz" Class="Staccatissimo" ForNote="d3|g4" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Altos\SFZ\Altos - Realtime.sfz" Symbol="Realtime" ForNote="d3|g4" />
+  
+  <!--Soprano - Default - Mmm -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz" Class="Sustain" ForNote="g#4|f6" />
+  <!--Lyric - Ahh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ahh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Ah|Ahh" ForNote="g#4|f6" />
+  <!--Lyric - Ooh -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Ooh - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Oo|Ooh" ForNote="g#4|f6" />
+  <!--Lyric - Mmm -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="Legato|lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz" Class="Sustain" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Marcato.sfz" Class="Marcato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Marcato.sfz" Class="Accent" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Nonvib.sfz" Class="Nonvib" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccato.sfz" Class="Staccato" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccatissimo.sfz" Class="Staccato_Fastest" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccatissimo.sfz" Class="Staccatissimo" Symbol="lyric" Lyric="Mm|Mmm" ForNote="g#4|f6" />
+  <!--Default - Mmm -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz" Class="Sustain" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Legato Control.sfz" Class="Sustain" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Marcato.sfz" Class="Marcato" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Marcato.sfz" Class="Accent" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Sustain Nonvib.sfz" Class="Nonvib" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccato.sfz" Class="Staccato" ForDuration="|2" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccatissimo.sfz" Class="Staccato" ForDuration="2|" ForNote="g#4|f6" />
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Mmm - Staccatissimo.sfz" Class="Staccatissimo" ForNote="g#4|f6" />
+  <!--   Realtime Articulation -->
+  <Articulation File="..\Sopranos\SFZ\Sopranos - Realtime.sfz" Symbol="Realtime" ForNote="g#4|f6" />
+  </Preset>  
+ 
+  <MusicXML InstrumentSound="voice.female" />
+  <MPE InstrumentSound="voices.choir.female" />
+</Instrument>

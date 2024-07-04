@@ -1,0 +1,22 @@
+SFZ\Basses - Ahh - Legato Control.sfz
+SFZ\Basses - Ahh - Legato Intervals.sfz
+SFZ\Basses - Ahh - Staccatissimo.sfz
+SFZ\Basses - Ahh - Staccato.sfz
+SFZ\Basses - Ahh - Sustain Marcato.sfz
+SFZ\Basses - Ahh - Sustain Nonvib.sfz
+SFZ\Basses - Ahh - Sustain.sfz
+SFZ\Basses - Mmm - Legato Control.sfz
+SFZ\Basses - Mmm - Legato Intervals.sfz
+SFZ\Basses - Mmm - Staccatissimo.sfz
+SFZ\Basses - Mmm - Staccato.sfz
+SFZ\Basses - Mmm - Sustain Marcato.sfz
+SFZ\Basses - Mmm - Sustain Nonvib.sfz
+SFZ\Basses - Mmm - Sustain.sfz
+SFZ\Basses - Ooh - Legato Control.sfz
+SFZ\Basses - Ooh - Legato Intervals.sfz
+SFZ\Basses - Ooh - Staccatissimo.sfz
+SFZ\Basses - Ooh - Staccato.sfz
+SFZ\Basses - Ooh - Sustain Marcato.sfz
+SFZ\Basses - Ooh - Sustain Nonvib.sfz
+SFZ\Basses - Ooh - Sustain.sfz
+SFZ\Basses - Realtime.sfz

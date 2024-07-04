@@ -1,0 +1,22 @@
+SFZ\Sopranos - Ahh - Legato Control.sfz
+SFZ\Sopranos - Ahh - Legato Intervals.sfz
+SFZ\Sopranos - Ahh - Staccatissimo.sfz
+SFZ\Sopranos - Ahh - Staccato.sfz
+SFZ\Sopranos - Ahh - Sustain Marcato.sfz
+SFZ\Sopranos - Ahh - Sustain Nonvib.sfz
+SFZ\Sopranos - Ahh - Sustain.sfz
+SFZ\Sopranos - Mmm - Legato Control.sfz
+SFZ\Sopranos - Mmm - Legato Intervals.sfz
+SFZ\Sopranos - Mmm - Staccatissimo.sfz
+SFZ\Sopranos - Mmm - Staccato.sfz
+SFZ\Sopranos - Mmm - Sustain Marcato.sfz
+SFZ\Sopranos - Mmm - Sustain Nonvib.sfz
+SFZ\Sopranos - Mmm - Sustain.sfz
+SFZ\Sopranos - Ooh - Legato Control.sfz
+SFZ\Sopranos - Ooh - Legato Intervals.sfz
+SFZ\Sopranos - Ooh - Staccatissimo.sfz
+SFZ\Sopranos - Ooh - Staccato.sfz
+SFZ\Sopranos - Ooh - Sustain Marcato.sfz
+SFZ\Sopranos - Ooh - Sustain Nonvib.sfz
+SFZ\Sopranos - Ooh - Sustain.sfz
+SFZ\Sopranos - Realtime.sfz

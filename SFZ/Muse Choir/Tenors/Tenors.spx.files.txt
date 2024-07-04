@@ -1,0 +1,22 @@
+SFZ\Tenors - Ahh - Legato Control.sfz
+SFZ\Tenors - Ahh - Legato Intervals.sfz
+SFZ\Tenors - Ahh - Staccatissimo.sfz
+SFZ\Tenors - Ahh - Staccato.sfz
+SFZ\Tenors - Ahh - Sustain Marcato.sfz
+SFZ\Tenors - Ahh - Sustain Nonvib.sfz
+SFZ\Tenors - Ahh - Sustain.sfz
+SFZ\Tenors - Mmm - Legato Control.sfz
+SFZ\Tenors - Mmm - Legato Intervals.sfz
+SFZ\Tenors - Mmm - Staccatissimo.sfz
+SFZ\Tenors - Mmm - Staccato.sfz
+SFZ\Tenors - Mmm - Sustain Marcato.sfz
+SFZ\Tenors - Mmm - Sustain Nonvib.sfz
+SFZ\Tenors - Mmm - Sustain.sfz
+SFZ\Tenors - Ooh - Legato Control.sfz
+SFZ\Tenors - Ooh - Legato Intervals.sfz
+SFZ\Tenors - Ooh - Staccatissimo.sfz
+SFZ\Tenors - Ooh - Staccato.sfz
+SFZ\Tenors - Ooh - Sustain Marcato.sfz
+SFZ\Tenors - Ooh - Sustain Nonvib.sfz
+SFZ\Tenors - Ooh - Sustain.sfz
+SFZ\Tenors - Realtime.sfz
