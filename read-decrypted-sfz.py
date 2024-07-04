@@ -14,8 +14,8 @@ assert sys.platform == "win32", "This script is for Windows only"
 MuseSampler_version = "0.6.3"  # Change this to your version
 # TODO: Set this to False if you don't want to print the output to console
 print_output = True
-# TODO: Set this to True if you want to save the output to decrypted.out
-save_output = False
+# TODO: Set this to empty string if you want to save the output to decrypted.out
+out_name = "decrypted.out"
 # TODO: Set this to True to try to find the correct address automatically
 auto_find_address = False
 
@@ -106,8 +106,8 @@ script.on("message", on_message)
 script.load()
 
 input("Press Enter to stop monitoring")
+if out_name:
+    with open(out_name, mode="wb") as f:
+        f.write(out)
 script.unload()
 session.detach()
-if save_output:
-    with open("decrypted.out", mode="wb") as f:
-        f.write(out)
