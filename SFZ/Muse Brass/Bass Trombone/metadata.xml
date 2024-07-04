@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Brass" BracketGroup="Brass" Reverb="40.0" DefaultClef="BASS" FriendlyName="Bass Trombone" Abbreviation="B. Tbn" InsertableSymbols="Mute">
+
+  <StaffPad>
+<Instrument Category="Muse Brass" BracketGroup="Brass" Reverb="40.0" DefaultClef="BASS" FriendlyName="Bass Trombone" Abbreviation="B. Tbn" InsertableSymbols="Mute">  
+  <!-- Articulations -->
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Bass Trombone - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Bass Trombone - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Legato Control.sfz" Class="Slur"/>
+  <Articulation File="SFZ\Bass Trombone - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Bass Trombone - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Eighth.sfz" Class="Marcato" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Muted -->  
+  <Articulation File="SFZ\Bass Trombone - Sustain Muted.sfz" Symbol="mute" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Sustain Muted - Sim Staccato.sfz" Symbol="mute|staccato" OffsetStart="30"/>    
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Bass Trombone - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Bass Trombone - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  <MusicXML InstrumentSound="brass.trombone.bass"/>
+</Instrument>  
+  </StaffPad>
+
+  <Preset Name="Standard">
+  <!-- Articulations -->
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Bass Trombone - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Bass Trombone - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Sustain.sfz" Symbol="Text" Name="non-legato"/>  
+  <Articulation File="SFZ\Bass Trombone - Legato Control.sfz" Class="Slur"/>
+  <Articulation File="SFZ\Bass Trombone - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Bass Trombone - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Eighth.sfz" Class="Marcato" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Muted -->  
+  <Articulation File="SFZ\Bass Trombone - Sustain Muted.sfz" Symbol="mute" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Sustain Muted - Sim Staccato.sfz" Symbol="mute|staccato" OffsetStart="30"/>    
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Bass Trombone - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Bass Trombone - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  </Preset>  
+  
+  <Preset Name="Classic Phrasing">
+  <!-- Articulations -->
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Bass Trombone - Sustain.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Bass Trombone - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Legato Control.sfz" Class="Slur"/>
+  <Articulation File="SFZ\Bass Trombone - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Bass Trombone - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Eighth.sfz" Class="Marcato" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Muted -->  
+  <Articulation File="SFZ\Bass Trombone - Sustain Muted.sfz" Symbol="mute" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Trombone - Sustain Muted - Sim Staccato.sfz" Symbol="mute|staccato" OffsetStart="30"/>    
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Bass Trombone - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Bass Trombone - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  </Preset>  
+  
+  <MusicXML InstrumentSound="brass.trombone.bass"/>
+  <MPE InstrumentSound="winds.trombone.bass"/>
+</Instrument>

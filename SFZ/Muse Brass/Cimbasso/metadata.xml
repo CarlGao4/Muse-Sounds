@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Brass" BracketGroup="Brass" Volume="0" Reverb="40.0" DefaultClef="BASS" FriendlyName="Cimbasso" Abbreviation="Cim." Pan="0" InsertableSymbols="Mute">
+
+  <StaffPad>
+<Instrument Category="Muse Brass" BracketGroup="Brass" Volume="0" Reverb="40.0" DefaultClef="BASS" FriendlyName="Cimbasso" Abbreviation="Cim." Pan="0" InsertableSymbols="Mute">  
+  <!-- Articulations -->
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Cimbasso - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Cimbasso - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Legato Control.sfz" Class="Slur"/>
+  <Articulation File="SFZ\Cimbasso - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Cimbasso - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Eighth.sfz" Class="Marcato" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Muted -->    
+  <Articulation File="SFZ\Cimbasso - Sustain Muted.sfz" Symbol="mute" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Sustain Muted - Sim Staccato.sfz" Symbol="mute|staccato" OffsetStart="30"/>    
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Cimbasso - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Cimbasso - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>  
+  <MusicXML InstrumentSound="brass.cimbasso"/>
+</Instrument>  
+  </StaffPad>
+
+  <Preset Name="Standard">
+  <!-- Articulations -->
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Cimbasso - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Cimbasso - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Sustain.sfz" Symbol="Text" Name="non-legato"/>   
+  <Articulation File="SFZ\Cimbasso - Legato Control.sfz" Class="Slur"/>
+  <Articulation File="SFZ\Cimbasso - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Cimbasso - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Eighth.sfz" Class="Marcato" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Muted -->    
+  <Articulation File="SFZ\Cimbasso - Sustain Muted.sfz" Symbol="mute" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Sustain Muted - Sim Staccato.sfz" Symbol="mute|staccato" OffsetStart="30"/>    
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Cimbasso - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Cimbasso - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  </Preset>
+  
+  <Preset Name="Classic Phrasing">
+  <!-- Articulations -->
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Cimbasso - Sustain.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Cimbasso - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Legato Control.sfz" Class="Slur"/>
+  <Articulation File="SFZ\Cimbasso - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Cimbasso - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Eighth.sfz" Class="Marcato" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Muted -->    
+  <Articulation File="SFZ\Cimbasso - Sustain Muted.sfz" Symbol="mute" OffsetStart="30"/>
+  <Articulation File="SFZ\Cimbasso - Sustain Muted - Sim Staccato.sfz" Symbol="mute|staccato" OffsetStart="30"/>    
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Cimbasso - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Cimbasso - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  </Preset>  
+
+  <MusicXML InstrumentSound="brass.cimbasso"/>
+  <MPE InstrumentSound="winds.cimbasso"/>
+</Instrument>

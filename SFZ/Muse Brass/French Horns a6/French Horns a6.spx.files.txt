@@ -1,0 +1,19 @@
+SFZ\French Horns a6 - Cluster.sfz
+SFZ\French Horns a6 - Fall.sfz
+SFZ\French Horns a6 - Flatter.sfz
+SFZ\French Horns a6 - Legato Control.sfz
+SFZ\French Horns a6 - Legato Intervals.sfz
+SFZ\French Horns a6 - Marcato Eighth.sfz
+SFZ\French Horns a6 - Marcato Half.sfz
+SFZ\French Horns a6 - Marcato Quarter.sfz
+SFZ\French Horns a6 - Marcato Whole.sfz
+SFZ\French Horns a6 - Plop.sfz
+SFZ\French Horns a6 - Rip.sfz
+SFZ\French Horns a6 - Staccatissimo Muted.sfz
+SFZ\French Horns a6 - Staccatissimo.sfz
+SFZ\French Horns a6 - Staccato Muted.sfz
+SFZ\French Horns a6 - Staccato.sfz
+SFZ\French Horns a6 - Sustain Muted.sfz
+SFZ\French Horns a6 - Sustain.sfz
+SFZ\French Horns a6 - Trill Half.sfz
+SFZ\French Horns a6 - Trill Whole.sfz

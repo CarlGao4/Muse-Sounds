@@ -1,0 +1,19 @@
+SFZ\Trumpet - Fall.sfz
+SFZ\Trumpet - Flatter.sfz
+SFZ\Trumpet - Legato Control.sfz
+SFZ\Trumpet - Legato Intervals.sfz
+SFZ\Trumpet - Marcato Eighth.sfz
+SFZ\Trumpet - Marcato Half.sfz
+SFZ\Trumpet - Marcato Quarter.sfz
+SFZ\Trumpet - Marcato Whole.sfz
+SFZ\Trumpet - Plop.sfz
+SFZ\Trumpet - Rip.sfz
+SFZ\Trumpet - Shake.sfz
+SFZ\Trumpet - Staccatissimo Muted.sfz
+SFZ\Trumpet - Staccatissimo.sfz
+SFZ\Trumpet - Staccato Muted.sfz
+SFZ\Trumpet - Staccato.sfz
+SFZ\Trumpet - Sustain Muted.sfz
+SFZ\Trumpet - Sustain.sfz
+SFZ\Trumpet - Trill Half.sfz
+SFZ\Trumpet - Trill Whole.sfz

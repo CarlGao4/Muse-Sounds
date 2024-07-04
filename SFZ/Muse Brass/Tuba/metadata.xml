@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Brass" BracketGroup="Brass" Volume="0" Reverb="40.0" Pan="0" DefaultClef="BASS" FriendlyName="Tuba" Abbreviation="Tuba" InsertableSymbols="Mute">
+
+  <StaffPad>
+<Instrument Category="Muse Brass" BracketGroup="Brass" Volume="0" Reverb="40.0" Pan="0" DefaultClef="BASS" FriendlyName="Tuba" Abbreviation="Tuba" InsertableSymbols="Mute">
+  <!-- Articulations -->
+  <Articulation File="SFZ\Tuba - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Tuba - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Legato Control.sfz" Class="Slur"/>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Tuba - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Tuba - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Eighth.sfz" Class="Marcato" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Muted --> 
+  <Articulation File="SFZ\Tuba - Sustain Muted.sfz" Symbol="mute" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Sustain Muted - Sim Staccato.sfz" Symbol="mute|staccato" OffsetStart="30"/>          
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Tuba - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Tuba - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  <MusicXML InstrumentSound="brass.tuba"/>
+</Instrument>    
+  </StaffPad>
+
+  <Preset Name="Standard">
+  <!-- Articulations -->
+  <Articulation File="SFZ\Tuba - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Tuba - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Sustain.sfz" Symbol="Text" Name="non-legato"/>    
+  <Articulation File="SFZ\Tuba - Legato Control.sfz" Class="Slur"/>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Tuba - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Tuba - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Eighth.sfz" Class="Marcato" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Muted --> 
+  <Articulation File="SFZ\Tuba - Sustain Muted.sfz" Symbol="mute" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Sustain Muted - Sim Staccato.sfz" Symbol="mute|staccato" OffsetStart="30"/>          
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Tuba - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Tuba - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  </Preset>
+  
+  <Preset Name="Classic Phrasing">
+  <!-- Articulations -->
+  <Articulation File="SFZ\Tuba - Sustain.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Tuba - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Legato Control.sfz" Class="Slur"/>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Tuba - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Tuba - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Eighth.sfz" Class="Marcato" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Muted --> 
+  <Articulation File="SFZ\Tuba - Sustain Muted.sfz" Symbol="mute" OffsetStart="30"/>
+  <Articulation File="SFZ\Tuba - Sustain Muted - Sim Staccato.sfz" Symbol="mute|staccato" OffsetStart="30"/>          
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Tuba - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Tuba - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  </Preset>  
+  
+  <!-- Export-->
+  <MusicXML InstrumentSound="brass.tuba"/>
+  <MPE InstrumentSound="winds.tuba"/>
+</Instrument>

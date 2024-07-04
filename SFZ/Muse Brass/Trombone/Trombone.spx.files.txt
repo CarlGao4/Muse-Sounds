@@ -1,0 +1,14 @@
+SFZ\Trombone - Fall.sfz
+SFZ\Trombone - Flatter.sfz
+SFZ\Trombone - Legato Control.sfz
+SFZ\Trombone - Legato Intervals.sfz
+SFZ\Trombone - Marcato Eighth.sfz
+SFZ\Trombone - Marcato Half.sfz
+SFZ\Trombone - Marcato Quarter.sfz
+SFZ\Trombone - Marcato Whole.sfz
+SFZ\Trombone - Rip.sfz
+SFZ\Trombone - Staccatissimo.sfz
+SFZ\Trombone - Staccato.sfz
+SFZ\Trombone - Sustain Muted - Sim Staccato.sfz
+SFZ\Trombone - Sustain Muted.sfz
+SFZ\Trombone - Sustain.sfz

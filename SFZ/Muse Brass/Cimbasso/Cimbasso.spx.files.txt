@@ -1,0 +1,11 @@
+SFZ\Cimbasso - Fall.sfz
+SFZ\Cimbasso - Flatter.sfz
+SFZ\Cimbasso - Legato Control.sfz
+SFZ\Cimbasso - Legato Intervals.sfz
+SFZ\Cimbasso - Marcato Eighth.sfz
+SFZ\Cimbasso - Marcato Half.sfz
+SFZ\Cimbasso - Marcato Quarter.sfz
+SFZ\Cimbasso - Marcato Whole.sfzSFZ\Cimbasso - Rip.sfz
+SFZ\Cimbasso - Staccatissimo.sfzSFZ\Cimbasso - Staccato.sfz
+SFZ\Cimbasso - Sustain Muted - Sim Staccato.sfz
+SFZ\Cimbasso - Sustain Muted.sfzSFZ\Cimbasso - Sustain.sfz

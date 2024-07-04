@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Brass" BracketGroup="Brass" Reverb="40.0" FriendlyName="Trumpets a4" Abbreviation="Tpts" InsertableSymbols="Mute|OpenHarmonic">
+  <!-- Transposition -->
+  <Transposition Playback="2" DeltaAccidentals="2" NoteChange="1"/>
+
+  <StaffPad>
+<Instrument Category="Muse Brass" BracketGroup="Brass" Reverb="40.0" FriendlyName="Trumpets a4" Abbreviation="Tpts" InsertableSymbols="Mute|OpenHarmonic">
+  <!-- Transposition -->
+  <Transposition Playback="2" DeltaAccidentals="2" NoteChange="1"/>
+  <!-- Articulations -->
+  <Articulation File="SFZ\Trumpets a4 - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Legato Control.sfz" Class="Slur"/>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Trumpets a4 - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Trumpets a4 - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccatissimo.sfz" Symbol="Staccatissimo" Name="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Eighth.sfz" Class="Marcato" ForDuration="0ms|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Trumpets a4 - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Trumpets a4 - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Trumpets a4 - Plop.sfz" Symbol="Plop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Trumpets a4 - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Shake.sfz" Symbol="Text" Name="Shake" OffsetStart="30"/>
+  <!-- Muted -->
+  <Articulation File="SFZ\Trumpets a4 - Sustain Muted.sfz" Symbol="Mute" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccato Muted.sfz" Symbol="Mute|Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccatissimo Muted.sfz" Symbol="Mute|Staccatissimo" OffsetStart="30"/>
+  <MusicXML InstrumentSound="brass.trumpet"/>
+</Instrument>    
+  </StaffPad>
+
+  <Preset Name="Standard">
+  <!-- Articulations -->
+  <Articulation File="SFZ\Trumpets a4 - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Sustain.sfz" Symbol="Text" Name="non-legato"/>   
+  <Articulation File="SFZ\Trumpets a4 - Legato Control.sfz" Class="Slur"/>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Trumpets a4 - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Trumpets a4 - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccatissimo.sfz" Symbol="Staccatissimo" Name="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Eighth.sfz" Class="Marcato" ForDuration="0ms|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Trumpets a4 - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Trumpets a4 - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Trumpets a4 - Plop.sfz" Symbol="Plop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Trumpets a4 - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Shake.sfz" Symbol="Text" Name="Shake" OffsetStart="30"/>
+  <!-- Muted -->
+  <Articulation File="SFZ\Trumpets a4 - Sustain Muted.sfz" Symbol="Mute" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccato Muted.sfz" Symbol="Mute|Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccatissimo Muted.sfz" Symbol="Mute|Staccatissimo" OffsetStart="30"/>
+  </Preset>
+  
+  <Preset Name="Classic Phrasing">
+  <!-- Articulations -->
+  <Articulation File="SFZ\Trumpets a4 - Sustain.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Legato Control.sfz" Class="Slur"/>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Trumpets a4 - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Trumpets a4 - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccatissimo.sfz" Symbol="Staccatissimo" Name="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Eighth.sfz" Class="Marcato" ForDuration="0ms|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Trumpets a4 - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Trumpets a4 - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Trumpets a4 - Plop.sfz" Symbol="Plop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Trumpets a4 - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Shake.sfz" Symbol="Text" Name="Shake" OffsetStart="30"/>
+  <!-- Muted -->
+  <Articulation File="SFZ\Trumpets a4 - Sustain Muted.sfz" Symbol="Mute" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccato Muted.sfz" Symbol="Mute|Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Trumpets a4 - Staccatissimo Muted.sfz" Symbol="Mute|Staccatissimo" OffsetStart="30"/>
+  </Preset>  
+  
+  <MusicXML InstrumentSound="brass.trumpet"/>
+  <MPE InstrumentSound="winds.trumpet.section"/>
+</Instrument>

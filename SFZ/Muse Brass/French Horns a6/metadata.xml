@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Brass" BracketGroup="Brass" Reverb="40" DefaultClef="TREBLE" FriendlyName="Horns a6" Abbreviation="Hns." InsertableSymbols="OpenHarmonic|Mute">
+  <!-- Transposition -->
+  <Transposition Playback="7" DeltaAccidentals="1" NoteChange="4"/>
+
+  <StaffPad>
+<Instrument Category="Muse Brass" BracketGroup="Brass" Reverb="40" DefaultClef="TREBLE" FriendlyName="Horns a6" Abbreviation="Hns." InsertableSymbols="OpenHarmonic|Mute">
+  <!-- Transposition -->
+  <Transposition Playback="7" DeltaAccidentals="1" NoteChange="4"/>  
+  <!-- Articulations -->
+  <!-- Long Notes -->
+  <Articulation File="SFZ\French Horns a6 - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Legato Control.sfz" Class="Slur"/>
+  <Articulation File="SFZ\French Horns a6 - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Muted -->
+  <Articulation File="SFZ\French Horns a6 - Sustain Muted.sfz" Symbol="Mute" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccato Muted.sfz" Symbol="Staccato|Mute" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo Muted.sfz" Symbol="Staccatissimo|Mute" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Sustain Muted.sfz" Symbol="Mute|Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccato Muted.sfz" Symbol="Staccato|Mute|Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo Muted.sfz" Symbol="Staccatissimo|Mute|Accent" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\French Horns a6 - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Eighth.sfz" Class="Marcato" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\French Horns a6 - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\French Horns a6 - Plop.sfz" Symbol="Plop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\French Horns a6 - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\French Horns a6 - Cluster.sfz" Symbol="Text" Name="Cluster|bend out of tune" OffsetStart="30"/> 
+  <MusicXML InstrumentSound="brass.french-horn"/>
+</Instrument>   
+  </StaffPad>
+
+  <Preset Name="Standard">
+  <!-- Articulations -->
+  <!-- Long Notes -->
+  <Articulation File="SFZ\French Horns a6 - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Sustain.sfz" Symbol="Text" Name="non-legato"/>   
+  <Articulation File="SFZ\French Horns a6 - Legato Control.sfz" Class="Slur"/>
+  <Articulation File="SFZ\French Horns a6 - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Muted -->
+  <Articulation File="SFZ\French Horns a6 - Sustain Muted.sfz" Symbol="Mute" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccato Muted.sfz" Symbol="Staccato|Mute" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo Muted.sfz" Symbol="Staccatissimo|Mute" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Sustain Muted.sfz" Symbol="Mute|Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccato Muted.sfz" Symbol="Staccato|Mute|Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo Muted.sfz" Symbol="Staccatissimo|Mute|Accent" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\French Horns a6 - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Eighth.sfz" Class="Marcato" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\French Horns a6 - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\French Horns a6 - Plop.sfz" Symbol="Plop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\French Horns a6 - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\French Horns a6 - Cluster.sfz" Symbol="Text" Name="Cluster|bend out of tune" OffsetStart="30"/>
+  </Preset>
+  
+  <Preset Name="Classic Phrasing">
+  <!-- Articulations -->
+  <!-- Long Notes -->
+  <Articulation File="SFZ\French Horns a6 - Sustain.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccato.sfz" Class="Sustain" ForDuration="150ms|300ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Legato Control.sfz" Class="Slur"/>
+  <Articulation File="SFZ\French Horns a6 - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Muted -->
+  <Articulation File="SFZ\French Horns a6 - Sustain Muted.sfz" Symbol="Mute" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccato Muted.sfz" Symbol="Staccato|Mute" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo Muted.sfz" Symbol="Staccatissimo|Mute" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Sustain Muted.sfz" Symbol="Mute|Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccato Muted.sfz" Symbol="Staccato|Mute|Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo Muted.sfz" Symbol="Staccatissimo|Mute|Accent" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\French Horns a6 - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Eighth.sfz" Class="Marcato" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Quarter.sfz" Class="Marcato" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Half.sfz" Class="Marcato" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Whole.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Eighth.sfz" Class="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Quarter.sfz" Class="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Half.sfz" Class="Accent" ForDuration="1000ms|1800ms" OffsetStart="30"/>
+  <Articulation File="SFZ\French Horns a6 - Marcato Whole.sfz" Class="Accent" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\French Horns a6 - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\French Horns a6 - Plop.sfz" Symbol="Plop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\French Horns a6 - Rip.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\French Horns a6 - Cluster.sfz" Symbol="Text" Name="Cluster|bend out of tune" OffsetStart="30"/>
+  </Preset>  
+  
+  <MusicXML InstrumentSound="brass.french-horn"/>
+  <MPE InstrumentSound="winds.horn.french:in_a:section"/>
+</Instrument>

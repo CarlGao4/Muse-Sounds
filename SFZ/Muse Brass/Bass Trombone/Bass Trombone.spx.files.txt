@@ -1,0 +1,14 @@
+SFZ\Bass Trombone - Fall.sfz
+SFZ\Bass Trombone - Flatter.sfz
+SFZ\Bass Trombone - Legato Control.sfz
+SFZ\Bass Trombone - Legato Intervals.sfz
+SFZ\Bass Trombone - Marcato Eighth.sfz
+SFZ\Bass Trombone - Marcato Half.sfz
+SFZ\Bass Trombone - Marcato Quarter.sfz
+SFZ\Bass Trombone - Marcato Whole.sfz
+SFZ\Bass Trombone - Rip.sfz
+SFZ\Bass Trombone - Staccatissimo.sfz
+SFZ\Bass Trombone - Staccato.sfz
+SFZ\Bass Trombone - Sustain Muted - Sim Staccato.sfz
+SFZ\Bass Trombone - Sustain Muted.sfz
+SFZ\Bass Trombone - Sustain.sfz

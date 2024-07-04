@@ -1,0 +1,15 @@
+SFZ\Trombones a3 - Cluster.sfz
+SFZ\Trombones a3 - Fall.sfz
+SFZ\Trombones a3 - Flatter.sfz
+SFZ\Trombones a3 - Legato Control.sfz
+SFZ\Trombones a3 - Legato Intervals.sfz
+SFZ\Trombones a3 - Marcato Eighth.sfz
+SFZ\Trombones a3 - Marcato Half.sfz
+SFZ\Trombones a3 - Marcato Quarter.sfz
+SFZ\Trombones a3 - Marcato Whole.sfz
+SFZ\Trombones a3 - Rip.sfz
+SFZ\Trombones a3 - Staccatissimo.sfz
+SFZ\Trombones a3 - Staccato.sfz
+SFZ\Trombones a3 - Sustain Muted - Sim Staccato.sfz
+SFZ\Trombones a3 - Sustain Muted.sfz
+SFZ\Trombones a3 - Sustain.sfz

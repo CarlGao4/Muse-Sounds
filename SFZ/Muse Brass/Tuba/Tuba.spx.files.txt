@@ -1,0 +1,14 @@
+SFZ\Tuba - Fall.sfz
+SFZ\Tuba - Flatter.sfz
+SFZ\Tuba - Legato Control.sfz
+SFZ\Tuba - Legato Intervals.sfz
+SFZ\Tuba - Marcato Eighth.sfz
+SFZ\Tuba - Marcato Half.sfz
+SFZ\Tuba - Marcato Quarter.sfz
+SFZ\Tuba - Marcato Whole.sfz
+SFZ\Tuba - Rip.sfz
+SFZ\Tuba - Staccatissimo.sfz
+SFZ\Tuba - Staccato.sfz
+SFZ\Tuba - Sustain Muted - Sim Staccato.sfz
+SFZ\Tuba - Sustain Muted.sfz
+SFZ\Tuba - Sustain.sfz

@@ -1,0 +1,18 @@
+SFZ\French Horn - Fall.sfz
+SFZ\French Horn - Flatter.sfz
+SFZ\French Horn - Legato Control.sfz
+SFZ\French Horn - Legato Intervals.sfz
+SFZ\French Horn - Marcato Eighth.sfz
+SFZ\French Horn - Marcato Half.sfz
+SFZ\French Horn - Marcato Quarter.sfz
+SFZ\French Horn - Marcato Whole.sfz
+SFZ\French Horn - Plop.sfz
+SFZ\French Horn - Rip.sfz
+SFZ\French Horn - Staccatissimo Muted.sfz
+SFZ\French Horn - Staccatissimo.sfz
+SFZ\French Horn - Staccato Muted.sfz
+SFZ\French Horn - Staccato.sfz
+SFZ\French Horn - Sustain Muted.sfz
+SFZ\French Horn - Sustain.sfz
+SFZ\French Horn - Trill Half.sfz
+SFZ\French Horn - Trill Whole.sfz

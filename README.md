@@ -8,6 +8,14 @@ The Muse Sounds library was released along with MuseScore Studio 4 and is a very
 
 **This repository DOES NOT contain any license and is only for research purpose. You must follow the license of the original Muse Sounds library.**
 
+## Difficulties converting Muse Sounds into general soundfont formats
+
+From the extracted metadata file, we can see that maybe more than one SFZ is used even when playing a single note. Besides, a lot of functions of MuseScore Studio haven't been implemented yet (Until now, the latest version is `4.3.2`). For example, I've found three presets (Studio, Pop, Orchestral) in the Grand Piano soundfont, but at that time (MuseScore `4.2.1`) there was no way to switch between them. This function was added in `4.3.0`. By now, we can still see that the Muse Choir supports three sounds: Ahh, Ooh, Mmm, but there is no way to switch between them, too. (It seems that it can be switched by adding lyrics?)
+
+The SFZ files extracted from the `spx` files are not standard. They contain a lot of arguments which normal SFZ files don't have. Besides, it also has "closing brackets". e.g.: normal SFZ file only has `<group>` and all the contents below it are in the group, but the extracted SFZ file has `<group>`, `</group>`, and all the contents between them are in the group. This is not supported by most software.
+
+What's more, the metadata file also defined a series of effects, we even need to guess what it means.
+
 ## Help needed
 
 I'm not so familiar with sfz and soundfont formats, so my output SF2 and SF3 sounds may not be perfect. If you find any problems, please open an issue or pull request.
@@ -59,7 +67,7 @@ SFZ
 │   │   │   └── SFZ
 │   │   │       └── Piano - Studio.sfz  # The extracted sfz file
 │   │   ├── Piano.spx.files.txt  # A file containing file list of Piano.spx
-│   │   ├── metadata.xml  # I found this file inside spx, but I don't know what it is
+│   │   ├── metadata.xml  # A file in XML format, I haven't retrieved its name yet
 │   │   └── SFZ
 │   │       ├── Piano.sts.7z  # The compressed opus files, uploaded to the release page
 │   │       └── files.txt  # A file to tell you that you should download and extract the 7-Zip file here
