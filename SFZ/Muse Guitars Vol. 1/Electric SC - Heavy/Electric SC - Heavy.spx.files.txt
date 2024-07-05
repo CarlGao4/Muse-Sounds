@@ -1,0 +1,21 @@
+..\Electric SC - Clean\SFZ\Electric SC - Doits.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Falls.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Ghosts.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Half Trills.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Hammer-ons Pull-offs.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Harmonics.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Legato Control FF.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Legato Control Fast.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Legato Control PP.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Legato Intervals FF.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Legato Intervals PP.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Muted Sustains.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Plops.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Portamentos.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Scoops.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Staccatissimos Fast.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Staccatissimos.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Staccatos.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Sustains.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Tremolos.sfz
+..\Electric SC - Clean\SFZ\Electric SC - Whole Trills.sfz

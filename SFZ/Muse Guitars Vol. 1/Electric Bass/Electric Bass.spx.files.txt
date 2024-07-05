@@ -1,0 +1,16 @@
+SFZ\Electric Bass - Doit.sfz
+SFZ\Electric Bass - Fall.sfz
+SFZ\Electric Bass - Half Trill.sfz
+SFZ\Electric Bass - Harmonics.sfz
+SFZ\Electric Bass - Legato Control.sfz
+SFZ\Electric Bass - Legato Intervals.sfz
+SFZ\Electric Bass - Mute.sfz
+SFZ\Electric Bass - PalmMuteSim.sfz
+SFZ\Electric Bass - Plop.sfz
+SFZ\Electric Bass - Portamento.sfz
+SFZ\Electric Bass - Scoop.sfz
+SFZ\Electric Bass - Staccatissimo.sfz
+SFZ\Electric Bass - Staccato.sfz
+SFZ\Electric Bass - Sustain.sfz
+SFZ\Electric Bass - Tremolo.sfz
+SFZ\Electric Bass - Whole Trill.sfz

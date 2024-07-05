@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Guitars Vol 1" BracketGroup="Guitars" DefaultStaffType="STANDARD" DefaultClef="LowerOctaveTreble" FriendlyName="Acoustic Steel Plucked" Abbreviation="Ac. Gtr." Reverb="30" Pan="0" Volume="" InsertableSymbols="OpenHarmonic|Mute">
+  <SamplerEffect>
+    <Processor Name="Compressor">
+      <Param Name="Threshold" Value="-24" />
+      <Param Name="Oversample" Value="1" />
+      <Param Name="Ratio" Value="3" />
+      <Param Name="InputGain" Value="3" />
+      <Param Name="LookAhead" Value="20" />
+      <Param Name="RmsWindowMs" Value="10" />
+    </Processor>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="0.6" />
+      <Param Name="Gain" Value="9" />
+      <Param Name="Freq" Value="8000" />
+    </Processor>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1.4" />
+    </Processor>
+  </SamplerEffect>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Acoustic Steel Plucked - Legato Control.sfz" Symbol="glissando" Class="Sustain" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - Tremolo.sfz" Symbol="Tremolo3" OffsetStart="5" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - Harmonics.sfz" Class="Harmonics" OffsetStart="5" />
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Acoustic Steel Plucked - Staccato.sfz" ForRepetition="|150ms" OffsetStart="5" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="5" />
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Acoustic Steel Plucked - Staccato.sfz" Class="Staccato" OffsetStart="5" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="5" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="5" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - Mute.sfz" Symbol="Mute" OffsetStart="5" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - Mute.sfz" Symbol="X" OffsetStart="5" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - PalmMuteSim.sfz" Symbol="PalmMute" OffsetStart="5" />  
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Acoustic Steel Plucked - Plop.sfz" Symbol="Plop" OffsetStart="500" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - Scoop.sfz" Symbol="Scoop" OffsetStart="5" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - Doit.sfz" Symbol="Doit" OffsetStart="5" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - Fall.sfz" Symbol="Fall" OffsetStart="5" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - Half Trill.sfz" Symbol="Trill" ForInterval="1" OffsetStart="5" />
+  <Articulation File="SFZ\Acoustic Steel Plucked - Whole Trill.sfz" Symbol="Trill" ForInterval="2" OffsetStart="5" />
+  <MusicXML InstrumentSound="pluck.guitar.nylon" />
+  <MPE InstrumentSound="strings.guitar.plucked:acoustic:steel" />
+</Instrument>

@@ -1,0 +1,17 @@
+SFZ\Electric LP - Doit.sfz
+SFZ\Electric LP - Fall.sfz
+SFZ\Electric LP - Half Trill.sfz
+SFZ\Electric LP - Hammer Pulls.sfz
+SFZ\Electric LP - Harmonics.sfz
+SFZ\Electric LP - Legato Control.sfz
+SFZ\Electric LP - Legato Intervals.sfz
+SFZ\Electric LP - Mute.sfz
+SFZ\Electric LP - Palm Mute.sfz
+SFZ\Electric LP - Plop.sfz
+SFZ\Electric LP - Portamento.sfz
+SFZ\Electric LP - Scoop.sfz
+SFZ\Electric LP - Staccatissimo.sfz
+SFZ\Electric LP - Staccato.sfz
+SFZ\Electric LP - Sustain.sfz
+SFZ\Electric LP - Tremolo.sfz
+SFZ\Electric LP - Whole Trill.sfz

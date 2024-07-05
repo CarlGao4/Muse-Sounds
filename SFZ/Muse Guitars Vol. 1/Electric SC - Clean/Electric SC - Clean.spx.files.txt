@@ -1,0 +1,21 @@
+SFZ\Electric SC - Doits.sfz
+SFZ\Electric SC - Falls.sfz
+SFZ\Electric SC - Ghosts.sfz
+SFZ\Electric SC - Half Trills.sfz
+SFZ\Electric SC - Hammer-ons Pull-offs.sfz
+SFZ\Electric SC - Harmonics.sfz
+SFZ\Electric SC - Legato Control FF.sfz
+SFZ\Electric SC - Legato Control Fast.sfz
+SFZ\Electric SC - Legato Control PP.sfz
+SFZ\Electric SC - Legato Intervals FF.sfz
+SFZ\Electric SC - Legato Intervals PP.sfz
+SFZ\Electric SC - Muted Sustains.sfz
+SFZ\Electric SC - Plops.sfz
+SFZ\Electric SC - Portamentos.sfz
+SFZ\Electric SC - Scoops.sfz
+SFZ\Electric SC - Staccatissimos Fast.sfz
+SFZ\Electric SC - Staccatissimos.sfz
+SFZ\Electric SC - Staccatos.sfz
+SFZ\Electric SC - Sustains.sfz
+SFZ\Electric SC - Tremolos.sfz
+SFZ\Electric SC - Whole Trills.sfz

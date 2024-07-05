@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Guitars Vol 1" BracketGroup="Guitars" DefaultStaffType="STANDARD" DefaultClef="LowerOctaveTreble" FriendlyName="Acoustic Steel Picked" Abbreviation="A. Gtr." Pan="0" Volume="0" InsertableSymbols="OpenHarmonic|Mute">
+  <Preset Name="Warm Guitar">
+    <!-- DSP FX-->
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="0.8" />
+      <Param Name="Freq" Value="225" />
+      <Param Name="Gain" Value="-3" />
+    </Processor>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1" />
+      <Param Name="Freq" Value="12000" />
+      <Param Name="Gain" Value="3" />
+    </Processor>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1.41" />
+      <Param Name="Freq" Value="1000" />
+      <Param Name="Gain" Value="-2" />
+    </Processor>
+    <!-- Long Notes -->
+    <Articulation File="SFZ\Acoustic Steel Picked - Legato Control.sfz" Symbol="glissando" Class="Sustain" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Sustain.sfz" Class="Sustain" OffsetStart="10" ForDuration="1500ms|"/>
+    <Articulation File="SFZ\Acoustic Steel Picked - Tremolo.sfz" Symbol="Tremolo3" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Harmonics.sfz" Class="Harmonics" OffsetStart="30" />
+    <!-- Quick repetitions -->
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30" />
+    <!-- Short Notes -->
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccato.sfz" Class="Staccato" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Mute.sfz" Symbol="Mute" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Mute.sfz" Symbol="X" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - PalmMute.sfz" Symbol="PalmMute" OffsetStart="30" />    
+    <!-- Ornaments -->
+    <Articulation File="SFZ\Acoustic Steel Picked - Plop.sfz" Symbol="Plop" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Scoop.sfz" Symbol="Scoop" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - DoIt_Faster.sfz" Symbol="Doit" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Fall.sfz" Symbol="Fall" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Trills_HT.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Trills_WT.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30" />
+  </Preset>
+  <Preset Name="Clean Spread">
+    <!-- DSP FX-->
+    <SamplerEffect>
+      <!--DSP -->
+      <Processor Name="Doubler">
+        <Param Name="LevelDry" Value="1.25" />
+        <Param Name="DetuneL" Value="-2.77" />
+        <Param Name="DetuneR" Value="2.72" />
+        <Param Name="LevelL" Value="-12" />
+        <Param Name="LevelR" Value="-12" />
+        <Param Name="DelayMsL" Value="17.49" />
+        <Param Name="DelayMsR" Value="25.92" />
+      </Processor>
+    </SamplerEffect>
+    <!-- Long Notes -->
+    <Articulation File="SFZ\Acoustic Steel Picked - Legato Control.sfz" Class="Sustain" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Tremolo.sfz" Symbol="Tremolo3" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Harmonics.sfz" Class="Harmonics" OffsetStart="30" />
+    <!-- Quick repetitions -->
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30" />
+    <!-- Short Notes -->
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccato.sfz" Class="Staccato" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Mute.sfz" Symbol="Mute" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Mute.sfz" Symbol="X" OffsetStart="30" />
+    <!-- Ornaments -->
+    <Articulation File="SFZ\Acoustic Steel Picked - Plop.sfz" Symbol="Plop" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Scoop.sfz" Symbol="Scoop" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - DoIt_Faster.sfz" Symbol="Doit" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Fall.sfz" Symbol="Fall" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Trills_HT.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Trills_WT.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30" />
+  </Preset>
+  <Preset Name="Delay Spread">
+    <!-- DSP FX-->
+    <SamplerEffect>
+      <!--DSP -->
+      <Processor Name="Doubler">
+        <Param Name="LevelDry" Value="1.25" />
+        <Param Name="DetuneL" Value="-2.77" />
+        <Param Name="DetuneR" Value="2.72" />
+        <Param Name="LevelL" Value="-12" />
+        <Param Name="LevelR" Value="-12" />
+        <Param Name="DelayMsL" Value="17.49" />
+        <Param Name="DelayMsR" Value="25.92" />
+      </Processor>
+      <Processor Name="SyncDelay">
+        <Param Name="DelayL" Value="2.53" />
+        <Param Name="DelayR" Value="3.84" />
+        <Param Name="WetLevel" Value="17.89" />
+        <Param Name="CrossfeedLtoR" Value="2.74" />
+        <Param Name="CrossfeedRtoL" Value="9.14" />
+      </Processor>
+    </SamplerEffect>
+    <!-- Long Notes -->
+    <Articulation File="SFZ\Acoustic Steel Picked - Legato Control.sfz" Class="Sustain" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Tremolo.sfz" Symbol="Tremolo3" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Harmonics.sfz" Class="Harmonics" OffsetStart="30" />
+    <!-- Quick repetitions -->
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30" />
+    <!-- Short Notes -->
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccato.sfz" Class="Staccato" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Mute.sfz" Symbol="Mute" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Mute.sfz" Symbol="X" OffsetStart="30" />
+    <!-- Ornaments -->
+    <Articulation File="SFZ\Acoustic Steel Picked - Plop.sfz" Symbol="Plop" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Scoop.sfz" Symbol="Scoop" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - DoIt_Faster.sfz" Symbol="Doit" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Fall.sfz" Symbol="Fall" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Trills_HT.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30" />
+    <Articulation File="SFZ\Acoustic Steel Picked - Trills_WT.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30" />
+  </Preset>
+  <MusicXML InstrumentSound="pluck.guitar.acoustic" />
+  <MPE InstrumentSound="strings.guitar.plucked:acoustic:steel" />
+</Instrument>

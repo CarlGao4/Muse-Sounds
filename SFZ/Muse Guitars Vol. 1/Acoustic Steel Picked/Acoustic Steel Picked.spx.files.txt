@@ -1,0 +1,16 @@
+SFZ\Acoustic Steel Picked - DoIt_Faster.sfz
+SFZ\Acoustic Steel Picked - Fall.sfz
+SFZ\Acoustic Steel Picked - Harmonics.sfz
+SFZ\Acoustic Steel Picked - Legato Control.sfz
+SFZ\Acoustic Steel Picked - Legato Intervals.sfz
+SFZ\Acoustic Steel Picked - Mute.sfz
+SFZ\Acoustic Steel Picked - PalmMute.sfz
+SFZ\Acoustic Steel Picked - Plop.sfz
+SFZ\Acoustic Steel Picked - Portamento.sfz
+SFZ\Acoustic Steel Picked - Scoop.sfz
+SFZ\Acoustic Steel Picked - Staccatissimo.sfz
+SFZ\Acoustic Steel Picked - Staccato.sfz
+SFZ\Acoustic Steel Picked - Sustain.sfz
+SFZ\Acoustic Steel Picked - Tremolo.sfz
+SFZ\Acoustic Steel Picked - Trills_HT.sfz
+SFZ\Acoustic Steel Picked - Trills_WT.sfz

@@ -1,0 +1,16 @@
+..\Electric LP - Clean\SFZ\Electric LP - Doit.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Fall.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Half Trill.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Hammer Pulls.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Harmonics.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Legato Control.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Legato Intervals.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Mute.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Plop.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Portamento.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Scoop.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Staccatissimo.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Staccato.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Sustain.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Tremolo.sfz
+..\Electric LP - Clean\SFZ\Electric LP - Whole Trill.sfz

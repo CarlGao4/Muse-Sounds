@@ -1,0 +1,17 @@
+SFZ\Acoustic Steel Plucked - Doit.sfz
+SFZ\Acoustic Steel Plucked - Fall.sfz
+SFZ\Acoustic Steel Plucked - Half Trill.sfz
+SFZ\Acoustic Steel Plucked - HammerPull.sfz
+SFZ\Acoustic Steel Plucked - Harmonics.sfz
+SFZ\Acoustic Steel Plucked - Legato Control.sfz
+SFZ\Acoustic Steel Plucked - Legato Intervals.sfz
+SFZ\Acoustic Steel Plucked - Mute.sfz
+SFZ\Acoustic Steel Plucked - PalmMuteSim.sfz
+SFZ\Acoustic Steel Plucked - Plop.sfz
+SFZ\Acoustic Steel Plucked - Portamento.sfz
+SFZ\Acoustic Steel Plucked - Scoop.sfz
+SFZ\Acoustic Steel Plucked - Staccatissimo.sfz
+SFZ\Acoustic Steel Plucked - Staccato.sfz
+SFZ\Acoustic Steel Plucked - Sustain.sfz
+SFZ\Acoustic Steel Plucked - Tremolo.sfz
+SFZ\Acoustic Steel Plucked - Whole Trill.sfz

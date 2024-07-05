@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Category="Muse Guitars Vol 1" BracketGroup="Guitars" DefaultStaffType="STANDARD" Reverb="30" DefaultClef="TREBLE" FriendlyName="Electric LP - Heavy" Abbreviation="E. Gtr." Pan="0" Volume="-6" InsertableSymbols="OpenHarmonic|Mute">
+  <Preset Name="Heavy">
+    <!-- DSP FX -->
+    <SamplerEffect>
+      <Processor Name="AmpKitModel" ID="2f98987f-e177-4cdd-a176-48cd73529aca">
+        <Param Name="Kind" Value="3" />
+        <Param Name="Model" Value="1" />
+        <Param Name="Channel" Value="0" />
+        <Param Name="On" Value="0.0" />
+        <Param Name="P01" Value="0.000000" />
+        <Param Name="P02" Value="0.354582" />
+        <Param Name="P03" Value="0.099602" />
+        <Param Name="P04" Value="0.000000" />
+        <Param Name="P05" Value="0.000000" />
+        <Param Name="P06" Value="0.000000" />
+        <Param Name="P07" Value="0.000000" />
+        <Param Name="P08" Value="0.000000" />
+        <Param Name="P09" Value="0.000000" />
+        <Param Name="P10" Value="0.000000" />
+        <Param Name="P11" Value="0.000000" />
+        <Param Name="P12" Value="0.000000" />
+      </Processor>
+      <Processor Name="AmpKitModel" ID="cec0bf24-dc08-4379-9217-11c99227bf12">
+        <Param Name="Kind" Value="3" />
+        <Param Name="Model" Value="3" />
+        <Param Name="Channel" Value="0" />
+        <Param Name="On" Value="0.0" />
+        <Param Name="P01" Value="0.254980" />
+        <Param Name="P02" Value="0.749004" />
+        <Param Name="P03" Value="0.700000" />
+        <Param Name="P04" Value="0.000000" />
+        <Param Name="P05" Value="0.000000" />
+        <Param Name="P06" Value="0.000000" />
+        <Param Name="P07" Value="0.000000" />
+        <Param Name="P08" Value="0.000000" />
+        <Param Name="P09" Value="0.000000" />
+        <Param Name="P10" Value="0.000000" />
+        <Param Name="P11" Value="0.000000" />
+        <Param Name="P12" Value="0.000000" />
+      </Processor>
+      <Processor Name="AmpKitModel" ID="9550d2eb-af49-47ab-a763-0ca9ff1344cd">
+        <Param Name="Kind" Value="1" />
+        <Param Name="Model" Value="8" />
+        <Param Name="Channel" Value="1" />
+        <Param Name="On" Value="1" />
+        <Param Name="P01" Value="0.900398" />
+        <Param Name="P02" Value="0.298805" />
+        <Param Name="P03" Value="0.749004" />
+        <Param Name="P04" Value="0.000000" />
+        <Param Name="P05" Value="0.649402" />
+        <Param Name="P06" Value="0.852590" />
+        <Param Name="P07" Value="0.896414" />
+        <Param Name="P08" Value="0.000000" />
+        <Param Name="P09" Value="0.000000" />
+        <Param Name="P10" Value="0.000000" />
+        <Param Name="P11" Value="0.000000" />
+        <Param Name="P12" Value="0.000000" />
+      </Processor>
+      <Processor Name="AmpKitModel" ID="bf999cc4-f655-4c27-b47e-876be38dd331">
+        <Param Name="Kind" Value="3" />
+        <Param Name="Model" Value="13" />
+        <Param Name="Channel" Value="0" />
+        <Param Name="On" Value="0.0" />
+        <Param Name="P01" Value="0.500000" />
+        <Param Name="P02" Value="0.500000" />
+        <Param Name="P03" Value="0.500000" />
+        <Param Name="P04" Value="0.500000" />
+        <Param Name="P05" Value="0.409938" />
+        <Param Name="P06" Value="0.285714" />
+        <Param Name="P07" Value="0.285714" />
+        <Param Name="P08" Value="0.391304" />
+        <Param Name="P09" Value="0.500000" />
+        <Param Name="P10" Value="0.500000" />
+        <Param Name="P11" Value="0.500000" />
+        <Param Name="P12" Value="0.000000" />
+      </Processor>
+      <Processor Name="AmpKitModel" ID="6cfb6082-2589-40de-bea1-1e26f7d53b36">
+        <Param Name="Kind" Value="2" />
+        <Param Name="Model" Value="12" />
+        <Param Name="Channel" Value="0" />
+        <Param Name="On" Value="1" />
+        <Param Name="P01" Value="0.714286" />
+        <Param Name="P02" Value="0.000000" />
+        <Param Name="P03" Value="0.000000" />
+        <Param Name="P04" Value="0.000000" />
+      </Processor>
+      <Processor Name="AmpKitModel" ID="c8a33322-7f54-4d4e-ae46-08125fcbc64b">
+        <Param Name="Kind" Value="3" />
+        <Param Name="Model" Value="14" />
+        <Param Name="Channel" Value="0" />
+        <Param Name="On" Value="1.0" />
+        <Param Name="P01" Value="0.151394" />
+        <Param Name="P02" Value="0.298805" />
+        <Param Name="P03" Value="0.500000" />
+        <Param Name="P04" Value="0.750000" />
+        <Param Name="P05" Value="0.000000" />
+        <Param Name="P06" Value="0.000000" />
+        <Param Name="P07" Value="0.000000" />
+        <Param Name="P08" Value="0.000000" />
+        <Param Name="P09" Value="0.000000" />
+        <Param Name="P10" Value="0.000000" />
+        <Param Name="P11" Value="0.000000" />
+        <Param Name="P12" Value="0.000000" />
+      </Processor>
+      <Processor Name="Compressor">
+        <Param Name="Threshold" Value="-18" />
+        <Param Name="OutputGain" Value="-6" />
+        <Param Name="InputGain" Value="-6" />
+      </Processor>
+      <Processor Name="ParametricEqBand">
+        <Param Name="Q" Value="1" />
+        <Param Name="Freq" Value="2911.79" />
+        <Param Name="Gain" Value="-4.32" />
+      </Processor>
+      <Processor Name="SyncDelay">
+        <Param Name="DelayL" Value="8" />
+        <Param Name="WetLevel" Value="25" />
+      </Processor>
+    </SamplerEffect>
+    <!-- Long Notes -->
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Legato Control.sfz" Symbol="glissando" Class="Sustain"/>
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Sustain.sfz" Class="Sustain" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Tremolo.sfz" Symbol="Tremolo3" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Harmonics.sfz" Class="Harmonics" OffsetStart="10" />  
+    <!-- Quick repetitions -->
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Staccato.sfz" ForRepetition="|150ms" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="10" />
+    <!-- Short Notes -->
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Staccato.sfz" Class="Staccato" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Mute.sfz" Symbol="Mute" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Mute.sfz" Symbol="X" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Mute.sfz" Symbol="PalmMute" OffsetStart="10" />    
+    <!-- Ornaments -->
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Plop.sfz" Symbol="Plop" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Scoop.sfz" Symbol="Scoop" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Doit.sfz" Symbol="Doit" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Fall.sfz" Symbol="Fall" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Half Trill.sfz" Symbol="Trill" ForInterval="1" OffsetStart="10" />
+    <Articulation File="..\Electric LP - Clean\SFZ\Electric LP - Whole Trill.sfz" Symbol="Trill" ForInterval="2" OffsetStart="10" />
+  </Preset>
+  <MusicXML InstrumentSound="pluck.guitar.electric" />
+  <MPE InstrumentSound="strings.guitar.plucked:electric" />
+</Instrument>
