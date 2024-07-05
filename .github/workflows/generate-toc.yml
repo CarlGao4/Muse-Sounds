@@ -22,13 +22,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Pull latest changes
-        run: |
-          git checkout main
-          git fetch --prune --unshallow
-          git checkout main
-          git pull
+        with:
+          ref: main
 
       - name: Prepare Python environment
         uses: actions/setup-python@v5
