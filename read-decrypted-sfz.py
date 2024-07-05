@@ -17,7 +17,7 @@ print_output = True
 # TODO: Set this to empty string if you want to save the output to decrypted.out
 out_name = "decrypted.out"
 # TODO: Set this to True to try to find the correct address automatically
-auto_find_address = False
+auto_find_address = True
 
 
 # Is it possible to just search for "F3 0F7F 0B" in MuseSamplerCoreLib.dll?
