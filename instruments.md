@@ -1,5 +1,19 @@
 # Instruments
 
+## Muse Harp
+
+- [Harp](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Harp)
+  - [Harp.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harp/Harp.sts.7z)
+  - [Harp_-_PDLT.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harp/Harp_-_PDLT.sf2)
+  - [Harp_-_Staccato.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harp/Harp_-_Staccato.sf2)
+  - [Harp_-_Sustain.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harp/Harp_-_Sustain.sf2)
+  - [Harp_-_PDLT.sf3](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harp/Harp_-_PDLT.sf3)
+  - [Harp_-_Staccato.sf3](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harp/Harp_-_Staccato.sf3)
+  - [Harp_-_Sustain.sf3](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harp/Harp_-_Sustain.sf3)
+  - [Harp_-_PDLT_sfz+flac.zip](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harp/Harp_-_PDLT_sfz%2Bflac.zip)
+  - [Harp_-_Staccato_sfz+flac.zip](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harp/Harp_-_Staccato_sfz%2Bflac.zip)
+  - [Harp_-_Sustain_sfz+flac.zip](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harp/Harp_-_Sustain_sfz%2Bflac.zip)
+
 ## Muse Keys
 
 - [Grand Piano](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Grand-Piano)
