@@ -66,6 +66,8 @@
   - [Field_Drum.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Field-Drum/Field_Drum.sts.7z)
 - [Glockenspiel](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Glockenspiel)
   - [Glockenspiel.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Glockenspiel/Glockenspiel.sts.7z)
+- [Gong](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Gong)
+  - [Gong.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Gong/Gong.sts.7z)
 - [Metronome](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Metronome)
   - [Metronome.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sts.7z)
   - [Metronome.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sf2)
