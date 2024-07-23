@@ -16,6 +16,8 @@
 
 ## Muse Keys
 
+- [Celesta](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Celesta)
+  - [Celesta.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Celesta/Celesta.sts.7z)
 - [Grand Piano](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Grand-Piano)
   - [Piano.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Grand-Piano/Piano.sts.7z)
   - [Piano_-_Pop.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Grand-Piano/Piano_-_Pop.sf2)
