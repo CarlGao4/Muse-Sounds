@@ -97,4 +97,6 @@
   - [Timbales.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Timbales/Timbales.sts.7z)
 - [Timpani](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Timpani)
   - [Timpani.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Timpani/Timpani.sts.7z)
+- [Toms](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Toms)
+  - [Toms.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Toms/Toms.sts.7z)
 
