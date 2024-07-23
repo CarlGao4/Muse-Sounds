@@ -167,4 +167,8 @@
   - [Baritone_Saxophone.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Baritone-Sax/Baritone_Saxophone.sts.7z)
 - [Bass Clarinet](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bass-Clarinet)
   - [Bass_Clarinet.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bass-Clarinet/Bass_Clarinet.sts.7z)
+- [Bass Flute](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bass-Flute)
+  - [Bass_Flute.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bass-Flute/Bass_Flute.sts.7z)
+- [Bassoon](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bassoon)
+  - [Bassoon.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bassoon/Bassoon.sts.7z)
 
