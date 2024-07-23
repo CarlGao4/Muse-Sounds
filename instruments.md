@@ -14,6 +14,11 @@
   - [Harp_-_Staccato_sfz+flac.zip](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harp/Harp_-_Staccato_sfz%2Bflac.zip)
   - [Harp_-_Sustain_sfz+flac.zip](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harp/Harp_-_Sustain_sfz%2Bflac.zip)
 
+## Muse Key
+
+- [Wurly 200A](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Wurly_200A)
+  - [Wurly_200A.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Wurly_200A/Wurly_200A.sts.7z)
+
 ## Muse Keys
 
 - [Celesta](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Celesta)
