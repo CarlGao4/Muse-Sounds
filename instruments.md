@@ -11,6 +11,11 @@
 - [Tenors](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Tenors)
   - [Tenors.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Tenors/Tenors.sts.7z)
 
+## Muse Guitars Vol. 1
+
+- [Acoustic Nylon](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Acoustic-Nylon)
+  - [Acoustic_Nylon.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Acoustic-Nylon/Acoustic_Nylon.sts.7z)
+
 ## Muse Harp
 
 - [Harp](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Harp)
