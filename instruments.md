@@ -175,4 +175,6 @@
   - [Clarinet_in_Bb.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Clarinet-in-Bb/Clarinet_in_Bb.sts.7z)
 - [Clarinet in Eb](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Clarinet-in-Eb)
   - [Clarinet_in_Eb.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Clarinet-in-Eb/Clarinet_in_Eb.sts.7z)
+- [Contrabass Flute](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Contrabass-Flute)
+  - [Contrabass_Flute.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Contrabass-Flute/Contrabass_Flute.sts.7z)
 
