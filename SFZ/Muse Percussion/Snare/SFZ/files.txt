@@ -1,0 +1,200 @@
+Snare_Off_Hit_MP_D4_RR1.opus
+Snare_On_Rim_FF_D4_RR2.opus
+Snare_On_Rim_MF_D4_RR4.opus
+Snare_Off_Rim Roll_FF_D4_RR2.opus
+Snare_On_Hit_P_D4_RR8.opus
+Snare_Off_Rim_FF_D4_RR8.opus
+Snare_Off_Hit_F_D4_RR8.opus
+Snare_Off_Rim Roll_F_D4_RR1.opus
+Snare_On_Hit_MF_D4_RR7.opus
+Snare_On_Hit_FF_D4_RR1.opus
+Snare_Off_Hit_P_D4_RR4.opus
+Snare_Off_Rim_P_D4_RR1.opus
+Snare_On_Hit_F_D4_RR4.opus
+Snare_Off_Rim_MP_D4_RR2.opus
+Snare_On_Rim_MP_D4_RR8.opus
+Snare_On_Rim_F_D4_RR1.opus
+Snare_On_Hit_MP_D4_RR7.opus
+Snare_Off_Rim Roll_P_D4_RR1.opus
+Snare_Off_Rim_MF_D4_RR2.opus
+Snare_Off_Rim_FF_D4_RR4.opus
+Snare_On_Hit_P_D4_RR4.opus
+Snare_On_Rim_P_D4_RR1.opus
+Snare_On_Rim_MF_D4_RR8.opus
+Snare_Off_Hit_F_D4_RR4.opus
+Snare_Off_Rim_F_D4_RR1.opus
+Snare_Off_Hit_FF_D4_RR7.opus
+Snare_Off_Hit_MF_D4_RR1.opus
+Snare_Off_Hit_P_D4_RR8.opus
+Snare_On_Rim_MP_D4_RR4.opus
+Snare_On_Hit_F_D4_RR8.opus
+Snare_On_Rim_MP_D4_RR5.opus
+Snare_Off_Roll_MP_D4_RR1.opus
+Snare_On_Rim Roll_FF_D4_RR1.opus
+Snare_Off_Hit_FF_D4_RR6.opus
+Snare_On_Roll_P_D4_RR1.opus
+Snare_Off_Hit_F_D4_RR5.opus
+Snare_Off_Rim_MF_D4_RR3.opus
+Snare_Off_Rim_FF_D4_RR5.opus
+Snare_On_Hit_P_D4_RR5.opus
+Snare_On_Rim Roll_F_D4_RR1.opus
+Snare_On_Hit_MP_D4_RR6.opus
+Snare_On_Hit_F_D4_RR5.opus
+Snare_On_Rim Roll_P_D4_RR1.opus
+Snare_Off_Rim_MP_D4_RR3.opus
+Snare_Off_Hit_P_D4_RR5.opus
+Snare_On_Hit_MF_D4_RR6.opus
+Snare_On_Roll_FF_D4_RR1.opus
+Snare_Off_Roll_MF_D4_RR1.opus
+Snare_On_Rim_FF_D4_RR3.opus
+Snare_On_Rim_MF_D4_RR5.opus
+Snare_On_Roll_F_D4_RR1.opus
+Snare_On_Hit_MP_D4_RR1.opus
+Snare_Off_Rim_MF_D4_RR4.opus
+Snare_On_Hit_P_D4_RR2.opus
+Snare_Off_Rim_FF_D4_RR2.opus
+Snare_On_Rim_FF_D4_RR8.opus
+Snare_On_Rim_P_D4_RR7.opus
+Snare_Off_Hit_F_D4_RR2.opus
+Snare_Off_Rim_F_D4_RR7.opus
+Snare_Off_Hit_FF_D4_RR1.opus
+Snare_Off_Hit_MF_D4_RR7.opus
+Snare_On_Rim_MP_D4_RR2.opus
+Snare_Off_Rim Roll_MP_D4_RR2.opus
+Snare_Off_Rim_MP_D4_RR8.opus
+Snare_Off_Hit_MP_D4_RR7.opus
+Snare_On_Rim_FF_D4_RR4.opus
+Snare_Off_Rim Roll_MF_D4_RR2.opus
+Snare_On_Rim_MF_D4_RR2.opus
+Snare_Off_Rim_MF_D4_RR8.opus
+Snare_On_Hit_MF_D4_RR1.opus
+Snare_On_Hit_FF_D4_RR7.opus
+Snare_Off_Hit_P_D4_RR2.opus
+Snare_Off_Rim_P_D4_RR7.opus
+Snare_On_Hit_F_D4_RR2.opus
+Snare_Off_Rim_MP_D4_RR4.opus
+Snare_On_Rim_F_D4_RR7.opus
+Snare_On_Rim_F_D4_RR6.opus
+Snare_On_Hit_F_D4_RR3.opus
+Snare_Off_Rim_MP_D4_RR5.opus
+Snare_Off_Rim_P_D4_RR6.opus
+Snare_Off_Hit_P_D4_RR3.opus
+Snare_On_Hit_FF_D4_RR6.opus
+Snare_On_Roll_MF_D4_RR1.opus
+Snare_Off_Roll_P_D4_RR1.opus
+Snare_Off_Roll_FF_D4_RR1.opus
+Snare_On_Rim Roll_MP_D4_RR1.opus
+Snare_On_Rim_FF_D4_RR5.opus
+Snare_On_Rim_MF_D4_RR3.opus
+Snare_Off_Hit_MP_D4_RR6.opus
+Snare_On_Rim_MP_D4_RR3.opus
+Snare_On_Rim Roll_MF_D4_RR1.opus
+Snare_Off_Hit_MF_D4_RR6.opus
+Snare_Off_Rim_F_D4_RR6.opus
+Snare_Off_Hit_F_D4_RR3.opus
+Snare_On_Rim_P_D4_RR6.opus
+Snare_Off_Rim_MF_D4_RR5.opus
+Snare_On_Hit_P_D4_RR3.opus
+Snare_Off_Rim_FF_D4_RR3.opus
+Snare_On_Roll_MP_D4_RR1.opus
+Snare_Off_Roll_F_D4_RR1.opus
+Snare_On_Rim Roll_MF_D4_RR2.opus
+Snare_Off_Hit_MF_D4_RR5.opus
+Snare_Off_Hit_FF_D4_RR3.opus
+Snare_Off_Rim_F_D4_RR5.opus
+Snare_On_Rim_P_D4_RR5.opus
+Snare_Off_Rim_MF_D4_RR6.opus
+Snare_On_Roll_MP_D4_RR2.opus
+Snare_Off_Roll_F_D4_RR2.opus
+Snare_On_Hit_MP_D4_RR3.opus
+Snare_On_Rim_F_D4_RR5.opus
+Snare_Off_Rim_MP_D4_RR6.opus
+Snare_Off_Rim_P_D4_RR5.opus
+Snare_On_Hit_FF_D4_RR5.opus
+Snare_On_Hit_MF_D4_RR3.opus
+Snare_On_Roll_MF_D4_RR2.opus
+Snare_Off_Roll_P_D4_RR2.opus
+Snare_On_Rim Roll_MP_D4_RR2.opus
+Snare_Off_Roll_FF_D4_RR2.opus
+Snare_On_Rim_FF_D4_RR6.opus
+Snare_Off_Hit_MP_D4_RR5.opus
+Snare_Off_Hit_MP_D4_RR4.opus
+Snare_On_Rim_MF_D4_RR1.opus
+Snare_On_Rim_FF_D4_RR7.opus
+Snare_Off_Rim Roll_MF_D4_RR1.opus
+Snare_On_Rim_P_D4_RR8.opus
+Snare_Off_Rim_F_D4_RR8.opus
+Snare_On_Hit_FF_D4_RR4.opus
+Snare_On_Hit_MF_D4_RR2.opus
+Snare_Off_Hit_MF_D4_RR8.opus
+Snare_Off_Hit_P_D4_RR1.opus
+Snare_Off_Rim_P_D4_RR4.opus
+Snare_Off_Rim_MP_D4_RR7.opus
+Snare_On_Hit_F_D4_RR1.opus
+Snare_On_Rim_F_D4_RR4.opus
+Snare_On_Hit_MP_D4_RR2.opus
+Snare_Off_Hit_MP_D4_RR8.opus
+Snare_On_Hit_P_D4_RR1.opus
+Snare_Off_Rim_FF_D4_RR1.opus
+Snare_Off_Rim_MF_D4_RR7.opus
+Snare_On_Rim_P_D4_RR4.opus
+Snare_Off_Hit_F_D4_RR1.opus
+Snare_Off_Rim_F_D4_RR4.opus
+Snare_Off_Hit_MF_D4_RR4.opus
+Snare_Off_Hit_FF_D4_RR2.opus
+Snare_On_Hit_FF_D4_RR8.opus
+Snare_Off_Rim_P_D4_RR8.opus
+Snare_On_Rim_F_D4_RR8.opus
+Snare_Off_Rim Roll_MP_D4_RR1.opus
+Snare_On_Rim_MP_D4_RR1.opus
+Snare_On_Rim_F_D4_RR3.opus
+Snare_On_Hit_F_D4_RR6.opus
+Snare_On_Rim Roll_P_D4_RR2.opus
+Snare_Off_Rim_P_D4_RR3.opus
+Snare_Off_Hit_P_D4_RR6.opus
+Snare_On_Hit_FF_D4_RR3.opus
+Snare_On_Hit_MF_D4_RR5.opus
+Snare_On_Roll_FF_D4_RR2.opus
+Snare_Off_Roll_MF_D4_RR2.opus
+Snare_On_Rim_MF_D4_RR6.opus
+Snare_On_Roll_F_D4_RR2.opus
+Snare_Off_Hit_MP_D4_RR3.opus
+Snare_On_Rim_MP_D4_RR6.opus
+Snare_On_Rim Roll_FF_D4_RR2.opus
+Snare_Off_Roll_MP_D4_RR2.opus
+Snare_Off_Hit_MF_D4_RR3.opus
+Snare_Off_Hit_FF_D4_RR5.opus
+Snare_On_Roll_P_D4_RR2.opus
+Snare_Off_Rim_F_D4_RR3.opus
+Snare_Off_Hit_F_D4_RR6.opus
+Snare_On_Rim_P_D4_RR3.opus
+Snare_Off_Rim_FF_D4_RR6.opus
+Snare_On_Hit_P_D4_RR6.opus
+Snare_On_Rim Roll_F_D4_RR2.opus
+Snare_On_Hit_MP_D4_RR5.opus
+Snare_On_Hit_MP_D4_RR4.opus
+Snare_Off_Rim Roll_P_D4_RR2.opus
+Snare_Off_Rim_FF_D4_RR7.opus
+Snare_On_Hit_P_D4_RR7.opus
+Snare_Off_Rim_MF_D4_RR1.opus
+Snare_On_Rim_P_D4_RR2.opus
+Snare_Off_Hit_F_D4_RR7.opus
+Snare_Off_Rim_F_D4_RR2.opus
+Snare_Off_Hit_MF_D4_RR2.opus
+Snare_Off_Hit_FF_D4_RR4.opus
+Snare_On_Hit_MF_D4_RR8.opus
+Snare_On_Rim_MP_D4_RR7.opus
+Snare_Off_Hit_MP_D4_RR2.opus
+Snare_On_Hit_MP_D4_RR8.opus
+Snare_On_Rim_MF_D4_RR7.opus
+Snare_Off_Rim Roll_FF_D4_RR1.opus
+Snare_On_Rim_FF_D4_RR1.opus
+Snare_Off_Rim Roll_F_D4_RR2.opus
+Snare_On_Hit_FF_D4_RR2.opus
+Snare_On_Hit_MF_D4_RR4.opus
+Snare_Off_Hit_FF_D4_RR8.opus
+Snare_Off_Hit_P_D4_RR7.opus
+Snare_Off_Rim_P_D4_RR2.opus
+Snare_Off_Rim_MP_D4_RR1.opus
+Snare_On_Hit_F_D4_RR7.opus
+Snare_On_Rim_F_D4_RR2.opus

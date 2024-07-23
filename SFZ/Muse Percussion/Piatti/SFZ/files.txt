@@ -1,0 +1,39 @@
+Piatti_Hit (Dampen)_F_D4_RR2.opus
+Piatti_Hit (Dampen)_MP_D4_RR2.opus
+Piatti_Hit (Dampen)_P_D4_RR2.opus
+Piatti_Hit (Dampen)_MF_D4_RR2.opus
+Piatti_Hit (Dampen)_FF_D4_RR4.opus
+Piatti_Hit (Dampen)_P_D4_RR3.opus
+Piatti_Hit (Dampen)_MF_D4_RR3.opus
+Piatti_Slice_P_D4_RR2.opus
+Piatti_Hit (Dampen)_F_D4_RR3.opus
+Piatti_Hit (Dampen)_MP_D4_RR3.opus
+Piatti_Hit_FF_D4_RR1.opus
+Piatti_Roll_MP_D4.opus
+Piatti_Hit (Dampen)_MF_D4_RR4.opus
+Piatti_Hit (Dampen)_P_D4_RR4.opus
+Piatti_Hit (Dampen)_FF_D4_RR2.opus
+Piatti_Hit (Dampen)_MP_D4_RR4.opus
+Piatti_Hit (Dampen)_F_D4_RR4.opus
+Piatti_Slice_MF_D4_RR1.opus
+Piatti_Hit_F_D4_RR1.opus
+Piatti_Hit_MF_D4_RR1.opus
+Piatti_Roll_MF_D4.opus
+Piatti_Hit_P_D4_RR1.opus
+Piatti_Hit_MP_D4_RR1.opus
+Piatti_Hit (Dampen)_FF_D4_RR3.opus
+Piatti_Slice_MP_D4_RR1.opus
+Piatti_Hit_P_D4_RR2.opus
+Piatti_Hit_MP_D4_RR2.opus
+Piatti_Slice_MP_D4_RR2.opus
+Piatti_Slice_MF_D4_RR2.opus
+Piatti_Hit_F_D4_RR2.opus
+Piatti_Hit_MF_D4_RR2.opus
+Piatti_Roll_P_D4.opus
+Piatti_Hit (Dampen)_FF_D4_RR1.opus
+Piatti_Hit_FF_D4_RR2.opus
+Piatti_Slice_P_D4_RR1.opus
+Piatti_Hit (Dampen)_P_D4_RR1.opus
+Piatti_Hit (Dampen)_MF_D4_RR1.opus
+Piatti_Hit (Dampen)_F_D4_RR1.opus
+Piatti_Hit (Dampen)_MP_D4_RR1.opus
