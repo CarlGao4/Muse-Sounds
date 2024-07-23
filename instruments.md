@@ -173,4 +173,6 @@
   - [Bassoon.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bassoon/Bassoon.sts.7z)
 - [Clarinet in Bb](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Clarinet-in-Bb)
   - [Clarinet_in_Bb.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Clarinet-in-Bb/Clarinet_in_Bb.sts.7z)
+- [Clarinet in Eb](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Clarinet-in-Eb)
+  - [Clarinet_in_Eb.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Clarinet-in-Eb/Clarinet_in_Eb.sts.7z)
 
