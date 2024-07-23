@@ -62,6 +62,8 @@
   - [Claves.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Claves/Claves.sts.7z)
 - [Cowbell](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Cowbell)
   - [Cowbell.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Cowbell/Cowbell.sts.7z)
+- [Field Drum](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Field-Drum)
+  - [Field_Drum.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Field-Drum/Field_Drum.sts.7z)
 - [Metronome](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Metronome)
   - [Metronome.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sts.7z)
   - [Metronome.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sf2)
