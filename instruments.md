@@ -99,4 +99,6 @@
   - [Timpani.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Timpani/Timpani.sts.7z)
 - [Toms](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Toms)
   - [Toms.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Toms/Toms.sts.7z)
+- [Triangle](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Triangle)
+  - [Triangle.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Triangle/Triangle.sts.7z)
 
