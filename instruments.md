@@ -97,8 +97,8 @@
 
 - [Bass Drum](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bass_Drum)
   - [Bass_Drum.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bass_Drum/Bass_Drum.sts.7z)
-- [Bell Tree](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bell_Tree)
-  - [Bell_Tree.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bell_Tree/Bell_Tree.sts.7z)
+- [Bell Tree](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bell-Tree)
+  - [Bell_Tree.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bell-Tree/Bell_Tree.sts.7z)
 - [Bongos](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bongos)
   - [Bongos.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bongos/Bongos.sts.7z)
 - [Cabasa](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Cabasa)
