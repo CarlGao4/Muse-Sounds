@@ -8,6 +8,8 @@
   - [Basses.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Basses/Basses.sts.7z)
 - [Sopranos](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Sopranos)
   - [Sopranos.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Sopranos/Sopranos.sts.7z)
+- [Tenors](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Tenors)
+  - [Tenors.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Tenors/Tenors.sts.7z)
 
 ## Muse Harp
 
