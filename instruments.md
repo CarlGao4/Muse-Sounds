@@ -93,4 +93,6 @@
   - [Tam-Tam.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Tam-tam/Tam-Tam.sts.7z)
 - [Tambourine](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Tambourine)
   - [Tambourine.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Tambourine/Tambourine.sts.7z)
+- [Timbales](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Timbales)
+  - [Timbales.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Timbales/Timbales.sts.7z)
 
