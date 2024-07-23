@@ -1,5 +1,10 @@
 # Instruments
 
+## Muse Choir
+
+- [Altos](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Altos)
+  - [Altos.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Altos/Altos.sts.7z)
+
 ## Muse Harp
 
 - [Harp](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Harp)
