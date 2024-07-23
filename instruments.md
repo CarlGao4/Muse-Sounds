@@ -91,4 +91,6 @@
   - [Taikos.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Taikos/Taikos.sts.7z)
 - [Tam-tam](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Tam-tam)
   - [Tam-Tam.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Tam-tam/Tam-Tam.sts.7z)
+- [Tambourine](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Tambourine)
+  - [Tambourine.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Tambourine/Tambourine.sts.7z)
 
