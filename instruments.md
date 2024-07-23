@@ -68,6 +68,8 @@
   - [Glockenspiel.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Glockenspiel/Glockenspiel.sts.7z)
 - [Gong](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Gong)
   - [Gong.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Gong/Gong.sts.7z)
+- [Marimba](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Marimba)
+  - [Marimba.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Marimba/Marimba.sts.7z)
 - [Metronome](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Metronome)
   - [Metronome.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sts.7z)
   - [Metronome.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sf2)
