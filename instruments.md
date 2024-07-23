@@ -4,6 +4,8 @@
 
 - [Altos](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Altos)
   - [Altos.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Altos/Altos.sts.7z)
+- [Basses](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Basses)
+  - [Basses.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Basses/Basses.sts.7z)
 
 ## Muse Harp
 
