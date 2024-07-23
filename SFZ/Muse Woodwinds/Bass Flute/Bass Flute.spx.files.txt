@@ -1,0 +1,22 @@
+SFZ\Bass Flute - Effects.sfz
+SFZ\Bass Flute - Fall.sfz
+SFZ\Bass Flute - Flatter.sfz
+SFZ\Bass Flute - Legato Control.sfz
+SFZ\Bass Flute - Legato Intervals Fast.sfz
+SFZ\Bass Flute - Legato Intervals.sfz
+SFZ\Bass Flute - Mordent Inverted Major.sfz
+SFZ\Bass Flute - Mordent Inverted Minor.sfz
+SFZ\Bass Flute - Mordent Major.sfz
+SFZ\Bass Flute - Mordent Minor.sfz
+SFZ\Bass Flute - Realtime.sfz
+SFZ\Bass Flute - Staccatissimo.sfz
+SFZ\Bass Flute - Staccato Overblown.sfz
+SFZ\Bass Flute - Staccato.sfz
+SFZ\Bass Flute - Sustain Nonvib.sfz
+SFZ\Bass Flute - Sustain.sfz
+SFZ\Bass Flute - Trill Half.sfz
+SFZ\Bass Flute - Trill Whole.sfz
+SFZ\Bass Flute - Turn Inverted Major.sfz
+SFZ\Bass Flute - Turn Inverted Minor.sfz
+SFZ\Bass Flute - Turn Major.sfz
+SFZ\Bass Flute - Turn Minor.sfz

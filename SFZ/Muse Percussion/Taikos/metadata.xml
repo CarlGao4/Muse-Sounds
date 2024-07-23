@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" StaffLines="1" Reverb="40.0" DefaultClef="PERCUSSION" FriendlyName="Taikos" Abbreviation="Taiko">
+  <Articulation File="SFZ\Taikos - Hit.sfz" Class="Sustain" SetNote="D3" OffsetStart="30"/>
+  <Articulation File="SFZ\Taikos - Tremolo.sfz" Class="Tremolo" SetNote="D3" OffsetStart="30"/>
+  <Articulation File="SFZ\Taikos - Tremolo.sfz" Symbol="Trill" ForInterval="1" SetNote="D3" OffsetStart="30"/>
+  <Articulation File="SFZ\Taikos - Tremolo.sfz" Symbol="Trill" ForInterval="2" SetNote="D3" OffsetStart="30"/>
+  <Articulation File="SFZ\Taikos - Rim Hit.sfz" Symbol="X" SetNote="D3" OffsetStart="30"/>
+  <Articulation File="SFZ\Taikos - Rim Tremolo.sfz" Class="Tremolo" Symbol="X" SetNote="D3" OffsetStart="30"/>
+  <Articulation File="SFZ\Taikos - Hit.sfz" Symbol="Accent" SetNote="D3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Taikos - Tremolo.sfz" Class="Tremolo" Symbol="Accent" SetNote="D3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Taikos - Tremolo.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="D3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Taikos - Tremolo.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="D3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Taikos - Rim Hit.sfz" Symbol="Accent|X" SetNote="D3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Taikos - Rim Tremolo.sfz" Class="Tremolo" Symbol="Accent|X" SetNote="D3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Taikos - Hit.sfz"  Symbol="Marcato" SetNote="D3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Taikos - Tremolo.sfz" Class="Tremolo" Symbol="Marcato" SetNote="D3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Taikos - Tremolo.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="D3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Taikos - Tremolo.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="D3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Taikos - Rim Hit.sfz" Symbol="Marcato|X" SetNote="D3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Taikos - Rim Tremolo.sfz" Class="Tremolo" Symbol="Marcato|X" SetNote="D3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  <MusicXML ExportTranspose="20" InstrumentSound="drum.taiko"/>
+  <MPE InstrumentSound="percussions.taiko.japanese"/>
+  <MuseScore Drumset="Taikos.drm"/>
+</Instrument>

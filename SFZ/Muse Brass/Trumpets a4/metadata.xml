@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Instrument Category="Muse Brass" BracketGroup="Brass" Reverb="40.0" FriendlyName="Trumpets a4" Abbreviation="Tpts" InsertableSymbols="Mute|OpenHarmonic">
+<Instrument Vendor="Muse" Pack="Muse Brass" Category="Muse Brass" BracketGroup="Brass" Reverb="40.0" FriendlyName="Trumpets a4" Abbreviation="Tpts" InsertableSymbols="Mute|OpenHarmonic">
   <!-- Transposition -->
   <Transposition Playback="2" DeltaAccidentals="2" NoteChange="1"/>
 
   <StaffPad>
-<Instrument Category="Muse Brass" BracketGroup="Brass" Reverb="40.0" FriendlyName="Trumpets a4" Abbreviation="Tpts" InsertableSymbols="Mute|OpenHarmonic">
+<Instrument Vendor="Muse" Pack="Muse Brass" Category="Muse Brass" BracketGroup="Brass" Reverb="40.0" FriendlyName="Trumpets a4" Abbreviation="Tpts" InsertableSymbols="Mute|OpenHarmonic">
   <!-- Transposition -->
   <Transposition Playback="2" DeltaAccidentals="2" NoteChange="1"/>
   <!-- Articulations -->

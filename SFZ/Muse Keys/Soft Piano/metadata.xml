@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Keys" Category="Muse Keys" BracketGroup="None" DefaultStaffType="GRAND" Reverb="15" FriendlyName="Soft Piano" Abbreviation="Pno." MixerEffectsGroup="keys">
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1"/>
+      <Param Name="Freq" Value="100"/>
+      <Param Name="Gain" Value="9"/>
+    </Processor>
+    <Processor Name="Compressor">
+      <Param Name="Threshold" Value="-20"/>
+      <Param Name="Ratio" Value="3"/>
+      <Param Name="InputGain" Value="6"/>
+      <Param Name="Oversample" Value="1"/>
+      <Param Name="LookAhead" Value="10"/>
+    </Processor>
+    <Processor Name="LowHighCut">
+      <Param Name="HighCut" Value="2000"/>
+      <Param Name="LowCut" Value="10"/>
+    </Processor>
+  </SamplerEffect>
+  <Articulation File="SFZ\Soft Piano.sfz" Class="Sustain" OffsetStart="60"/>
+  <MusicXML InstrumentSound="keyboard.piano"/>
+  <MPE InstrumentSound="keyboards.piano.soft"/>
+</Instrument>

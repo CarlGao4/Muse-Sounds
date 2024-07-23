@@ -1,0 +1,24 @@
+SFZ\Piccolo - Fall.sfz
+SFZ\Piccolo - Flatter Harmonic.sfz
+SFZ\Piccolo - Flatter.sfz
+SFZ\Piccolo - Legato Control.sfz
+SFZ\Piccolo - Legato Intervals Fast.sfz
+SFZ\Piccolo - Legato Intervals.sfz
+SFZ\Piccolo - Mordent Inverted Major.sfz
+SFZ\Piccolo - Mordent Inverted Minor.sfz
+SFZ\Piccolo - Mordent Major.sfz
+SFZ\Piccolo - Mordent Minor.sfz
+SFZ\Piccolo - Realtime.sfz
+SFZ\Piccolo - Staccatissimo.sfz
+SFZ\Piccolo - Staccato Overblown.sfz
+SFZ\Piccolo - Staccato.sfz
+SFZ\Piccolo - Sustain Accent.sfz
+SFZ\Piccolo - Sustain Nonvib.sfz
+SFZ\Piccolo - Sustain Overblown.sfz
+SFZ\Piccolo - Sustain.sfz
+SFZ\Piccolo - Trill Half.sfz
+SFZ\Piccolo - Trill Whole.sfz
+SFZ\Piccolo - Turn Inverted Major.sfz
+SFZ\Piccolo - Turn Inverted Minor.sfz
+SFZ\Piccolo - Turn Major.sfz
+SFZ\Piccolo - Turn Minor.sfz

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Woodwinds" Reverb="30" DefaultClef="TREBLE" FriendlyName="Flute 2" Abbreviation="Fl. 2" InsertableSymbols="OpenHarmonic|Mute">
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Flute 2 - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Flute 2 - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Sustain Overblown.sfz" Symbol="Text" Name="overblown" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Flute 2 - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Flute 2 - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Staccato Overblown.sfz" Symbol="staccato|text" Name="overblown" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Flute 2 - Mordent Major.sfz" Symbol="MordentWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Mordent Minor.sfz" Symbol="MordentSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Mordent Inverted Major.sfz" Symbol="MordentInvertedWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Mordent Inverted Minor.sfz" Symbol="MordentInvertedSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Turn Major.sfz" Symbol="TurnWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Turn Minor.sfz" Symbol="TurnSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Turn Inverted Major.sfz" Symbol="TurnInvertedWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Turn Inverted Minor.sfz" Symbol="TurnInvertedSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 2 - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <!--   Realtime -->
+  <Articulation File="SFZ\Flute 2 - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.flutes.flute"/>
+  <MPE InstrumentSound="winds.flute.secondary"/>
+</Instrument>

@@ -1,0 +1,27 @@
+SFZ\Violin 2 Solo - Col Legno.sfz
+SFZ\Violin 2 Solo - Legato Control.sfz
+SFZ\Violin 2 Solo - Legato Intervals Fast.sfz
+SFZ\Violin 2 Solo - Legato Intervals.sfz
+SFZ\Violin 2 Solo - Pizzicato Snap.sfz
+SFZ\Violin 2 Solo - Pizzicato.sfz
+SFZ\Violin 2 Solo - Portamento.sfz
+SFZ\Violin 2 Solo - Realtime.sfz
+SFZ\Violin 2 Solo - Staccatissimo.sfz
+SFZ\Violin 2 Solo - Staccato.sfz
+SFZ\Violin 2 Solo - Sustain Harmonic.sfz
+SFZ\Violin 2 Solo - Sustain Marcato.sfz
+SFZ\Violin 2 Solo - Sustain Nonvib.sfz
+SFZ\Violin 2 Solo - Sustain Sul Ponticello.sfz
+SFZ\Violin 2 Solo - Sustain Sul Tasto.sfz
+SFZ\Violin 2 Solo - Sustain.sfz
+SFZ\Violin 2 Solo - Tenuto - Eighth.sfz
+SFZ\Violin 2 Solo - Tenuto - Half.sfz
+SFZ\Violin 2 Solo - Tenuto - Quarter.sfz
+SFZ\Violin 2 Solo - Tremolo.sfz
+SFZ\Violin 2 Solo - Trill Diminished 5th.sfz
+SFZ\Violin 2 Solo - Trill Half.sfz
+SFZ\Violin 2 Solo - Trill Major 3rd.sfz
+SFZ\Violin 2 Solo - Trill Minor 3rd.sfz
+SFZ\Violin 2 Solo - Trill Perfect 4th.sfz
+SFZ\Violin 2 Solo - Trill Perfect 5th.sfz
+SFZ\Violin 2 Solo - Trill Whole.sfz

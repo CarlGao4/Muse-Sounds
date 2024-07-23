@@ -1,0 +1,16 @@
+SFZ\Acoustic Nylon - Doit.sfz
+SFZ\Acoustic Nylon - Fall.sfz
+SFZ\Acoustic Nylon - Half Trill.sfz
+SFZ\Acoustic Nylon - Harmonics.sfz
+SFZ\Acoustic Nylon - Legato Control.sfz
+SFZ\Acoustic Nylon - Legato Intervals.sfz
+SFZ\Acoustic Nylon - Mute.sfz
+SFZ\Acoustic Nylon - PalmMuteSim.sfz
+SFZ\Acoustic Nylon - Plop.sfz
+SFZ\Acoustic Nylon - Portamento.sfz
+SFZ\Acoustic Nylon - Scoop.sfz
+SFZ\Acoustic Nylon - Staccatissimo.sfz
+SFZ\Acoustic Nylon - Staccato.sfz
+SFZ\Acoustic Nylon - Sustain.sfz
+SFZ\Acoustic Nylon - Tremolo.sfz
+SFZ\Acoustic Nylon - Whole Trill.sfz

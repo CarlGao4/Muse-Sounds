@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" Reverb="40.0" FriendlyName="Crotales" Abbreviation="Crot." InsertableSymbols="OpenHarmonic|Mute">
+  <Transposition TransposeOctaves="2"/>
+  <Articulation File="SFZ\Crotales - Hits.sfz" Class="Sustain" OffsetStart="10"/>
+  <Articulation File="SFZ\Crotales - Hits.sfz" Symbol="Accent" Class="Sustain" OffsetStart="10" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Crotales - Hits.sfz" Symbol="Marcato" Class="Sustain" OffsetStart="10" SetVelocity="+15" SetDynamics="150"/>
+  <MusicXML InstrumentSound="metal.crotales"/>
+  <MPE InstrumentSound="percussions.crotales.metal"/>
+</Instrument>

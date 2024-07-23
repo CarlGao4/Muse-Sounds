@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" Reverb="40.0" FriendlyName="Xylophone" Abbreviation="Xyl.">
+  <Transposition TransposeOctaves="1"/>
+  <Preset Name="Hard Mallets">
+    <Articulation File="SFZ\Xylophone - Hard Mallets - Sustain.sfz" Class="Sustain" OffsetStart="30"/>
+    <Articulation File="SFZ\Xylophone - Hard Mallets - Tremolo.sfz" Class="Tremolo" OffsetStart="30"/>
+    <Articulation File="SFZ\Xylophone - Hard Mallets - Sustain.sfz" Symbol="Accent" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Xylophone - Hard Mallets - Sustain.sfz" Symbol="Marcato" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Xylophone - Hard Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Accent" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Xylophone - Hard Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Marcato" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <Preset Name="Soft Mallets">
+    <Articulation File="SFZ\Xylophone - Soft Mallets - Sustain.sfz" Class="Sustain" OffsetStart="30"/>
+    <Articulation File="SFZ\Xylophone - Soft Mallets - Tremolo.sfz" Class="Tremolo" OffsetStart="30"/>
+    <Articulation File="SFZ\Xylophone - Soft Mallets - Sustain.sfz" Symbol="Accent" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Xylophone - Soft Mallets - Sustain.sfz" Symbol="Marcato" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Xylophone - Soft Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Accent" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Xylophone - Soft Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Marcato" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <MusicXML InstrumentSound="pitched-percussion.xylophone"/>
+  <MPE InstrumentSound="percussions.xylophone"/>
+</Instrument>

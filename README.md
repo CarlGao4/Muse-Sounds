@@ -33,6 +33,18 @@ I use different versions to upload different instruments. Until now, each versio
 - `*.sf3`: The soundfont in SF3 format. See [SF2 and SF3](#sf2-and-sf3) for more information.
 - `*_sfz+flac.zip`: Converted sfz file and flac files. I add this file because the original sfz file is not standard and may not be supported by some software, and not all software supports opus files. This file is ready-to-use, which means that you can directly unpack it (with the folder structure) and load it with a sfz player. The zip is not compressed at all.
 
+### Extracted versions
+
+Up until now, I've extracted the following versions:
+- Muse Strings `0.4.14`
+- Muse Harp `0.2.7`
+- Muse Choir `0.3.18` (Which has a problem that Women soundfont doesn't have any sound if the note belongs to Soprano range because Soprano has been renamed from Sopranos but the sfz file still uses Sopranos. I've renamed it back currently.)
+- Muse Guitar Vol. 1 `0.9.8`
+- Muse Keys `0.4.11`
+- Muse Percussion `0.5.10`
+- Muse Brass `0.4.4`
+- Muse Woodwinds `0.5.22`
+
 ## Folder structure
 
 This is an example of the folder structure of original Muse Sounds library:
@@ -68,6 +80,7 @@ SFZ
 │   │   │       └── Piano - Studio.sfz  # The extracted sfz file
 │   │   ├── Piano.spx.files.txt  # A file containing file list of Piano.spx
 │   │   ├── metadata.xml  # A file in XML format, I haven't retrieved its name yet
+│   │  (├── drum_notes.xml  # Another XML file defining drum notes, only exists in drum soundfonts)
 │   │   └── SFZ
 │   │       ├── Piano.sts.7z  # The compressed opus files, uploaded to the release page
 │   │       └── files.txt  # A file to tell you that you should download and extract the 7-Zip file here

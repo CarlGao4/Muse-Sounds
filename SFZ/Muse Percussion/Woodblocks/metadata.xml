@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Name="Woodblocks" FriendlyName="Wood Blocks" Abbreviation="W. B." Category="Muse Percussion" BracketGroup="Percussion" DefaultClef="Percussion" StaffLines="3" Reverb="10">
+  <Articulation File="SFZ\Woodblocks - Hit.sfz" Class="Sustain" ForNote="f5" SetNote="c3"/>
+  <Articulation File="SFZ\Woodblocks - Hit.sfz" Class="Sustain" ForNote="e5" SetNote="e3"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Class="Tremolo" ForNote="f5" SetNote="c3"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Symbol="Trill" ForInterval="1" ForNote="f5" SetNote="c3"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Symbol="Trill" ForInterval="2" ForNote="f5" SetNote="c3"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Class="Tremolo" ForNote="e5" SetNote="e3"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Symbol="Trill" ForInterval="1" ForNote="e5" SetNote="e3"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Symbol="Trill" ForInterval="2" ForNote="e5" SetNote="e3"/>
+  <Articulation File="SFZ\Woodblocks - Hit.sfz" Symbol="Accent" ForNote="f5" SetNote="c3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Woodblocks - Hit.sfz" Symbol="Accent" ForNote="e5" SetNote="e3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Class="Tremolo" Symbol="Accent" ForNote="f5" SetNote="c3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Symbol="Accent|Trill" ForInterval="1" ForNote="f5" SetNote="c3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Symbol="Accent|Trill" ForInterval="2" ForNote="f5" SetNote="c3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Class="Tremolo" Symbol="Accent" ForNote="e5" SetNote="e3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Symbol="Accent|Trill" ForInterval="1" ForNote="e5" SetNote="e3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Symbol="Accent|Trill" ForInterval="2" ForNote="e5" SetNote="e3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Woodblocks - Hit.sfz" Symbol="Marcato" ForNote="f5" SetNote="c3" SetVelocity="+25" SetDynamics="180"/>
+  <Articulation File="SFZ\Woodblocks - Hit.sfz" Symbol="Marcato" ForNote="e5" SetNote="e3" SetVelocity="+25" SetDynamics="180"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Class="Tremolo" Symbol="Marcato" ForNote="f5" SetNote="c3" SetVelocity="+25" SetDynamics="180"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Symbol="Marcato|Trill" ForInterval="1" ForNote="f5" SetNote="c3" SetVelocity="+25" SetDynamics="180"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Symbol="Marcato|Trill" ForInterval="2" ForNote="f5" SetNote="c3" SetVelocity="+25" SetDynamics="180"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Class="Tremolo" Symbol="Marcato" ForNote="e5" SetNote="e3" SetVelocity="+25" SetDynamics="180"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Symbol="Marcato|Trill" ForInterval="1" ForNote="e5" SetNote="e3" SetVelocity="+25" SetDynamics="180"/>
+  <Articulation File="SFZ\Woodblocks - Tremolo.sfz" Symbol="Marcato|Trill" ForInterval="2" ForNote="e5" SetNote="e3" SetVelocity="+25" SetDynamics="180"/>
+  <MusicXML ExportTranspose="20" InstrumentSound="wood.wood-block"/>
+  <MPE InstrumentSound="percussions.block.wooden"/>
+  <MuseScore Drumset="Woodblocks.drm"/>
+</Instrument>

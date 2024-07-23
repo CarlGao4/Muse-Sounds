@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="4.20">
+  <Drum pitch="65">
+    <head>normal</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>High Timbale</name>
+    <stem>1</stem>
+    <shortcut>A</shortcut>
+    </Drum>
+  <Drum pitch="64">
+    <head>cross</head>
+    <line>-1</line>
+    <voice>0</voice>
+    <name>High Timbale Rim</name>
+    <stem>1</stem>
+    <shortcut>B</shortcut>
+    </Drum>
+  <Drum pitch="66">
+    <head>normal</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Low Timbale</name>
+    <stem>1</stem>
+    <shortcut>C</shortcut>
+    </Drum>
+  <Drum pitch="67">
+    <head>cross</head>
+    <line>1</line>
+    <voice>0</voice>
+    <name>Low Timbale Rim</name>
+    <stem>1</stem>
+    <shortcut>D</shortcut>
+    </Drum>
+  </museScore>

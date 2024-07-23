@@ -1,0 +1,6 @@
+SFZ\Vibraphone - Hard Mallets - Staccato.sfz
+SFZ\Vibraphone - Hard Mallets - Sustain.sfz
+SFZ\Vibraphone - Hard Mallets - Tremolo.sfz
+SFZ\Vibraphone - Soft Mallets - Staccato.sfz
+SFZ\Vibraphone - Soft Mallets - Sustain.sfz
+SFZ\Vibraphone - Soft Mallets - Tremolo.sfz

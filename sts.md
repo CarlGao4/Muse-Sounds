@@ -85,4 +85,5 @@ for _ in range(struct.unpack("<i", f.read(4))[0]):
     f.seek(begin)
     out.write_bytes(f.read(end - begin))
     f.seek(back)
+f.close()
 ```

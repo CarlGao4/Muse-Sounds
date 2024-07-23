@@ -1,0 +1,18 @@
+SFZ\Tenor Saxophone - Doit.sfz
+SFZ\Tenor Saxophone - Fall.sfz
+SFZ\Tenor Saxophone - Growl.sfz
+SFZ\Tenor Saxophone - Legato Control.sfz
+SFZ\Tenor Saxophone - Legato Intervals Fast.sfz
+SFZ\Tenor Saxophone - Legato Intervals.sfz
+SFZ\Tenor Saxophone - Plop.sfz
+SFZ\Tenor Saxophone - Realtime.sfz
+SFZ\Tenor Saxophone - Scoop.sfz
+SFZ\Tenor Saxophone - Shake.sfz
+SFZ\Tenor Saxophone - Staccatissimo.sfz
+SFZ\Tenor Saxophone - Staccato Accent.sfz
+SFZ\Tenor Saxophone - Staccato.sfz
+SFZ\Tenor Saxophone - Sustain Accent.sfz
+SFZ\Tenor Saxophone - Sustain Nonvib.sfz
+SFZ\Tenor Saxophone - Sustain.sfz
+SFZ\Tenor Saxophone - Trill Half.sfz
+SFZ\Tenor Saxophone - Trill Whole.sfz

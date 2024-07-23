@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" StaffLines="1" DefaultNotehead="X" Reverb="40.0" Pan="0" DefaultClef="PERCUSSION" FriendlyName="Mark Tree" Abbreviation="M.tree">
+  <Articulation File="SFZ\Mark Tree - Hits - Gliss Up.sfz" Symbol="ArpeggioUp" ForDuration="|4" SetNote="E3" OffsetStart="60"/>
+  <Articulation File="SFZ\Mark Tree - Hits - Gliss Up.sfz" Symbol="ArpeggioUp" ForDuration="4|8" SetNote="D3" OffsetStart="60"/>
+  <Articulation File="SFZ\Mark Tree - Hits - Gliss Up.sfz" Symbol="ArpeggioUp" ForDuration="8|" SetNote="C3" OffsetStart="60"/>
+  <Articulation File="SFZ\Mark Tree - Hits - Gliss Down.sfz" Symbol="ArpeggioDown" ForDuration="|4" SetNote="E3" OffsetStart="60"/>
+  <Articulation File="SFZ\Mark Tree - Hits - Gliss Down.sfz" Symbol="ArpeggioDown" ForDuration="4|8" SetNote="D3" OffsetStart="60"/>
+  <Articulation File="SFZ\Mark Tree - Hits - Gliss Down.sfz" Symbol="ArpeggioDown" ForDuration="8|" SetNote="C3" OffsetStart="60"/>
+  <Articulation File="SFZ\Mark Tree - Rolls - Gliss Up.sfz" Symbol="ArpeggioUp|Tremolo" SetNote="d3" OffsetStart="60"/>
+  <Articulation File="SFZ\Mark Tree - Rolls - Gliss Down.sfz" Symbol="ArpeggioDown|Tremolo" SetNote="d3" OffsetStart="60"/>
+  <!-- Export -->
+  <MusicXML ExportTranspose="20" InstrumentSound="metal.bells.bell-tree"/>
+  <MPE InstrumentSound="percussions.mark_tree.metal"/>
+  <MuseScore Drumset="Mark Tree.drm" />
+</Instrument>

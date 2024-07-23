@@ -1,0 +1,12 @@
+SFZ\Suspended Cymbal - Large - Mallets - Damped.sfz
+SFZ\Suspended Cymbal - Large - Mallets - Hit.sfz
+SFZ\Suspended Cymbal - Large - Mallets - Roll.sfz
+SFZ\Suspended Cymbal - Large - Sticks - Damped.sfz
+SFZ\Suspended Cymbal - Large - Sticks - Hit.sfz
+SFZ\Suspended Cymbal - Large - Sticks - Roll.sfz
+SFZ\Suspended Cymbal - Small - Mallets - Damped.sfz
+SFZ\Suspended Cymbal - Small - Mallets - Hit.sfz
+SFZ\Suspended Cymbal - Small - Mallets - Roll.sfz
+SFZ\Suspended Cymbal - Small - Sticks - Damped.sfz
+SFZ\Suspended Cymbal - Small - Sticks - Hit.sfz
+SFZ\Suspended Cymbal - Small - Sticks - Roll.sfz

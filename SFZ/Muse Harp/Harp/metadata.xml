@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Instrument Category="Muse Harp" DefaultStaffType="GRAND" Reverb="30.0" FriendlyName="Harp" Abbreviation="Harp" InsertableSymbols="Mute|OpenHarmonic">
+<Instrument Vendor="Muse" Pack="Muse Harp" Category="Muse Harp" DefaultStaffType="GRAND" Reverb="30.0" FriendlyName="Harp" Abbreviation="Harp" InsertableSymbols="Mute|OpenHarmonic">
   <Articulation File="SFZ\Harp - Sustain.sfz" Class="Sustain" OffsetStart="30"/>
   <Articulation File="SFZ\Harp - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
   <Articulation File="SFZ\Harp - Harmonics.sfz" Class="Harmonics" OffsetStart="30"/>

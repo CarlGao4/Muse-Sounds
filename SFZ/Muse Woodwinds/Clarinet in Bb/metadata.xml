@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Woodwinds" Volume="-6" Reverb="30" DefaultClef="TREBLE" FriendlyName="Clarinet in Bb" Abbreviation="Cl." InsertableSymbols="OpenHarmonic|Mute">
+  <Transposition Playback="2" DeltaAccidentals="2" NoteChange="1"/>
+  <!-- DSP FX -->
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1.2"/>
+      <Param Name="Freq" Value="600"/>
+      <Param Name="Gain" Value="-3"/>
+    </Processor>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1.41"/>
+      <Param Name="Freq" Value="1250"/>
+      <Param Name="Gain" Value="-3"/>
+    </Processor>
+    <Processor Name="Compressor">
+      <Param Name="Threshold" Value="-21"/>
+    </Processor>
+  </SamplerEffect>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Clarinet in Bb - Legato Control.sfz" Class="Sustain" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Sustain Vibrato.sfz" Symbol="Text" Name="con vibrato|dixie|jazz|vibrato" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Singing.sfz" Symbol="Text" Name="singing" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Sustain Accent.sfz" Class="Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Multiphonics.sfz" Symbol="Harmonics" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Clarinet in Bb - Staccato.sfz" ForRepetition="|150ms" OffsetStart="15"/>
+  <Articulation File="SFZ\Clarinet in Bb - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="15"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Clarinet in Bb - Staccato.sfz" Class="Staccato" OffsetStart="15"/>
+  <Articulation File="SFZ\Clarinet in Bb - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Clarinet in Bb - Mordent Major.sfz" Symbol="MordentWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Mordent Minor.sfz" Symbol="MordentSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Mordent Inverted Major.sfz" Symbol="MordentInvertedWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Mordent Inverted Minor.sfz" Symbol="MordentInvertedSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Turn Major.sfz" Symbol="TurnWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Turn Minor.sfz" Symbol="TurnSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Turn Inverted Major.sfz" Symbol="TurnInvertedWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Turn Inverted Minor.sfz" Symbol="TurnInvertedSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Bb - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="50"/>
+  <Articulation File="SFZ\Clarinet in Bb - Scoop.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Clarinet in Bb - Gliss Up.sfz" Symbol="Doit" ForNote="g4|g6" SetDuration="75"/>
+  <!-- Realtime -->
+  <Articulation File="SFZ\Clarinet in Bb - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.reed.clarinet.bflat"/>
+  <MPE InstrumentSound="winds.clarinet.soprano:in_b_flat"/>
+</Instrument>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Keys" Category="Muse Keys" DefaultStaffType="GRAND" Volume="0" Reverb="30.0" FriendlyName="Hammond Organ" Abbreviation="B3 Organ" Pan="0" MixerEffectsGroup="keys">
+  <Preset Name="Vibrato On">
+    <SamplerEffect>
+      <Processor Name="Rotary">
+        <Param Name="Frequency" Value="7.27"/>
+        <Param Name="FilterAmount" Value="17.49"/>
+        <Param Name="VolumePhase" Value="19.56"/>
+        <Param Name="FilterPhase" Value="54.53"/>
+        <Param Name="PitchAmount" Value="3.46"/>
+        <Param Name="PitchPhase" Value="23.97"/>
+        <Param Name="StereoPhase" Value="185.89"/>
+        <Param Name="WetLowCut" Value="17.41"/>
+        <Param Name="DryLevel" Value="-60"/>
+        <Param Name="WetLevel" Value="0.57"/>
+      </Processor>
+      <Processor Name="Doubler">
+        <Param Name="DetuneL" Value="20"/>
+        <Param Name="DetuneR" Value="-20"/>
+      </Processor>
+      <Processor Name="LowHighCut">
+        <Param Name="HighCut" Value="3500"/>
+        <Param Name="SteepSlope" Value="1"/>
+      </Processor>
+    </SamplerEffect>
+    <Articulation File="SFZ\Hammond Organ Vib On.sfz" Class="Sustain"/>
+  </Preset>
+  <Preset Name="Vibrato Off">
+    <Articulation File="SFZ\Hammond Organ Vib Off.sfz" Class="Sustain"/>
+  </Preset>
+  <MusicXML InstrumentSound="keyboard.organ.drawbar"/>
+  <MPE InstrumentSound="keyboards.organ.hammond"/>
+</Instrument>

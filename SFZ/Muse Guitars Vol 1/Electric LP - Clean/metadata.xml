@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Guitars Vol. 1" Category="Muse Guitars Vol 1" BracketGroup="Guitars" Reverb="40" FriendlyName="Electric LP - Clean" Abbreviation="E. Gtr." InsertableSymbols="OpenHarmonic|Mute">
+  <StaffPad>
+    <Transposition ImplicitOctaves="-1" TransposeOctaves="-1" />
+    <Instrument Vendor="Muse" Pack="Muse Guitars Vol. 1" Category="Muse Guitars Vol 1" BracketGroup="Guitars" DefaultStaffType="STANDARD" Reverb="40" DefaultClef="LowerOctaveTreble" FriendlyName="Electric LP - Clean" Abbreviation="E. Gtr." InsertableSymbols="OpenHarmonic|Mute">
+      <!-- Long Notes -->
+      <Articulation File="SFZ\Electric LP - Legato Control.sfz" Symbol="glissando" Class="Sustain" />
+      <Articulation File="SFZ\Electric LP - Tremolo.sfz" Symbol="Tremolo3" OffsetStart="10" />
+      <Articulation File="SFZ\Electric LP - Harmonics.sfz" Class="Harmonics" OffsetStart="10" />
+      <!-- Quick repetitions -->
+      <Articulation File="SFZ\Electric LP - Staccato.sfz" ForRepetition="|150ms" OffsetStart="10" />
+      <Articulation File="SFZ\Electric LP - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="10" />
+      <!-- Short Notes -->
+      <Articulation File="SFZ\Electric LP - Staccato.sfz" Class="Staccato" OffsetStart="10" />
+      <Articulation File="SFZ\Electric LP - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="10" />
+      <Articulation File="SFZ\Electric LP - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="10" />
+      <Articulation File="SFZ\Electric LP - Palm Mute.sfz" Symbol="Text" Name="Palm Mute|P.M.|PM|Hand Mute|Chug" OffsetStart="10" />
+      <Articulation File="SFZ\Electric LP - Mute.sfz" Symbol="Mute" OffsetStart="10" />
+      <Articulation File="SFZ\Electric LP - Mute.sfz" Symbol="X" OffsetStart="10" />
+      <!-- Ornaments -->
+      <Articulation File="SFZ\Electric LP - Plop.sfz" Symbol="Plop" OffsetStart="10" />
+      <Articulation File="SFZ\Electric LP - Scoop.sfz" Symbol="Scoop" OffsetStart="10" />
+      <Articulation File="SFZ\Electric LP - Doit.sfz" Symbol="Doit" OffsetStart="10" />
+      <Articulation File="SFZ\Electric LP - Fall.sfz" Symbol="Fall" OffsetStart="10" />
+      <Articulation File="SFZ\Electric LP - Half Trill.sfz" Symbol="Trill" ForInterval="1" OffsetStart="10" />
+      <Articulation File="SFZ\Electric LP - Whole Trill.sfz" Symbol="Trill" ForInterval="2" OffsetStart="10" />
+      <MusicXML InstrumentSound="pluck.guitar.electric" />
+    </Instrument>
+  </StaffPad>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Electric LP - Legato Control.sfz" Symbol="glissando" Class="Sustain" />
+  <Articulation File="SFZ\Electric LP - Tremolo.sfz" Symbol="Tremolo3" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Harmonics.sfz" Class="Harmonics" OffsetStart="10" />
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Electric LP - Staccato.sfz" ForRepetition="|150ms" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="10" />
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Electric LP - Staccato.sfz" Class="Staccato" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Palm Mute.sfz" Symbol="PalmMute" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Mute.sfz" Symbol="Mute" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Mute.sfz" Symbol="X" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Mute.sfz" Symbol="PalmMute" OffsetStart="10" />
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Electric LP - Plop.sfz" Symbol="Plop" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Scoop.sfz" Symbol="Scoop" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Doit.sfz" Symbol="Doit" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Fall.sfz" Symbol="Fall" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Half Trill.sfz" Symbol="Trill" ForInterval="1" OffsetStart="10" />
+  <Articulation File="SFZ\Electric LP - Whole Trill.sfz" Symbol="Trill" ForInterval="2" OffsetStart="10" />
+  <MusicXML InstrumentSound="pluck.guitar.electric" />
+  <MPE InstrumentSound="strings.guitar.plucked:electric" />
+</Instrument>

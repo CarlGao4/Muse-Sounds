@@ -1,0 +1,3 @@
+SFZ\Shaker 1.sfz
+SFZ\Shaker 2.sfz
+SFZ\Shaker 3.sfz

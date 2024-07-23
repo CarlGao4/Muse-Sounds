@@ -1,0 +1,22 @@
+SFZ\Clarinet in Eb - Bends Up.sfz
+SFZ\Clarinet in Eb - Fall.sfz
+SFZ\Clarinet in Eb - Flatter.sfz
+SFZ\Clarinet in Eb - Legato Control.sfz
+SFZ\Clarinet in Eb - Legato Intervals Fast.sfz
+SFZ\Clarinet in Eb - Legato Intervals.sfz
+SFZ\Clarinet in Eb - Mordent Inverted Major.sfz
+SFZ\Clarinet in Eb - Mordent Inverted Minor.sfz
+SFZ\Clarinet in Eb - Mordent Major.sfz
+SFZ\Clarinet in Eb - Mordent Minor.sfz
+SFZ\Clarinet in Eb - Realtime.sfz
+SFZ\Clarinet in Eb - Staccatissimo.sfz
+SFZ\Clarinet in Eb - Staccato.sfz
+SFZ\Clarinet in Eb - Sustain Accent.sfz
+SFZ\Clarinet in Eb - Sustain Vibrato.sfz
+SFZ\Clarinet in Eb - Sustain.sfz
+SFZ\Clarinet in Eb - Trill Half.sfz
+SFZ\Clarinet in Eb - Trill Whole.sfz
+SFZ\Clarinet in Eb - Turn Inverted Major.sfz
+SFZ\Clarinet in Eb - Turn Inverted Minor.sfz
+SFZ\Clarinet in Eb - Turn Major.sfz
+SFZ\Clarinet in Eb - Turn Minor.sfz

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Name="Shaker" FriendlyName="Shaker" Abbreviation="Shk." Category="Muse Percussion" BracketGroup="Percussion" StaffLines="1" DefaultClef="PERCUSSION">
+  <Preset Name="Shaker 1">
+    <Articulation File="SFZ\Shaker 1.sfz" Class="Sustain" SetNote="c4" OffsetStart="30"/>
+    <Articulation File="SFZ\Shaker 1.sfz" Class="Tremolo" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Shaker 1.sfz" Symbol="Trill" ForInterval="1" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Shaker 1.sfz" Symbol="Trill" ForInterval="2" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Shaker 1.sfz" Class="Sustain" Symbol="Accent" SetNote="c4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Shaker 1.sfz" Class="Tremolo" Symbol="Accent" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Shaker 1.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Shaker 1.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Shaker 1.sfz" Class="Sustain" Symbol="Marcato" SetNote="c4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Shaker 1.sfz" Class="Tremolo" Symbol="Marcato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Shaker 1.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Shaker 1.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <Preset Name="Shaker 2">
+    <Articulation File="SFZ\Shaker 2.sfz" Class="Sustain" SetNote="c4" OffsetStart="30"/>
+    <Articulation File="SFZ\Shaker 2.sfz" Class="Tremolo" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Shaker 2.sfz" Symbol="Trill" ForInterval="1" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Shaker 2.sfz" Symbol="Trill" ForInterval="2" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Shaker 2.sfz" Class="Sustain" Symbol="Accent" SetNote="c4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Shaker 2.sfz" Class="Tremolo" Symbol="Accent" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Shaker 2.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Shaker 2.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Shaker 2.sfz" Class="Sustain" Symbol="Marcato" SetNote="c4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Shaker 2.sfz" Class="Tremolo" Symbol="Marcato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Shaker 2.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Shaker 2.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <Preset Name="Shaker 3">
+    <Articulation File="SFZ\Shaker 3.sfz" Class="Sustain" SetNote="c4" OffsetStart="30"/>
+    <Articulation File="SFZ\Shaker 3.sfz" Class="Tremolo" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Shaker 3.sfz" Symbol="Trill" ForInterval="1" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Shaker 3.sfz" Symbol="Trill" ForInterval="2" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Shaker 3.sfz" Class="Sustain" Symbol="Accent" SetNote="c4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Shaker 3.sfz" Class="Tremolo" Symbol="Accent" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Shaker 3.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Shaker 3.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Shaker 3.sfz" Class="Sustain" Symbol="Marcato" SetNote="c4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Shaker 3.sfz" Class="Tremolo" Symbol="Marcato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Shaker 3.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Shaker 3.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <MusicXML ExportTranspose="20" InstrumentSound="rattle.shaker"/>
+  <MPE InstrumentSound="percussions.shaker"/>
+  <MuseScore Drumset="Shaker.drm"/>
+</Instrument>

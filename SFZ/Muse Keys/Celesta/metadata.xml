@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Keys" Category="Muse Keys" DefaultStaffType="GRAND" Reverb="30.0" FriendlyName="Celesta" Abbreviation="Cel." MixerEffectsGroup="keys">
+  <Transposition TransposeOctaves="1"/>
+  <!-- DSP -->
+  <SamplerEffect>
+    <Processor Name="LowHighCut">
+      <Param Name="LowCut" Value="630.25"/>
+    </Processor>
+  </SamplerEffect>
+  <!-- Articulation -->
+  <Articulation File="SFZ\Celesta.sfz" Class="Sustain"/>
+  <!-- Export -->
+  <MusicXML InstrumentSound="keyboard.celesta"/>
+  <MPE InstrumentSound="keyboards.celesta"/>
+</Instrument>

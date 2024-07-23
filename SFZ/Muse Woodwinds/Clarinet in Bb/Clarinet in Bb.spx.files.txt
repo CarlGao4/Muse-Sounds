@@ -1,0 +1,25 @@
+SFZ\Clarinet in Bb - Fall.sfz
+SFZ\Clarinet in Bb - Flatter.sfz
+SFZ\Clarinet in Bb - Gliss Up.sfz
+SFZ\Clarinet in Bb - Legato Control.sfz
+SFZ\Clarinet in Bb - Legato Intervals Fast.sfz
+SFZ\Clarinet in Bb - Legato Intervals.sfz
+SFZ\Clarinet in Bb - Mordent Inverted Major.sfz
+SFZ\Clarinet in Bb - Mordent Inverted Minor.sfz
+SFZ\Clarinet in Bb - Mordent Major.sfz
+SFZ\Clarinet in Bb - Mordent Minor.sfz
+SFZ\Clarinet in Bb - Multiphonics.sfz
+SFZ\Clarinet in Bb - Realtime.sfz
+SFZ\Clarinet in Bb - Scoop.sfz
+SFZ\Clarinet in Bb - Singing.sfz
+SFZ\Clarinet in Bb - Staccatissimo.sfz
+SFZ\Clarinet in Bb - Staccato.sfz
+SFZ\Clarinet in Bb - Sustain Accent.sfz
+SFZ\Clarinet in Bb - Sustain Vibrato.sfz
+SFZ\Clarinet in Bb - Sustain.sfz
+SFZ\Clarinet in Bb - Trill Half.sfz
+SFZ\Clarinet in Bb - Trill Whole.sfz
+SFZ\Clarinet in Bb - Turn Inverted Major.sfz
+SFZ\Clarinet in Bb - Turn Inverted Minor.sfz
+SFZ\Clarinet in Bb - Turn Major.sfz
+SFZ\Clarinet in Bb - Turn Minor.sfz

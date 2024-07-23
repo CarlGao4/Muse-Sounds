@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" StaffLines="1" DefaultNotehead="X" Reverb="40.0" Pan="0" DefaultClef="PERCUSSION" FriendlyName="Bell Tree" Abbreviation="B. Tr.">
+  <!--Articulation-->
+  <Articulation File="SFZ\Bell Tree - Gliss Down.sfz" Class="Sustain" ForDuration="|4" SetNote="C3" OffsetStart="600" />
+  <Articulation File="SFZ\Bell Tree - Gliss Down.sfz" Class="Sustain" ForDuration="4|8" SetNote="D3" OffsetStart="600" />
+  <Articulation File="SFZ\Bell Tree - Gliss Down.sfz" Class="Sustain" ForDuration="8|" SetNote="C3" OffsetStart="600" />
+  <Articulation File="SFZ\Bell Tree - Hits.sfz" Class="Staccato" OffsetStart="30" />
+  <Articulation File="SFZ\Bell Tree - Rolls.sfz" Class="Tremolo" />
+  <!--Arp symbols-->
+  <Articulation File="SFZ\Bell Tree - Gliss Up.sfz" Symbol="ArpeggioUp" ForDuration="|4" SetNote="E3" OffsetStart="600" />
+  <Articulation File="SFZ\Bell Tree - Gliss Up.sfz" Symbol="ArpeggioUp" ForDuration="4|8" SetNote="D3" OffsetStart="600" />
+  <Articulation File="SFZ\Bell Tree - Gliss Up.sfz" Symbol="ArpeggioUp" ForDuration="8|" SetNote="C3" OffsetStart="600" />
+  <Articulation File="SFZ\Bell Tree - Gliss Down.sfz" Symbol="ArpeggioDown" ForDuration="|4" SetNote="C3" OffsetStart="600" />
+  <Articulation File="SFZ\Bell Tree - Gliss Down.sfz" Symbol="ArpeggioDown" ForDuration="4|8" SetNote="D3" OffsetStart="600" />
+  <Articulation File="SFZ\Bell Tree - Gliss Down.sfz" Symbol="ArpeggioDown" ForDuration="8|" SetNote="C3" OffsetStart="600" />
+  <!-- Export -->
+  <MusicXML ExportTranspose="20" InstrumentSound="metal.bells.bell-tree" />
+  <MPE InstrumentSound="percussions.bell_tree.metal" />
+  <MuseScore Drumset="Bell Tree.drm" />
+</Instrument>

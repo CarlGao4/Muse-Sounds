@@ -5,7 +5,10 @@ SFZ\Cimbasso - Legato Intervals.sfz
 SFZ\Cimbasso - Marcato Eighth.sfz
 SFZ\Cimbasso - Marcato Half.sfz
 SFZ\Cimbasso - Marcato Quarter.sfz
-SFZ\Cimbasso - Marcato Whole.sfzSFZ\Cimbasso - Rip.sfz
-SFZ\Cimbasso - Staccatissimo.sfzSFZ\Cimbasso - Staccato.sfz
+SFZ\Cimbasso - Marcato Whole.sfz
+SFZ\Cimbasso - Rip.sfz
+SFZ\Cimbasso - Staccatissimo.sfz
+SFZ\Cimbasso - Staccato.sfz
 SFZ\Cimbasso - Sustain Muted - Sim Staccato.sfz
-SFZ\Cimbasso - Sustain Muted.sfzSFZ\Cimbasso - Sustain.sfz
+SFZ\Cimbasso - Sustain Muted.sfz
+SFZ\Cimbasso - Sustain.sfz

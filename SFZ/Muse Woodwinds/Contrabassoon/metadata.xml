@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Woodwinds" Volume="-4" Reverb="50" DefaultClef="BASS" FriendlyName="Contrabassoon" Abbreviation="Cbsn.">
+  <Transposition ImplicitOctaves="-1" TransposeOctaves="-1"/>
+  <!-- DSP FX -->
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1"/>
+      <Param Name="Freq" Value="400"/>
+      <Param Name="Gain" Value="-9"/>
+    </Processor>
+  </SamplerEffect>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Contrabassoon - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Contrabassoon - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Contrabassoon - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Contrabassoon - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Staccato Accent.sfz" Symbol="Staccato|Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Contrabassoon - Mordent Major.sfz" Symbol="MordentWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Mordent Minor.sfz" Symbol="MordentSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Mordent Inverted Major.sfz" Symbol="MordentInvertedWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Mordent Inverted Minor.sfz" Symbol="MordentInvertedSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Turn Major.sfz" Symbol="TurnWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Turn Minor.sfz" Symbol="TurnSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Turn Inverted Major.sfz" Symbol="TurnInvertedWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Turn Inverted Minor.sfz" Symbol="TurnInvertedSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabassoon - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Contrabassoon - Effects.sfz" Symbol="Text" OffsetStart="30" Name="flaps|key clicks|effects"/>
+  <!-- Realtime -->
+  <Articulation File="SFZ\Contrabassoon - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.reed.contrabassoon"/>
+  <MPE InstrumentSound="winds.contrabassoon"/>
+</Instrument>

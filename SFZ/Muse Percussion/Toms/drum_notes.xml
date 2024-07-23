@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="4.20">
+  <Drum pitch="41">
+    <head>normal</head>
+    <line>6</line>
+    <voice>0</voice>
+    <name>Low Tom</name>
+    <stem>1</stem>
+    <shortcut>A</shortcut>
+    </Drum>
+  <Drum pitch="43">
+    <head>cross</head>
+    <line>6</line>
+    <voice>0</voice>
+    <name>Low Tom Rim</name>
+    <stem>1</stem>
+    </Drum>
+  <Drum pitch="45">
+    <head>normal</head>
+    <line>4</line>
+    <voice>0</voice>
+    <name>Mid Tom</name>
+    <stem>1</stem>
+    <shortcut>B</shortcut>
+    </Drum>
+  <Drum pitch="47">
+    <head>cross</head>
+    <line>4</line>
+    <voice>0</voice>
+    <name>Mid Tom Rim</name>
+    <stem>1</stem>
+    </Drum>
+  <Drum pitch="48">
+    <head>normal</head>
+    <line>2</line>
+    <voice>0</voice>
+    <name>High Tom</name>
+    <stem>1</stem>
+    <shortcut>C</shortcut>
+    </Drum>
+  <Drum pitch="50">
+    <head>cross</head>
+    <line>2</line>
+    <voice>0</voice>
+    <name>High Tom Rim</name>
+    <stem>1</stem>
+    </Drum>
+  </museScore>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="4.20">
+  <Drum pitch="48">
+    <head>normal</head>
+    <line>0</line>
+    <voice>0</voice>
+    <name>Taikos</name>
+    <shortcut>A</shortcut>
+    <stem>1</stem>
+    </Drum>
+  <Drum pitch="47">
+    <head>cross</head>
+    <line>0</line>
+    <voice>0</voice>
+    <name>Taikos Rim</name>
+    <stem>1</stem>
+    <shortcut>B</shortcut>
+    </Drum>
+  </museScore>

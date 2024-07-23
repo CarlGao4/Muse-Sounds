@@ -1,0 +1,4 @@
+SFZ\Glockenspiel - Hard Mallets - Sustain.sfz
+SFZ\Glockenspiel - Hard Mallets - Tremolo.sfz
+SFZ\Glockenspiel - Soft Mallets - Sustain.sfz
+SFZ\Glockenspiel - Soft Mallets - Tremolo.sfz

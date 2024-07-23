@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="4.20">
+  <Drum pitch="84">
+    <head>normal</head>
+    <line>0</line>
+    <voice>0</voice>
+    <name>Bell Tree</name>
+    <stem>1</stem>
+    <shortcut>A</shortcut>
+    </Drum>
+  </museScore>

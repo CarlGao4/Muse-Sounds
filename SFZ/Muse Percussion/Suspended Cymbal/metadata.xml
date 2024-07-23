@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" StaffLines="1" Volume="9" Reverb="20.0" DefaultClef="PERCUSSION" FriendlyName="Sus. Cymbal" Abbreviation="Cym." Pan="0">
+  <Preset Name="Large - Mallets">
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Hit.sfz" Class="Sustain" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Damped.sfz" Symbol="Mute" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Damped.sfz" Symbol="Staccato" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Damped.sfz" Symbol="Text" Name="secco|choke" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Roll.sfz" Class="Tremolo" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Roll.sfz" Symbol="Trill" ForInterval="1" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Roll.sfz" Symbol="Trill" ForInterval="2" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Hit.sfz" Class="Sustain" Symbol="Accent" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Damped.sfz" Symbol="Accent|Mute" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Damped.sfz" Symbol="Accent|Staccato" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Damped.sfz" Symbol="Accent|Text" Name="secco|choke" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Roll.sfz" Class="Tremolo" Symbol="Accent" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Roll.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Roll.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Hit.sfz" Class="Sustain" Symbol="Marcato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Damped.sfz" Symbol="Marcato|Mute" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Damped.sfz" Symbol="Marcato|Staccato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Damped.sfz" Symbol="Marcato|Text" Name="secco|choke" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Roll.sfz" Class="Tremolo" Symbol="Marcato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Roll.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Mallets - Roll.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <Preset Name="Large - Sticks">
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Hit.sfz" Class="Sustain" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Damped.sfz" Symbol="Mute" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Damped.sfz" Symbol="Staccato" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Damped.sfz" Symbol="Text" Name="secco|choke" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Roll.sfz" Class="Tremolo" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Roll.sfz" Symbol="Trill" ForInterval="1" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Roll.sfz" Symbol="Trill" ForInterval="2" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Hit.sfz" Class="Sustain" Symbol="Accent" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Damped.sfz" Symbol="Accent|Mute" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Damped.sfz" Symbol="Accent|Staccato" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Damped.sfz" Symbol="Accent|Text" Name="secco|choke" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Roll.sfz" Class="Tremolo" Symbol="Accent" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Roll.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Roll.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Hit.sfz" Class="Sustain" Symbol="Marcato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Damped.sfz" Symbol="Marcato|Mute" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Damped.sfz" Symbol="Marcato|Staccato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Damped.sfz" Symbol="Marcato|Text" Name="secco|choke" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Roll.sfz" Class="Tremolo" Symbol="Marcato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Roll.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Large - Sticks - Roll.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <Preset Name="Small - Mallets">
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Hit.sfz" Class="Sustain" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Damped.sfz" Symbol="Mute" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Damped.sfz" Symbol="Staccato" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Damped.sfz" Symbol="Text" Name="secco|choke" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Roll.sfz" Class="Tremolo" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Roll.sfz" Symbol="Trill" ForInterval="1" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Roll.sfz" Symbol="Trill" ForInterval="2" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Hit.sfz" Class="Sustain" Symbol="Accent" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Damped.sfz" Symbol="Accent|Mute" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Damped.sfz" Symbol="Accent|Staccato" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Damped.sfz" Symbol="Accent|Text" Name="secco|choke" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Roll.sfz" Class="Tremolo" Symbol="Accent" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Roll.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Roll.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Hit.sfz" Class="Sustain" Symbol="Marcato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Damped.sfz" Symbol="Marcato|Mute" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Damped.sfz" Symbol="Marcato|Staccato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Damped.sfz" Symbol="Marcato|Text" Name="secco|choke" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Roll.sfz" Class="Tremolo" Symbol="Marcato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Roll.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Mallets - Roll.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <Preset Name="Small - Sticks">
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Hit.sfz" Class="Sustain" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Damped.sfz" Symbol="Mute" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Damped.sfz" Symbol="Staccato" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Damped.sfz" Symbol="Text" Name="secco|choke" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Roll.sfz" Class="Tremolo" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Roll.sfz" Symbol="Trill" ForInterval="1" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Roll.sfz" Symbol="Trill" ForInterval="2" SetNote="d4" OffsetStart="30"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Hit.sfz" Class="Sustain" Symbol="Accent" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Damped.sfz" Symbol="Accent|Mute" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Damped.sfz" Symbol="Accent|Staccato" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Damped.sfz" Symbol="Accent|Text" Name="secco|choke" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Roll.sfz" Class="Tremolo" Symbol="Accent" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Roll.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Roll.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Hit.sfz" Class="Sustain" Symbol="Marcato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Damped.sfz" Symbol="Marcato|Mute" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Damped.sfz" Symbol="Marcato|Staccato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Damped.sfz" Symbol="Marcato|Text" Name="secco|choke" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Roll.sfz" Class="Tremolo" Symbol="Marcato" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Roll.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Suspended Cymbal - Small - Sticks - Roll.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="d4" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <MusicXML ExportTranspose="20" InstrumentSound="metal.cymbal.crash"/>
+  <MPE InstrumentSound="percussions.cymbal.crash:metal"/>
+  <MuseScore Drumset="Suspended Cymbal.drm"/>
+</Instrument>

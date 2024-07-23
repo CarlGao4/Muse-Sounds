@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Strings" Category="Muse Strings" BracketGroup="Strings" Volume="-9" Reverb="30" DefaultClef="ALTO" FriendlyName="Viola (Solo)" Abbreviation="Vla." InsertableSymbols="Bow|OpenHarmonic|Mute|Pizz">
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Viola Solo - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Viola Solo - Tenuto - Eighth.sfz" Class="Sustain" ForDuration="|150ms"/>
+  <Articulation File="SFZ\Viola Solo - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Sustain Sul Ponticello.sfz" Symbol="Text" Name="Sul Ponticello" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Sustain Sul Tasto.sfz" Symbol="Text" Name="Sul Tasto" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Sustain Harmonic.sfz" Class="Harmonics" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Sustain Marcato.sfz" Symbol="Marcato" Name="marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Sustain Marcato.sfz" Symbol="Accent" Name="accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Tremolo.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Trill Minor 3rd.sfz" Symbol="Trill" ForInterval="3" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Trill Major 3rd.sfz" Symbol="Trill" ForInterval="4" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Trill Perfect 4th.sfz" Symbol="Trill" ForInterval="5" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Trill Diminished 5th.sfz" Symbol="Trill" ForInterval="6" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Trill Perfect 5th.sfz" Symbol="Trill" ForInterval="7" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Fall.sfz" Symbol="Fall" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Sustain Fall.sfz" Symbol="Fall" ForDuration="|500ms" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Viola Solo - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Viola Solo - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Staccatissimo.sfz" Class="Staccato_Faster" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Tenuto - Eighth.sfz" Symbol="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Tenuto - Quarter.sfz" Symbol="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Tenuto - Half.sfz" Symbol="Accent" ForDuration="1000ms|1500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Pizzicato.sfz" Class="Pizzicato" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Pizzicato Snap.sfz" Class="Bartok" OffsetStart="30"/>
+  <Articulation File="SFZ\Viola Solo - Col Legno.sfz" Symbol="Text" Name="Col Legno" OffsetStart="30"/>
+  <!-- Realtime Input Articulation -->
+  <Articulation File="SFZ\Viola Solo - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="strings.viola"/>
+  <MPE InstrumentSound="strings.viola.orchestral"/>
+</Instrument>

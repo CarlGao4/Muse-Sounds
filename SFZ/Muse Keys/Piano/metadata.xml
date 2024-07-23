@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Instrument Category="Muse Keys" BracketGroup="None" DefaultStaffType="GRAND" Reverb="15" FriendlyName="Grand Piano" Abbreviation="Pno." MixerEffectsGroup="keys">
+<Instrument Vendor="Muse" Pack="Muse Keys" Category="Muse Keys" BracketGroup="None" DefaultStaffType="GRAND" Reverb="15" FriendlyName="Grand Piano" Abbreviation="Pno." MixerEffectsGroup="keys">
   <Preset Name="Studio">
     <SamplerEffect>
       <Processor Name="ParametricEqBand">

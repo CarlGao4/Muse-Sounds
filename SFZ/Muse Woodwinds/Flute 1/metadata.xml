@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Woodwinds" Volume="-6" Reverb="40" FriendlyName="Flute 1" Abbreviation="Fl. 1" InsertableSymbols="OpenHarmonic|Mute">
+  <!-- DSP FX-->
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1"/>
+      <Param Name="Freq" Value="800"/>
+      <Param Name="Gain" Value="-6"/>
+    </Processor>
+  </SamplerEffect>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Flute 1 - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Flute 1 - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Sustain Overblown.sfz" Symbol="Text" Name="overblown" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Sustain Accent.sfz" Symbol="Accent" Name="accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Sustain Marcato.sfz" Symbol="Marcato" Name="marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Flatter Harmonic.sfz" Symbol="Tremolo3|Harmonics" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Harmonic.sfz" Symbol="Harmonics" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Flute 1 - Staccato.sfz" ForRepetition="|150ms" OffsetStart="10"/>
+  <Articulation File="SFZ\Flute 1 - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="10"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Flute 1 - Staccato.sfz" Class="Staccato" OffsetStart="10"/>
+  <Articulation File="SFZ\Flute 1 - Staccato Overblown.sfz" Symbol="staccato|text" Name="overblown" OffsetStart="10"/>
+  <Articulation File="SFZ\Flute 1 - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="10"/>
+  <Articulation File="SFZ\Flute 1 - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="10"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Flute 1 - Mordent Major.sfz" Symbol="MordentWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Mordent Minor.sfz" Symbol="MordentSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Mordent Inverted Major.sfz" Symbol="MordentInvertedWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Mordent Inverted Minor.sfz" Symbol="MordentInvertedSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Turn Major.sfz" Symbol="TurnWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Turn Minor.sfz" Symbol="TurnSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Turn Inverted Major.sfz" Symbol="TurnInvertedWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Turn Inverted Minor.sfz" Symbol="TurnInvertedSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Flute 1 - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <!-- Special -->
+  <Articulation File="SFZ\Flute 1 - Breath.sfz" Symbol="BreathMark" OffsetStart="80"/>
+  <!--   Realtime Art -->
+  <Articulation File="SFZ\Flute 1 - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.flutes.flute"/>
+  <MPE InstrumentSound="winds.flute.primary"/>
+</Instrument>

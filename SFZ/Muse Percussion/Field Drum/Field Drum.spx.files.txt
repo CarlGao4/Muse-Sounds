@@ -1,0 +1,4 @@
+SFZ\Field Drum - Snare Off - Hits.sfz
+SFZ\Field Drum - Snare Off - Rolls.sfz
+SFZ\Field Drum - Snare On - Hits.sfz
+SFZ\Field Drum - Snare On - Rolls.sfz

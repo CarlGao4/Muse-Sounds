@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Instrument Category="Muse Choir" BracketGroup="Voices" Name="Women" Reverb="30" DefaultClef="TREBLE" FriendlyName="Women" Abbreviation="Women" InsertableSymbols="">
+<Instrument Vendor="Muse" Pack="Muse Choir" Category="Muse Choir" BracketGroup="Voices" Name="Women" Reverb="30" DefaultClef="TREBLE" FriendlyName="Women" Abbreviation="Women" InsertableSymbols="">
  
   <StaffPad>
-<Instrument Category="Muse Choir" BracketGroup="Voices" Name="Women" Reverb="30" DefaultClef="TREBLE" FriendlyName="Women" Abbreviation="Women" InsertableSymbols="">  
+<Instrument Vendor="Muse" Pack="Muse Choir" Category="Muse Choir" BracketGroup="Voices" Name="Women" Reverb="30" DefaultClef="TREBLE" FriendlyName="Women" Abbreviation="Women" InsertableSymbols="">  
   <!--Default - Ahh -->
   <Articulation File="..\Altos\SFZ\Altos - Ahh - Legato Control.sfz" Class="Sustain" ForNote="d3|g4" />
   <!--Lyric - Ahh -->

@@ -1,0 +1,22 @@
+SFZ\Alto Flute - Fall.sfz
+SFZ\Alto Flute - Flatter.sfz
+SFZ\Alto Flute - Legato Control.sfz
+SFZ\Alto Flute - Legato Intervals Fast.sfz
+SFZ\Alto Flute - Legato Intervals.sfz
+SFZ\Alto Flute - Mordent Inverted Major.sfz
+SFZ\Alto Flute - Mordent Inverted Minor.sfz
+SFZ\Alto Flute - Mordent Major.sfz
+SFZ\Alto Flute - Mordent Minor.sfz
+SFZ\Alto Flute - Realtime.sfz
+SFZ\Alto Flute - Staccatissimo.sfz
+SFZ\Alto Flute - Staccato Overblown.sfz
+SFZ\Alto Flute - Staccato.sfz
+SFZ\Alto Flute - Sustain Nonvib.sfz
+SFZ\Alto Flute - Sustain Overblown.sfz
+SFZ\Alto Flute - Sustain.sfz
+SFZ\Alto Flute - Trill Half.sfz
+SFZ\Alto Flute - Trill Whole.sfz
+SFZ\Alto Flute - Turn Inverted Major.sfz
+SFZ\Alto Flute - Turn Inverted Minor.sfz
+SFZ\Alto Flute - Turn Major.sfz
+SFZ\Alto Flute - Turn Minor.sfz

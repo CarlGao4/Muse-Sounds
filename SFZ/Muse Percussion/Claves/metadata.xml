@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" Reverb="40.0" DefaultClef="PERCUSSION" FriendlyName="Claves" StaffLines="1" DefaultNotehead="X" Abbreviation="Clv.">
+  <Articulation File="SFZ\Claves.sfz" Class="Sustain" SetNote="c4"/>
+  <Articulation File="SFZ\Claves.sfz" Symbol="Accent" SetNote="c4" SetVelocity="+13" SetDynamics="130"/>
+  <Articulation File="SFZ\Claves.sfz" Symbol="Marcato" SetNote="c4" SetVelocity="+15" SetDynamics="150"/>
+  <MusicXML ExportTranspose="20" InstrumentSound="wood.claves"/>
+  <MPE InstrumentSound="percussions.claves.wooden"/>
+  <MuseScore Drumset="Claves.drm" />
+</Instrument>

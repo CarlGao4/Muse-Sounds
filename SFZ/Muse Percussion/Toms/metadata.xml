@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" StaffLines="3" Reverb="40.0" DefaultClef="PERCUSSION" FriendlyName="Toms" Abbreviation="Toms">
+  <StaffPad>
+    <Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" StaffLines="3" Reverb="40.0" DefaultClef="PERCUSSION" FriendlyName="Toms" Abbreviation="Toms">
+      <!-- Small Tom -->
+      <Articulation ForNote="f3|c4" File="SFZ\Toms - Hits.sfz" Class="Sustain" SetNote="e4" />
+      <Articulation ForNote="f3|c4" File="SFZ\Toms - Rolls.sfz" Class="Tremolo" SetNote="d#3" />
+      <Articulation ForNote="f3|c4" File="SFZ\Toms - Hits.sfz" Symbol="X" SetNote="c#4" />
+      <!-- Medium Tom -->
+      <Articulation ForNote="c3|e3" File="SFZ\Toms - Hits.sfz" Class="Sustain" SetNote="d#4" />
+      <Articulation ForNote="d3|e3" File="SFZ\Toms - Rolls.sfz" Class="Tremolo" SetNote="d3" />
+      <Articulation ForNote="d3|e3" File="SFZ\Toms - Hits.sfz" Symbol="X" SetNote="c4" />
+      <!-- Large Tom -->
+      <Articulation ForNote="g2|b2" File="SFZ\Toms - Hits.sfz" Class="Sustain" SetNote="d4" />
+      <Articulation ForNote="g2|b2" File="SFZ\Toms - Rolls.sfz" Class="Tremolo" SetNote="c#3" />
+      <Articulation ForNote="g2|b2" File="SFZ\Toms - Hits.sfz" Symbol="X" SetNote="b3" />
+      <MusicXML ExportTranspose="20" InstrumentSound="drum.tom-tom" />
+      <MPE InstrumentSound="percussions.tom_toms" />
+    </Instrument>
+  </StaffPad>
+  <!-- Small Tom -->
+  <Articulation ForNote="c3" File="SFZ\Toms - Hits.sfz" Class="Sustain" SetNote="e4" />
+  <Articulation ForNote="c3" File="SFZ\Toms - Rolls.sfz" Class="Tremolo" SetNote="d#3" />
+  <Articulation ForNote="c3" File="SFZ\Toms - Rolls.sfz" Symbol="Trill" ForInterval="1" SetNote="d#3" />
+  <Articulation ForNote="c3" File="SFZ\Toms - Rolls.sfz" Symbol="Trill" ForInterval="2" SetNote="d#3" />
+  <Articulation ForNote="d3" File="SFZ\Toms - Hits.sfz" Symbol="X" SetNote="c#4" />
+  <Articulation ForNote="c3" File="SFZ\Toms - Hits.sfz" Symbol="Accent" SetNote="e4" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="c3" File="SFZ\Toms - Rolls.sfz" Class="Tremolo" Symbol="Accent" SetNote="d#3" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="c3" File="SFZ\Toms - Rolls.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="d#3" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="c3" File="SFZ\Toms - Rolls.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="d#3" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="d3" File="SFZ\Toms - Hits.sfz" Symbol="Accent|X" SetNote="c#4" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="c3" File="SFZ\Toms - Hits.sfz" Symbol="Marcato" SetNote="e4" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation ForNote="c3" File="SFZ\Toms - Rolls.sfz" Class="Tremolo" Symbol="Marcato" SetNote="d#3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation ForNote="c3" File="SFZ\Toms - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="d#3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation ForNote="c3" File="SFZ\Toms - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="d#3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation ForNote="d3" File="SFZ\Toms - Hits.sfz" Symbol="Marcato|X" SetNote="c#4" SetVelocity="+15" SetDynamics="150"/>
+  <!-- Medium Tom -->
+  <Articulation ForNote="a2" File="SFZ\Toms - Hits.sfz" Class="Sustain" SetNote="d#4" />
+  <Articulation ForNote="a2" File="SFZ\Toms - Rolls.sfz" Class="Tremolo" SetNote="d3" />
+  <Articulation ForNote="a2" File="SFZ\Toms - Rolls.sfz" Symbol="Trill" ForInterval="1" SetNote="d3" />
+  <Articulation ForNote="a2" File="SFZ\Toms - Rolls.sfz" Symbol="Trill" ForInterval="2" SetNote="d3" />
+  <Articulation ForNote="b2" File="SFZ\Toms - Hits.sfz" Symbol="X" SetNote="c4" />
+  <Articulation ForNote="a2" File="SFZ\Toms - Hits.sfz" Symbol="Accent" SetNote="d#4" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="a2" File="SFZ\Toms - Rolls.sfz" Class="Tremolo" Symbol="Accent" SetNote="d3" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="a2" File="SFZ\Toms - Rolls.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="d3" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="a2" File="SFZ\Toms - Rolls.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="d3" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="b2" File="SFZ\Toms - Hits.sfz" Symbol="Accent|X" SetNote="c4" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="a2" File="SFZ\Toms - Hits.sfz" Symbol="Marcato" SetNote="d#4" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation ForNote="a2" File="SFZ\Toms - Rolls.sfz" Class="Tremolo" Symbol="Marcato" SetNote="d3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation ForNote="a2" File="SFZ\Toms - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="d3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation ForNote="a2" File="SFZ\Toms - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="d3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation ForNote="b2" File="SFZ\Toms - Hits.sfz" Symbol="Marcato|X" SetNote="c4" SetVelocity="+15" SetDynamics="150"/>
+  <!-- Large Tom -->
+  <Articulation ForNote="f2" File="SFZ\Toms - Hits.sfz" Class="Sustain" SetNote="d4" />
+  <Articulation ForNote="f2" File="SFZ\Toms - Rolls.sfz" Class="Tremolo" SetNote="c#3" />
+  <Articulation ForNote="f2" File="SFZ\Toms - Rolls.sfz" Symbol="Trill" ForInterval="1" SetNote="c#3" />
+  <Articulation ForNote="f2" File="SFZ\Toms - Rolls.sfz" Symbol="Trill" ForInterval="2" SetNote="c#3" />
+  <Articulation ForNote="g2" File="SFZ\Toms - Hits.sfz" Symbol="X" SetNote="b3" />
+  <Articulation ForNote="f2" File="SFZ\Toms - Hits.sfz" Symbol="Accent" SetNote="d4" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="f2" File="SFZ\Toms - Rolls.sfz" Class="Tremolo" Symbol="Accent" SetNote="c#3" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="f2" File="SFZ\Toms - Rolls.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="c#3" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="f2" File="SFZ\Toms - Rolls.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="c#3" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="g2" File="SFZ\Toms - Hits.sfz" Symbol="Accent|X" SetNote="b3" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation ForNote="f2" File="SFZ\Toms - Hits.sfz" Symbol="Marcato" SetNote="d4" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation ForNote="f2" File="SFZ\Toms - Rolls.sfz" Class="Tremolo" Symbol="Marcato" SetNote="c#3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation ForNote="f2" File="SFZ\Toms - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="c#3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation ForNote="f2" File="SFZ\Toms - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="c#3" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation ForNote="g2" File="SFZ\Toms - Hits.sfz" Symbol="Marcato|X" SetNote="b3" SetVelocity="+15" SetDynamics="150"/>
+  <MusicXML ExportTranspose="20" InstrumentSound="drum.tom-tom" />
+  <MPE InstrumentSound="percussions.tom_toms" />
+  <MuseScore Drumset="Toms.drm" />
+</Instrument>

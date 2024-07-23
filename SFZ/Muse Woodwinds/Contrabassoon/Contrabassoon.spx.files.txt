@@ -1,0 +1,20 @@
+SFZ\Contrabassoon - Effects.sfz
+SFZ\Contrabassoon - Fall.sfz
+SFZ\Contrabassoon - Legato Control.sfz
+SFZ\Contrabassoon - Legato Intervals.sfz
+SFZ\Contrabassoon - Mordent Inverted Major.sfz
+SFZ\Contrabassoon - Mordent Inverted Minor.sfz
+SFZ\Contrabassoon - Mordent Major.sfz
+SFZ\Contrabassoon - Mordent Minor.sfz
+SFZ\Contrabassoon - Realtime.sfz
+SFZ\Contrabassoon - Staccatissimo.sfz
+SFZ\Contrabassoon - Staccato Accent.sfz
+SFZ\Contrabassoon - Staccato.sfz
+SFZ\Contrabassoon - Sustain Nonvib.sfz
+SFZ\Contrabassoon - Sustain.sfz
+SFZ\Contrabassoon - Trill Half.sfz
+SFZ\Contrabassoon - Trill Whole.sfz
+SFZ\Contrabassoon - Turn Inverted Major.sfz
+SFZ\Contrabassoon - Turn Inverted Minor.sfz
+SFZ\Contrabassoon - Turn Major.sfz
+SFZ\Contrabassoon - Turn Minor.sfz

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Instrument Category="Muse Brass" BracketGroup="Brass" Volume="0" Reverb="40.0" Pan="0" DefaultClef="BASS" FriendlyName="Tuba" Abbreviation="Tuba" InsertableSymbols="Mute">
+<Instrument Vendor="Muse" Pack="Muse Brass" Category="Muse Brass" BracketGroup="Brass" Volume="0" Reverb="40.0" Pan="0" DefaultClef="BASS" FriendlyName="Tuba" Abbreviation="Tuba" InsertableSymbols="Mute">
 
   <StaffPad>
-<Instrument Category="Muse Brass" BracketGroup="Brass" Volume="0" Reverb="40.0" Pan="0" DefaultClef="BASS" FriendlyName="Tuba" Abbreviation="Tuba" InsertableSymbols="Mute">
+<Instrument Vendor="Muse" Pack="Muse Brass" Category="Muse Brass" BracketGroup="Brass" Volume="0" Reverb="40.0" Pan="0" DefaultClef="BASS" FriendlyName="Tuba" Abbreviation="Tuba" InsertableSymbols="Mute">
   <!-- Articulations -->
   <Articulation File="SFZ\Tuba - Legato Control.sfz" Class="Sustain"/>
   <Articulation File="SFZ\Tuba - Staccatissimo.sfz" Class="Sustain" ForDuration="|150ms" OffsetStart="30"/>

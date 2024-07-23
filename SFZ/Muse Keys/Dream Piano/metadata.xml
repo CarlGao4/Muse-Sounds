@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Keys" Category="Muse Keys" DefaultStaffType="GRAND" Volume="0" Reverb="10.0" FriendlyName="Dream Piano" Abbreviation="Pno" Pan="0" MixerEffectsGroup="keys">
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1.41"/>
+      <Param Name="Gain" Value="-9"/>
+      <Param Name="Freq" Value="300"/>
+    </Processor>
+    <Processor Name="Doubler">
+      <Param Name="PanL" Value="1"/>
+      <Param Name="PanR" Value="-1"/>
+      <Param Name="DetuneL" Value="10"/>
+      <Param Name="DetuneR" Value="-10"/>
+    </Processor>
+    <Processor Name="SyncDelay">
+      <Param Name="WetLevel" Value="20"/>
+      <Param Name="DelayL" Value="8"/>
+      <Param Name="FeedbackL" Value="20"/>
+      <Param Name="CrossfeedLtoR" Value="30"/>
+      <Param Name="CrossfeedRtoL" Value="30"/>
+      <Param Name="FeedbackR" Value="25"/>
+      <Param Name="LowpassL" Value="2000"/>
+      <Param Name="LowpassR" Value="2000"/>
+    </Processor>
+    <Processor Name="VfdnReverb">
+      <Param Name="ModAmp" Value="0.07"/>
+      <Param Name="PeakQ" Value="1.41"/>
+      <Param Name="VelvetOut" Value="1"/>
+      <Param Name="Quality" Value="4"/>
+      <Param Name="LateRoomScale" Value="3"/>
+      <Param Name="PeakGain" Value="-2"/>
+      <Param Name="PeakFreq" Value="500"/>
+      <Param Name="TimeHigh" Value="50"/>
+      <Param Name="PreDelay" Value="10"/>
+      <Param Name="LateLevel" Value="-25"/>
+      <Param Name="ERDirect" Value="-30"/>
+      <Param Name="ReverbTimeMs" Value="3000"/>
+      <Param Name="ModType" Value="1"/>
+      <Param Name="HighCut" Value="4000"/>
+      <Param Name="Stereo" Value="120"/>
+    </Processor>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="0.6"/>
+      <Param Name="Freq" Value="2514.5"/>
+      <Param Name="Gain" Value="9.3"/>
+    </Processor>
+  </SamplerEffect>
+  <Articulation File="SFZ\Dream Piano.sfz" Class="Sustain"/>
+  <MusicXML InstrumentSound="keyboard.piano.electric"/>
+  <MPE InstrumentSound="keyboards.piano.electric"/>
+</Instrument>

@@ -1,0 +1,4 @@
+SFZ\Taikos - Hit.sfz
+SFZ\Taikos - Rim Hit.sfz
+SFZ\Taikos - Rim Tremolo.sfz
+SFZ\Taikos - Tremolo.sfz

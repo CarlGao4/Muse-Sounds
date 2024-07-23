@@ -1,0 +1,18 @@
+SFZ\Alto Saxophone - Doit.sfz
+SFZ\Alto Saxophone - Fall.sfz
+SFZ\Alto Saxophone - Growl.sfz
+SFZ\Alto Saxophone - Legato Control.sfz
+SFZ\Alto Saxophone - Legato Intervals Fast.sfz
+SFZ\Alto Saxophone - Legato Intervals.sfz
+SFZ\Alto Saxophone - Plop.sfz
+SFZ\Alto Saxophone - Realtime.sfz
+SFZ\Alto Saxophone - Scoop.sfz
+SFZ\Alto Saxophone - Shake.sfz
+SFZ\Alto Saxophone - Staccatissimo.sfz
+SFZ\Alto Saxophone - Staccato Accent.sfz
+SFZ\Alto Saxophone - Staccato.sfz
+SFZ\Alto Saxophone - Sustain Accent.sfz
+SFZ\Alto Saxophone - Sustain Nonvib.sfz
+SFZ\Alto Saxophone - Sustain.sfz
+SFZ\Alto Saxophone - Trill Half.sfz
+SFZ\Alto Saxophone - Trill Whole.sfz

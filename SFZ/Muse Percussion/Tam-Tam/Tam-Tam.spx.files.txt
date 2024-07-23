@@ -1,0 +1,4 @@
+SFZ\Tam-Tam - Hard Mallet - Hits.sfz
+SFZ\Tam-Tam - Hard Mallet - Rolls.sfz
+SFZ\Tam-Tam - Soft Mallet - Hits.sfz
+SFZ\Tam-Tam - Soft Mallet - Rolls.sfz

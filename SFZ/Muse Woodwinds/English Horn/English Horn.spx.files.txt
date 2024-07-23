@@ -1,0 +1,21 @@
+SFZ\English Horn - Fall.sfz
+SFZ\English Horn - Flatter.sfz
+SFZ\English Horn - Legato Control.sfz
+SFZ\English Horn - Legato Intervals Fast.sfz
+SFZ\English Horn - Legato Intervals.sfz
+SFZ\English Horn - Mordent Inverted Major.sfz
+SFZ\English Horn - Mordent Inverted Minor.sfz
+SFZ\English Horn - Mordent Major.sfz
+SFZ\English Horn - Mordent Minor.sfz
+SFZ\English Horn - Realtime.sfz
+SFZ\English Horn - Staccatissimo.sfz
+SFZ\English Horn - Staccato.sfz
+SFZ\English Horn - Sustain Accent.sfz
+SFZ\English Horn - Sustain Nonvib.sfz
+SFZ\English Horn - Sustain.sfz
+SFZ\English Horn - Trill Half.sfz
+SFZ\English Horn - Trill Whole.sfz
+SFZ\English Horn - Turn Inverted Major.sfz
+SFZ\English Horn - Turn Inverted Minor.sfz
+SFZ\English Horn - Turn Major.sfz
+SFZ\English Horn - Turn Minor.sfz

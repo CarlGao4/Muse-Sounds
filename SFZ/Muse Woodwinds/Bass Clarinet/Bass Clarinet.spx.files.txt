@@ -1,0 +1,24 @@
+SFZ\Bass Clarinet - Fall.sfz
+SFZ\Bass Clarinet - Flatter.sfz
+SFZ\Bass Clarinet - Legato Control.sfz
+SFZ\Bass Clarinet - Legato Intervals Fast.sfz
+SFZ\Bass Clarinet - Legato Intervals.sfz
+SFZ\Bass Clarinet - Mordent Inverted Major.sfz
+SFZ\Bass Clarinet - Mordent Inverted Minor.sfz
+SFZ\Bass Clarinet - Mordent Major.sfz
+SFZ\Bass Clarinet - Mordent Minor.sfz
+SFZ\Bass Clarinet - Multiphonics.sfz
+SFZ\Bass Clarinet - Realtime.sfz
+SFZ\Bass Clarinet - Scoop.sfz
+SFZ\Bass Clarinet - Staccatissimo.sfz
+SFZ\Bass Clarinet - Staccato Accent.sfz
+SFZ\Bass Clarinet - Staccato.sfz
+SFZ\Bass Clarinet - Sustain Accent.sfz
+SFZ\Bass Clarinet - Sustain Vibrato.sfz
+SFZ\Bass Clarinet - Sustain.sfz
+SFZ\Bass Clarinet - Trill Half.sfz
+SFZ\Bass Clarinet - Trill Whole.sfz
+SFZ\Bass Clarinet - Turn Inverted Major.sfz
+SFZ\Bass Clarinet - Turn Inverted Minor.sfz
+SFZ\Bass Clarinet - Turn Major.sfz
+SFZ\Bass Clarinet - Turn Minor.sfz

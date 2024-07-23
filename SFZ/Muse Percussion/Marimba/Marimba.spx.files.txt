@@ -1,0 +1,4 @@
+SFZ\Marimba - Hard Mallets - Sustain.sfz
+SFZ\Marimba - Hard Mallets - Tremolo.sfz
+SFZ\Marimba - Soft Mallets - Sustain.sfz
+SFZ\Marimba - Soft Mallets - Tremolo.sfz

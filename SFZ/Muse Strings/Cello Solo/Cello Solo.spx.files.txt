@@ -1,0 +1,31 @@
+SFZ\Cello Solo - Col Legno.sfz
+SFZ\Cello Solo - Fall.sfz
+SFZ\Cello Solo - Legato Control Espressivo.sfz
+SFZ\Cello Solo - Legato Control.sfz
+SFZ\Cello Solo - Legato Intervals Espressivo.sfz
+SFZ\Cello Solo - Legato Intervals Fast.sfz
+SFZ\Cello Solo - Legato Intervals.sfz
+SFZ\Cello Solo - Pizzicato Snap.sfz
+SFZ\Cello Solo - Pizzicato.sfz
+SFZ\Cello Solo - Portamento.sfz
+SFZ\Cello Solo - Realtime.sfz
+SFZ\Cello Solo - Staccatissimo.sfz
+SFZ\Cello Solo - Staccato.sfz
+SFZ\Cello Solo - Sustain Fall.sfz
+SFZ\Cello Solo - Sustain Harmonic.sfz
+SFZ\Cello Solo - Sustain Marcato.sfz
+SFZ\Cello Solo - Sustain Nonvib.sfz
+SFZ\Cello Solo - Sustain Sul Ponticello.sfz
+SFZ\Cello Solo - Sustain Sul Tasto.sfz
+SFZ\Cello Solo - Sustain.sfz
+SFZ\Cello Solo - Tenuto - Eighth.sfz
+SFZ\Cello Solo - Tenuto - Half.sfz
+SFZ\Cello Solo - Tenuto - Quarter.sfz
+SFZ\Cello Solo - Tremolo.sfz
+SFZ\Cello Solo - Trill Diminished 5th.sfz
+SFZ\Cello Solo - Trill Half.sfz
+SFZ\Cello Solo - Trill Major 3rd.sfz
+SFZ\Cello Solo - Trill Minor 3rd.sfz
+SFZ\Cello Solo - Trill Perfect 4th.sfz
+SFZ\Cello Solo - Trill Perfect 5th.sfz
+SFZ\Cello Solo - Trill Whole.sfz

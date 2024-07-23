@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" Reverb="20.0" FriendlyName="Tubular Bells" Abbreviation="Tub. B.">
+  <!-- Articulations-->
+  <Preset Name="Hard Mallets">
+    <!-- DSP -->
+    <SamplerEffect>
+      <Processor Name="LowHighCut">
+        <Param Name="SteepSlope" Value="1"/>
+        <Param Name="LowCut" Value="320"/>
+      </Processor>
+    </SamplerEffect>
+    <Articulation File="SFZ\Tubular Bells - Hard - Hits.sfz" Class="Sustain"/>
+    <Articulation File="SFZ\Tubular Bells - Hard - Hits.sfz" Symbol="Accent" SetVelocity="+15" SetDynamics="130"/>
+    <Articulation File="SFZ\Tubular Bells - Hard - Hits.sfz" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <Preset Name="Soft Mallets">
+    <!-- DSP -->
+    <SamplerEffect>
+      <Processor Name="LowHighCut">
+        <Param Name="SteepSlope" Value="1"/>
+        <Param Name="LowCut" Value="320"/>
+      </Processor>
+    </SamplerEffect>
+    <Articulation File="SFZ\Tubular Bells - Soft - Hits.sfz" Class="Sustain"/>
+    <Articulation File="SFZ\Tubular Bells - Soft - Hits.sfz" Symbol="Accent" SetVelocity="+15" SetDynamics="120"/>
+    <Articulation File="SFZ\Tubular Bells - Soft - Hits.sfz" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <!--Export-->
+  <MusicXML InstrumentSound="pitched-percussion.tubular-bells"/>
+  <MPE InstrumentSound="percussions.chimes"/>
+</Instrument>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Woodwinds" Volume="-12" Reverb="50" FriendlyName="Bass Clarinet" Abbreviation="B. Cl.">
+  <Transposition Playback="14" DeltaAccidentals="2" NoteChange="8" ImplicitOctaves="-1"/>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Bass Clarinet - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Bass Clarinet - Sustain Vibrato.sfz" Symbol="Text" Name="con vibrato|dixie|jazz|vibrato" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Sustain Accent.sfz" Class="Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Sustain Accent.sfz" Class="Marcato" SetDynamics="150" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Multiphonics.sfz" Symbol="Harmonics" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Bass Clarinet - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Bass Clarinet - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Staccato Accent.sfz" Symbol="Staccato|Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Bass Clarinet - Mordent Major.sfz" Symbol="MordentWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Mordent Minor.sfz" Symbol="MordentSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Mordent Inverted Major.sfz" Symbol="MordentInvertedWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Mordent Inverted Minor.sfz" Symbol="MordentInvertedSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Turn Major.sfz" Symbol="TurnWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Turn Minor.sfz" Symbol="TurnSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Turn Inverted Major.sfz" Symbol="TurnInvertedWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Turn Inverted Minor.sfz" Symbol="TurnInvertedSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Bass Clarinet - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Bass Clarinet - Scoop.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  <!-- Realtime -->
+  <Articulation File="SFZ\Bass Clarinet - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.reed.clarinet.bass"/>
+  <MPE InstrumentSound="winds.clarinet.bass:in_b_flat"/>
+</Instrument>

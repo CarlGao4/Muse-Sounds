@@ -1,0 +1,20 @@
+SFZ\Oboe - Fall.sfz
+SFZ\Oboe - Flatter.sfz
+SFZ\Oboe - Legato Control.sfz
+SFZ\Oboe - Legato Intervals Fast.sfz
+SFZ\Oboe - Legato Intervals.sfz
+SFZ\Oboe - Mordent Inverted Major.sfz
+SFZ\Oboe - Mordent Inverted Minor.sfz
+SFZ\Oboe - Mordent Major.sfz
+SFZ\Oboe - Mordent Minor.sfz
+SFZ\Oboe - Realtime.sfz
+SFZ\Oboe - Staccatissimo.sfz
+SFZ\Oboe - Staccato.sfz
+SFZ\Oboe - Sustain Nonvib.sfz
+SFZ\Oboe - Sustain.sfz
+SFZ\Oboe - Trill Half.sfz
+SFZ\Oboe - Trill Whole.sfz
+SFZ\Oboe - Turn Inverted Major.sfz
+SFZ\Oboe - Turn Inverted Minor.sfz
+SFZ\Oboe - Turn Major.sfz
+SFZ\Oboe - Turn Minor.sfz

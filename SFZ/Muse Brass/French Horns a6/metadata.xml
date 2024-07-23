@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Instrument Category="Muse Brass" BracketGroup="Brass" Reverb="40" DefaultClef="TREBLE" FriendlyName="Horns a6" Abbreviation="Hns." InsertableSymbols="OpenHarmonic|Mute">
+<Instrument Vendor="Muse" Pack="Muse Brass" Category="Muse Brass" BracketGroup="Brass" Reverb="40" DefaultClef="TREBLE" FriendlyName="Horns a6" Abbreviation="Hns." InsertableSymbols="OpenHarmonic|Mute">
   <!-- Transposition -->
   <Transposition Playback="7" DeltaAccidentals="1" NoteChange="4"/>
 
   <StaffPad>
-<Instrument Category="Muse Brass" BracketGroup="Brass" Reverb="40" DefaultClef="TREBLE" FriendlyName="Horns a6" Abbreviation="Hns." InsertableSymbols="OpenHarmonic|Mute">
+<Instrument Vendor="Muse" Pack="Muse Brass" Category="Muse Brass" BracketGroup="Brass" Reverb="40" DefaultClef="TREBLE" FriendlyName="Horns a6" Abbreviation="Hns." InsertableSymbols="OpenHarmonic|Mute">
   <!-- Transposition -->
   <Transposition Playback="7" DeltaAccidentals="1" NoteChange="4"/>  
   <!-- Articulations -->

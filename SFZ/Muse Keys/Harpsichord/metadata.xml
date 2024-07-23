@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Keys" Category="Muse Keys" Name="Harpsichord" DefaultStaffType="GRAND" Volume="0" Reverb="30.0" FriendlyName="Harpsichord" Abbreviation="Hpsd.">
+  <Articulation File="SFZ\Harpsichord.sfz" Class="Sustain"/>
+  <MusicXML InstrumentSound="keyboard.harpsichord"/>
+  <MPE InstrumentSound="keyboards.harpsichord"/>
+</Instrument>

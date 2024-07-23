@@ -1,0 +1,8 @@
+SFZ\Gong - Hard - Hits - Let Ring.sfz
+SFZ\Gong - Hard - Hits.sfz
+SFZ\Gong - Hard - Rolls - Let Ring.sfz
+SFZ\Gong - Hard - Rolls.sfz
+SFZ\Gong - Soft - Hits - Let Ring.sfz
+SFZ\Gong - Soft - Hits.sfz
+SFZ\Gong - Soft - Rolls - Let Ring.sfz
+SFZ\Gong - Soft - Rolls.sfz

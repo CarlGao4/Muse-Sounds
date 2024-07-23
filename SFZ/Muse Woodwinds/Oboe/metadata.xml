@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Woodwinds" Name="Oboe" Volume="-12" Reverb="50" FriendlyName="Oboe" Abbreviation="Ob." InsertableSymbols="OpenHarmonic|Mute">
+  <!-- DSP Effect -->
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="0.8"/>
+      <Param Name="Freq" Value="1500"/>
+      <Param Name="Gain" Value="-4"/>
+    </Processor>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="2"/>
+      <Param Name="Freq" Value="400"/>
+      <Param Name="Gain" Value="-2"/>
+    </Processor>
+  </SamplerEffect>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Oboe - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Oboe - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Oboe - Staccato.sfz" ForRepetition="|140ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Staccato.sfz" Symbol="Legato" ForRepetition="|140ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Oboe - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Oboe - Mordent Major.sfz" Symbol="MordentWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Mordent Minor.sfz" Symbol="MordentSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Mordent Inverted Major.sfz" Symbol="MordentInvertedWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Mordent Inverted Minor.sfz" Symbol="MordentInvertedSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Turn Major.sfz" Symbol="TurnWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Turn Minor.sfz" Symbol="TurnSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Turn Inverted Major.sfz" Symbol="TurnInvertedWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Turn Inverted Minor.sfz" Symbol="TurnInvertedSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Oboe - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <!-- Realtime -->
+  <Articulation File="SFZ\Oboe - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.reed.oboe"/>
+  <MPE InstrumentSound="winds.oboe"/>
+</Instrument>

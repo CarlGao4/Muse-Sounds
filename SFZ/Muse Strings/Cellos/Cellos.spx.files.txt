@@ -1,0 +1,29 @@
+SFZ\Cellos - Col Legno.sfz
+SFZ\Cellos - Fall.sfz
+SFZ\Cellos - Fast Runs.sfz
+SFZ\Cellos - Legato Control.sfz
+SFZ\Cellos - Legato Intervals.sfz
+SFZ\Cellos - Pizzicato Snap.sfz
+SFZ\Cellos - Pizzicato.sfz
+SFZ\Cellos - Portamento.sfz
+SFZ\Cellos - Realtime.sfz
+SFZ\Cellos - Staccatissimo.sfz
+SFZ\Cellos - Staccato.sfz
+SFZ\Cellos - Sustain Espressivo.sfz
+SFZ\Cellos - Sustain Fall.sfz
+SFZ\Cellos - Sustain Harmonic.sfz
+SFZ\Cellos - Sustain Marcato.sfz
+SFZ\Cellos - Sustain Nonvib.sfz
+SFZ\Cellos - Sustain Sul Ponticello.sfz
+SFZ\Cellos - Sustain Sul Tasto.sfz
+SFZ\Cellos - Tremolo Accent.sfz
+SFZ\Cellos - Tremolo.sfz
+SFZ\Cellos - Trill Diminished 5th.sfz
+SFZ\Cellos - Trill Half Accent.sfz
+SFZ\Cellos - Trill Half.sfz
+SFZ\Cellos - Trill Major 3rd.sfz
+SFZ\Cellos - Trill Minor 3rd.sfz
+SFZ\Cellos - Trill Perfect 4th.sfz
+SFZ\Cellos - Trill Perfect 5th.sfz
+SFZ\Cellos - Trill Whole Accent.sfz
+SFZ\Cellos - Trill Whole.sfz

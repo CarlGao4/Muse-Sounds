@@ -1,0 +1,4 @@
+SFZ\Xylophone - Hard Mallets - Sustain.sfz
+SFZ\Xylophone - Hard Mallets - Tremolo.sfz
+SFZ\Xylophone - Soft Mallets - Sustain.sfz
+SFZ\Xylophone - Soft Mallets - Tremolo.sfz

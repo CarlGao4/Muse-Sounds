@@ -1,0 +1,22 @@
+SFZ\Flute 2 - Fall.sfz
+SFZ\Flute 2 - Flatter.sfz
+SFZ\Flute 2 - Legato Control.sfz
+SFZ\Flute 2 - Legato Intervals Fast.sfz
+SFZ\Flute 2 - Legato Intervals.sfz
+SFZ\Flute 2 - Mordent Inverted Major.sfz
+SFZ\Flute 2 - Mordent Inverted Minor.sfz
+SFZ\Flute 2 - Mordent Major.sfz
+SFZ\Flute 2 - Mordent Minor.sfz
+SFZ\Flute 2 - Realtime.sfz
+SFZ\Flute 2 - Staccatissimo.sfz
+SFZ\Flute 2 - Staccato Overblown.sfz
+SFZ\Flute 2 - Staccato.sfz
+SFZ\Flute 2 - Sustain Nonvib.sfz
+SFZ\Flute 2 - Sustain Overblown.sfz
+SFZ\Flute 2 - Sustain.sfz
+SFZ\Flute 2 - Trill Half.sfz
+SFZ\Flute 2 - Trill Whole.sfz
+SFZ\Flute 2 - Turn Inverted Major.sfz
+SFZ\Flute 2 - Turn Inverted Minor.sfz
+SFZ\Flute 2 - Turn Major.sfz
+SFZ\Flute 2 - Turn Minor.sfz

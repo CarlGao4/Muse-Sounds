@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" StaffLines="1" Reverb="40.0" DefaultClef="PERCUSSION" FriendlyName="Field Drum" Abbreviation="F. D.">
+  <StaffPad>
+    <Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" StaffLines="1" Reverb="40.0" DefaultClef="PERCUSSION" FriendlyName="Field Drum" Abbreviation="F. D.">
+      <Preset Name="Snares On">
+        <Articulation File="SFZ\Field Drum - Snare On - Hits.sfz" Class="Sustain" SetNote="d3" OffsetStart="30" />
+        <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Class="Tremolo" SetNote="d3" OffsetStart="30" />
+        <Articulation File="SFZ\Field Drum - Snare On - Hits.sfz" Class="Sustain" Symbol="X" SetNote="c3" OffsetStart="30" />
+        <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Class="Tremolo" Symbol="X" SetNote="c3" OffsetStart="30" />
+      </Preset>
+      <Preset Name="Snares Off">
+        <Articulation File="SFZ\Field Drum - Snare Off - Hits.sfz" Class="Sustain" SetNote="d3" OffsetStart="30" />
+        <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Class="Tremolo" SetNote="d3" OffsetStart="30" />
+        <Articulation File="SFZ\Field Drum - Snare Off - Hits.sfz" Class="Sustain" Symbol="X" SetNote="c3" OffsetStart="30" />
+        <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Class="Tremolo" Symbol="X" SetNote="c3" OffsetStart="30" />
+      </Preset>
+      <MusicXML ExportTranspose="20" InstrumentSound="drum.snare-drum" />
+    </Instrument>
+  </StaffPad>
+  <Preset Name="Snares On">
+    <Articulation File="SFZ\Field Drum - Snare On - Hits.sfz" Class="Sustain" ForNote="d2" SetNote="d3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Class="Tremolo" ForNote="d2" SetNote="d3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="buzztremolo" ForNote="d2" SetNote="d3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Trill" ForInterval="1" ForNote="d2" SetNote="d3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Trill" ForInterval="2" ForNote="d2" SetNote="d3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare On - Hits.sfz"  ForNote="c#2" Symbol="X" SetNote="c3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Class="Tremolo" ForNote="c#2" Symbol="X" SetNote="c3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="X|buzztremolo" OffsetStart="30" SetNote="c3" />
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="X|Trill" ForInterval="1" OffsetStart="30" SetNote="c3" />
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="X|Trill" ForInterval="2" OffsetStart="30" SetNote="c3" />
+    <Articulation File="SFZ\Field Drum - Snare On - Hits.sfz"  Symbol="Accent" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Class="Tremolo" Symbol="Accent" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Accent|buzztremolo" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Accent|Trill" ForInterval="1" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Accent|Trill" ForInterval="2" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Hits.sfz"  ForNote="c#2" Symbol="Accent|X" SetNote="c3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Class="Tremolo" ForNote="c#2" Symbol="Accent|X" SetNote="c3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Accent|X|buzztremolo" OffsetStart="30" SetNote="c3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Accent|X|Trill" ForInterval="1" OffsetStart="30" SetNote="c3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Accent|X|Trill" ForInterval="2" OffsetStart="30" SetNote="c3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Hits.sfz" Symbol="Marcato" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Class="Tremolo" Symbol="Marcato" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Marcato|buzztremolo" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="1" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="2" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Hits.sfz"  ForNote="c#2" Symbol="Marcato|X" SetNote="c3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Class="Tremolo" ForNote="c#2" Symbol="Marcato|X" SetNote="c3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Marcato|X|buzztremolo" OffsetStart="30" SetNote="c3" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Marcato|X|Trill" ForInterval="1" OffsetStart="30" SetNote="c3" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare On - Rolls.sfz" Symbol="Marcato|X|Trill" ForInterval="2" OffsetStart="30" SetNote="c3" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <Preset Name="Snares Off">
+    <Articulation File="SFZ\Field Drum - Snare Off - Hits.sfz" Class="Sustain" ForNote="d2" SetNote="d3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Class="Tremolo" ForNote="d2" SetNote="d3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="buzztremolo" ForNote="d2" SetNote="d3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Trill" ForInterval="1" ForNote="d2" SetNote="d3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Trill" ForInterval="2" ForNote="d2" SetNote="d3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare Off - Hits.sfz"  ForNote="c#2" Symbol="X" SetNote="c3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Class="Tremolo" ForNote="c#2" Symbol="X" SetNote="c3" OffsetStart="30" />
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="X|buzztremolo" OffsetStart="30" SetNote="c3" />
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="X|Trill" ForInterval="1" OffsetStart="30" SetNote="c3" />
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="X|Trill" ForInterval="2" OffsetStart="30" SetNote="c3" />
+    <Articulation File="SFZ\Field Drum - Snare Off - Hits.sfz"  Symbol="Accent" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Class="Tremolo" Symbol="Accent" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Accent|buzztremolo" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Accent|Trill" ForInterval="1" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Accent|Trill" ForInterval="2" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Hits.sfz"  ForNote="c#2" Symbol="Accent|X" SetNote="c3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Class="Tremolo" ForNote="c#2" Symbol="Accent|X" SetNote="c3" OffsetStart="30" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Accent|X|buzztremolo" OffsetStart="30" SetNote="c3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Accent|X|Trill" ForInterval="1" OffsetStart="30" SetNote="c3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Accent|X|Trill" ForInterval="2" OffsetStart="30" SetNote="c3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Hits.sfz"  Symbol="Marcato" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Class="Tremolo" Symbol="Marcato" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Marcato|buzztremolo" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="1" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="2" ForNote="d2" SetNote="d3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Hits.sfz"  ForNote="c#2" Symbol="Marcato|X" SetNote="c3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Class="Tremolo" ForNote="c#2" Symbol="Marcato|X" SetNote="c3" OffsetStart="30" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Marcato|X|buzztremolo" OffsetStart="30" SetNote="c3" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Marcato|X|Trill" ForInterval="1" OffsetStart="30" SetNote="c3" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Field Drum - Snare Off - Rolls.sfz" Symbol="Marcato|X|Trill" ForInterval="2" OffsetStart="30" SetNote="c3" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <MusicXML ExportTranspose="20" InstrumentSound="drum.snare-drum" />
+  <MPE InstrumentSound="percussions.drum.military" />
+  <MuseScore Drumset="Field Drum.drm" />
+</Instrument>

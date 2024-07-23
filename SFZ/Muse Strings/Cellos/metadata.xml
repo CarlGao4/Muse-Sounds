@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Strings" Category="Muse Strings" BracketGroup="Strings" Reverb="30" DefaultClef="BASS" FriendlyName="Violoncellos" Abbreviation="Vc." InsertableSymbols="Bow|OpenHarmonic|Mute|Pizz">
+  <!-- DSP FX -->
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1"/>
+      <Param Name="Gain" Value="-3"/>
+      <Param Name="Freq" Value="450"/>
+    </Processor>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="0.5"/>
+      <Param Name="Freq" Value="1500"/>
+      <Param Name="Gain" Value="-2"/>
+    </Processor>
+  </SamplerEffect>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Cellos - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Cellos - Fast Runs.sfz" Class="Sustain" ForDuration="|100ms"/>
+  <Articulation File="SFZ\Cellos - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Sustain Sul Ponticello.sfz" Symbol="Text" Name="Sul Ponticello" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Sustain Sul Tasto.sfz" Symbol="Text" Name="Sul Tasto" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Sustain Harmonic.sfz" Class="Harmonics" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Sustain Marcato.sfz" Symbol="Marcato" Name="marcato"/>
+  <Articulation File="SFZ\Cellos - Sustain Marcato.sfz" Symbol="Accent" Name="accent"/>
+  <Articulation File="SFZ\Cellos - Tremolo.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Trill Minor 3rd.sfz" Symbol="Trill" ForInterval="3" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Trill Major 3rd.sfz" Symbol="Trill" ForInterval="4" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Trill Perfect 4th.sfz" Symbol="Trill" ForInterval="5" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Trill Diminished 5th.sfz" Symbol="Trill" ForInterval="6" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Trill Perfect 5th.sfz" Symbol="Trill" ForInterval="7" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Fall.sfz" Symbol="Fall" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Sustain Fall.sfz" Symbol="Fall" ForDuration="|500ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Cellos - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Staccatissimo.sfz" Class="Staccato" OffsetStart="30" ForDuration="|125ms"/>
+  <Articulation File="SFZ\Cellos - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Cellos - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- 
+  <Articulation File="SFZ\Cellos - Tenuto - Eighth.sfz" Symbol="Tenuto" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Tenuto - Quarter.sfz" Symbol="Tenuto" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Tenuto - Half.sfz" Symbol="Tenuto" ForDuration="1000ms|1500ms" OffsetStart="30"/>
+ -->
+  <Articulation File="SFZ\Cellos - Pizzicato.sfz" Class="Pizzicato" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Pizzicato Snap.sfz" Class="Bartok" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Col Legno.sfz" Symbol="Text" Name="Col Legno" OffsetStart="30"/>
+  <!-- Accent variations -->
+  <Articulation File="SFZ\Cellos - Tremolo Accent.sfz" Symbol="Accent|Tremolo3" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Trill Half Accent.sfz" Symbol="Accent|Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Cellos - Trill Whole Accent.sfz" Symbol="Accent|Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Tremolo Overrides -->
+  <Articulation File="SFZ\Cellos - Staccatissimo.sfz" Symbol="Staccato|Tremolo3" Subdivide="8" SetDuration="50" OffsetStart="50"/>
+  <Articulation File="SFZ\Cellos - Staccato.sfz" Symbol="Staccato|Tremolo1" Subdivide="2" OffsetStart="50"/>
+  <Articulation File="SFZ\Cellos - Staccato.sfz" Symbol="Staccato|Tremolo2" Subdivide="4" OffsetStart="50"/>
+  <Articulation File="SFZ\Cellos - Tremolo.sfz" Symbol="Staccato|Tremolo3" SetDuration="70" OffsetStart="50"/>
+  <!-- Realtime Input Articulation -->
+  <Articulation File="SFZ\Cellos - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="strings.cello"/>
+  <MPE InstrumentSound="strings.violoncello.orchestral:section"/>
+</Instrument>

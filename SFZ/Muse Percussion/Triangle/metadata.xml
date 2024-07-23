@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" Reverb="20.0" DefaultClef="PERCUSSION" FriendlyName="Triangle" Abbreviation="Tri." DefaultNotehead="triangle" StaffLines="1" InsertableSymbols="Mute|OpenHarmonic">
+  <StaffPad>
+    <Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" Reverb="20.0" DefaultClef="PERCUSSION" FriendlyName="Triangle" Abbreviation="Tri." DefaultNotehead="triangle" StaffLines="1" InsertableSymbols="Mute|OpenHarmonic">
+      <SamplerEffect>
+        <Processor Name="LowHighCut">
+          <Param Name="SteepSlope" Value="1"/>
+          <Param Name="LowCut" Value="550"/>
+        </Processor>
+      </SamplerEffect>
+      <Articulation File="SFZ\Triangle.sfz" Class="Sustain" ForNote="a5" SetNote="d3"/>
+      <Articulation File="SFZ\Triangle.sfz" Class="Sustain" ForNote="g#5" SetNote="c3"/>
+      <Articulation File="SFZ\Triangle.sfz" Class="Staccato" SetNote="d4"/>
+      <Articulation File="SFZ\Triangle.sfz" Symbol="Mute" SetNote="c3"/>
+      <Articulation File="SFZ\Triangle.sfz" Symbol="Harmonics" SetNote="d3"/>
+      <Articulation File="SFZ\Triangle Rolls.sfz" Class="Tremolo" SetNote="d3"/>
+      <MusicXML ExportTranspose="20" InstrumentSound="metal.triangle"/>
+      <MPE InstrumentSound="percussions.triangle.metal"/>
+      <MuseScore Drumset="Triangle.drm"/>
+    </Instrument>
+  </StaffPad>
+  <SamplerEffect>
+    <Processor Name="LowHighCut">
+      <Param Name="SteepSlope" Value="1"/>
+      <Param Name="LowCut" Value="550"/>
+    </Processor>
+  </SamplerEffect>
+  <Articulation File="SFZ\Triangle.sfz" Class="Sustain" ForNote="a5" SetNote="d3"/>
+  <Articulation File="SFZ\Triangle.sfz" Class="Sustain" ForNote="g#5" SetNote="c3"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Staccato" SetNote="d4"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Mute" SetNote="c3"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="X" SetNote="c3"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Harmonics" SetNote="d3"/>
+  <Articulation File="SFZ\Triangle Rolls.sfz" Class="Tremolo" SetNote="d3"/>
+  <Articulation File="SFZ\Triangle Rolls.sfz" Symbol="Trill" ForInterval="1" SetNote="d3"/>
+  <Articulation File="SFZ\Triangle Rolls.sfz" Symbol="Trill" ForInterval="2" SetNote="d3"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Accent" ForNote="a5" SetNote="d3" SetVelocity="+15" SetDynamics="140"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Accent" ForNote="g#5" SetNote="c3" SetVelocity="+15" SetDynamics="140"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Accent|Staccato" SetNote="d4" SetVelocity="+15" SetDynamics="140"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Accent|Mute" SetNote="c3" SetVelocity="+15" SetDynamics="140"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Accent|X" SetNote="c3" SetVelocity="+15" SetDynamics="140"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Accent|Harmonics" SetNote="d3" SetVelocity="+15" SetDynamics="140"/>
+  <Articulation File="SFZ\Triangle Rolls.sfz" Class="Tremolo" Symbol="Accent" SetNote="d3" SetVelocity="+15" SetDynamics="140"/>
+  <Articulation File="SFZ\Triangle Rolls.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="d3" SetVelocity="+15" SetDynamics="140"/>
+  <Articulation File="SFZ\Triangle Rolls.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="d3" SetVelocity="+15" SetDynamics="140"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Marcato" ForNote="a5" SetNote="d3" SetVelocity="+20" SetDynamics="160"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Marcato" ForNote="g#5" SetNote="c3" SetVelocity="+20" SetDynamics="160"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Marcato|Staccato" SetNote="d4" SetVelocity="+20" SetDynamics="160"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Marcato|Mute" SetNote="c3" SetVelocity="+20" SetDynamics="160"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Marcato|X" SetNote="c3" SetVelocity="+20" SetDynamics="160"/>
+  <Articulation File="SFZ\Triangle.sfz" Symbol="Marcato|Harmonics" SetNote="d3" SetVelocity="+20" SetDynamics="160"/>
+  <Articulation File="SFZ\Triangle Rolls.sfz" Class="Tremolo" Symbol="Marcato" SetNote="d3" SetVelocity="+20" SetDynamics="160"/>
+  <Articulation File="SFZ\Triangle Rolls.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="d3" SetVelocity="+20" SetDynamics="160"/>
+  <Articulation File="SFZ\Triangle Rolls.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="d3" SetVelocity="+20" SetDynamics="160"/>
+  <MusicXML ExportTranspose="20" InstrumentSound="metal.triangle"/>
+  <MPE InstrumentSound="percussions.triangle.metal"/>
+  <MuseScore Drumset="Triangle.drm"/>
+</Instrument>

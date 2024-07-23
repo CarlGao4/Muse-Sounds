@@ -1,0 +1,4 @@
+SFZ\Bongos - Hands - Hits.sfz
+SFZ\Bongos - Hands - Rolls.sfz
+SFZ\Bongos - Sticks - Hits.sfz
+SFZ\Bongos - Sticks - Rolls.sfz

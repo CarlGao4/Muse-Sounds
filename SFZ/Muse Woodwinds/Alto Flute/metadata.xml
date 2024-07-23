@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Woodwinds" Reverb="30" Volume="-6" FriendlyName="Alto Flute" Abbreviation="A. Fl." InsertableSymbols="OpenHarmonic|Mute">
+  <Transposition Playback="5" DeltaAccidentals="-1" NoteChange="3"/>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Alto Flute - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Alto Flute - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Sustain Overblown.sfz" Symbol="Text" Name="overblown" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Alto Flute - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Alto Flute - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Staccato Overblown.sfz" Symbol="staccato|text" Name="overblown" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Alto Flute - Mordent Major.sfz" Symbol="MordentWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Mordent Minor.sfz" Symbol="MordentSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Mordent Inverted Major.sfz" Symbol="MordentInvertedWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Mordent Inverted Minor.sfz" Symbol="MordentInvertedSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Turn Major.sfz" Symbol="TurnWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Turn Minor.sfz" Symbol="TurnSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Turn Inverted Major.sfz" Symbol="TurnInvertedWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Turn Inverted Minor.sfz" Symbol="TurnInvertedSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Flute - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <!-- Realtime -->
+  <Articulation File="SFZ\Alto Flute - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.flutes.flute.alto"/>
+  <MPE InstrumentSound="winds.flute.alto:primary"/>
+</Instrument>

@@ -1,0 +1,17 @@
+SFZ\Baritone Saxophone - Doit.sfz
+SFZ\Baritone Saxophone - Fall.sfz
+SFZ\Baritone Saxophone - Growl.sfz
+SFZ\Baritone Saxophone - Legato Control.sfz
+SFZ\Baritone Saxophone - Legato Intervals Fast.sfz
+SFZ\Baritone Saxophone - Legato Intervals.sfz
+SFZ\Baritone Saxophone - Plop.sfz
+SFZ\Baritone Saxophone - Realtime.sfz
+SFZ\Baritone Saxophone - Scoop.sfz
+SFZ\Baritone Saxophone - Shake.sfz
+SFZ\Baritone Saxophone - Staccatissimo.sfz
+SFZ\Baritone Saxophone - Staccato.sfz
+SFZ\Baritone Saxophone - Sustain Accent.sfz
+SFZ\Baritone Saxophone - Sustain Nonvib.sfz
+SFZ\Baritone Saxophone - Sustain.sfz
+SFZ\Baritone Saxophone - Trill Half.sfz
+SFZ\Baritone Saxophone - Trill Whole.sfz

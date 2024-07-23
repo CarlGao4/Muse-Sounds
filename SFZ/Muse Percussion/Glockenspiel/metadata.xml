@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" Reverb="20.0" FriendlyName="Glockenspiel" Abbreviation="Glock.">
+  <Transposition TransposeOctaves="2"/>
+  <Preset Name="Hard Mallets">
+    <Articulation File="SFZ\Glockenspiel - Hard Mallets - Sustain.sfz" Class="Sustain"/>
+    <Articulation File="SFZ\Glockenspiel - Hard Mallets - Tremolo.sfz" Class="Tremolo"/>
+    <Articulation File="SFZ\Glockenspiel - Hard Mallets - Sustain.sfz" Class="Sustain" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Glockenspiel - Hard Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Glockenspiel - Hard Mallets - Sustain.sfz" Class="Sustain" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Glockenspiel - Hard Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <Preset Name="Soft Mallets">
+    <Articulation File="SFZ\Glockenspiel - Soft Mallets - Sustain.sfz" Class="Sustain"/>
+    <Articulation File="SFZ\Glockenspiel - Soft Mallets - Tremolo.sfz" Class="Tremolo"/>
+    <Articulation File="SFZ\Glockenspiel - Soft Mallets - Sustain.sfz" Class="Sustain" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Glockenspiel - Soft Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Glockenspiel - Soft Mallets - Sustain.sfz" Class="Sustain" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Glockenspiel - Soft Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <MusicXML InstrumentSound="pitched-percussion.glockenspiel"/>
+  <MPE InstrumentSound="percussions.glockenspiel"/>
+</Instrument>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Instrument Category="Muse Choir" BracketGroup="Voices" Volume="-6" Name="Tenors" Reverb="30" DefaultClef="LowerOctaveTreble" FriendlyName="Tenors" Abbreviation="T." InsertableSymbols="">
+<Instrument Vendor="Muse" Pack="Muse Choir" Category="Muse Choir" BracketGroup="Voices" Volume="-6" Name="Tenors" Reverb="30" DefaultClef="LowerOctaveTreble" FriendlyName="Tenors" Abbreviation="T." InsertableSymbols="">
 
   <StaffPad>
-<Instrument Category="Muse Choir" BracketGroup="Voices" Volume="-6" Name="Tenors" Reverb="30" DefaultClef="LowerOctaveTreble" FriendlyName="Tenors" Abbreviation="T." InsertableSymbols="">  
+<Instrument Vendor="Muse" Pack="Muse Choir" Category="Muse Choir" BracketGroup="Voices" Volume="-6" Name="Tenors" Reverb="30" DefaultClef="LowerOctaveTreble" FriendlyName="Tenors" Abbreviation="T." InsertableSymbols="">  
   <!--Default - Ahh -->
   <Articulation File="SFZ\Tenors - Ahh - Legato Control.sfz" Class="Sustain"/>
   <!--Lyric - Ooh -->

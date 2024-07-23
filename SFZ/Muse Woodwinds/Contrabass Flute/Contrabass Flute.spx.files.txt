@@ -1,0 +1,23 @@
+SFZ\Contrabass Flute - Effects.sfz
+SFZ\Contrabass Flute - Fall.sfz
+SFZ\Contrabass Flute - Flatter.sfz
+SFZ\Contrabass Flute - Legato Control.sfz
+SFZ\Contrabass Flute - Legato Intervals Fast.sfz
+SFZ\Contrabass Flute - Legato Intervals.sfz
+SFZ\Contrabass Flute - Mordent Inverted Major.sfz
+SFZ\Contrabass Flute - Mordent Inverted Minor.sfz
+SFZ\Contrabass Flute - Mordent Major.sfz
+SFZ\Contrabass Flute - Mordent Minor.sfz
+SFZ\Contrabass Flute - Realtime.sfz
+SFZ\Contrabass Flute - Staccatissimo.sfz
+SFZ\Contrabass Flute - Staccato Overblown.sfz
+SFZ\Contrabass Flute - Staccato.sfz
+SFZ\Contrabass Flute - Sustain Nonvib.sfz
+SFZ\Contrabass Flute - Sustain Overblown.sfz
+SFZ\Contrabass Flute - Sustain.sfz
+SFZ\Contrabass Flute - Trill Half.sfz
+SFZ\Contrabass Flute - Trill Whole.sfz
+SFZ\Contrabass Flute - Turn Inverted Major.sfz
+SFZ\Contrabass Flute - Turn Inverted Minor.sfz
+SFZ\Contrabass Flute - Turn Major.sfz
+SFZ\Contrabass Flute - Turn Minor.sfz

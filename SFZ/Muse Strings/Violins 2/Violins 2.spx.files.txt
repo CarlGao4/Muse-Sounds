@@ -1,0 +1,29 @@
+SFZ\Violins 2 - Col Legno.sfz
+SFZ\Violins 2 - Fall.sfz
+SFZ\Violins 2 - Fast Runs.sfz
+SFZ\Violins 2 - Legato Control.sfz
+SFZ\Violins 2 - Legato Intervals.sfz
+SFZ\Violins 2 - Pizzicato Snap.sfz
+SFZ\Violins 2 - Pizzicato.sfz
+SFZ\Violins 2 - Portamento.sfz
+SFZ\Violins 2 - Realtime.sfz
+SFZ\Violins 2 - Staccatissimo.sfz
+SFZ\Violins 2 - Staccato.sfz
+SFZ\Violins 2 - Sustain Espressivo.sfz
+SFZ\Violins 2 - Sustain Fall.sfz
+SFZ\Violins 2 - Sustain Harmonic.sfz
+SFZ\Violins 2 - Sustain Marcato.sfz
+SFZ\Violins 2 - Sustain Nonvib.sfz
+SFZ\Violins 2 - Sustain Sul Ponticello.sfz
+SFZ\Violins 2 - Sustain Sul Tasto.sfz
+SFZ\Violins 2 - Tremolo Accent.sfz
+SFZ\Violins 2 - Tremolo.sfz
+SFZ\Violins 2 - Trill Diminished 5th.sfz
+SFZ\Violins 2 - Trill Half Accent.sfz
+SFZ\Violins 2 - Trill Half.sfz
+SFZ\Violins 2 - Trill Major 3rd.sfz
+SFZ\Violins 2 - Trill Minor 3rd.sfz
+SFZ\Violins 2 - Trill Perfect 4th.sfz
+SFZ\Violins 2 - Trill Perfect 5th.sfz
+SFZ\Violins 2 - Trill Whole Accent.sfz
+SFZ\Violins 2 - Trill Whole.sfz

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Woodwinds" Volume="-3" Reverb="50" FriendlyName="Piccolo" Abbreviation="Picc." InsertableSymbols="OpenHarmonic|Mute">
+  <Transposition ImplicitOctaves="1" TransposeOctaves="1"/>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Piccolo - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Piccolo - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Sustain Accent.sfz" Class="Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Sustain Overblown.sfz" Class="Marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Sustain Overblown.sfz" Symbol="Text" Name="overblown" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Flatter Harmonic.sfz" Symbol="Tremolo3|Harmonics" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Piccolo - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Piccolo - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Staccato Overblown.sfz" Symbol="staccato|text" Name="overblown" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Piccolo - Mordent Major.sfz" Symbol="MordentWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Mordent Minor.sfz" Symbol="MordentSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Mordent Inverted Major.sfz" Symbol="MordentInvertedWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Mordent Inverted Minor.sfz" Symbol="MordentInvertedSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Turn Major.sfz" Symbol="TurnWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Turn Minor.sfz" Symbol="TurnSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Turn Inverted Major.sfz" Symbol="TurnInvertedWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Turn Inverted Minor.sfz" Symbol="TurnInvertedSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Piccolo - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <!--   Realtime -->
+  <Articulation File="SFZ\Piccolo - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.flutes.flute.piccolo"/>
+  <MPE InstrumentSound="winds.piccolo"/>
+</Instrument>

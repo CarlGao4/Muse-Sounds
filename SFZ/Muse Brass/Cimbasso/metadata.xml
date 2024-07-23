@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Instrument Category="Muse Brass" BracketGroup="Brass" Volume="0" Reverb="40.0" DefaultClef="BASS" FriendlyName="Cimbasso" Abbreviation="Cim." Pan="0" InsertableSymbols="Mute">
+<Instrument Vendor="Muse" Pack="Muse Brass" Category="Muse Brass" BracketGroup="Brass" Volume="0" Reverb="40.0" DefaultClef="BASS" FriendlyName="Cimbasso" Abbreviation="Cim." Pan="0" InsertableSymbols="Mute">
 
   <StaffPad>
-<Instrument Category="Muse Brass" BracketGroup="Brass" Volume="0" Reverb="40.0" DefaultClef="BASS" FriendlyName="Cimbasso" Abbreviation="Cim." Pan="0" InsertableSymbols="Mute">  
+<Instrument Vendor="Muse" Pack="Muse Brass" Category="Muse Brass" BracketGroup="Brass" Volume="0" Reverb="40.0" DefaultClef="BASS" FriendlyName="Cimbasso" Abbreviation="Cim." Pan="0" InsertableSymbols="Mute">  
   <!-- Articulations -->
   <!-- Long Notes -->
   <Articulation File="SFZ\Cimbasso - Legato Control.sfz" Class="Sustain"/>

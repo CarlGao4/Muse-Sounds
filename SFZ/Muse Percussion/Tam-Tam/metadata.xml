@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" StaffLines="1" Reverb="40.0" DefaultClef="PERCUSSION" DefaultNotehead="X" FriendlyName="Tam-tam" Abbreviation="T.t.">
+  <Preset Name="Hard Mallet">
+    <Articulation File="SFZ\Tam-Tam - Hard Mallet - Hits.sfz" Class="Sustain" SetNote="D3"/>
+    <Articulation File="SFZ\Tam-Tam - Hard Mallet - Rolls.sfz" Class="Tremolo" SetNote="D3"/>
+    <Articulation File="SFZ\Tam-Tam - Hard Mallet - Rolls.sfz" Symbol="Trill" ForInterval="1" SetNote="D3"/>
+    <Articulation File="SFZ\Tam-Tam - Hard Mallet - Rolls.sfz" Symbol="Trill" ForInterval="2" SetNote="D3"/>
+    <Articulation File="SFZ\Tam-Tam - Hard Mallet - Hits.sfz" Class="Sustain" Symbol="Accent" SetNote="D3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Tam-Tam - Hard Mallet - Rolls.sfz" Class="Tremolo" Symbol="Accent" SetNote="D3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Tam-Tam - Hard Mallet - Rolls.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="D3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Tam-Tam - Hard Mallet - Rolls.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="D3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Tam-Tam - Hard Mallet - Hits.sfz" Class="Sustain" Symbol="Marcato" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Tam-Tam - Hard Mallet - Rolls.sfz" Class="Tremolo" Symbol="Marcato" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Tam-Tam - Hard Mallet - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Tam-Tam - Hard Mallet - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <Preset Name="Soft Mallet">
+    <Articulation File="SFZ\Tam-Tam - Soft Mallet - Hits.sfz" Class="Sustain" SetNote="D3"/>
+    <Articulation File="SFZ\Tam-Tam - Soft Mallet - Rolls.sfz" Class="Tremolo" SetNote="D3"/>
+    <Articulation File="SFZ\Tam-Tam - Soft Mallet - Rolls.sfz" Symbol="Trill" ForInterval="1" SetNote="D3"/>
+    <Articulation File="SFZ\Tam-Tam - Soft Mallet - Rolls.sfz" Symbol="Trill" ForInterval="2" SetNote="D3"/>
+    <Articulation File="SFZ\Tam-Tam - Soft Mallet - Hits.sfz" Class="Sustain" Symbol="Accent" SetNote="D3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Tam-Tam - Soft Mallet - Rolls.sfz" Class="Tremolo" Symbol="Accent" SetNote="D3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Tam-Tam - Soft Mallet - Rolls.sfz" Symbol="Accent|Trill" ForInterval="1" SetNote="D3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Tam-Tam - Soft Mallet - Rolls.sfz" Symbol="Accent|Trill" ForInterval="2" SetNote="D3" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Tam-Tam - Soft Mallet - Hits.sfz" Class="Sustain" Symbol="Marcato" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Tam-Tam - Soft Mallet - Rolls.sfz" Class="Tremolo" Symbol="Marcato" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Tam-Tam - Soft Mallet - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="1" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Tam-Tam - Soft Mallet - Rolls.sfz" Symbol="Marcato|Trill" ForInterval="2" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <MusicXML ExportTranspose="20" InstrumentSound="metal.tamtam"/>
+  <MPE InstrumentSound="percussions.tam_tam.metal"/>
+  <MuseScore Drumset="Tam-Tam.drm"/>
+</Instrument>

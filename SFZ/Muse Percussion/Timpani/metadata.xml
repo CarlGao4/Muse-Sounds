@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" Volume="6" Format="1.0" Reverb="20.0" DefaultClef="BASS" FriendlyName="Timpani" Abbreviation="Timp.">
+  <Preset Name="Hard Mallets">
+    <Articulation File="SFZ\Timpani - Hard Mallets - Sustain.sfz" Class="Sustain"/>
+    <Articulation File="SFZ\Timpani - Hard Mallets - Staccato.sfz" Class="Staccato"/>
+    <Articulation File="SFZ\Timpani - Hard Mallets - Tremolo.sfz" Class="Tremolo"/>
+    <Articulation File="SFZ\Timpani - Hard Mallets - Tremolo.sfz" Symbol="Trill" ForInterval="1"/>
+    <Articulation File="SFZ\Timpani - Hard Mallets - Tremolo.sfz" Symbol="Trill" ForInterval="2"/>
+  </Preset>
+  <Preset Name="Soft Mallets">
+    <Articulation File="SFZ\Timpani - Soft Mallets - Sustain.sfz" Class="Sustain"/>
+    <Articulation File="SFZ\Timpani - Soft Mallets - Staccato.sfz" Class="Staccato"/>
+    <Articulation File="SFZ\Timpani - Soft Mallets - Tremolo.sfz" Class="Tremolo"/>
+    <Articulation File="SFZ\Timpani - Soft Mallets - Tremolo.sfz" Symbol="Trill" ForInterval="1"/>
+    <Articulation File="SFZ\Timpani - Soft Mallets - Tremolo.sfz" Symbol="Trill" ForInterval="2"/>
+  </Preset>
+  <MusicXML InstrumentSound="drum.timpani"/>
+  <MPE InstrumentSound="percussions.timpani"/>
+</Instrument>

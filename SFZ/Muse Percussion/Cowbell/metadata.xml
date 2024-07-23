@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" DefaultNotehead="triangle" StaffLines="1" Reverb="40.0" DefaultClef="PERCUSSION" FriendlyName="Cowbell" Abbreviation="Cow.">
+  <Articulation File="SFZ\Cowbell.sfz" SetNote="c3" Class="Sustain" OffsetStart="10"/>
+  <Articulation File="SFZ\Cowbell.sfz" SetNote="c#3" Symbol="Staccato" OffsetStart="10"/>
+  <Articulation File="SFZ\Cowbell.sfz" SetNote="c#3" Symbol="Staccato|Accent" OffsetStart="10" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Cowbell.sfz" SetNote="c#3" Symbol="Staccato|Marcato" OffsetStart="10" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Cowbell.sfz" SetNote="c#3" Symbol="Accent" OffsetStart="10" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Cowbell.sfz" SetNote="c#3" Symbol="Marcato" OffsetStart="10" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Cowbell.sfz" SetNote="b2" Symbol="X" OffsetStart="10"/>
+  <Articulation File="SFZ\Cowbell.sfz" SetNote="b2" Symbol="Accent|X" OffsetStart="10" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Cowbell.sfz" SetNote="b2" Symbol="Marcato|X" OffsetStart="10" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Cowbell.sfz" SetNote="b2" Symbol="Mute" OffsetStart="10"/>
+  <Articulation File="SFZ\Cowbell.sfz" SetNote="b2" Symbol="Mute|Accent" OffsetStart="10" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Cowbell.sfz" SetNote="b2" Symbol="Mute|Marcato" OffsetStart="10" SetVelocity="+15" SetDynamics="150"/>
+  <MusicXML ExportTranspose="20" InstrumentSound="metal.bells.cowbell"/>
+  <MPE InstrumentSound="percussions.bell.cow:metal"/>
+  <MuseScore Drumset="Cowbell.drm" />
+</Instrument>

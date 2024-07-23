@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Instrument Category="Muse Brass" BracketGroup="Brass" Reverb="40.0" DefaultClef="BASS" FriendlyName="Bass Trombone" Abbreviation="B. Tbn" InsertableSymbols="Mute">
+<Instrument Vendor="Muse" Pack="Muse Brass" Category="Muse Brass" BracketGroup="Brass" Reverb="40.0" DefaultClef="BASS" FriendlyName="Bass Trombone" Abbreviation="B. Tbn" InsertableSymbols="Mute">
 
   <StaffPad>
-<Instrument Category="Muse Brass" BracketGroup="Brass" Reverb="40.0" DefaultClef="BASS" FriendlyName="Bass Trombone" Abbreviation="B. Tbn" InsertableSymbols="Mute">  
+<Instrument Vendor="Muse" Pack="Muse Brass" Category="Muse Brass" BracketGroup="Brass" Reverb="40.0" DefaultClef="BASS" FriendlyName="Bass Trombone" Abbreviation="B. Tbn" InsertableSymbols="Mute">  
   <!-- Articulations -->
   <!-- Long Notes -->
   <Articulation File="SFZ\Bass Trombone - Legato Control.sfz" Class="Sustain"/>

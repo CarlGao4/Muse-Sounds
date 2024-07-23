@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" StaffLines="1" Reverb="40.0" DefaultClef="PERCUSSION" FriendlyName="Castanets" Abbreviation="Cast.">
+  <Articulation File="SFZ\Castanets - Hits.sfz" SetNote="d3" Class="Sustain"/>
+  <Articulation File="SFZ\Castanets - Hits.sfz" SetNote="d3" Class="Accent" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Castanets - Hits.sfz" SetNote="d3" Class="Marcato" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Castanets - Rolls.sfz" SetNote="d3" Class="Tremolo"/>
+  <Articulation File="SFZ\Castanets - Rolls.sfz" SetNote="d3" Symbol="Trill" ForInterval="1"/>
+  <Articulation File="SFZ\Castanets - Rolls.sfz" SetNote="d3" Symbol="Trill" ForInterval="2"/>
+  <Articulation File="SFZ\Castanets - Rolls.sfz" SetNote="d3" Class="Tremolo" Symbol="Accent" SetVelocity="+10" SetDynamics="120" />
+  <Articulation File="SFZ\Castanets - Rolls.sfz" SetNote="d3" Symbol="Trill|Accent" ForInterval="1" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Castanets - Rolls.sfz" SetNote="d3" Symbol="Trill|Accent" ForInterval="2" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Castanets - Rolls.sfz" SetNote="d3" Class="Tremolo" Symbol="Marcato" SetVelocity="+15" SetDynamics="150" />
+  <Articulation File="SFZ\Castanets - Rolls.sfz" SetNote="d3" Symbol="Trill|Marcato" ForInterval="1" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Castanets - Rolls.sfz" SetNote="d3" Symbol="Trill|Marcato" ForInterval="2" SetVelocity="+15" SetDynamics="150"/>
+  <MusicXML ExportTranspose="20" InstrumentSound="wood.castanets"/>
+  <MPE InstrumentSound="percussions.castanet.wooden"/>
+  <MuseScore Drumset="Castanets.drm" />
+</Instrument>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" DefaultStaffType="GRAND" Reverb="40.0" FriendlyName="Marimba" Abbreviation="Mar.">
+  <Preset Name="Hard Mallets">
+    <Articulation File="SFZ\Marimba - Hard Mallets - Sustain.sfz" Class="Sustain"/>
+    <Articulation File="SFZ\Marimba - Hard Mallets - Tremolo.sfz" Class="Tremolo"/>
+    <Articulation File="SFZ\Marimba - Hard Mallets - Sustain.sfz" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Marimba - Hard Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Marimba - Hard Mallets - Sustain.sfz" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Marimba - Hard Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <Preset Name="Soft Mallets">
+    <Articulation File="SFZ\Marimba - Soft Mallets - Sustain.sfz" Class="Sustain"/>
+    <Articulation File="SFZ\Marimba - Soft Mallets - Tremolo.sfz" Class="Tremolo"/>
+    <Articulation File="SFZ\Marimba - Soft Mallets - Sustain.sfz" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Marimba - Soft Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Marimba - Soft Mallets - Sustain.sfz" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Marimba - Soft Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <MusicXML InstrumentSound="pitched-percussion.marimba"/>
+  <MPE InstrumentSound="percussions.marimba"/>
+</Instrument>

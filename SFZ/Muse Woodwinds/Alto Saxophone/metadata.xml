@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Brass|Woodwinds" Volume="-6" Reverb="20" FriendlyName="Alto Sax" Abbreviation="A. Sax">
+  <Transposition Playback="9" DeltaAccidentals="3" NoteChange="5"/>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Alto Saxophone - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Alto Saxophone - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Saxophone - Sustain Accent.sfz" Class="Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Saxophone - Sustain Accent.sfz" Class="Marcato" SetDynamics="150" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Saxophone - Growl.sfz" Class="Tremolo" Name="Growl" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Saxophone - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Saxophone - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Alto Saxophone - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Saxophone - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Alto Saxophone - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Saxophone - Staccato Accent.sfz" Symbol="staccato|accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Saxophone - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Saxophone - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Alto Saxophone - Plop.sfz" Symbol="Plop" OffsetStart="300"/>
+  <Articulation File="SFZ\Alto Saxophone - Scoop.sfz" Symbol="Scoop" OffsetStart="300"/>
+  <Articulation File="SFZ\Alto Saxophone - Shake.sfz" Symbol="Text" Name="shake" OffsetStart="30"/>
+  <Articulation File="SFZ\Alto Saxophone - Doit.sfz" Symbol="Doit" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Alto Saxophone - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <!-- Realtime -->
+  <Articulation File="SFZ\Alto Saxophone - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.reed.saxophone.alto"/>
+  <MPE InstrumentSound="winds.saxophone.alto"/>
+</Instrument>

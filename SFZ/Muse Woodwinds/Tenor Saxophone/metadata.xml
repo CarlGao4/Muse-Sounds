@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Brass|Woodwinds" Volume="-6" Reverb="20" FriendlyName="Tenor Sax" Abbreviation="T. Sax">
+  <Transposition Playback="14" DeltaAccidentals="2" NoteChange="8"/>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Tenor Saxophone - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Tenor Saxophone - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Tenor Saxophone - Sustain Accent.sfz" Class="Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Tenor Saxophone - Sustain Accent.sfz" Class="Marcato" SetDynamics="120" OffsetStart="30"/>
+  <Articulation File="SFZ\Tenor Saxophone - Growl.sfz" Class="Tremolo" Name="Growl" OffsetStart="30"/>
+  <Articulation File="SFZ\Tenor Saxophone - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Tenor Saxophone - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Tenor Saxophone - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Tenor Saxophone - Staccato Accent.sfz" Symbol="staccato|accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Tenor Saxophone - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Tenor Saxophone - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Tenor Saxophone - Plop.sfz" Symbol="Plop" OffsetStart="300"/>
+  <Articulation File="SFZ\Tenor Saxophone - Scoop.sfz" Symbol="Scoop" OffsetStart="300"/>
+  <Articulation File="SFZ\Tenor Saxophone - Shake.sfz" Symbol="Text" Name="shake" OffsetStart="30"/>
+  <Articulation File="SFZ\Tenor Saxophone - Doit.sfz" Symbol="Doit" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Tenor Saxophone - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <!--   Realtime Articulation -->
+  <Articulation File="SFZ\Tenor Saxophone - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.reed.saxophone.tenor"/>
+  <MPE InstrumentSound="winds.saxophone.tenor"/>
+</Instrument>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Woodwinds" Reverb="30" DefaultClef="BASS" FriendlyName="Contrabass Flute" Abbreviation="Cb.Fl." InsertableSymbols="Mute|OpenHarmonic">
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Contrabass Flute - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Contrabass Flute - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Sustain Overblown.sfz" Class="Harmonics" Name="overblown" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Effects.sfz" Symbol="Text" Name="adlib|wild|effects" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Contrabass Flute - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Staccato Overblown.sfz" Symbol="staccato|text" Name="overblown" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Contrabass Flute - Mordent Major.sfz" Symbol="MordentWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Mordent Minor.sfz" Symbol="MordentSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Mordent Inverted Major.sfz" Symbol="MordentInvertedWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Mordent Inverted Minor.sfz" Symbol="MordentInvertedSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Turn Major.sfz" Symbol="TurnWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Turn Minor.sfz" Symbol="TurnSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Turn Inverted Major.sfz" Symbol="TurnInvertedWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Turn Inverted Minor.sfz" Symbol="TurnInvertedSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Contrabass Flute - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <!-- Realtime -->
+  <Articulation File="SFZ\Contrabass Flute - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.flutes.flute.contrabass"/>
+  <MPE InstrumentSound="winds.flute.contra_bass:primary"/>
+</Instrument>

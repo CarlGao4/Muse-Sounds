@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" StaffLines="1" Reverb="20.0" DefaultClef="PERCUSSION" FriendlyName="Tambourine" Abbreviation="Tamb.">
+  <Articulation File="SFZ\Tambourine - Hits.sfz" SetNote="d3" Class="Sustain"/>
+  <Articulation File="SFZ\Tambourine - Rolls.sfz" SetNote="d3" Class="Tremolo"/>
+  <Articulation File="SFZ\Tambourine - Rolls.sfz" SetNote="d3" Symbol="Trill" ForInterval="1"/>
+  <Articulation File="SFZ\Tambourine - Rolls.sfz" SetNote="d3" Symbol="Trill" ForInterval="2"/>
+  <Articulation File="SFZ\Tambourine - Hits.sfz" SetNote="d3" Class="Sustain" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Tambourine - Rolls.sfz" SetNote="d3" Class="Tremolo" Symbol="Accent" SetVelocity="+20" SetDynamics="140"/>
+  <Articulation File="SFZ\Tambourine - Rolls.sfz" SetNote="d3" Symbol="Accent|Trill" ForInterval="1" SetVelocity="+20" SetDynamics="140"/>
+  <Articulation File="SFZ\Tambourine - Rolls.sfz" SetNote="d3" Symbol="Accent|Trill" ForInterval="2" SetVelocity="+20" SetDynamics="140"/>
+  <Articulation File="SFZ\Tambourine - Hits.sfz" SetNote="d3" Class="Sustain" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Tambourine - Rolls.sfz" SetNote="d3" Class="Tremolo" Symbol="Marcato" SetVelocity="+25" SetDynamics="170"/>
+  <Articulation File="SFZ\Tambourine - Rolls.sfz" SetNote="d3" Symbol="Marcato|Trill" ForInterval="1" SetVelocity="+25" SetDynamics="170"/>
+  <Articulation File="SFZ\Tambourine - Rolls.sfz" SetNote="d3" Symbol="Marcato|Trill" ForInterval="2" SetVelocity="+25" SetDynamics="170"/>
+  <MusicXML ExportTranspose="20" InstrumentSound="drum.tambourine"/>
+  <MPE InstrumentSound="percussions.tambourine"/>
+  <MuseScore Drumset="Tambourine.drm"/>
+</Instrument>

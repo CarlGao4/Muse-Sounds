@@ -1,0 +1,22 @@
+SFZ\Bassoon - Fall.sfz
+SFZ\Bassoon - Flatter.sfz
+SFZ\Bassoon - Legato Control.sfz
+SFZ\Bassoon - Legato Intervals Fast.sfz
+SFZ\Bassoon - Legato Intervals.sfz
+SFZ\Bassoon - Mordent Inverted Major.sfz
+SFZ\Bassoon - Mordent Inverted Minor.sfz
+SFZ\Bassoon - Mordent Major.sfz
+SFZ\Bassoon - Mordent Minor.sfz
+SFZ\Bassoon - Realtime.sfz
+SFZ\Bassoon - Staccatissimo.sfz
+SFZ\Bassoon - Staccato Overblown.sfz
+SFZ\Bassoon - Staccato.sfz
+SFZ\Bassoon - Sustain Accent.sfz
+SFZ\Bassoon - Sustain Nonvib.sfz
+SFZ\Bassoon - Sustain.sfz
+SFZ\Bassoon - Trill Half.sfz
+SFZ\Bassoon - Trill Whole.sfz
+SFZ\Bassoon - Turn Inverted Major.sfz
+SFZ\Bassoon - Turn Inverted Minor.sfz
+SFZ\Bassoon - Turn Major.sfz
+SFZ\Bassoon - Turn Minor.sfz

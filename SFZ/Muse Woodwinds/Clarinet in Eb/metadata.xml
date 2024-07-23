@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Woodwinds" Reverb="30" Volume="-6" DefaultClef="TREBLE" FriendlyName="Clarinet in Eb" Abbreviation="Eb Cl.">
+  <Transposition Playback="-3" DeltaAccidentals="3" NoteChange="-2"/>
+  <!-- DSP FX -->
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1.2"/>
+      <Param Name="Freq" Value="600"/>
+      <Param Name="Gain" Value="-3"/>
+    </Processor>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1.41"/>
+      <Param Name="Freq" Value="1250"/>
+      <Param Name="Gain" Value="-3"/>
+    </Processor>
+  </SamplerEffect>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Clarinet in Eb - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Clarinet in Eb - Sustain Accent.sfz" Class="Accent"/>
+  <Articulation File="SFZ\Clarinet in Eb - Sustain Vibrato.sfz" Symbol="Text" Name="con vibrato|dixie|jazz|vibrato" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Flatter.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Clarinet in Eb - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Clarinet in Eb - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Clarinet in Eb - Mordent Major.sfz" Symbol="MordentWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Mordent Minor.sfz" Symbol="MordentSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Mordent Inverted Major.sfz" Symbol="MordentInvertedWhole" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Mordent Inverted Minor.sfz" Symbol="MordentInvertedSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Turn Major.sfz" Symbol="TurnWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Turn Minor.sfz" Symbol="TurnSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Turn Inverted Major.sfz" Symbol="TurnInvertedWholeSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Turn Inverted Minor.sfz" Symbol="TurnInvertedSemiSemi" OffsetStart="30"/>
+  <Articulation File="SFZ\Clarinet in Eb - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Clarinet in Eb - Bends Up.sfz" Symbol="Scoop" OffsetStart="30" SetDuration="75"/>
+  <!-- Realtime -->
+  <Articulation File="SFZ\Clarinet in Eb - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.reed.clarinet.eflat"/>
+  <MPE InstrumentSound="winds.clarinet.sopranino:in_e_flat"/>
+</Instrument>

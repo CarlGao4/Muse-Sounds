@@ -1,0 +1,4 @@
+SFZ\Snare - Snare Off - Hits.sfz
+SFZ\Snare - Snare Off - Rolls.sfz
+SFZ\Snare - Snare On - Hits.sfz
+SFZ\Snare - Snare On - Rolls.sfz

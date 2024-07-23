@@ -1,0 +1,18 @@
+SFZ\Soprano Saxophone - Doit.sfz
+SFZ\Soprano Saxophone - Fall.sfz
+SFZ\Soprano Saxophone - Growl.sfz
+SFZ\Soprano Saxophone - Legato Control.sfz
+SFZ\Soprano Saxophone - Legato Intervals Fast.sfz
+SFZ\Soprano Saxophone - Legato Intervals.sfz
+SFZ\Soprano Saxophone - Plop.sfz
+SFZ\Soprano Saxophone - Realtime.sfz
+SFZ\Soprano Saxophone - Scoop.sfz
+SFZ\Soprano Saxophone - Shake.sfz
+SFZ\Soprano Saxophone - Staccatissimo.sfz
+SFZ\Soprano Saxophone - Staccato Accent.sfz
+SFZ\Soprano Saxophone - Staccato.sfz
+SFZ\Soprano Saxophone - Sustain Accent.sfz
+SFZ\Soprano Saxophone - Sustain Nonvib.sfz
+SFZ\Soprano Saxophone - Sustain.sfz
+SFZ\Soprano Saxophone - Trill Half.sfz
+SFZ\Soprano Saxophone - Trill Whole.sfz

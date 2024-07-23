@@ -1,0 +1,6 @@
+SFZ\Bass Drum - Hard Mallet - Hits - Damped.sfz
+SFZ\Bass Drum - Hard Mallet - Hits - Sustain.sfz
+SFZ\Bass Drum - Hard Mallet - Rolls.sfz
+SFZ\Bass Drum - Soft Mallet - Hits - Damped.sfz
+SFZ\Bass Drum - Soft Mallet - Hits - Sustain.sfz
+SFZ\Bass Drum - Soft Mallet - Rolls.sfz

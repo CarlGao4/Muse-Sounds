@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Keys" Category="Muse Keys" AlternateNamesRegex="^rhodes?$|fender rhodes|^suitcase piano" Name="Fender Rhodes" DefaultStaffType="GRAND" Volume="0" Format="1.0" Reverb="30.0" FriendlyName="Suitcase Piano" Abbreviation="Rhds." Pan="0" MixerEffectsGroup="keys">
+  <Articulation File="SFZ\Suitcase Piano.sfz" Class="Sustain"/>
+  <MusicXML InstrumentSound="keyboard.piano.electric"/>
+  <MPE InstrumentSound="keyboards.piano.electric"/>
+</Instrument>

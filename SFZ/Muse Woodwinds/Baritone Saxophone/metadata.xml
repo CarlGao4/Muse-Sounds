@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Woodwinds" Category="Muse Woodwinds" BracketGroup="Brass|Woodwinds" Reverb="20" Volume="-6" FriendlyName="Baritone Sax" Abbreviation="B. Sax">
+  <Transposition Playback="21" DeltaAccidentals="3" NoteChange="12" ImplicitOctaves="-1"/>
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Baritone Saxophone - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Baritone Saxophone - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Baritone Saxophone - Sustain Accent.sfz" Class="Accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Baritone Saxophone - Sustain Accent.sfz" Class="Marcato" SetDynamics="150" OffsetStart="30"/>
+  <Articulation File="SFZ\Baritone Saxophone - Growl.sfz" Class="Tremolo" Name="Growl" OffsetStart="30"/>
+  <Articulation File="SFZ\Baritone Saxophone - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Baritone Saxophone - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Baritone Saxophone - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Baritone Saxophone - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Baritone Saxophone - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Baritone Saxophone - Staccatissimo.sfz" Class="Staccato_Fastest" OffsetStart="30"/>
+  <Articulation File="SFZ\Baritone Saxophone - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Ornaments -->
+  <Articulation File="SFZ\Baritone Saxophone - Plop.sfz" Symbol="Plop" OffsetStart="300"/>
+  <Articulation File="SFZ\Baritone Saxophone - Scoop.sfz" Symbol="Scoop" OffsetStart="300"/>
+  <Articulation File="SFZ\Baritone Saxophone - Shake.sfz" Symbol="Text" Name="shake" OffsetStart="30"/>
+  <Articulation File="SFZ\Baritone Saxophone - Doit.sfz" Symbol="Doit" OffsetStart="30" SetDuration="75"/>
+  <Articulation File="SFZ\Baritone Saxophone - Fall.sfz" Symbol="Fall" OffsetStart="30" SetDuration="75"/>
+  <!-- Realtime -->
+  <Articulation File="SFZ\Baritone Saxophone - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="wind.reed.saxophone.baritone"/>
+  <MPE InstrumentSound="winds.saxophone.baritone"/>
+</Instrument>

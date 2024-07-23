@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<Instrument Category="Muse Choir" BracketGroup="Voices" Name="Full Choir" Volume="-6" Reverb="30" DefaultClef="GRAND" FriendlyName="Full Choir" Abbreviation="Choir" InsertableSymbols="">
+<Instrument Vendor="Muse" Pack="Muse Choir" Category="Muse Choir" BracketGroup="Voices" Name="Full Choir" Volume="-6" Reverb="30" DefaultClef="GRAND" FriendlyName="Full Choir" Abbreviation="Choir" InsertableSymbols="">
   
   <StaffPad>
-<Instrument Category="Muse Choir" BracketGroup="Voices" Name="Full Choir" Volume="-6" Reverb="30" DefaultClef="GRAND" FriendlyName="Full Choir" Abbreviation="Choir" InsertableSymbols="">
+<Instrument Vendor="Muse" Pack="Muse Choir" Category="Muse Choir" BracketGroup="Voices" Name="Full Choir" Volume="-6" Reverb="30" DefaultClef="GRAND" FriendlyName="Full Choir" Abbreviation="Choir" InsertableSymbols="">
   <!--Basses - Default - Ahh -->
   <Articulation File="..\Basses\SFZ\Basses - Ahh - Legato Control.sfz" Class="Sustain" ForNote="g1|g3" />
   <!--Lyric - Ahh -->

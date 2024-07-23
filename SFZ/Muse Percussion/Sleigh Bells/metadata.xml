@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" FriendlyName="Sleigh Bells" Abbreviation="S. Bells" DefaultClef="PERCUSSION" StaffLines="1" DefaultNotehead="X">
+  <Articulation File="SFZ\Sleigh Bells.sfz" SetNote="D3" Class="Sustain"/>
+  <Articulation File="SFZ\Sleigh Bells.sfz" SetNote="D3" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Sleigh Bells.sfz" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+  <MusicXML ExportTranspose="20" InstrumentSound="metal.bells.sleigh-bells"/>
+  <MPE InstrumentSound="percussions.bell.sleigh:metal"/>
+  <MuseScore Drumset="Sleigh Bells.drm"/>
+</Instrument>

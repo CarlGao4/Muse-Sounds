@@ -1,0 +1,6 @@
+SFZ\Timpani - Hard Mallets - Staccato.sfz
+SFZ\Timpani - Hard Mallets - Sustain.sfz
+SFZ\Timpani - Hard Mallets - Tremolo.sfz
+SFZ\Timpani - Soft Mallets - Staccato.sfz
+SFZ\Timpani - Soft Mallets - Sustain.sfz
+SFZ\Timpani - Soft Mallets - Tremolo.sfz

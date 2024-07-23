@@ -1,0 +1,4 @@
+SFZ\Piatti - Hits - Choked.sfz
+SFZ\Piatti - Hits - Open.sfz
+SFZ\Piatti - Hits - Slices.sfz
+SFZ\Piatti - Rolls.sfz

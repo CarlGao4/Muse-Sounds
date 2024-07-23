@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Keys" Category="Muse Keys" DefaultStaffType="GRAND" Volume="0" Format="1.0" Reverb="20.0" FriendlyName="Wurly 200A" Abbreviation="Wurl." Pan="0" MixerEffectsGroup="keys">
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1"/>
+      <Param Name="Gain" Value="-6"/>
+      <Param Name="Freq" Value="300"/>
+    </Processor>
+    <Processor Name="Doubler">
+      <Param Name="PanL" Value="-0.5"/>
+      <Param Name="DelayMsR" Value="40"/>
+      <Param Name="PanR" Value="0.5"/>
+      <Param Name="DetuneL" Value="-5"/>
+      <Param Name="DetuneR" Value="5"/>
+      <Param Name="LevelL" Value="-12"/>
+      <Param Name="LevelR" Value="-12"/>
+      <Param Name="DelayMsL" Value="30"/>
+    </Processor>
+    <Processor Name="Rotary">
+      <Param Name="DryLevel" Value="-60"/>
+      <Param Name="WetLevel" Value="0"/>
+      <Param Name="Frequency" Value="6"/>
+      <Param Name="StereoPhase" Value="50"/>
+    </Processor>
+  </SamplerEffect>
+  <Articulation File="SFZ\Wurlitzer Sustain.sfz" Class="Sustain"/>
+  <MusicXML InstrumentSound="keyboard.piano.electric"/>
+  <MPE InstrumentSound="keyboards.piano.electric"/>
+</Instrument>

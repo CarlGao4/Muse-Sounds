@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Percussion" Category="Muse Percussion" BracketGroup="Percussion" Reverb="40.0" MixerEffectsGroup="vibes" FriendlyName="Vibraphone" Abbreviation="Vibra." InsertableSymbols="OpenHarmonic|Mute">
+  <Preset Name="Hard Mallets">
+    <SamplerEffect>
+      <Processor Name="LowHighCut">
+        <Param Name="LowCut" Value="200"/>
+        <Param Name="SteepSlope" Value="1"/>
+      </Processor>
+    </SamplerEffect>
+    <Articulation File="SFZ\Vibraphone - Hard Mallets - Sustain.sfz" Class="Sustain"/>
+    <Articulation File="SFZ\Vibraphone - Hard Mallets - Staccato.sfz" Symbol="Staccato"/>
+    <Articulation File="SFZ\Vibraphone - Hard Mallets - Tremolo.sfz" Class="Tremolo"/>
+    <Articulation File="SFZ\Vibraphone - Hard Mallets - Sustain.sfz" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Vibraphone - Hard Mallets - Staccato.sfz" Symbol="Accent|Staccato" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Vibraphone - Hard Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Vibraphone - Hard Mallets - Sustain.sfz" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Vibraphone - Hard Mallets - Staccato.sfz" Symbol="Marcato|Staccato" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Vibraphone - Hard Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <Preset Name="Soft Mallets">
+    <SamplerEffect>
+      <Processor Name="LowHighCut">
+        <Param Name="LowCut" Value="200"/>
+        <Param Name="SteepSlope" Value="1"/>
+      </Processor>
+    </SamplerEffect>
+    <Articulation File="SFZ\Vibraphone - Soft Mallets - Sustain.sfz" Class="Sustain"/>
+    <Articulation File="SFZ\Vibraphone - Soft Mallets - Staccato.sfz" Symbol="Staccato"/>
+    <Articulation File="SFZ\Vibraphone - Soft Mallets - Tremolo.sfz" Class="Tremolo"/>
+    <Articulation File="SFZ\Vibraphone - Soft Mallets - Sustain.sfz" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Vibraphone - Soft Mallets - Staccato.sfz" Symbol="Accent|Staccato" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Vibraphone - Soft Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Accent" SetVelocity="+10" SetDynamics="120"/>
+    <Articulation File="SFZ\Vibraphone - Soft Mallets - Sustain.sfz" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Vibraphone - Soft Mallets - Staccato.sfz" Symbol="Marcato|Staccato" SetVelocity="+15" SetDynamics="150"/>
+    <Articulation File="SFZ\Vibraphone - Soft Mallets - Tremolo.sfz" Class="Tremolo" Symbol="Marcato" SetVelocity="+15" SetDynamics="150"/>
+  </Preset>
+  <MusicXML InstrumentSound="pitched-percussion.vibraphone"/>
+  <MPE InstrumentSound="percussions.vibraphone"/>
+</Instrument>
