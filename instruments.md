@@ -30,6 +30,8 @@
   - [Piano_-_Studio_sfz+flac.zip](https://github.com/CarlGao4/Muse-Sounds/releases/download/Grand-Piano/Piano_-_Studio_sfz%2Bflac.zip)
 - [Hammond Organ](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Hammond-Organ)
   - [Hammond_Organ.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Hammond-Organ/Hammond_Organ.sts.7z)
+- [Harpsichord](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Harpsichord)
+  - [Harpsichord.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Harpsichord/Harpsichord.sts.7z)
 - [Upright Piano](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Upright-Piano)
   - [Upright_Piano.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Upright-Piano/Upright_Piano.sts.7z)
   - [Upright_Piano_Sustain.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Upright-Piano/Upright_Piano_Sustain.sf2)
