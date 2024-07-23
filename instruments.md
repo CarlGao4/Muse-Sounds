@@ -103,4 +103,6 @@
   - [Triangle.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Triangle/Triangle.sts.7z)
 - [Tubular Bells](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Tubular-Bells)
   - [Tubular_Bells.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Tubular-Bells/Tubular_Bells.sts.7z)
+- [Vibraphone](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Vibraphone)
+  - [Vibraphone.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Vibraphone/Vibraphone.sts.7z)
 
