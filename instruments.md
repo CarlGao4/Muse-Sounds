@@ -90,8 +90,8 @@
   - [Upright_Piano_Sustain.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Upright-Piano/Upright_Piano_Sustain.sf2)
   - [Upright_Piano_Sustain.sf3](https://github.com/CarlGao4/Muse-Sounds/releases/download/Upright-Piano/Upright_Piano_Sustain.sf3)
   - [Upright_Piano_Sustain_sfz+flac.zip](https://github.com/CarlGao4/Muse-Sounds/releases/download/Upright-Piano/Upright_Piano_Sustain_sfz%2Bflac.zip)
-- [Wurly 200A](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Wurly_200A)
-  - [Wurly_200A.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Wurly_200A/Wurly_200A.sts.7z)
+- [Wurly 200A](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Wurly-200A)
+  - [Wurly_200A.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Wurly-200A/Wurly_200A.sts.7z)
 
 ## Muse Percussion
 
