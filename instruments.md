@@ -105,4 +105,6 @@
   - [Tubular_Bells.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Tubular-Bells/Tubular_Bells.sts.7z)
 - [Vibraphone](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Vibraphone)
   - [Vibraphone.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Vibraphone/Vibraphone.sts.7z)
+- [Wood Blocks](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Wood-Blocks)
+  - [Woodblocks.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Wood-Blocks/Woodblocks.sts.7z)
 
