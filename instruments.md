@@ -1,5 +1,10 @@
 # Instruments
 
+## Muse Brass
+
+- [Bass Trombone](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bass-Trombone)
+  - [Bass_Trombone.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bass-Trombone/Bass_Trombone.sts.7z)
+
 ## Muse Choir
 
 - [Altos](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Altos)
