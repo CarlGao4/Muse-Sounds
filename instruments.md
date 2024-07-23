@@ -95,8 +95,8 @@
 
 ## Muse Percussion
 
-- [Bass Drum](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bass_Drum)
-  - [Bass_Drum.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bass_Drum/Bass_Drum.sts.7z)
+- [Bass Drum](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bass-Drum)
+  - [Bass_Drum.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bass-Drum/Bass_Drum.sts.7z)
 - [Bell Tree](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bell-Tree)
   - [Bell_Tree.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bell-Tree/Bell_Tree.sts.7z)
 - [Bongos](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bongos)
