@@ -77,4 +77,6 @@
   - [Metronome.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sf2)
   - [Metronome.sf3](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sf3)
   - [Metronome_sfz+flac.zip](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome_sfz%2Bflac.zip)
+- [Piatti](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Piatti)
+  - [Piatti.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Piatti/Piatti.sts.7z)
 
