@@ -23,6 +23,8 @@
   - [Electric_Bass.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Electric-Bass/Electric_Bass.sts.7z)
 - [Electric LP - Clean](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Electric-LP---Clean)
   - [Electric_LP_-_Clean.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Electric-LP---Clean/Electric_LP_-_Clean.sts.7z)
+- [Electric SC - Clean](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Electric-SC---Clean)
+  - [Electric_SC_-_Clean.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Electric-SC---Clean/Electric_SC_-_Clean.sts.7z)
 
 ## Muse Harp
 
