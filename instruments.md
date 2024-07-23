@@ -87,4 +87,6 @@
   - [Snare.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Snare-Drum/Snare.sts.7z)
 - [Sus. Cymbal](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Sus.-Cymbal)
   - [Suspended_Cymbal.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Sus.-Cymbal/Suspended_Cymbal.sts.7z)
+- [Taikos](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Taikos)
+  - [Taikos.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Taikos/Taikos.sts.7z)
 
