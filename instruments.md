@@ -191,4 +191,6 @@
   - [Piccolo.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Piccolo/Piccolo.sts.7z)
 - [Soprano Sax](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Soprano-Sax)
   - [Soprano_Saxophone.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Soprano-Sax/Soprano_Saxophone.sts.7z)
+- [Tenor Sax](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Tenor-Sax)
+  - [Tenor_Saxophone.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Tenor-Sax/Tenor_Saxophone.sts.7z)
 
