@@ -16,6 +16,8 @@
   - [Trombones_a3.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Trombones-a3/Trombones_a3.sts.7z)
 - [Trumpet](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Trumpet)
   - [Trumpet.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Trumpet/Trumpet.sts.7z)
+- [Trumpets a4](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Trumpets-a4)
+  - [Trumpets_a4.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Trumpets-a4/Trumpets_a4.sts.7z)
 
 ## Muse Choir
 
