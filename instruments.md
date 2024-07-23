@@ -157,6 +157,11 @@
 - [Xylophone](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Xylophone)
   - [Xylophone.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Xylophone/Xylophone.sts.7z)
 
+## Muse Strings
+
+- [Violoncello (Solo)](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Violoncello-(Solo))
+  - [Cello_Solo.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Violoncello-%28Solo%29/Cello_Solo.sts.7z)
+
 ## Muse Woodwinds
 
 - [Alto Flute](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Alto-Flute)
