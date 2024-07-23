@@ -8,6 +8,8 @@
   - [Cimbasso.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Cimbasso/Cimbasso.sts.7z)
 - [Horn in F](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Horn-in-F)
   - [French_Horn.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Horn-in-F/French_Horn.sts.7z)
+- [Horns a6](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Horns-a6)
+  - [French_Horns_a6.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Horns-a6/French_Horns_a6.sts.7z)
 
 ## Muse Choir
 
