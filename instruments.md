@@ -161,6 +161,8 @@
 
 - [Contrabasses](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Contrabasses)
   - [Contrabasses.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Contrabasses/Contrabasses.sts.7z)
+- [Viola (Solo)](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Viola-(Solo))
+  - [Viola_Solo.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Viola-%28Solo%29/Viola_Solo.sts.7z)
 - [Violoncello (Solo)](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Violoncello-(Solo))
   - [Cello_Solo.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Violoncello-%28Solo%29/Cello_Solo.sts.7z)
 - [Violoncellos](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Violoncellos)
