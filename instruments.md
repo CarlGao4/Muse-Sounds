@@ -19,6 +19,8 @@
   - [Acoustic_Steel_Picked.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Acoustic-Steel-Picked/Acoustic_Steel_Picked.sts.7z)
 - [Acoustic Steel Plucked](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Acoustic-Steel-Plucked)
   - [Acoustic_Steel_Plucked.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Acoustic-Steel-Plucked/Acoustic_Steel_Plucked.sts.7z)
+- [Electric Bass](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Electric-Bass)
+  - [Electric_Bass.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Electric-Bass/Electric_Bass.sts.7z)
 
 ## Muse Harp
 
