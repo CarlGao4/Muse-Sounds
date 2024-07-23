@@ -163,4 +163,6 @@
   - [Alto_Flute.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Alto-Flute/Alto_Flute.sts.7z)
 - [Alto Sax](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Alto-Sax)
   - [Alto_Saxophone.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Alto-Sax/Alto_Saxophone.sts.7z)
+- [Baritone Sax](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Baritone-Sax)
+  - [Baritone_Saxophone.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Baritone-Sax/Baritone_Saxophone.sts.7z)
 
