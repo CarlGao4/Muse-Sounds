@@ -52,6 +52,8 @@
   - [Bell_Tree.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bell_Tree/Bell_Tree.sts.7z)
 - [Bongos](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bongos)
   - [Bongos.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bongos/Bongos.sts.7z)
+- [Cabasa](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Cabasa)
+  - [Cabasa.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Cabasa/Cabasa.sts.7z)
 - [Metronome](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Metronome)
   - [Metronome.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sts.7z)
   - [Metronome.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sf2)
