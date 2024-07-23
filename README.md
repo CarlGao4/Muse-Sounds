@@ -10,7 +10,7 @@ The Muse Sounds library was released along with MuseScore Studio 4 and is a very
 
 ## Difficulties converting Muse Sounds into general soundfont formats
 
-From the extracted metadata file, we can see that maybe more than one SFZ is used even when playing a single note. Besides, a lot of functions of MuseScore Studio haven't been implemented yet (Until now, the latest version is `4.3.2`). For example, I've found three presets (Studio, Pop, Orchestral) in the Grand Piano soundfont, but at that time (MuseScore `4.2.1`) there was no way to switch between them. This function was added in `4.3.0`. By now, we can still see that the Muse Choir supports three sounds: Ahh, Ooh, Mmm, but there is no way to switch between them, too. (It seems that it can be switched by adding lyrics?)
+From the extracted metadata file, we can see that maybe more than one SFZ is used even when playing a single note. Besides, a lot of functions of MuseScore Studio haven't been implemented yet (Until now, the latest version is `4.3.2`). For example, I've found three presets (Studio, Pop, Orchestral) in the Grand Piano soundfont, but at that time (MuseScore `4.2.1`) there was no way to switch between them. This function was added in `4.3.0`. By now, I can only extract 3 SFZs from Muse Harp, though there are 5 presets in the metadata file. Currently, I don't know how to switch to "Harmonics" and "Tremolo" presets. Similar to the Harp, many other soundfonts have multiple presets but I can only extract part of them. As I only play Piano, I hope that someone familiar with those instruments can help me to extract all presets.
 
 The SFZ files extracted from the `spx` files are not standard. They contain a lot of arguments which normal SFZ files don't have. Besides, it also has "closing brackets". e.g.: normal SFZ file only has `<group>` and all the contents below it are in the group, but the extracted SFZ file has `<group>`, `</group>`, and all the contents between them are in the group. This is not supported by most software.
 
@@ -19,6 +19,8 @@ What's more, the metadata file also defined a series of effects, we even need to
 ## Help needed
 
 I'm not so familiar with sfz and soundfont formats, so my output SF2 and SF3 sounds may not be perfect. If you find any problems, please open an issue or pull request.
+
+Similar to the Harp, many other soundfonts have multiple presets but I can only extract part of them. As I only play Piano, I hope that someone familiar with those instruments can help me to extract all presets.
 
 ## Downloads
 
