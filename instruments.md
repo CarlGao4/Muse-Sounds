@@ -4,6 +4,8 @@
 
 - [Bass Trombone](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bass-Trombone)
   - [Bass_Trombone.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bass-Trombone/Bass_Trombone.sts.7z)
+- [Cimbasso](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Cimbasso)
+  - [Cimbasso.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Cimbasso/Cimbasso.sts.7z)
 
 ## Muse Choir
 
