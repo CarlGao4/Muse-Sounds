@@ -179,4 +179,6 @@
   - [Contrabass_Flute.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Contrabass-Flute/Contrabass_Flute.sts.7z)
 - [Contrabassoon](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Contrabassoon)
   - [Contrabassoon.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Contrabassoon/Contrabassoon.sts.7z)
+- [English Horn](https://github.com/CarlGao4/Muse-Sounds/releases/tag/English-Horn)
+  - [English_Horn.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/English-Horn/English_Horn.sts.7z)
 
