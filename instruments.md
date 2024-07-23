@@ -48,6 +48,8 @@
 
 - [Bass Drum](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bass_Drum)
   - [Bass_Drum.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bass_Drum/Bass_Drum.sts.7z)
+- [Bell Tree](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bell_Tree)
+  - [Bell_Tree.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Bell_Tree/Bell_Tree.sts.7z)
 - [Metronome](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Metronome)
   - [Metronome.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sts.7z)
   - [Metronome.sf2](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome.sf2)
