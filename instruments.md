@@ -83,4 +83,6 @@
   - [Shaker.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Shaker/Shaker.sts.7z)
 - [Sleigh Bells](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Sleigh-Bells)
   - [Sleigh_Bells.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Sleigh-Bells/Sleigh_Bells.sts.7z)
+- [Snare Drum](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Snare-Drum)
+  - [Snare.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Snare-Drum/Snare.sts.7z)
 
