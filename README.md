@@ -77,15 +77,13 @@ And this is an example of the folder structure of the converted soundfont:
 SFZ
 ├── Muse Keys
 │   ├── Piano
-│   │   ├── Piano.spx  # This is a folder now
-│   │   │   └── SFZ
-│   │   │       └── Piano - Studio.sfz  # The extracted sfz file
 │   │   ├── Piano.spx.files.txt  # A file containing file list of Piano.spx
 │   │   ├── metadata.xml  # A file in XML format, I haven't retrieved its name yet
 │   │  (├── drum_notes.xml  # Another XML file defining drum notes, only exists in drum soundfonts)
 │   │   └── SFZ
 │   │       ├── Piano.sts.7z  # The compressed opus files, uploaded to the release page
-│   │       └── files.txt  # A file to tell you that you should download and extract the 7-Zip file here
+│   │       ├── files.txt  # A file to tell you that you should download and extract the 7-Zip file here
+│   │       └── Piano - Studio.sfz  # The extracted sfz file, no longer in the "Piano.spx" folder
 │   └── ...
 └── ...
 ```
