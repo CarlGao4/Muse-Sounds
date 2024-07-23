@@ -85,4 +85,6 @@
   - [Sleigh_Bells.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Sleigh-Bells/Sleigh_Bells.sts.7z)
 - [Snare Drum](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Snare-Drum)
   - [Snare.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Snare-Drum/Snare.sts.7z)
+- [Sus. Cymbal](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Sus.-Cymbal)
+  - [Suspended_Cymbal.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Sus.-Cymbal/Suspended_Cymbal.sts.7z)
 
