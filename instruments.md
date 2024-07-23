@@ -79,4 +79,6 @@
   - [Metronome_sfz+flac.zip](https://github.com/CarlGao4/Muse-Sounds/releases/download/Metronome/Metronome_sfz%2Bflac.zip)
 - [Piatti](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Piatti)
   - [Piatti.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Piatti/Piatti.sts.7z)
+- [Shaker](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Shaker)
+  - [Shaker.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Shaker/Shaker.sts.7z)
 
