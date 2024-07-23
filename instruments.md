@@ -183,4 +183,6 @@
   - [English_Horn.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/English-Horn/English_Horn.sts.7z)
 - [Flute 1](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Flute-1)
   - [Flute_1.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Flute-1/Flute_1.sts.7z)
+- [Flute 2](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Flute-2)
+  - [Flute_2.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Flute-2/Flute_2.sts.7z)
 
