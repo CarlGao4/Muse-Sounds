@@ -18,6 +18,8 @@
 
 - [Celesta](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Celesta)
   - [Celesta.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Celesta/Celesta.sts.7z)
+- [Crotales](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Crotales)
+  - [Crotales.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Crotales/Crotales.sts.7z)
 - [Dream Piano](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Dream-Piano)
   - [Dream_Piano.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Dream-Piano/Dream_Piano.sts.7z)
 - [Grand Piano](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Grand-Piano)
