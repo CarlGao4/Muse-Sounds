@@ -1,0 +1,300 @@
+
+<global>
+amp_veltrack=50
+ampeg_release=0.85
+</global>
+
+<group>
+group_label=RR1
+seq_length=4
+
+<region>
+hikey=C4
+hivel=127
+lokey=C4
+lovel=96
+offset=524
+sample=Bongos_Sticks_Hit 1_F_D4_RR1.opus
+</region>
+
+<region>
+hikey=C4
+hivel=95
+lokey=C4
+lovel=64
+offset=525
+sample=Bongos_Sticks_Hit 1_MF_D4_RR1.opus
+</region>
+
+<region>
+hikey=C4
+hivel=63
+lokey=C4
+lovel=32
+offset=13440
+sample=Bongos_Sticks_Hit 1_MP_D4_RR1.opus
+</region>
+
+<region>
+hikey=C4
+hivel=31
+lokey=C4
+lovel=0
+offset=13974
+sample=Bongos_Sticks_Hit 1_P_D4_RR1.opus
+</region>
+
+<region>
+hivel=127
+key=C#4
+lovel=96
+offset=533
+sample=Bongos_Sticks_Hit 2_F_C4_RR1.opus
+</region>
+
+<region>
+hivel=95
+key=C#4
+lovel=64
+offset=531
+sample=Bongos_Sticks_Hit 2_MF_C4_RR1.opus
+</region>
+
+<region>
+hivel=63
+key=C#4
+lovel=32
+offset=2419
+sample=Bongos_Sticks_Hit 2_MP_C4_RR1.opus
+</region>
+
+<region>
+hivel=31
+key=C#4
+lovel=0
+offset=13961
+sample=Bongos_Sticks_Hit 2_P_C4_RR1.opus
+</region>
+</group>
+
+<group>
+group_label=RR2
+seq_length=4
+seq_position=2
+
+<region>
+hikey=C4
+hivel=127
+lokey=C4
+lovel=96
+offset=526
+sample=Bongos_Sticks_Hit 1_F_D4_RR2.opus
+</region>
+
+<region>
+hikey=C4
+hivel=95
+lokey=C4
+lovel=64
+offset=522
+sample=Bongos_Sticks_Hit 1_MF_D4_RR2.opus
+</region>
+
+<region>
+hikey=C4
+hivel=63
+lokey=C4
+lovel=32
+offset=13977
+sample=Bongos_Sticks_Hit 1_MP_D4_RR2.opus
+</region>
+
+<region>
+hikey=C4
+hivel=31
+lokey=C4
+lovel=0
+offset=13786
+sample=Bongos_Sticks_Hit 1_P_D4_RR2.opus
+</region>
+
+<region>
+hivel=127
+key=C#4
+lovel=96
+offset=534
+sample=Bongos_Sticks_Hit 2_F_C4_RR2.opus
+</region>
+
+<region>
+hivel=95
+key=C#4
+lovel=64
+offset=12466
+sample=Bongos_Sticks_Hit 2_MF_C4_RR2.opus
+</region>
+
+<region>
+hivel=63
+key=C#4
+lovel=32
+offset=13998
+sample=Bongos_Sticks_Hit 2_MP_C4_RR2.opus
+</region>
+
+<region>
+hivel=31
+key=C#4
+lovel=0
+offset=13983
+sample=Bongos_Sticks_Hit 2_P_C4_RR2.opus
+</region>
+</group>
+
+<group>
+group_label=RR3
+seq_length=4
+seq_position=3
+
+<region>
+hikey=C4
+hivel=127
+lokey=C4
+lovel=96
+offset=526
+sample=Bongos_Sticks_Hit 1_F_D4_RR3.opus
+</region>
+
+<region>
+hikey=C4
+hivel=95
+lokey=C4
+lovel=64
+offset=533
+sample=Bongos_Sticks_Hit 1_MF_D4_RR3.opus
+</region>
+
+<region>
+hikey=C4
+hivel=63
+lokey=C4
+lovel=32
+offset=13942
+sample=Bongos_Sticks_Hit 1_MP_D4_RR3.opus
+</region>
+
+<region>
+hikey=C4
+hivel=31
+lokey=C4
+lovel=0
+offset=13919
+sample=Bongos_Sticks_Hit 1_P_D4_RR3.opus
+</region>
+
+<region>
+hivel=127
+key=C#4
+lovel=96
+offset=533
+sample=Bongos_Sticks_Hit 2_F_C4_RR3.opus
+</region>
+
+<region>
+hivel=95
+key=C#4
+lovel=64
+offset=534
+sample=Bongos_Sticks_Hit 2_MF_C4_RR3.opus
+</region>
+
+<region>
+hivel=63
+key=C#4
+lovel=32
+offset=13950
+sample=Bongos_Sticks_Hit 2_MP_C4_RR3.opus
+</region>
+
+<region>
+hivel=31
+key=C#4
+lovel=0
+offset=13951
+sample=Bongos_Sticks_Hit 2_P_C4_RR3.opus
+</region>
+</group>
+
+<group>
+group_label=RR4
+seq_length=4
+seq_position=4
+
+<region>
+hikey=C4
+hivel=127
+lokey=C4
+lovel=96
+offset=523
+sample=Bongos_Sticks_Hit 1_F_D4_RR4.opus
+</region>
+
+<region>
+hikey=C4
+hivel=95
+lokey=C4
+lovel=64
+offset=533
+sample=Bongos_Sticks_Hit 1_MF_D4_RR4.opus
+</region>
+
+<region>
+hikey=C4
+hivel=63
+lokey=C4
+lovel=32
+offset=13963
+sample=Bongos_Sticks_Hit 1_MP_D4_RR4.opus
+</region>
+
+<region>
+hikey=C4
+hivel=31
+lokey=C4
+lovel=0
+offset=13959
+sample=Bongos_Sticks_Hit 1_P_D4_RR4.opus
+</region>
+
+<region>
+hivel=127
+key=C#4
+lovel=96
+offset=528
+sample=Bongos_Sticks_Hit 2_F_C4_RR4.opus
+</region>
+
+<region>
+hivel=95
+key=C#4
+lovel=64
+offset=523
+sample=Bongos_Sticks_Hit 2_MF_C4_RR4.opus
+</region>
+
+<region>
+hivel=63
+key=C#4
+lovel=32
+offset=13460
+sample=Bongos_Sticks_Hit 2_MP_C4_RR4.opus
+</region>
+
+<region>
+hivel=31
+key=C#4
+lovel=0
+offset=13978
+sample=Bongos_Sticks_Hit 2_P_C4_RR4.opus
+</region>
+</group>
