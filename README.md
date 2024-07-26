@@ -6,6 +6,8 @@ The Muse Sounds soundfont in sf2 and sf3 format only for research purpose
 
 The Muse Sounds library was released along with MuseScore Studio 4 and is a very high-quality soundfont. However, the library can only be used in MuseScore Studio 4 as it is distributed under internal format and could only be rendered with the "MuseSamplerCoreLib" (Actually, you can use Muse Sounds as long as you can load the MuseSampler API, which is undocumented but you can retrieve it by reading MuseScore Studio source code). This audio backend is not perfect yet, like it doesn't support per-note velocity. So converting the internal format into general soundfont formats without causing quality loss is the mission of this project. With this project, it will also be easier to edit the soundfont and use it in other software.
 
+Besides, the Muse Sounds library is too large and contains too many files. For those who would like to compose epic music but not so familiar with all the instruments, it is hard to differentiate the features of each. By showing the structure of the soundfont, it will be easier to make your music more vivid.
+
 **This repository DOES NOT contain any license and is only for research purpose. You must follow the license of the original Muse Sounds library.**
 
 ## Difficulties converting Muse Sounds into general soundfont formats
