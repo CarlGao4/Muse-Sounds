@@ -22,7 +22,11 @@ I'm not so familiar with sfz and soundfont formats, so my output SF2 and SF3 sou
 
 Similar to the Harp, many other soundfonts have multiple presets but I can only extract part of them. As I only play Piano, I hope that someone familiar with those instruments can help me to extract all presets.
 
+You can see [status](status.md) for the full list of files failed to extract.
+
 ## Downloads
+
+See [status](status.md) for the status of this project and more information about the soundfonts.
 
 See [instruments](instruments.md) for the list of instruments and download links.
 
@@ -34,18 +38,6 @@ I use different versions to upload different instruments. Until now, each versio
 - `*.sf2`: The soundfont in SF2 format. See [SF2 and SF3](#sf2-and-sf3) for more information.
 - `*.sf3`: The soundfont in SF3 format. See [SF2 and SF3](#sf2-and-sf3) for more information.
 - `*_sfz+flac.zip`: Converted sfz file and flac files. I add this file because the original sfz file is not standard and may not be supported by some software, and not all software supports opus files. This file is ready-to-use, which means that you can directly unpack it (with the folder structure) and load it with a sfz player. The zip is not compressed at all.
-
-### Extracted versions
-
-Up until now, I've extracted the following versions:
-- Muse Strings `0.4.14`
-- Muse Harp `0.2.7`
-- Muse Choir `0.3.18` (Which has a problem that Women soundfont doesn't have any sound if the note belongs to Soprano range because Soprano has been renamed from Sopranos but the sfz file still uses Sopranos. I've renamed it back currently.)
-- Muse Guitar Vol. 1 `0.9.8`
-- Muse Keys `0.4.11`
-- Muse Percussion `0.5.10`
-- Muse Brass `0.4.4`
-- Muse Woodwinds `0.5.22`
 
 ## Folder structure
 
