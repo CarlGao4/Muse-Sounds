@@ -5,14 +5,18 @@
 Up until now, I've extracted the following versions:
 - Muse Strings `0.4.14`
 - Muse Harp `0.2.7`
-- Muse Choir `0.3.18`
-- Muse Guitar Vol. 1 `0.9.8`
+- Muse Choir `0.3.19`
+- Muse Guitars Vol. 1 `0.9.8`
 - Muse Keys `0.4.11`
 - Muse Percussion `0.5.10`
 - Muse Brass `0.4.4`
-- Muse Woodwinds `0.5.22`
+- Muse Woodwinds `0.5.23`
 
-Muse Choir has a problem that Women soundfont doesn't have any sound if the note belongs to Soprano range because Soprano has been renamed from Sopranos but the sfz file still uses Sopranos. I've renamed it back currently.
+### Muse Sounds Bugs I've found
+
+Muse Choir `0.3.18` has a problem that Women soundfont doesn't have any sound if the note belongs to Soprano range because Soprano has been renamed from Sopranos but the sfz file still uses Sopranos. It has been renamed back in `0.3.19` version.
+
+Muse Percussion `0.5.10` Mark Tree has a problem that `SFZ\Mark Tree - Rolls - Gliss Down.sfz` takes higher priority than `SFZ\Mark Tree - Hits - Gliss Down.sfz` when adding "ArpgeggioDown"
 
 ## About the uploaded files
 

@@ -1,0 +1,18 @@
+"Muse Brass/Bass Trombone/Bass Trombone.spx":                                       1070230 f91c443bcab7803f0e2141dc7937b1d784651342
+"Muse Brass/Bass Trombone/SFZ/Bass Trombone.sts":                                 157960391 9745f6a24783df86a45f3046958b4bde9646ba72
+"Muse Brass/Cimbasso/Cimbasso.spx":                                                  841318 0e27b8f235b64dc6410b31479d87ab77b2bbf16b
+"Muse Brass/Cimbasso/SFZ/Cimbasso.sts":                                           231539425 b53acd00616948285260af59744a18c41af57c63
+"Muse Brass/French Horn/French Horn.spx":                                           1296202 8fdce7c0418a3c941fecaa422583ae5214b0b7e4
+"Muse Brass/French Horn/SFZ/French Horn.sts":                                     230871101 254f683af185aa7eceb0d2eae4c70f1ca7f15277
+"Muse Brass/French Horns a6/French Horns a6.spx":                                    586703 102067106dd2111fbca9d3e3aab191301e070566
+"Muse Brass/French Horns a6/SFZ/French Horns a6.sts":                             193200432 04b4f21c3ec9e2b8af8692e76ce816b621c2cb21
+"Muse Brass/Trombone/Trombone.spx":                                                 1180230 048c58311710879b00df07ff71a325fb1c9b4868
+"Muse Brass/Trombone/SFZ/Trombone.sts":                                           147288035 e60f1c3c4760371f392c3f06a6a160eff6288edb
+"Muse Brass/Trombones a3/Trombones a3.spx":                                          547915 3e4d30943c3319c189d78f5e9c9b20054bcf82e8
+"Muse Brass/Trombones a3/SFZ/Trombones a3.sts":                                   207582747 1cdf9c383e51c1bbc40b6a8a288c987f53e4bc2c
+"Muse Brass/Trumpet/Trumpet.spx":                                                   1172559 6fad0d85e6cddf9b34dde4f68cf0b5c5860b3abd
+"Muse Brass/Trumpet/SFZ/Trumpet.sts":                                             169576604 d8c0655e9097d2ed0e52984d27cca56bfa3acabc
+"Muse Brass/Trumpets a4/Trumpets a4.spx":                                            647023 aecc846e1563404f963392278b84166deec17329
+"Muse Brass/Trumpets a4/SFZ/Trumpets a4.sts":                                     240139180 1a38e0e68713fe5198b9f412824ff5b9d8df31a8
+"Muse Brass/Tuba/Tuba.spx":                                                          789686 94a67534892ab83a36cf37674dc0880a666a9e84
+"Muse Brass/Tuba/SFZ/Tuba.sts":                                                   209353535 91c8e178254bb247e523a3a387d0eeb5cba8fa39

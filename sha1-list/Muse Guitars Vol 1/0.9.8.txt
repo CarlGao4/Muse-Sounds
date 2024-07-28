@@ -1,0 +1,16 @@
+"Muse Guitars Vol 1/Acoustic Nylon/Acoustic Nylon.spx":                              409168 29937a98f6bddc728c1fc305e338ac654c65bbc4
+"Muse Guitars Vol 1/Acoustic Nylon/SFZ/Acoustic Nylon.sts":                       112761684 0f67c15dd1644631b5590690f15ea3751e006b35
+"Muse Guitars Vol 1/Acoustic Steel Picked/Acoustic Steel Picked.spx":                501520 c6956e283284cd070f5440c2382447b442aec853
+"Muse Guitars Vol 1/Acoustic Steel Picked/SFZ/Acoustic Steel Picked.sts":         135083944 b410120f1b13106f212e4175aa5b2a85b56b75de
+"Muse Guitars Vol 1/Acoustic Steel Plucked/Acoustic Steel Plucked.spx":              380805 ac87174c94fc910351375040699cc234a83117a9
+"Muse Guitars Vol 1/Acoustic Steel Plucked/SFZ/Acoustic Steel Plucked.sts":        95034324 8e3a10d98cebbd5615f5c23e707103179f2495f9
+"Muse Guitars Vol 1/Electric Bass/Electric Bass.spx":                                349488 ebb56dc8b5d9c599af4a86b9172e5a228d26b365
+"Muse Guitars Vol 1/Electric Bass/SFZ/Electric Bass.sts":                         111393508 96c06ab7491c4ab9900dc2a67b5f49ddfb560e5e
+"Muse Guitars Vol 1/Electric LP - Clean/Electric LP - Clean.spx":                    455749 73b2b5f4a1a2e2fd3a768e4210131843e57f0fe2
+"Muse Guitars Vol 1/Electric LP - Clean/SFZ/Electric LP - Clean.sts":             122012816 83a76a6b9e114ac3e475ca6685e4decf773d6c18
+"Muse Guitars Vol 1/Electric LP - Heavy/Electric LP - Heavy.spx":                    425808 127b434bb09e611be22436cac9a003cb210ace6c
+"Muse Guitars Vol 1/Electric LP - Lead/Electric LP - Lead.spx":                      424448 e532bbf83d75056050759b60b751ffed168f1d9a
+"Muse Guitars Vol 1/Electric SC - Clean/Electric SC - Clean.spx":                   1234137 1fa6d8291736b8c24c06946d7aba678db35fecd0
+"Muse Guitars Vol 1/Electric SC - Clean/SFZ/Electric SC - Clean.sts":             406856876 9cc1e07cd95b91491e3c254f4e97ee1317e2b244
+"Muse Guitars Vol 1/Electric SC - Heavy/Electric SC - Heavy.spx":                   1244761 3c4910480565c878e41d594e50af9e46fb4f4db4
+"Muse Guitars Vol 1/Electric SC - Lead/Electric SC - Lead.spx":                     1234393 e1307359fe0df8d02c7c5fd70d52f3d2590d5153

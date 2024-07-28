@@ -1,0 +1,11 @@
+"Muse Choir/Altos/Altos.spx":                                                        583694 7df4fab30070b85e7dfb185655daa07f446649b8
+"Muse Choir/Altos/SFZ/Altos.sts":                                                 147577931 dd456e99c2db38dd4603e63fda3100d33a5af478
+"Muse Choir/Basses/Basses.spx":                                                      691278 19e400a7125333fdd5b642678812ed094ca5078d
+"Muse Choir/Basses/SFZ/Basses.sts":                                               180583831 fdb9b5f79063e0bce855d5c26850bb6403e1ce64
+"Muse Choir/Full Choir/Full Choir.spx":                                             2306744 8d6e73baf5604a89a51791525fd9298a32f9eb16
+"Muse Choir/Men/Men.spx":                                                           1220684 9959c7290bb0290670bb241e265244f2aa908c39
+"Muse Choir/Sopranos/Sopranos.spx":                                                  599838 b60d226ae6d8c1ba49c10a29669c6d3c1b0136f5
+"Muse Choir/Sopranos/SFZ/Sopranos.sts":                                           147628724 14b2db0f4ed4363c5fdff10b889afc2d0992fb7d
+"Muse Choir/Tenors/Tenors.spx":                                                      573310 83f109f75ea81830faa8f74956235c4bade55cca
+"Muse Choir/Tenors/SFZ/Tenors.sts":                                               152732858 af8910476ca2374e83efbcd17f84bcfac95cb422
+"Muse Choir/Women/Women.spx":                                                       1139164 134bee4b2d5c7b5bf2985b75412cffe9fd3b67fd

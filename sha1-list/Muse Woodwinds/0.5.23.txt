@@ -1,0 +1,34 @@
+"Muse Woodwinds/Alto Flute/Alto Flute.spx":                                         1767742 628a9ba583a351298cc34884ec6b033b9f916869
+"Muse Woodwinds/Alto Flute/SFZ/Alto Flute.sts":                                   299263796 2dafb59a6c092d02bf92b994715c282268819840
+"Muse Woodwinds/Alto Saxophone/Alto Saxophone.spx":                                 1873866 c9b0baff56ca840b46e14c06bbde651613e76782
+"Muse Woodwinds/Alto Saxophone/SFZ/Alto Saxophone.sts":                           246495453 38ab3a6a6f8734af3cb9cfa3a87ebecd28f53a39
+"Muse Woodwinds/Baritone Saxophone/Baritone Saxophone.spx":                         1870341 91a3558672a36839b5c443c06e08a5523ada8cf5
+"Muse Woodwinds/Baritone Saxophone/SFZ/Baritone Saxophone.sts":                   308757195 9a1949e59cd5cbd3466aef0e683c08699f8e4b5e
+"Muse Woodwinds/Bass Clarinet/Bass Clarinet.spx":                                   2121992 237fbfb5e0055084d4754d94786f540558bc82e4
+"Muse Woodwinds/Bass Clarinet/SFZ/Bass Clarinet.sts":                             370917969 3ea8dbaae0320626256fb9d0f6176c9f8cd0e6ba
+"Muse Woodwinds/Bass Flute/Bass Flute.spx":                                         1064638 8ad411c31da5be156a287ede93d7f0182336c88d
+"Muse Woodwinds/Bass Flute/SFZ/Bass Flute.sts":                                   195724905 03354955128c5794b17ec35f3385c50ffd501ecc
+"Muse Woodwinds/Bassoon/Bassoon.spx":                                               2048702 a06ed42f7aee97653f78c5b62845e7d0c0c11f24
+"Muse Woodwinds/Bassoon/SFZ/Bassoon.sts":                                         341053506 ab6d26a54ad5cd531c9420098128a3f223cf0bec
+"Muse Woodwinds/Clarinet in Bb/Clarinet in Bb.spx":                                 2409677 b40082c5e39a5c45e2e61c03018da733d07580b1
+"Muse Woodwinds/Clarinet in Bb/SFZ/Clarinet in Bb.sts":                           365681102 3b5f533aa22ad66e9c6320ed1a98241234efad1f
+"Muse Woodwinds/Clarinet in Eb/Clarinet in Eb.spx":                                 2151134 b949e0333f6d69c013246ac6f2d4685a94b121ee
+"Muse Woodwinds/Clarinet in Eb/SFZ/Clarinet in Eb.sts":                           369765186 31009ba41325f9468d673e4b86b3ad9ac3903c1e
+"Muse Woodwinds/Contrabass Flute/Contrabass Flute.spx":                              498067 b9779b3689577b6cd60dec78185bd6661d65f404
+"Muse Woodwinds/Contrabass Flute/SFZ/Contrabass Flute.sts":                       133688762 4c50726b642fd4c59ccf790f60e1a41f56bd86f4
+"Muse Woodwinds/Contrabassoon/Contrabassoon.spx":                                   1209476 61368e2590a18f1c087ab7b152011a027994d184
+"Muse Woodwinds/Contrabassoon/SFZ/Contrabassoon.sts":                             261210236 28e0e256f3ae22e705f347eb54fbe712598340bc
+"Muse Woodwinds/English Horn/English Horn.spx":                                     1556249 d3fb3fa7eec10000e03b0a21a440fb0d07119250
+"Muse Woodwinds/English Horn/SFZ/English Horn.sts":                               256632514 357b555745b3a598c7d2b556bd449efe8337259a
+"Muse Woodwinds/Flute 1/Flute 1.spx":                                               2226439 e21d6c5b8bbbbf32b4ea8956a63e4c0c0aebd0fc
+"Muse Woodwinds/Flute 1/SFZ/Flute 1.sts":                                         385851595 23fcd87bcdfb37d4b66255e9df2ebd2693a4f9c3
+"Muse Woodwinds/Flute 2/Flute 2.spx":                                               2035566 759b3cedc2cf4cb27f4be7e65bca762787d1c882
+"Muse Woodwinds/Flute 2/SFZ/Flute 2.sts":                                         347812481 b34b3c1a173bbc7458cbd7930077629925c443f9
+"Muse Woodwinds/Oboe/Oboe.spx":                                                     1825396 1ee773dc5dbf72a79c58837652f8ad187b7293b9
+"Muse Woodwinds/Oboe/SFZ/Oboe.sts":                                               207979681 6581ff14cb4692962617784aee7c41dc583116e7
+"Muse Woodwinds/Piccolo/Piccolo.spx":                                               1198728 d45ed330b46372c7abd7395552a21b3303babaf0
+"Muse Woodwinds/Piccolo/SFZ/Piccolo.sts":                                         203577853 1b875ddc11f7f19649444b3724005a1eb3dfac71
+"Muse Woodwinds/Soprano Saxophone/Soprano Saxophone.spx":                           1567818 c41356b0a253199b2ac2b68cdc63cf5cdee2c8f3
+"Muse Woodwinds/Soprano Saxophone/SFZ/Soprano Saxophone.sts":                     148619035 ec75030e45a5c0012081a9202f6dd1681b205775
+"Muse Woodwinds/Tenor Saxophone/Tenor Saxophone.spx":                               1774202 0104db6378e601b060cbb62ad61c4e5319da409e
+"Muse Woodwinds/Tenor Saxophone/SFZ/Tenor Saxophone.sts":                         295651930 1ebf079716f31c2cdc5b55e07e5ffce04454ed1d
