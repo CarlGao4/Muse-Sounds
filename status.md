@@ -26,9 +26,29 @@ Some of the soundfonts have been converted to SF2 and SF3 format, and uploaded t
 
 I've also extracted some of the soundfonts in SFZ format, and uploaded to this repo. These are the "non-standard" SFZ files, which means that they may not be supported by some software. See [SFZ folder](SFZ) for theses files.
 
+### Uploaded original SFZ files
+
+- Muse Keys `0.4.11`
+  - All
+- Muse Percussion `0.5.10`
+  - All
+- Muse Harp `0.2.7`
+  - All
+- Muse Choir `0.3.19`
+  - Altos
+
 ## SFZ files failed to extract or convert
 
 Some of the soundfonts have failed to extract or convert. Here is the list of them. Instruments which haven't been extracted is not listed.
+
+### Muse Choir
+
+#### Altos
+
+- `SFZ\Altos - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ahh - Staccatissimo.sfz`
+- `SFZ\Altos - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ooh - Staccatissimo.sfz`
+- `SFZ\Altos - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Mmm - Staccatissimo.sfz`
+- `SFZ\Altos - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
 
 ### Muse Harp
 
