@@ -34,7 +34,7 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 
 #### Harp
 
-- `SFZ\Harp - Harmonics.sfz`: Could not activate this file by adding "harmonics" symbol
+- `SFZ\Harp - Harmonics.sfz`: Could not activate this file by adding "Harmonics" symbol
 
 ### Muse Keys
 
@@ -47,11 +47,3 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 #### Mark Tree
 
 - `SFZ\Mark Tree - Hits - Gliss Down.sfz`: When trying to activate this file by adding "ArpeggioDown", `SFZ\Mark Tree - Rolls - Gliss Down.sfz` takes higher priority so this file can't be activated.
-
-#### Timbales
-
-- `SFZ\Timbales - Rolls.sfz`: Could not activate this file by adding "Tremolo", "Trill", "Marcato" and "Accent"
-
-#### Toms
-
-- `Toms - Rolls.sfz`: Could not activate this file by adding "Tremolo", "Trill", "Marcato" and "Accent"
