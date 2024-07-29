@@ -51,3 +51,7 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 #### Timbales
 
 - `SFZ\Timbales - Rolls.sfz`: Could not activate this file by adding "Tremolo", "Trill", "Marcato" and "Accent"
+
+#### Toms
+
+- `Toms - Rolls.sfz`: Could not activate this file by adding "Tremolo", "Trill", "Marcato" and "Accent"
