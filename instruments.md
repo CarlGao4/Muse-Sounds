@@ -157,11 +157,6 @@
 - [Xylophone](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Xylophone)
   - [Xylophone.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Xylophone/Xylophone.sts.7z)
 
-## Muse String
-
-- [Violins 2](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Violins-2)
-  - [Violins_2.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Violins-2/Violins_2.sts.7z)
-
 ## Muse Strings
 
 - [Contrabasses](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Contrabasses)
@@ -176,6 +171,8 @@
   - [Violin_2_Solo.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Violin-2-%28Solo%29/Violin_2_Solo.sts.7z)
 - [Violins 1](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Violins-1)
   - [Violins_1.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Violins-1/Violins_1.sts.7z)
+- [Violins 2](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Violins-2)
+  - [Violins_2.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Violins-2/Violins_2.sts.7z)
 - [Violoncello (Solo)](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Violoncello-(Solo))
   - [Cello_Solo.sts.7z](https://github.com/CarlGao4/Muse-Sounds/releases/download/Violoncello-%28Solo%29/Cello_Solo.sts.7z)
 - [Violoncellos](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Violoncellos)
