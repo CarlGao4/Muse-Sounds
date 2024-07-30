@@ -1,0 +1,4 @@
+* text=auto
+*.xml text eol=lf
+*.sfz text eol=lf
+*files.txt text eol=lf
