@@ -44,7 +44,7 @@ These SFZ files are **NOT** standard and should be modified before using in othe
   - [ ] Tuba
 - [x] Muse Choir `0.3.19`
   - [x] Altos
-  - [ ] Basses
+  - [x] Basses
   - [ ] Sopranos
   - [ ] Tenors
 - [ ] Muse Guitars Vol. 1 `0.9.8`
@@ -138,6 +138,13 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 - `SFZ\Altos - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Mmm - Staccatissimo.sfz`
 - `SFZ\Altos - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ooh - Staccatissimo.sfz`
 - `SFZ\Altos - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
+
+#### Basses
+
+- `SFZ\Basses - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Ahh - Staccatissimo.sfz`
+- `SFZ\Basses - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Mmm - Staccatissimo.sfz`
+- `SFZ\Basses - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Ooh - Staccatissimo.sfz`
+- `SFZ\Basses - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
 
 ### Muse Harp
 
