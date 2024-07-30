@@ -3,13 +3,13 @@
 ## Extracted versions
 
 Up until now, I've extracted the following versions:
-- Muse Strings `0.4.14`
-- Muse Harp `0.2.7`
+- Muse Brass `0.4.4`
 - Muse Choir `0.3.19`
 - Muse Guitars Vol. 1 `0.9.8`
+- Muse Harp `0.2.7`
 - Muse Keys `0.4.11`
 - Muse Percussion `0.5.10`
-- Muse Brass `0.4.4`
+- Muse Strings `0.4.14`
 - Muse Woodwinds `0.5.23`
 
 ### Muse Sounds Bugs I've found
@@ -28,14 +28,103 @@ I've also extracted some of the soundfonts in SFZ format, and uploaded to this r
 
 ### Uploaded original SFZ files
 
-- Muse Keys `0.4.11`
-  - All
-- Muse Percussion `0.5.10`
-  - All
-- Muse Harp `0.2.7`
-  - All
-- Muse Choir `0.3.19`
-  - Altos
+If an instrument is not listed here, it means that it doesn't have its own SFZ file or I haven't noticied that the instrument.
+
+These SFZ files are **NOT** standard and should be modified before using in other software.
+
+- [ ] Muse Brass `0.4.4`
+  - [ ] Bass Trombone
+  - [ ] Cimbasso
+  - [ ] Horn in F
+  - [ ] Horns a6
+  - [ ] Trombone
+  - [ ] Trombones a3
+  - [ ] Trumpet
+  - [ ] Trumpets a4
+  - [ ] Tuba
+- [x] Muse Choir `0.3.19`
+  - [x] Altos
+  - [ ] Basses
+  - [ ] Sopranos
+  - [ ] Tenors
+- [ ] Muse Guitars Vol. 1 `0.9.8`
+  - [ ] Acoustic Nylon
+  - [ ] Acoustic Steel Picked
+  - [ ] Acoustic Steel Plucked
+  - [ ] Electric Bass
+  - [ ] Electric LP - Clean
+  - [ ] Electric SC - Clean
+- [x] Muse Harp `0.2.7`
+  - [x] Harp
+- [x] Muse Keys `0.4.11`
+  - [x] Celesta
+  - [x] Crotales
+  - [x] Dream Piano
+  - [x] Grand Piano
+  - [x] Hammond Organ
+  - [x] Harpsichord
+  - [x] Soft Piano
+  - [x] Suitcase Piano
+  - [x] Upright Piano
+  - [x] Wurly 200A
+- [x] Muse Percussion `0.5.10`
+  - [x] Bass Drum
+  - [x] Bell Tree
+  - [x] Bongos
+  - [x] Cabasa
+  - [x] Castanets
+  - [x] Claves
+  - [x] Cowbell
+  - [x] Field Drum
+  - [x] Glockenspiel
+  - [x] Gong
+  - [x] Marimba
+  - [x] Mark Tree
+  - [x] Metronome
+  - [x] Piatti
+  - [x] Shaker
+  - [x] Sleigh Bells
+  - [x] Snare Drum
+  - [x] Sus. Cymbal
+  - [x] Taikos
+  - [x] Tam-tam
+  - [x] Tambourine
+  - [x] Timbales
+  - [x] Timpani
+  - [x] Toms
+  - [x] Triangle
+  - [x] Tubular Bells
+  - [x] Vibraphone
+  - [x] Wood Blocks
+  - [x] Xylophone
+- [ ] Muse Strings `0.4.14`
+  - [ ] Contrabasses
+  - [ ] Viola (Solo)
+  - [ ] Violas
+  - [ ] Violin 1 (Solo)
+  - [ ] Violin 2 (Solo)
+  - [ ] Violins 1
+  - [ ] Violins 2
+  - [ ] Violoncello (Solo)
+  - [ ] Violoncellos
+- [ ] Muse Woodwinds `0.5.23`
+  - [ ] Alto Flute
+  - [ ] Alto Sax
+  - [ ] Baritone Sax
+  - [ ] Bass Clarinet
+  - [ ] Bass Flute
+  - [ ] Bassoon
+  - [ ] Clarinet in Bb
+  - [ ] Clarinet in Eb
+  - [ ] Contrabass Flute
+  - [ ] Contrabassoon
+  - [ ] English Horn
+  - [ ] Flute 1
+  - [ ] Flute 2
+  - [ ] Oboe
+  - [ ] Piccolo
+  - [ ] Soprano Sax
+  - [ ] Tenor Sax
 
 ## SFZ files failed to extract or convert
 
@@ -46,8 +135,8 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 #### Altos
 
 - `SFZ\Altos - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ahh - Staccatissimo.sfz`
-- `SFZ\Altos - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ooh - Staccatissimo.sfz`
 - `SFZ\Altos - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Mmm - Staccatissimo.sfz`
+- `SFZ\Altos - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ooh - Staccatissimo.sfz`
 - `SFZ\Altos - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
 
 ### Muse Harp
