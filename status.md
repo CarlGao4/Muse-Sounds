@@ -28,9 +28,11 @@ I've also extracted some of the soundfonts in SFZ format, and uploaded to this r
 
 ### Uploaded original SFZ files
 
-If an instrument is not listed here, it means that it doesn't have its own SFZ file or I haven't noticied that the instrument.
+If an instrument is not listed here, it means that it doesn't have its own SFZ file or I haven't noticied that instrument.
 
 These SFZ files are **NOT** standard and should be modified before using in other software.
+
+Instruments in *italic* means that some SFZ files are not extracted. See below [SFZ files failed to extract or convert](#sfz-files-failed-to-extract-or-convert) for more information.
 
 - [ ] Muse Brass `0.4.4`
   - [ ] Bass Trombone
@@ -43,8 +45,8 @@ These SFZ files are **NOT** standard and should be modified before using in othe
   - [ ] Trumpets a4
   - [ ] Tuba
 - [x] Muse Choir `0.3.19`
-  - [x] Altos
-  - [x] Basses
+  - [x] *Altos*
+  - [x] *Basses*
   - [ ] Sopranos
   - [ ] Tenors
 - [ ] Muse Guitars Vol. 1 `0.9.8`
@@ -55,12 +57,12 @@ These SFZ files are **NOT** standard and should be modified before using in othe
   - [ ] Electric LP - Clean
   - [ ] Electric SC - Clean
 - [x] Muse Harp `0.2.7`
-  - [x] Harp
+  - [x] *Harp*
 - [x] Muse Keys `0.4.11`
   - [x] Celesta
   - [x] Crotales
   - [x] Dream Piano
-  - [x] Grand Piano
+  - [x] *Grand Piano*
   - [x] Hammond Organ
   - [x] Harpsichord
   - [x] Soft Piano
@@ -79,7 +81,7 @@ These SFZ files are **NOT** standard and should be modified before using in othe
   - [x] Glockenspiel
   - [x] Gong
   - [x] Marimba
-  - [x] Mark Tree
+  - [x] *Mark Tree*
   - [x] Metronome
   - [x] Piatti
   - [x] Shaker
@@ -103,7 +105,7 @@ These SFZ files are **NOT** standard and should be modified before using in othe
   - [ ] Violas
   - [ ] Violin 1 (Solo)
   - [ ] Violin 2 (Solo)
-  - [ ] Violins 1
+  - [x] *Violins 1*
   - [ ] Violins 2
   - [ ] Violoncello (Solo)
   - [ ] Violoncellos
@@ -134,32 +136,40 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 
 #### Altos
 
-- `SFZ\Altos - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ahh - Staccatissimo.sfz`
-- `SFZ\Altos - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Mmm - Staccatissimo.sfz`
-- `SFZ\Altos - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ooh - Staccatissimo.sfz`
+- `SFZ\Altos - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ahh - Staccatissimo.sfz`.
+- `SFZ\Altos - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Mmm - Staccatissimo.sfz`.
+- `SFZ\Altos - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ooh - Staccatissimo.sfz`.
 - `SFZ\Altos - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
 
 #### Basses
 
-- `SFZ\Basses - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Ahh - Staccatissimo.sfz`
-- `SFZ\Basses - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Mmm - Staccatissimo.sfz`
-- `SFZ\Basses - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Ooh - Staccatissimo.sfz`
+- `SFZ\Basses - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Ahh - Staccatissimo.sfz`.
+- `SFZ\Basses - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Mmm - Staccatissimo.sfz`.
+- `SFZ\Basses - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Ooh - Staccatissimo.sfz`.
 - `SFZ\Basses - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
 
 ### Muse Harp
 
 #### Harp
 
-- `SFZ\Harp - Harmonics.sfz`: Could not activate this file by adding "Harmonics" symbol
+- `SFZ\Harp - Harmonics.sfz`: Could not activate this file by adding "Harmonics" symbol.
 
 ### Muse Keys
 
 #### Grand Piano
 
-- `SFZ\Piano - Realtime.sfz`: Could not activate this file by using "Orchestral" preset
+- `SFZ\Piano - Realtime.sfz`: Could not activate this file by using "Orchestral" preset.
 
 ### Muse Percussion
 
 #### Mark Tree
 
 - `SFZ\Mark Tree - Hits - Gliss Down.sfz`: When trying to activate this file by adding "ArpeggioDown", `SFZ\Mark Tree - Rolls - Gliss Down.sfz` takes higher priority so this file can't be activated.
+
+### Muse Strings
+
+#### Violins 1
+
+- `SFZ\Violins 1 - Fall.sfz` I know that this file could be activated (As I've activated `SFZ\Violins 1 - Sustain Falls.sfz` by opening another mscz file), but I haven't successfully activated these two files by adding "Fall" symbol myself.
+- `SFZ\Violins 1 - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
+- `SFZ\Violins 1 - Sustain Harmonic.sfz`: Could not activate this file by adding "Harmonic" symbol.
