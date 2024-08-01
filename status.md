@@ -48,7 +48,7 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
   - [x] *Altos* (4)
   - [x] *Basses* (4)
   - [x] *Sopranos* (4)
-  - [ ] Tenors
+  - [x] *Tenors* (4)
 - [ ] Muse Guitars Vol. 1 `0.9.8`
   - [ ] Acoustic Nylon
   - [ ] Acoustic Steel Picked
@@ -154,6 +154,13 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 - `SFZ\Sopranos - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Sopranos - Mmm - Staccatissimo.sfz`.
 - `SFZ\Sopranos - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Sopranos - Ooh - Staccatissimo.sfz`.
 - `SFZ\Sopranos - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
+
+#### Tenors
+
+- `SFZ\Tenors - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Tenors - Ahh - Staccatissimo.sfz`.
+- `SFZ\Tenors - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Tenors - Mmm - Staccatissimo.sfz`.
+- `SFZ\Tenors - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Tenors - Ooh - Staccatissimo.sfz`.
+- `SFZ\Tenors - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
 
 ### Muse Harp
 
