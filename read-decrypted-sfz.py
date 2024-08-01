@@ -1,6 +1,6 @@
 # read-decrypted-sfz.py
 # A demo script to read decrypted spx from MuseScore4 memory
-# Designed for Windows only, MuseSampler version 0.5.1
+# Designed for Windows only
 # Visit https://github.com/CarlGao4/Muse-Sounds for more information
 
 import frida
@@ -12,7 +12,7 @@ assert sys.platform == "win32", "This script is for Windows only"
 
 # TODO: Set this to False if you don't want to print the output to console
 print_output = True
-# TODO: Set this to empty string if you want to save the output to decrypted.out
+# TODO: Output file name, set this to empty string if you don't want to save the output
 out_name = "decrypted.out"
 
 
