@@ -32,7 +32,7 @@ If an instrument is not listed here, it means that it doesn't have its own SFZ f
 
 These SFZ files are **NOT** standard and should be modified before using in other software.
 
-Instruments in *italic* means that some SFZ files are not extracted. See below [SFZ files failed to extract or convert](#sfz-files-failed-to-extract-or-convert) for more information.
+Instruments in *italic* means that some SFZ files are not extracted. See below [SFZ files failed to extract or convert](#sfz-files-failed-to-extract-or-convert) for more information. The number comes after the instrument name is the the count of unextracted SFZ files.
 
 - [ ] Muse Brass `0.4.4`
   - [ ] Bass Trombone
@@ -45,9 +45,9 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
   - [ ] Trumpets a4
   - [ ] Tuba
 - [x] Muse Choir `0.3.19`
-  - [x] *Altos*
-  - [x] *Basses*
-  - [ ] Sopranos
+  - [x] *Altos* (4)
+  - [x] *Basses* (4)
+  - [x] *Sopranos* (4)
   - [ ] Tenors
 - [ ] Muse Guitars Vol. 1 `0.9.8`
   - [ ] Acoustic Nylon
@@ -57,12 +57,12 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
   - [ ] Electric LP - Clean
   - [ ] Electric SC - Clean
 - [x] Muse Harp `0.2.7`
-  - [x] *Harp*
+  - [x] *Harp* (1)
 - [x] Muse Keys `0.4.11`
   - [x] Celesta
   - [x] Crotales
   - [x] Dream Piano
-  - [x] *Grand Piano*
+  - [x] *Grand Piano* (1)
   - [x] Hammond Organ
   - [x] Harpsichord
   - [x] Soft Piano
@@ -81,7 +81,7 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
   - [x] Glockenspiel
   - [x] Gong
   - [x] Marimba
-  - [x] *Mark Tree*
+  - [x] *Mark Tree* (1)
   - [x] Metronome
   - [x] Piatti
   - [x] Shaker
@@ -105,7 +105,7 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
   - [ ] Violas
   - [ ] Violin 1 (Solo)
   - [ ] Violin 2 (Solo)
-  - [x] *Violins 1*
+  - [x] *Violins 1* (3)
   - [ ] Violins 2
   - [ ] Violoncello (Solo)
   - [ ] Violoncellos
@@ -147,6 +147,13 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 - `SFZ\Basses - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Mmm - Staccatissimo.sfz`.
 - `SFZ\Basses - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Ooh - Staccatissimo.sfz`.
 - `SFZ\Basses - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
+
+#### Sopranos
+
+- `SFZ\Sopranos - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Sopranos - Ahh - Staccatissimo.sfz`.
+- `SFZ\Sopranos - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Sopranos - Mmm - Staccatissimo.sfz`.
+- `SFZ\Sopranos - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Sopranos - Ooh - Staccatissimo.sfz`.
+- `SFZ\Sopranos - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
 
 ### Muse Harp
 
