@@ -57,7 +57,7 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
   - [ ] Electric LP - Clean
   - [ ] Electric SC - Clean
 - [x] Muse Harp `0.2.7`
-  - [x] *Harp* (1)
+  - [x] Harp
 - [x] Muse Keys `0.4.11`
   - [x] Celesta
   - [x] Crotales
@@ -105,7 +105,7 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
   - [ ] Violas
   - [ ] Violin 1 (Solo)
   - [ ] Violin 2 (Solo)
-  - [x] *Violins 1* (3)
+  - [x] *Violins 1* (2)
   - [ ] Violins 2
   - [ ] Violoncello (Solo)
   - [ ] Violoncellos
@@ -162,12 +162,6 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 - `SFZ\Tenors - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Tenors - Ooh - Staccatissimo.sfz`.
 - `SFZ\Tenors - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
 
-### Muse Harp
-
-#### Harp
-
-- `SFZ\Harp - Harmonics.sfz`: Could not activate this file by adding "Harmonics" symbol.
-
 ### Muse Keys
 
 #### Grand Piano
@@ -186,4 +180,3 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 
 - `SFZ\Violins 1 - Fall.sfz` I know that this file could be activated (As I've activated `SFZ\Violins 1 - Sustain Falls.sfz` by opening another mscz file), but I haven't successfully activated these two files by adding "Fall" symbol myself.
 - `SFZ\Violins 1 - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
-- `SFZ\Violins 1 - Sustain Harmonic.sfz`: Could not activate this file by adding "Harmonic" symbol.
