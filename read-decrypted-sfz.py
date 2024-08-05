@@ -4,6 +4,7 @@
 # Visit https://github.com/CarlGao4/Muse-Sounds for more information
 
 import frida
+import re
 import sys
 import threading
 
@@ -14,6 +15,8 @@ assert sys.platform == "win32", "This script is for Windows only"
 print_output = True
 # TODO: Output file name, set this to empty string if you don't want to save the output
 out_name = "decrypted.out"
+# TODO: Set this to False if you don't want to replace separator (\x00) with newline and a line of dashes
+replace_separator = True
 
 
 # Search for "F3 0F7F 0B" in MuseSamplerCoreLib.dll which follows "48 83 C3 10"
@@ -121,6 +124,8 @@ while True:
         break
     if out_name:
         with read_lock:
+            if replace_separator:
+                out = re.sub(b"\\x00+", b"\n" + b"-" * 20 + b"\n", out)
             with open(out_name, mode="wb") as f:
                 f.write(out)
             out = b""
