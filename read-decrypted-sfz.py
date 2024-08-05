@@ -69,24 +69,46 @@ print(f"Using address: MuseSamplerCoreLib.dll+{addr_auto[2:]}")
 
 
 script_code = """
-Interceptor.attach(Module.findBaseAddress("MuseSamplerCoreLib.dll").add(%s), {
-    onEnter: function (args) {
-        const buf = ptr(this.context.rbx).readByteArray(16);
-        send("decode", buf);
-    }
-});
+(function () {
+    var last_addr = ptr("0x0");
+    Interceptor.attach(Module.findBaseAddress("MuseSamplerCoreLib.dll").add(%s), {
+        onEnter: function (args) {
+            var addr = ptr(this.context.rbx);
+            const buf = addr.readByteArray(16);
+            if (last_addr.equals(0x0) || last_addr.add(0x10).equals(addr) || addr.add(0xf0).equals(last_addr)) {
+                send("decode", buf);
+            }
+            else {
+                send("decode_new", buf);
+            }
+            last_addr = addr;
+        }
+    });
+})();
 """ % addr_auto
 out = b""
+has_end = True
+read_lock = threading.RLock()
 
 
 def on_message(message, data):
-    global out
-    if message["type"] == "send" and message["payload"] == "decode":
-        out += data
-        if print_output:
-            print(data.rstrip(b"\x00").decode("utf-8"), end="")
-            if data.endswith(b"\x00"):
-                print("\n" + "-" * 20)
+    global out, has_end
+    with read_lock:
+        if message["type"] == "send" and message["payload"].startswith("decode"):
+            if message["payload"] == "decode_new":
+                if not has_end:
+                    out += b"\x00"
+                    print("\n" + "-" * 20)
+            out += data
+            if print_output:
+                print(data.rstrip(b"\x00").decode("utf-8"), end="")
+                if data.endswith(b"\x00"):
+                    print("\n" + "-" * 20)
+                    has_end = True
+                else:
+                    has_end = False
+        else:
+            print(message, data, sep="\n", file=sys.stderr)
 
 
 script = session.create_script(script_code)
@@ -98,9 +120,11 @@ while True:
     if r == "q":
         break
     if out_name:
-        with open(out_name, mode="wb") as f:
-            f.write(out)
-        out = b""
+        with read_lock:
+            with open(out_name, mode="wb") as f:
+                f.write(out)
+            out = b""
+            has_end = True
 
 script.unload()
 session.detach()
