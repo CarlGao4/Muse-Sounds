@@ -87,3 +87,7 @@ for _ in range(struct.unpack("<i", f.read(4))[0]):
     f.seek(back)
 f.close()
 ```
+
+## Example script to archive
+
+See [create-sts.py](create-sts.py) for an example script to archive files into `sts` format.
