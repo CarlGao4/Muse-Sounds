@@ -34,6 +34,8 @@ These SFZ files are **NOT** standard and should be modified before using in othe
 
 Instruments in *italic* means that some SFZ files are not extracted. See below [SFZ files failed to extract or convert](#sfz-files-failed-to-extract-or-convert) for more information. The number comes after the instrument name is the the count of unextracted SFZ files.
 
+If an instrument contains `Realtime` preset, I guess that it should require a MIDI keyboard to activate, so currently I can't extract them. They are not listed in the "SFZ files failed to extract or convert" section, but a star symbol is added to the instrument name in the list. The number indicating the count of unextracted SFZ files includes these Realtime presets.
+
 - [ ] Muse Brass `0.4.4`
   - [ ] Bass Trombone
   - [ ] Cimbasso
@@ -45,10 +47,10 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
   - [ ] Trumpets a4
   - [ ] Tuba
 - [x] Muse Choir `0.3.19`
-  - [x] *Altos* (4)
-  - [x] *Basses* (4)
-  - [x] *Sopranos* (4)
-  - [x] *Tenors* (4)
+  - [x] *Altos* ***(4)*** \*
+  - [x] *Basses* ***(4)*** \*
+  - [x] *Sopranos* ***(4)*** \*
+  - [x] *Tenors* ***(4)*** \*
 - [ ] Muse Guitars Vol. 1 `0.9.8`
   - [ ] Acoustic Nylon
   - [ ] Acoustic Steel Picked
@@ -62,7 +64,7 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
   - [x] Celesta
   - [x] Crotales
   - [x] Dream Piano
-  - [x] *Grand Piano* (1)
+  - [x] *Grand Piano* ***(1)*** \*
   - [x] Hammond Organ
   - [x] Harpsichord
   - [x] Soft Piano
@@ -81,7 +83,7 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
   - [x] Glockenspiel
   - [x] Gong
   - [x] Marimba
-  - [x] *Mark Tree* (1)
+  - [x] *Mark Tree* ***(1)***
   - [x] Metronome
   - [x] Piatti
   - [x] Shaker
@@ -105,7 +107,7 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
   - [ ] Violas
   - [ ] Violin 1 (Solo)
   - [ ] Violin 2 (Solo)
-  - [x] *Violins 1* (2)
+  - [x] *Violins 1* ***(2)*** \*
   - [ ] Violins 2
   - [ ] Violoncello (Solo)
   - [ ] Violoncellos
@@ -132,6 +134,8 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
 
 Some of the soundfonts have failed to extract or convert. Here is the list of them. Instruments which haven't been extracted is not listed.
 
+`Realtime` SFZ files are not listed here.
+
 ### Muse Choir
 
 #### Altos
@@ -139,34 +143,24 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 - `SFZ\Altos - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ahh - Staccatissimo.sfz`.
 - `SFZ\Altos - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Mmm - Staccatissimo.sfz`.
 - `SFZ\Altos - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ooh - Staccatissimo.sfz`.
-- `SFZ\Altos - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
 
 #### Basses
 
 - `SFZ\Basses - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Ahh - Staccatissimo.sfz`.
 - `SFZ\Basses - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Mmm - Staccatissimo.sfz`.
 - `SFZ\Basses - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Ooh - Staccatissimo.sfz`.
-- `SFZ\Basses - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
 
 #### Sopranos
 
 - `SFZ\Sopranos - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Sopranos - Ahh - Staccatissimo.sfz`.
 - `SFZ\Sopranos - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Sopranos - Mmm - Staccatissimo.sfz`.
 - `SFZ\Sopranos - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Sopranos - Ooh - Staccatissimo.sfz`.
-- `SFZ\Sopranos - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
 
 #### Tenors
 
 - `SFZ\Tenors - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Tenors - Ahh - Staccatissimo.sfz`.
 - `SFZ\Tenors - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Tenors - Mmm - Staccatissimo.sfz`.
 - `SFZ\Tenors - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Tenors - Ooh - Staccatissimo.sfz`.
-- `SFZ\Tenors - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
-
-### Muse Keys
-
-#### Grand Piano
-
-- `SFZ\Piano - Realtime.sfz`: Could not activate this file by using "Orchestral" preset.
 
 ### Muse Percussion
 
@@ -179,4 +173,3 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 #### Violins 1
 
 - `SFZ\Violins 1 - Fall.sfz` I know that this file could be activated (As I've activated `SFZ\Violins 1 - Sustain Falls.sfz` by opening another mscz file), but I haven't successfully activated these two files by adding "Fall" symbol myself.
-- `SFZ\Violins 1 - Realtime.sfz`: Could not activate this file. I guess that this should require a MIDI keyboard to activate.
