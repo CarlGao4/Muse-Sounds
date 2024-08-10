@@ -33,7 +33,7 @@ hashes = {
 versions = {
     "Muse Brass": "xxx",
     "Muse Choir": "xxx",
-    "Muse Guitars Vol. 1": "xxx",
+    "Muse Guitars Vol 1": "xxx",
     "Muse Harp": "xxx",
     "Muse Keys": "xxx",
     "Muse Percussion": "xxx",
