@@ -18,6 +18,8 @@ Muse Choir `0.3.18` has a problem that Women soundfont doesn't have any sound if
 
 Muse Percussion `0.5.10` Mark Tree has a problem that `SFZ\Mark Tree - Rolls - Gliss Down.sfz` takes higher priority than `SFZ\Mark Tree - Hits - Gliss Down.sfz` when adding "ArpgeggioDown"
 
+Muse Strings `0.4.14` Violins 1 `SFZ\Violins 1 - Sustain Fall.sfz` should only be activated `ForDuration="|4"` according to the metadata file, which I guess means that the note should have a duration equals to or less than 4 16th notes. But all notes added "Fall" symbol will activate `SFZ\Violins 1 - Sustain Fall.sfz` instead of `SFZ\Violins 1 - Fall.sfz` even if the note has a duration more than 4 16th notes.
+
 ## About the uploaded files
 
 Up until now, I've uploaded all the metadata file to this repo (See [SFZ folder](SFZ)), and their sample file (`*.sts`) has been extracted and rearchived to 7-Zip format, which is uploaded to the release page. To see the full list, see [instruments](instruments.md).
@@ -108,7 +110,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [ ] Violin 1 (Solo)
   - [ ] Violin 2 (Solo)
   - [x] *Violins 1* ***(2)*** \*
-  - [ ] Violins 2
+  - [x] *Violins 2* ***(1)*** \*
   - [ ] Violoncello (Solo)
   - [ ] Violoncellos
 - [ ] Muse Woodwinds `0.5.23`
@@ -172,4 +174,4 @@ Some of the soundfonts have failed to extract or convert. Here is the list of th
 
 #### Violins 1
 
-- `SFZ\Violins 1 - Fall.sfz` I know that this file could be activated (As I've activated `SFZ\Violins 1 - Sustain Falls.sfz` by opening another mscz file), but I haven't successfully activated these two files by adding "Fall" symbol myself.
+- `SFZ\Violins 1 - Fall.sfz`: According to the metadata file, `SFZ\Violins 1 - Sustain Fall.sfz` should only be activated `ForDuration="|4"`, which I guess means that the note should have a duration equals to or less than 4 16th notes. But all notes added "Fall" symbol will activate `SFZ\Violins 1 - Sustain Fall.sfz` instead of `SFZ\Violins 1 - Fall.sfz` even if the note has a duration more than 4 16th notes.
