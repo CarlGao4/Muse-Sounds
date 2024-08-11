@@ -49,10 +49,10 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [ ] Trumpets a4
   - [ ] Tuba
 - [x] Muse Choir `0.3.19`
-  - [x] *Altos* ***(4)*** \*
-  - [x] *Basses* ***(4)*** \*
-  - [x] *Sopranos* ***(4)*** \*
-  - [x] *Tenors* ***(4)*** \*
+  - [x] Altos
+  - [x] Basses
+  - [x] Sopranos
+  - [x] Tenors
 - [ ] Muse Guitars Vol. 1 `0.9.8`
   - [ ] Acoustic Nylon
   - [ ] Acoustic Steel Picked
@@ -66,7 +66,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Celesta
   - [x] Crotales
   - [x] Dream Piano
-  - [x] *Grand Piano* ***(1)*** \*
+  - [x] Grand Piano
   - [x] Hammond Organ
   - [x] Harpsichord
   - [x] Soft Piano
@@ -85,7 +85,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Glockenspiel
   - [x] Gong
   - [x] Marimba
-  - [x] *Mark Tree* ***(1)***
+  - [x] Mark Tree
   - [x] Metronome
   - [x] Piatti
   - [x] Shaker
@@ -109,8 +109,8 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [ ] Violas
   - [ ] Violin 1 (Solo)
   - [ ] Violin 2 (Solo)
-  - [x] *Violins 1* ***(2)*** \*
-  - [x] *Violins 2* ***(1)*** \*
+  - [x] Violins 1
+  - [x] Violins 2
   - [ ] Violoncello (Solo)
   - [ ] Violoncellos
 - [ ] Muse Woodwinds `0.5.23`
@@ -137,41 +137,3 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
 Some of the soundfonts have failed to extract or convert. Here is the list of them. Instruments which haven't been extracted is not listed.
 
 `Realtime` SFZ files are not listed here.
-
-### Muse Choir
-
-#### Altos
-
-- `SFZ\Altos - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ahh - Staccatissimo.sfz`.
-- `SFZ\Altos - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Mmm - Staccatissimo.sfz`.
-- `SFZ\Altos - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Altos - Ooh - Staccatissimo.sfz`.
-
-#### Basses
-
-- `SFZ\Basses - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Ahh - Staccatissimo.sfz`.
-- `SFZ\Basses - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Mmm - Staccatissimo.sfz`.
-- `SFZ\Basses - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Basses - Ooh - Staccatissimo.sfz`.
-
-#### Sopranos
-
-- `SFZ\Sopranos - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Sopranos - Ahh - Staccatissimo.sfz`.
-- `SFZ\Sopranos - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Sopranos - Mmm - Staccatissimo.sfz`.
-- `SFZ\Sopranos - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Sopranos - Ooh - Staccatissimo.sfz`.
-
-#### Tenors
-
-- `SFZ\Tenors - Ahh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Tenors - Ahh - Staccatissimo.sfz`.
-- `SFZ\Tenors - Mmm - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Tenors - Mmm - Staccatissimo.sfz`.
-- `SFZ\Tenors - Ooh - Staccato.sfz`: Could not activate this file by adding "Staccato" symbol, it will activate `SFZ\Tenors - Ooh - Staccatissimo.sfz`.
-
-### Muse Percussion
-
-#### Mark Tree
-
-- `SFZ\Mark Tree - Hits - Gliss Down.sfz`: When trying to activate this file by adding "ArpeggioDown", `SFZ\Mark Tree - Rolls - Gliss Down.sfz` takes higher priority so this file can't be activated.
-
-### Muse Strings
-
-#### Violins 1
-
-- `SFZ\Violins 1 - Fall.sfz`: According to the metadata file, `SFZ\Violins 1 - Sustain Fall.sfz` should only be activated `ForDuration="|4"`, which I guess means that the note should have a duration equals to or less than 4 16th notes. But all notes added "Fall" symbol will activate `SFZ\Violins 1 - Sustain Fall.sfz` instead of `SFZ\Violins 1 - Fall.sfz` even if the note has a duration more than 4 16th notes.
