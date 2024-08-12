@@ -173,19 +173,24 @@ def input_with_getch(prompt=""):
             raise KeyboardInterrupt
 
 
-print("Press '?' for help, 'q' to quit", file=sys.stderr)
+help_msg = """\
+'?' - help
+'q' - quit
+'w' - write output to file
+'s' - Switch step-by-step mode
+'r' - Overwrite decrypted data with file content
+'e' - Manually add a separator
+'Enter' - Continue (step-by-step mode)
+"""
+print("Press the following keys for respective actions", file=sys.stderr)
+print(help_msg, file=sys.stderr)
 while True:
-    r = msvcrt.getch()
-    if r == b"q" or r == b"\x03":
+    r = msvcrt.getwch()
+    if r == "q" or r == "\x03":
         break
-    elif r == b"?":
-        print("'?' - help", file=sys.stderr)
-        print("'q' - quit", file=sys.stderr)
-        print("'w' - write output to file", file=sys.stderr)
-        print("'s' - Switch step-by-step mode", file=sys.stderr)
-        print("'r' - Overwrite decrypted data with file content", file=sys.stderr)
-        print("'Enter' - Continue (step-by-step mode)", file=sys.stderr)
-    elif r == b"w":
+    elif r == "?":
+        print(help_msg, file=sys.stderr)
+    elif r == "w":
         if out_name:
             with read_lock:
                 if replace_separator:
@@ -195,14 +200,14 @@ while True:
                 out = b""
                 has_end = True
             print(f"Output saved to {out_name}")
-    elif r == b"s":
+    elif r == "s":
         step_by_step = not step_by_step
         script.post({"type": "step_by_step", "payload": step_by_step})
-    elif r == b"\r" or r == b"\n":
+    elif r == "\r" or r == "\n":
         if step_by_step_waiting:
             step_by_step_waiting = False
             script.post({"type": "continue"})
-    elif r == b"r":
+    elif r == "r":
         print("Input a file name to overwrite decrypted data with file content", file=sys.stderr)
         print("File length should be a multiple of 16, or it will be padded with \\x00", file=sys.stderr)
         file_name = input()
@@ -212,6 +217,10 @@ while True:
                 script.post({"type": "replace_bytes", "payload": list(replace_bytes)})
         except FileNotFoundError:
             print("File not found", file=sys.stderr)
+    elif r == "e":
+        if out and out[-1] != b"\x00":
+            out += b"\x00"
+            print("\n" + "-" * 20, flush=True)
     else:
         print("Unknown command", file=sys.stderr)
 
