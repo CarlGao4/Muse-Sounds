@@ -14,9 +14,13 @@ assert sys.platform == "win32", "This script is for Windows only"
 
 # TODO: Set this to False if you don't want to print the output to console
 print_output = True
+
 # TODO: Output file name, set this to empty string if you don't want to save the output
 out_name = "decrypted.out"
+
 # TODO: Set this to False if you don't want to replace separator (\x00) with newline and a line of dashes
+# In fact, the script will automatically add \x00 to the beginning of a file
+# Which means that I've assumed that all decrypted files do not start with \x00
 replace_separator = True
 
 
@@ -73,6 +77,28 @@ print(f"Using address: MuseSamplerCoreLib.dll+{addr_auto[2:]}")
 
 
 script_code = """
+var create_ui8array = () => {
+    var data = new Object();
+    data.array = new Uint8Array(0);
+    data.length = 0;
+    data.append_ui8arr = function (ui8arr) {
+        if (this.array.length < this.length + ui8arr.length) {
+            var new_array = new Uint8Array(Math.ceil((this.length + ui8arr.length) / 8192) * 8192);
+            new_array.set(this.array);
+            new_array.set(ui8arr, this.length);
+            this.array = new_array;
+            this.length += ui8arr.length;
+        }
+        else {
+            this.array.set(ui8arr, this.length);
+            this.length += ui8arr.length;
+        }
+    };
+    data.get_ui8arr = function () {
+        return this.array.slice(0, this.length);
+    };
+    return data;
+};
 (function () {
     var step_by_step = false;
     var register_sbs = msg => {
@@ -84,6 +110,29 @@ script_code = """
         recv('step_by_step', register_sbs);
     };
     recv('step_by_step', register_sbs);
+
+    var fast_mode = false;
+    var register_fm = msg => {
+        fast_mode = msg.payload;
+        if (fast_mode)
+            send("fast_mode_true");
+        else
+            send("fast_mode_false");
+        recv('fast_mode', register_fm);
+    };
+    recv('fast_mode', register_fm);
+
+    var read_bytes = create_ui8array();
+    var sending_latest = false;
+    var register_rl = msg => {
+        sending_latest = true;
+        send("decode", read_bytes.get_ui8arr());
+        read_bytes = create_ui8array();
+        sending_latest = false;
+        recv('get_latest', register_rl);
+    };
+    recv('get_latest', register_rl);
+
     var replace_bytes = new Uint8Array();
     var register_replace = msg => {
         var new_replace_bytes = new Uint8Array(msg.payload.length + replace_bytes.length);
@@ -93,10 +142,14 @@ script_code = """
         recv('replace_bytes', register_replace);
     };
     recv('replace_bytes', register_replace);
+
+    var fast_mode_timeout = null;
     var last_addr = ptr("0x0");
+
     var injected = Interceptor.attach(Module.findBaseAddress("MuseSamplerCoreLib.dll").add(%s), {
         onEnter: function (args) {
             var addr = ptr(this.context.rbx);
+
             if (replace_bytes.length > 0) {
                 if (replace_bytes.length < 16) {
                     var replace_bytes_16 = new Uint8Array(16);
@@ -106,14 +159,41 @@ script_code = """
                 addr.writeByteArray(replace_bytes.slice(0, 16));
                 replace_bytes = replace_bytes.slice(16);
             }
-            const buf = addr.readByteArray(16);
-            if (last_addr.equals(0x0) || last_addr.add(0x10).equals(addr) || addr.add(0xf0).equals(last_addr)) {
-                send("decode", buf);
+
+            var buf = new Uint8Array(addr.readByteArray(16));
+
+            if (!last_addr.equals(0x0) && !last_addr.add(0x10).equals(addr) && !addr.add(0xf0).equals(last_addr)) {
+                buf = Uint8Array.from(Array.prototype.concat([0], Array.from(buf)));
+            }
+
+            while (sending_latest) {}
+
+            if (fast_mode) {
+                read_bytes.append_ui8arr(buf);
+
+                if (!step_by_step) {
+                    if (fast_mode_timeout !== null) {
+                        clearTimeout(fast_mode_timeout);
+                    }
+                    fast_mode_timeout = setTimeout(() => {
+                        if (read_bytes.length > 0) {
+                            send("decode", read_bytes.get_ui8arr());
+                            read_bytes = create_ui8array();
+                        }
+                        send("no_new_data");
+                    }, 1000);
+                }
             }
             else {
-                send("decode_new", buf);
+                if (read_bytes.length > 0) {
+                    send("decode", read_bytes.get_ui8arr());
+                    read_bytes = create_ui8array();
+                }
+                send("decode", buf);
             }
+
             last_addr = addr;
+
             if (step_by_step) {
                 send("step_by_step_waiting");
                 recv('continue', () => {}).wait();
@@ -131,25 +211,28 @@ read_lock = threading.RLock()
 def on_message(message, data):
     global out, has_end, step_by_step_waiting
     with read_lock:
-        if message["type"] == "send" and message["payload"].startswith("decode"):
-            if message["payload"] == "decode_new":
-                if not has_end:
-                    out += b"\x00"
-                    print("\n" + "-" * 20)
+        if message["type"] == "send" and message["payload"] == "decode":
+            if has_end:
+                data = data.lstrip(b"\x00")
             out += data
             if print_output:
-                print(data.rstrip(b"\x00").decode("utf-8"), end="", flush=True)
+                print(re.sub(b"\\x00+", b"\n" + b"-" * 20 + b"\n", data).decode("utf-8"), end="", flush=True)
                 if data.endswith(b"\x00"):
-                    print("\n" + "-" * 20, flush=True)
                     has_end = True
                 else:
                     has_end = False
         elif message["type"] == "send" and message["payload"] == "step_by_step_waiting":
             step_by_step_waiting = True
         elif message["type"] == "send" and message["payload"] == "step_by_step_true":
-            print("Step-by-step mode enabled")
+            print("Step-by-step mode enabled", file=sys.stderr)
         elif message["type"] == "send" and message["payload"] == "step_by_step_false":
-            print("Step-by-step mode disabled")
+            print("Step-by-step mode disabled", file=sys.stderr)
+        elif message["type"] == "send" and message["payload"] == "fast_mode_true":
+            print("Fast mode enabled", file=sys.stderr)
+        elif message["type"] == "send" and message["payload"] == "fast_mode_false":
+            print("Fast mode disabled", file=sys.stderr)
+        elif message["type"] == "send" and message["payload"] == "no_new_data":
+            print("No new decrypted data in 1s", file=sys.stderr)
         else:
             print(message, data, sep="\n", file=sys.stderr)
 
@@ -160,6 +243,7 @@ script.load()
 
 step_by_step = False
 step_by_step_waiting = False
+fast_mode = False
 
 
 def input_with_getch(prompt=""):
@@ -178,6 +262,8 @@ help_msg = """\
 'q' - quit
 'w' - write output to file
 's' - Switch step-by-step mode
+'f' - Switch fast mode (Only retrieve decrypted data when user requests)
+'g' - Retrieve latest decrypted data (fast mode)
 'r' - Overwrite decrypted data with file content
 'e' - Manually add a separator
 'Enter' - Continue (step-by-step mode)
@@ -203,6 +289,12 @@ while True:
     elif r == "s":
         step_by_step = not step_by_step
         script.post({"type": "step_by_step", "payload": step_by_step})
+    elif r == "f":
+        fast_mode = not fast_mode
+        script.post({"type": "fast_mode", "payload": fast_mode})
+    elif r == "g":
+        if fast_mode:
+            script.post({"type": "get_latest"})
     elif r == "\r" or r == "\n":
         if step_by_step_waiting:
             step_by_step_waiting = False
