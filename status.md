@@ -116,7 +116,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
 - [ ] Muse Woodwinds `0.5.23`
   - [x] Alto Flute
   - [x] Alto Sax
-  - [ ] Baritone Sax
+  - [x] Baritone Sax
   - [ ] Bass Clarinet
   - [ ] Bass Flute
   - [ ] Bassoon
