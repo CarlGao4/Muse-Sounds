@@ -2,9 +2,9 @@
 
 The Muse Sounds soundfont in sf2 and sf3 format only for research purpose
 
-Progress - Instruments [![](https://geps.dev/progress/60?dangerColor=70afea&warningColor=70afea&successColor=70afea)](status.md) 51 / 85
+Progress - Instruments [![](https://geps.dev/progress/61?dangerColor=70afea&warningColor=70afea&successColor=70afea)](status.md) 52 / 85
 
-Progress - Files [![](https://geps.dev/progress/28?dangerColor=a953ff&warningColor=a953ff&successColor=a953ff)](status.md) 380 / 1334
+Progress - Files [![](https://geps.dev/progress/30?dangerColor=a953ff&warningColor=a953ff&successColor=a953ff)](status.md) 402 / 1334
 
 ## Why this repo
 
