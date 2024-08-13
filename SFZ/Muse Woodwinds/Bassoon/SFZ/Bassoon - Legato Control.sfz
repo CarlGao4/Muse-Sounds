@@ -1,0 +1,35 @@
+// StaffPad Woodwinds Pro
+// Bassoon
+// Legato Master Control
+
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+preroll_time=0.2
+postroll_time=1.5
+relative_fade_time=100
+file=Bassoon - Sustain.sfz
+
+<include>
+legato_phase=interval
+legato_minimum_duration=0.1
+preroll_time=0.2
+postroll_time=1.5
+relative_fade_time=100
+file=Bassoon - Legato Intervals.sfz
+
+///////////////
+//Fast Legato//
+///////////////
+	
+<include>
+legato_phase=interval
+legato_maximum_duration=0.1
+preroll_time=0.125
+postroll_time=0.125
+relative_fade_time=50
+file=Bassoon - Legato Intervals Fast.sfz
