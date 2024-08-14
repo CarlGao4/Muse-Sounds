@@ -6,6 +6,8 @@ Progress - Instruments [![](https://geps.dev/progress/62?dangerColor=70afea&warn
 
 Progress - Files [![](https://geps.dev/progress/32?dangerColor=a953ff&warningColor=a953ff&successColor=a953ff)](status.md) 424 / 1334
 
+**We are migrating hosted files to Cloudflare from GitHub Releases for better performance, and also due to the fact that GitHub limits the maximum file size. However, Cloudflare is not free and approximately costs $50 every year to host the files. If you like this project, please consider [donating](https://paypal.me/CarlGao4).**
+
 ## Why this repo
 
 The Muse Sounds library was released along with MuseScore Studio 4 and is a very high-quality soundfont. However, the library can only be used in MuseScore Studio 4 as it is distributed under internal format and could only be rendered with the "MuseSamplerCoreLib" (Actually, you can use Muse Sounds as long as you can load the MuseSampler API, which is undocumented but you can retrieve it by reading MuseScore Studio source code). This audio backend is not perfect yet, like it doesn't support per-note velocity. So converting the internal format into general soundfont formats without causing quality loss is the mission of this project. With this project, it will also be easier to edit the soundfont and use it in other software.
@@ -79,7 +81,7 @@ SFZ
 │   │   ├── metadata.xml  # A file in XML format, I haven't retrieved its name yet
 │   │  (├── drum_notes.xml  # Another XML file defining drum notes, only exists in drum soundfonts)
 │   │   └── SFZ
-│   │       ├── Piano.sts.7z  # The compressed opus files, uploaded to the release page
+│   │       ├── Piano.sts.7z  # The compressed opus files, uploaded for download
 │   │       ├── files.txt  # A file to tell you that you should download and extract the 7-Zip file here
 │   │       └── Piano - Studio.sfz  # The extracted sfz file, no longer in the "Piano.spx" folder
 │   └── ...
@@ -90,7 +92,7 @@ SFZ
 
 - `Piano.spx` folder: As the original file is an encrypted archive, it actually contains more than one file. So I will extract the archive into the folder keeping the original file name and structure.
 - `Piano - Studio.sfz`: This is the extracted sfz file. It is a text file and can be opened with any text editor. However, it is not a standard sfz file.
-- The opus files in the `Piano.sts` archive will be compressed into 7-Zip format and uploaded to [release](https://github.com/CarlGao4/Muse-Sounds/releases).
+- The opus files in the `Piano.sts` archive will be compressed into 7-Zip format and uploaded for download. For download list, please refer to [instruments](instrument.md).
 
 In fact, if you want to use a soundfont, you should save all files under `SFZ` in the same folder (like the diagram below). I keep the original folder structure to make it easier to match the original files.
 
@@ -112,7 +114,7 @@ The loss of SF2 format comes from conversion from opus to 24-bit wav. Though bot
 
 I will keep only one instrument in each SF2 or SF3 file. The reason is that the original Muse Sounds library is too large and contains too many files, exceeding the limit of SF2 and SF3 formats.
 
-You can download SF2 and SF3 soundfonts from [release](https://github.com/CarlGao4/Muse-Sounds/releases), though you may prefer a table of contents: [instruments](instruments.md).
+You can download SF2 and SF3 soundfonts from [instruments list](instruments.md).
 
 ## How I extract the soundfont
 
