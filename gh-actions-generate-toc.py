@@ -1,9 +1,18 @@
 # This file is used to generate a table of released instruments with GitHub Actions
 # This should be run with GitHub Actions
 
+import boto3
 import os
-import requests
 import re
+import requests
+import sys
+import urllib.parse
+
+
+instruments = {}
+instrument_urls = {}
+
+# Retrieve file list from GitHub Releases
 
 repo = os.environ["GITHUB_REPOSITORY"]
 api_url = f"https://api.github.com/repos/{repo}/releases?per_page=100&page="
@@ -24,8 +33,6 @@ while True:
     releases += page_release
     page += 1
 
-instruments = {}
-instrument_urls = {}
 for release in releases:
     if " - " not in release["name"]:
         continue
@@ -45,17 +52,51 @@ try:
 except FileNotFoundError:
     old_markdown = ""
 
+
+# Retrieve file list from S3
+
+download_url_prefix = os.environ["DOWNLOAD_URL_PREFIX"]
+endpoint_url = os.environ["ENDPOINT_URL"]
+access_key = os.environ["ACCESS_KEY"]
+secret_key = os.environ["SECRET_KEY"]
+bucket_name = os.environ["BUCKET_NAME"]
+
+s3 = boto3.client("s3", endpoint_url=endpoint_url, aws_access_key_id=access_key, aws_secret_access_key=secret_key, verify=True)
+
+objects = s3.list_objects_v2(Bucket=bucket_name, MaxKeys=1000000)["Contents"]
+for i in objects:
+    parts = i["Key"].split("/")
+    if len(parts) < 3 or parts[-1] == "":
+        continue
+    catagory = parts[1]
+    name = parts[2]
+    if len(parts) == 3:
+        name = name.split(".", 1)[0]
+    if catagory not in instruments:
+        instruments[catagory] = {}
+    if name not in instruments[catagory]:
+        instruments[catagory][name] = {}
+    instruments[catagory][name][i["Key"].rsplit("/", 1)[1] + " (CloudFlare)"] = urllib.parse.urljoin(download_url_prefix, urllib.parse.quote(i["Key"]))
+
+
+# Generate markdown
+
 markdown = "# Instruments\n\n"
+
+markdown += "Instrument files are hosted on GitHub and CloudFlare. If a same file is available on both platforms, the CloudFlare link is recommended.\n\n"
 
 for catagory in sorted(instruments.keys()):
     markdown += f"## {catagory}\n\n"
     for name in sorted(instruments[catagory].keys()):
-        markdown += f"- [{name}]({instrument_urls[catagory][name]})\n"
+        if catagory in instrument_urls and name in instrument_urls[catagory]:
+            markdown += f"- [{name}]({instrument_urls[catagory][name]})\n"
+        else:
+            markdown += f"- {name}\n"
         for asset in sorted(instruments[catagory][name].keys(), key=lambda x: x.rsplit(".", 1)[1]):
             markdown += f"  - [{asset}]({instruments[catagory][name][asset]})\n"
     markdown += "\n"
 
-print("Generated markdown:")
+print("Generated markdown:", file=sys.stderr)
 print(markdown)
 
 # Only write the file if the contents have changed

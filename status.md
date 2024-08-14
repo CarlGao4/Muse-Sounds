@@ -66,7 +66,6 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Harp
 - [x] Muse Keys `0.4.11`
   - [x] Celesta
-  - [x] Crotales
   - [x] Dream Piano
   - [x] Grand Piano
   - [x] Hammond Organ
@@ -83,6 +82,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Castanets
   - [x] Claves
   - [x] Cowbell
+  - [x] Crotales
   - [x] Field Drum
   - [x] Glockenspiel
   - [x] Gong
