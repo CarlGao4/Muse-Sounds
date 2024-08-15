@@ -1,0 +1,52 @@
+// StaffPad Woodwinds Pro
+// Clarinet in Bb
+// Legato Master Control
+
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+preroll_time=0.5
+postroll_time=1.5
+relative_fade_time=50
+file=Clarinet in Bb - Sustain.sfz
+
+<include>
+legato_phase=interval
+legato_minimum_duration=0.12
+legato_maximum_duration=1.0
+preroll_time=0.5
+postroll_time=1.5
+relative_fade_time=50
+file=Clarinet in Bb - Legato Intervals.sfz
+
+
+///////////////
+//Fast Legato//
+///////////////
+	
+<include>
+legato_phase=interval
+legato_minimum_duration=0.0
+legato_maximum_duration=0.12
+preroll_time=0.12
+postroll_time=0.12
+relative_fade_time=100
+file=Clarinet in Bb - Legato Intervals Fast.sfz
+
+///////////////
+//Slow Legato//
+///////////////
+
+<include>
+legato_phase=interval
+legato_minimum_duration=1.0
+preroll_time=1.5
+postroll_time=1.5
+relative_fade_time=50
+file=Clarinet in Bb - Legato Intervals.sfz
+
+
