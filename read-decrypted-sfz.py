@@ -246,17 +246,6 @@ step_by_step_waiting = False
 fast_mode = False
 
 
-def input_with_getch(prompt=""):
-    print(prompt, end="", flush=True)
-    r = b""
-    while True:
-        r += msvcrt.getch()
-        if r.endswith(b"\r") or r.endswith(b"\n"):
-            return r[:-1]
-        if r.endswith(b"\x03"):
-            raise KeyboardInterrupt
-
-
 help_msg = """\
 '?' - help
 'q' - quit
