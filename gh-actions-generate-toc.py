@@ -105,11 +105,12 @@ def human_readable_size(size):
         size /= 1024
 
 
-markdown = "# Instruments\n\n"
+markdown = "# Instrument List\n\n"
 
 markdown += (
     "Instrument files are hosted on GitHub and CloudFlare. If a same file is available on both platforms, "
-    "the CloudFlare link is recommended. It's faster and you won't need to rename `_` to ` ` after downloading.\n\n"
+    "the CloudFlare link is recommended. It's faster and you won't need to rename understrike "
+    "(`_`) to space after downloading.\n\n"
 )
 
 for catagory in sorted(instruments.keys()):
