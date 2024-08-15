@@ -1,6 +1,6 @@
-# Instruments
+# Instrument List
 
-Instrument files are hosted on GitHub and CloudFlare. If a same file is available on both platforms, the CloudFlare link is recommended. It's faster and you won't need to rename `_` to ` ` after downloading.
+Instrument files are hosted on GitHub and CloudFlare. If a same file is available on both platforms, the CloudFlare link is recommended. It's faster and you won't need to rename understrike (`_`) to space after downloading.
 
 ## Muse Brass
 
