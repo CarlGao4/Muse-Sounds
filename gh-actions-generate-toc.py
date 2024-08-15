@@ -11,6 +11,7 @@ import urllib.parse
 
 instruments = {}
 instrument_urls = {}
+download_size = {}
 
 # Retrieve file list from GitHub Releases
 
@@ -40,11 +41,14 @@ for release in releases:
     if catagory not in instruments:
         instruments[catagory] = {}
         instrument_urls[catagory] = {}
+        download_size[catagory] = {}
     assert name not in instruments[catagory], f"Duplicate instrument name {name} in catagory {catagory}"
     instruments[catagory][name] = {}
     instrument_urls[catagory][name] = release["html_url"]
+    download_size[catagory][name] = {}
     for asset in release["assets"]:
         instruments[catagory][name][asset["name"]] = asset["browser_download_url"]
+        download_size[catagory][name][asset["name"]] = asset["size"]
 
 try:
     with open("instruments.md", mode="rt", encoding="utf-8") as f:
@@ -76,14 +80,27 @@ for i in objects:
         instruments[catagory] = {}
     if name not in instruments[catagory]:
         instruments[catagory][name] = {}
-    instruments[catagory][name][i["Key"].rsplit("/", 1)[1] + " (CloudFlare)"] = urllib.parse.urljoin(download_url_prefix, urllib.parse.quote(i["Key"]))
+    if name not in download_size[catagory]:
+        download_size[catagory][name] = {}
+    filename = i["Key"].rsplit("/", 1)[1] + " (CloudFlare)"
+    instruments[catagory][name][filename] = urllib.parse.urljoin(download_url_prefix, urllib.parse.quote(i["Key"]))
+    download_size[catagory][name][filename] = i["Size"]
 
 
 # Generate markdown
 
+def human_readable_size(size):
+    for unit in ["B", "KiB", "MiB", "GiB", "TiB", "PiB"]:
+        if size < 20480:
+            return f"{size:.5g} {unit}"
+        size /= 1024
+
 markdown = "# Instruments\n\n"
 
-markdown += "Instrument files are hosted on GitHub and CloudFlare. If a same file is available on both platforms, the CloudFlare link is recommended.\n\n"
+markdown += (
+    "Instrument files are hosted on GitHub and CloudFlare. If a same file is available on both platforms, "
+    "the CloudFlare link is recommended. It's faster and you won't need to rename `_` to ` ` after downloading.\n\n"
+)
 
 for catagory in sorted(instruments.keys()):
     markdown += f"## {catagory}\n\n"
@@ -93,7 +110,7 @@ for catagory in sorted(instruments.keys()):
         else:
             markdown += f"- {name}\n"
         for asset in sorted(instruments[catagory][name].keys(), key=lambda x: x.rsplit(".", 1)[1]):
-            markdown += f"  - [{asset}]({instruments[catagory][name][asset]})\n"
+            markdown += f"  - [{asset}]({instruments[catagory][name][asset]}) ({human_readable_size(download_size[catagory][name][asset])})\n"
     markdown += "\n"
 
 print("Generated markdown:", file=sys.stderr)
