@@ -47,8 +47,12 @@ for release in releases:
     instrument_urls[catagory][name] = release["html_url"]
     download_size[catagory][name] = {}
     for asset in release["assets"]:
-        instruments[catagory][name][asset["name"]] = asset["browser_download_url"]
-        download_size[catagory][name][asset["name"]] = asset["size"]
+        instruments[catagory][name][re.sub(r"[\[\]_]", lambda m: f"\\{m[0]}", asset["name"].replace("\\", "\\\\"))] = (
+            asset["browser_download_url"]
+        )
+        download_size[catagory][name][
+            re.sub(r"[\[\]_]", lambda m: f"\\{m[0]}", asset["name"].replace("\\", "\\\\"))
+        ] = asset["size"]
 
 try:
     with open("instruments.md", mode="rt", encoding="utf-8") as f:
@@ -65,7 +69,9 @@ access_key = os.environ["ACCESS_KEY"]
 secret_key = os.environ["SECRET_KEY"]
 bucket_name = os.environ["BUCKET_NAME"]
 
-s3 = boto3.client("s3", endpoint_url=endpoint_url, aws_access_key_id=access_key, aws_secret_access_key=secret_key, verify=True)
+s3 = boto3.client(
+    "s3", endpoint_url=endpoint_url, aws_access_key_id=access_key, aws_secret_access_key=secret_key, verify=True
+)
 
 objects = s3.list_objects_v2(Bucket=bucket_name, MaxKeys=1000000)["Contents"]
 for i in objects:
@@ -82,18 +88,22 @@ for i in objects:
         instruments[catagory][name] = {}
     if name not in download_size[catagory]:
         download_size[catagory][name] = {}
-    filename = i["Key"].rsplit("/", 1)[1] + " (CloudFlare)"
+    filename = re.sub(
+        r"[\[\]_]", lambda m: f"\\{m[0]}", (i["Key"].rsplit("/", 1)[1] + " (CloudFlare)").replace("\\", "\\\\")
+    )
     instruments[catagory][name][filename] = urllib.parse.urljoin(download_url_prefix, urllib.parse.quote(i["Key"]))
     download_size[catagory][name][filename] = i["Size"]
 
 
 # Generate markdown
 
+
 def human_readable_size(size):
     for unit in ["B", "KiB", "MiB", "GiB", "TiB", "PiB"]:
         if size < 20480:
             return f"{size:.5g} {unit}"
         size /= 1024
+
 
 markdown = "# Instruments\n\n"
 
@@ -110,7 +120,10 @@ for catagory in sorted(instruments.keys()):
         else:
             markdown += f"- {name}\n"
         for asset in sorted(instruments[catagory][name].keys(), key=lambda x: x.rsplit(".", 1)[1]):
-            markdown += f"  - [{asset}]({instruments[catagory][name][asset]}) ({human_readable_size(download_size[catagory][name][asset])})\n"
+            markdown += (
+                f"  - [{asset}]({instruments[catagory][name][asset]}) "
+                f"({human_readable_size(download_size[catagory][name][asset])})\n"
+            )
     markdown += "\n"
 
 print("Generated markdown:", file=sys.stderr)
