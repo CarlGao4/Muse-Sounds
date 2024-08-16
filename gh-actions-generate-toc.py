@@ -111,6 +111,12 @@ markdown += (
     "Instrument files are hosted on GitHub and CloudFlare. If a same file is available on both platforms, "
     "the CloudFlare link is recommended. It's faster and you won't need to rename understrike "
     "(`_`) to space after downloading.\n\n"
+    "## About File Types\n\n"
+    "- `*.sts.7z`: Compressed original sample files extracted from the sts file. Audio files are in opus format.\n"
+    "- `*.sf2`: Converted SF2 format soundfont file.\n"
+    "- `*.sf3`: Converted SF3 format soundfont file.\n"
+    "- `*.sfz.7z`: Compressed original SFZ files. May not standard SFZ format and can't be loaded by SFZ player.\n"
+    "- `sfz+flac.zip`: Converted SFZ files with FLAC audio files. You can use it directly in SFZ player.\n"
 )
 
 for catagory in sorted(instruments.keys()):
