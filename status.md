@@ -132,7 +132,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Flute 2
   - [x] Oboe
   - [x] Piccolo
-  - [ ] Soprano Sax
+  - [x] Soprano Sax
   - [ ] Tenor Sax
 
 ## SFZ files failed to extract or convert
