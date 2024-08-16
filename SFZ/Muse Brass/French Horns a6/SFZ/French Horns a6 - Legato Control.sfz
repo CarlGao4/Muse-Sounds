@@ -1,0 +1,21 @@
+// StaffPad Pro
+// French Horns a6
+// Legato Master Control
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+preroll_time=1.25
+postroll_time=1.25
+relative_fade_time=100
+file=French Horns a6 - Sustain.sfz
+
+<include>
+legato_phase=interval
+preroll_time=1.25
+postroll_time=1.25
+relative_fade_time=100
+file=French Horns a6 - Legato Intervals.sfz
