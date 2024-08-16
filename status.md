@@ -83,6 +83,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Claves
   - [x] Cowbell
   - [x] Crotales
+  - [x] Drum Kit
   - [x] Field Drum
   - [x] Glockenspiel
   - [x] Gong
