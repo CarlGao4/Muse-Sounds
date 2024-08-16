@@ -12,12 +12,16 @@ Instrument files are hosted on GitHub and CloudFlare. If a same file is availabl
 ## Muse Brass
 
 - [Bass Trombone](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Bass-Trombone)
+  - [Bass Trombone.sfz.7z (CloudFlare)](https://dl.muse-sounds.work/sfz/Muse%20Brass/Bass%20Trombone/Bass%20Trombone.sfz.7z) (276.43 KiB)
   - [Bass Trombone.sts.7z (CloudFlare)](https://dl.muse-sounds.work/sts/Muse%20Brass/Bass%20Trombone.sts.7z) (148.12 MiB)
 - [Cimbasso](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Cimbasso)
+  - [Cimbasso.sfz.7z (CloudFlare)](https://dl.muse-sounds.work/sfz/Muse%20Brass/Cimbasso/Cimbasso.sfz.7z) (240.51 KiB)
   - [Cimbasso.sts.7z (CloudFlare)](https://dl.muse-sounds.work/sts/Muse%20Brass/Cimbasso.sts.7z) (218.72 MiB)
 - [Horn in F](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Horn-in-F)
+  - [French Horn.sfz.7z (CloudFlare)](https://dl.muse-sounds.work/sfz/Muse%20Brass/Horn%20in%20F/French%20Horn.sfz.7z) (310.74 KiB)
   - [French Horn.sts.7z (CloudFlare)](https://dl.muse-sounds.work/sts/Muse%20Brass/Horn%20in%20F/French%20Horn.sts.7z) (217.07 MiB)
 - [Horns a6](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Horns-a6)
+  - [French Horns a6.sfz.7z (CloudFlare)](https://dl.muse-sounds.work/sfz/Muse%20Brass/Horns%20a6/French%20Horns%20a6.sfz.7z) (18504 B)
   - [French Horns a6.sts.7z (CloudFlare)](https://dl.muse-sounds.work/sts/Muse%20Brass/Horns%20a6/French%20Horns%20a6.sts.7z) (181.88 MiB)
 - [Trombone](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Trombone)
   - [Trombone.sts.7z (CloudFlare)](https://dl.muse-sounds.work/sts/Muse%20Brass/Trombone.sts.7z) (137.91 MiB)
@@ -33,6 +37,7 @@ Instrument files are hosted on GitHub and CloudFlare. If a same file is availabl
 ## Muse Choir
 
 - [Altos](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Altos)
+  - [Altos.sfz.7z (CloudFlare)](https://dl.muse-sounds.work/sfz/Muse%20Choir/Altos/Altos.sfz.7z) (27.876 KiB)
   - [Altos.sts.7z (CloudFlare)](https://dl.muse-sounds.work/sts/Muse%20Choir/Altos.sts.7z) (138.72 MiB)
 - [Basses](https://github.com/CarlGao4/Muse-Sounds/releases/tag/Basses)
   - [Basses.sfz.7z (CloudFlare)](https://dl.muse-sounds.work/sfz/Muse%20Choir/Basses/Basses.sfz.7z) (33.333 KiB)
