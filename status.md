@@ -116,7 +116,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [ ] Violins 2
   - [ ] Violoncello (Solo)
   - [ ] Violoncellos
-- [ ] Muse Woodwinds `0.5.23`
+- [x] Muse Woodwinds `0.5.23`
   - [x] Alto Flute
   - [x] Alto Sax
   - [x] Baritone Sax
@@ -133,7 +133,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Oboe
   - [x] Piccolo
   - [x] Soprano Sax
-  - [ ] Tenor Sax
+  - [x] Tenor Sax
 
 ## SFZ files failed to extract or convert
 
