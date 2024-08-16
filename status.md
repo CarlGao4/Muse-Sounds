@@ -14,7 +14,13 @@ Up until now, I've extracted the following versions:
 
 ### Muse Sounds Bugs I've found
 
+Many instruments have different SFZ files for trills of different intervals, but currently MuseScore Studio 4 (4.3.2) will only load the SFZ file for the first note of trill if the staff has more than one trill symbol and the intervals are different. For example, if you added a trill symbol first to C5 (Which should load SFZ of Major Trill) and then to E5 (Which should load SFZ of Minor Trill), only the SFZ of Major Trill will be loaded. Then the trill of E5 will be simulated with a series of fast notes of E5 and F5.
+
+Muse Brass instruments including Bass Trombone has different SFZ files for accented notes of different duration. However, the last SFZ file in metadata doesn't have a duration specified, so it will override the previous SFZ files.
+
 Muse Choir `0.3.18` has a problem that Women soundfont doesn't have any sound if the note belongs to Soprano range because Soprano has been renamed from Sopranos but the sfz file still uses Sopranos. It has been renamed back in `0.3.19` version.
+
+Muse Guitars Vol. 1 Electric SC has different presets for dynamics less than 64 and greater than or equal to 64, but currently MuseScore Studio 4 (4.3.2) doesn't support this feature. It only uses the preset for dynamics greater than or equal to 64.
 
 Muse Percussion `0.5.10` Mark Tree has a problem that `SFZ\Mark Tree - Rolls - Gliss Down.sfz` takes higher priority than `SFZ\Mark Tree - Hits - Gliss Down.sfz` when adding "ArpgeggioDown"
 
@@ -41,7 +47,7 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
 If an instrument contains `Realtime` preset, I guess that it should require a MIDI keyboard to activate, so currently I can't extract them. They are not listed in the "SFZ files failed to extract or convert" section, but a star symbol is added to the instrument name in the list. The number indicating the count of unextracted SFZ files includes these Realtime presets.
 
 - [ ] Muse Brass `0.4.4`
-  - [ ] Bass Trombone
+  - [x] Bass Trombone
   - [ ] Cimbasso
   - [ ] Horn in F
   - [ ] Horns a6
