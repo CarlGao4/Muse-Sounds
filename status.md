@@ -129,7 +129,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Contrabassoon
   - [x] English Horn
   - [x] Flute 1
-  - [ ] Flute 2
+  - [x] Flute 2
   - [ ] Oboe
   - [ ] Piccolo
   - [ ] Soprano Sax
