@@ -1,0 +1,28 @@
+// Muse Guitars Vol 1
+// Fender Stratocaster
+// Fast Legato Control
+
+///////////////
+//Fast Legato//
+///////////////
+
+<include>
+legato_phase=sustain
+preroll_time=1
+postroll_time=0.3
+relative_fade_time=100
+file=Electric SC - Sustains.sfz
+
+<include>
+legato_phase=interval
+preroll_time=0.3
+postroll_time=1
+relative_fade_time=100
+file=Electric SC - Hammer-ons Pull-offs.sfz
+
+<include>
+legato_phase=glissando
+preroll_time=0.3
+postroll_time=1
+relative_fade_time=100
+file=Electric SC - Hammer-ons Pull-offs.sfz

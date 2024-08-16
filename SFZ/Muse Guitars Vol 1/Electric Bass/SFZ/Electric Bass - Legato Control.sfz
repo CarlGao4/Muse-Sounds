@@ -1,0 +1,27 @@
+// Muse Guitars Vol. 1
+// Electric Bass
+// Legato Master Control
+
+///////////////////
+//Standard Legato//
+///////////////////
+
+<include>
+legato_phase=sustain
+file=Electric Bass - Sustain.sfz
+
+<include>
+legato_phase=interval
+file=Electric Bass - Legato Intervals.sfz
+
+<include>
+legato_phase=portamento
+file=Electric Bass - Portamento.sfz
+
+<include>
+legato_phase=glissando
+file=Electric Bass - Portamento.sfz
+
+<include>
+legato_phase=glissando
+file=Electric Bass - Portamento.sfz

@@ -1,0 +1,39 @@
+// Muse Guitars Vol 1
+// Fender Stratocaster
+// Legato Master Control
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+fade_in_function=linear
+fade_out_function=power-sinusoidal
+relative_fade_time=60
+file=Electric SC - Sustains.sfz
+
+<include>
+legato_phase=interval
+fade_in_function=linear
+fade_out_function=power-sinusoidal
+relative_fade_time=60
+file=Electric SC - Legato Intervals PP.sfz
+
+//////////////
+//Portamento//
+//////////////
+
+<include>
+legato_phase=portamento
+fade_in_function=linear
+fade_out_function=power-sinusoidal
+relative_fade_time=100
+file=Electric SC - Portamentos.sfz
+
+<include>
+legato_phase=glissando
+fade_in_function=linear
+fade_out_function=power-sinusoidal
+relative_fade_time=100
+file=Electric SC - Portamentos.sfz

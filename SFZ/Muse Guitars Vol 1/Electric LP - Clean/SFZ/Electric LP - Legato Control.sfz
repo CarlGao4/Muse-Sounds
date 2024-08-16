@@ -1,0 +1,30 @@
+// Muse Guitars Vol. 1
+// Electric Rhythm
+// Legato Master Control
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+file=Electric LP - Sustain.sfz
+
+<include>
+legato_phase=interval
+legato_minimum_duration=0.125
+file=Electric LP - Legato Intervals.sfz
+
+<include>
+legato_phase=interval
+legato_maximum_duration=0.125
+legato_interval_range=4
+file=Electric LP - Hammer Pulls.sfz
+
+<include>
+legato_phase=portamento
+file=Electric LP - Portamento.sfz
+
+<include>
+legato_phase=glissando
+file=Electric LP - Portamento.sfz

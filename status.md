@@ -55,13 +55,13 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Basses
   - [x] Sopranos
   - [x] Tenors
-- [ ] Muse Guitars Vol. 1 `0.9.8`
+- [x] Muse Guitars Vol. 1 `0.9.8`
   - [x] Acoustic Nylon
   - [x] Acoustic Steel Picked
   - [x] Acoustic Steel Plucked
-  - [ ] Electric Bass
-  - [ ] Electric LP - Clean
-  - [ ] Electric SC - Clean
+  - [x] Electric Bass
+  - [x] Electric LP - Clean
+  - [x] Electric SC - Clean
 - [x] Muse Harp `0.2.7`
   - [x] Harp
 - [x] Muse Keys `0.4.11`
