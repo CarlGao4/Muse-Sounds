@@ -1,7 +1,9 @@
 SFZ\Violas - Col Legno.sfz
 SFZ\Violas - Fall.sfz
 SFZ\Violas - Fast Runs.sfz
+SFZ\Violas - Legato Control Slow.sfz
 SFZ\Violas - Legato Control.sfz
+SFZ\Violas - Legato Intervals Slow.sfz
 SFZ\Violas - Legato Intervals.sfz
 SFZ\Violas - Pizzicato Snap.sfz
 SFZ\Violas - Pizzicato.sfz

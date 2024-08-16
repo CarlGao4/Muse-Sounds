@@ -8,6 +8,7 @@ SFZ\Violin 2 Solo - Portamento.sfz
 SFZ\Violin 2 Solo - Realtime.sfz
 SFZ\Violin 2 Solo - Staccatissimo.sfz
 SFZ\Violin 2 Solo - Staccato.sfz
+SFZ\Violin 2 Solo - Sustain Espressivo.sfz
 SFZ\Violin 2 Solo - Sustain Harmonic.sfz
 SFZ\Violin 2 Solo - Sustain Marcato.sfz
 SFZ\Violin 2 Solo - Sustain Nonvib.sfz

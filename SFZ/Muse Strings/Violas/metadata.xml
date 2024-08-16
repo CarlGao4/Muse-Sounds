@@ -13,8 +13,25 @@
       <Param Name="Gain" Value="-2"/>
     </Processor>
   </SamplerEffect>
+
+  <StaffPad>
+<Instrument Vendor="Muse" Pack="Muse Strings" Category="Muse Strings" BracketGroup="Strings" Volume="-6" Reverb="30" DefaultClef="Alto" FriendlyName="Violas" Abbreviation="Vla." InsertableSymbols="Bow|OpenHarmonic|Mute|Pizz">
+  <!-- DSP FX -->
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1"/>
+      <Param Name="Gain" Value="-3"/>
+      <Param Name="Freq" Value="450"/>
+    </Processor>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="0.5"/>
+      <Param Name="Freq" Value="1500"/>
+      <Param Name="Gain" Value="-2"/>
+    </Processor>
+  </SamplerEffect>
   <!-- Long Notes -->
-  <Articulation File="SFZ\Violas - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Violas - Legato Control.sfz" Class="Sustain" ForDuration="100ms|499ms" />
+  <Articulation File="SFZ\Violas - Legato Control Slow.sfz" Class="Sustain" ForDuration="500ms|" />   
   <Articulation File="SFZ\Violas - Fast Runs.sfz" Class="Sustain" ForDuration="|100ms"/>
   <Articulation File="SFZ\Violas - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
   <Articulation File="SFZ\Violas - Sustain Sul Ponticello.sfz" Symbol="Text" Name="Sul Ponticello" OffsetStart="30"/>
@@ -58,6 +75,113 @@
   <Articulation File="SFZ\Violas - Tremolo.sfz" Symbol="Staccato|Tremolo3" SetDuration="70" OffsetStart="50"/>
   <!-- Realtime Input Articulation -->
   <Articulation File="SFZ\Violas - Realtime.sfz" Symbol="Realtime"/>
+  <!-- Export -->
+  <MusicXML InstrumentSound="strings.viola"/>
+  </Instrument>
+  </StaffPad>
+
+  <Preset Name="Standard">
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Violas - Legato Control.sfz" Class="Sustain" ForDuration="100ms|499ms" />
+  <Articulation File="SFZ\Violas - Legato Control Slow.sfz" Class="Sustain" ForDuration="500ms|" />   
+  <Articulation File="SFZ\Violas - Fast Runs.sfz" Class="Sustain" ForDuration="|100ms"/>
+  <!-- Standard Preset Additions -->  
+  <Articulation File="SFZ\Violas - Sustain Espressivo.sfz" Symbol="Text" Name="non-legato"/>   
+  <Articulation File="SFZ\Violas - Legato Control.sfz" Class="Slur"/>
+  <!-- Long Notes Continued -->    
+  <Articulation File="SFZ\Violas - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Sustain Sul Ponticello.sfz" Symbol="Text" Name="Sul Ponticello" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Sustain Sul Tasto.sfz" Symbol="Text" Name="Sul Tasto" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Sustain Harmonic.sfz" Class="Harmonics" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Sustain Marcato.sfz" Symbol="Marcato" Name="marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Sustain Marcato.sfz" Symbol="Accent" Name="accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Tremolo.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Minor 3rd.sfz" Symbol="Trill" ForInterval="3" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Major 3rd.sfz" Symbol="Trill" ForInterval="4" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Perfect 4th.sfz" Symbol="Trill" ForInterval="5" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Diminished 5th.sfz" Symbol="Trill" ForInterval="6" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Perfect 5th.sfz" Symbol="Trill" ForInterval="7" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Fall.sfz" Symbol="Fall" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Sustain Fall.sfz" Symbol="Fall" ForDuration="|500ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Violas - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Staccatissimo.sfz" Class="Staccato" OffsetStart="30" ForDuration="|125ms"/>
+  <Articulation File="SFZ\Violas - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Violas - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- 
+  <Articulation File="SFZ\Violas - Tenuto - Quarter.sfz" Symbol="Tenuto" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Tenuto - Half.sfz" Symbol="Tenuto" ForDuration="1000ms|1500ms" OffsetStart="30"/>
+ -->
+  <!-- Pizzicato -->
+  <Articulation File="SFZ\Violas - Pizzicato.sfz" Class="Pizzicato" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Pizzicato Snap.sfz" Class="Bartok" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Col Legno.sfz" Symbol="Text" Name="Col Legno" OffsetStart="30"/>
+  <!-- Accent variations -->
+  <Articulation File="SFZ\Violas - Tremolo Accent.sfz" Symbol="Accent|Tremolo3" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Half Accent.sfz" Symbol="Accent|Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Whole Accent.sfz" Symbol="Accent|Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Tremolo Overrides -->
+  <Articulation File="SFZ\Violas - Staccatissimo.sfz" Symbol="Staccato|Tremolo3" Subdivide="8" SetDuration="50" OffsetStart="50"/>
+  <Articulation File="SFZ\Violas - Staccato.sfz" Symbol="Staccato|Tremolo1" Subdivide="2" OffsetStart="50"/>
+  <Articulation File="SFZ\Violas - Staccato.sfz" Symbol="Staccato|Tremolo2" Subdivide="4" OffsetStart="50"/>
+  <Articulation File="SFZ\Violas - Tremolo.sfz" Symbol="Staccato|Tremolo3" SetDuration="70" OffsetStart="50"/>
+  <!-- Realtime Input Articulation -->
+  <Articulation File="SFZ\Violas - Realtime.sfz" Symbol="Realtime"/>
+  </Preset>
+  
+  <Preset Name="Classic Phrasing">
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Violas - Sustain Espressivo.sfz" Class="Sustain"/>  
+  <Articulation File="SFZ\Violas - Fast Runs.sfz" Class="Sustain" ForDuration="|100ms"/>
+  <Articulation File="SFZ\Violas - Legato Control.sfz" Class="Slur"/>  
+  <Articulation File="SFZ\Violas - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Sustain Sul Ponticello.sfz" Symbol="Text" Name="Sul Ponticello" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Sustain Sul Tasto.sfz" Symbol="Text" Name="Sul Tasto" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Sustain Harmonic.sfz" Class="Harmonics" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Sustain Marcato.sfz" Symbol="Marcato" Name="marcato" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Sustain Marcato.sfz" Symbol="Accent" Name="accent" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Tremolo.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Minor 3rd.sfz" Symbol="Trill" ForInterval="3" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Major 3rd.sfz" Symbol="Trill" ForInterval="4" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Perfect 4th.sfz" Symbol="Trill" ForInterval="5" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Diminished 5th.sfz" Symbol="Trill" ForInterval="6" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Perfect 5th.sfz" Symbol="Trill" ForInterval="7" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Fall.sfz" Symbol="Fall" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Sustain Fall.sfz" Symbol="Fall" ForDuration="|500ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Violas - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Staccatissimo.sfz" Class="Staccato" OffsetStart="30" ForDuration="|125ms"/>
+  <Articulation File="SFZ\Violas - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Violas - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- 
+  <Articulation File="SFZ\Violas - Tenuto - Quarter.sfz" Symbol="Tenuto" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Tenuto - Half.sfz" Symbol="Tenuto" ForDuration="1000ms|1500ms" OffsetStart="30"/>
+ -->
+  <!-- Pizzicato -->
+  <Articulation File="SFZ\Violas - Pizzicato.sfz" Class="Pizzicato" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Pizzicato Snap.sfz" Class="Bartok" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Col Legno.sfz" Symbol="Text" Name="Col Legno" OffsetStart="30"/>
+  <!-- Accent variations -->
+  <Articulation File="SFZ\Violas - Tremolo Accent.sfz" Symbol="Accent|Tremolo3" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Half Accent.sfz" Symbol="Accent|Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Violas - Trill Whole Accent.sfz" Symbol="Accent|Trill" ForInterval="2" OffsetStart="30"/>
+  <!-- Tremolo Overrides -->
+  <Articulation File="SFZ\Violas - Staccatissimo.sfz" Symbol="Staccato|Tremolo3" Subdivide="8" SetDuration="50" OffsetStart="50"/>
+  <Articulation File="SFZ\Violas - Staccato.sfz" Symbol="Staccato|Tremolo1" Subdivide="2" OffsetStart="50"/>
+  <Articulation File="SFZ\Violas - Staccato.sfz" Symbol="Staccato|Tremolo2" Subdivide="4" OffsetStart="50"/>
+  <Articulation File="SFZ\Violas - Tremolo.sfz" Symbol="Staccato|Tremolo3" SetDuration="70" OffsetStart="50"/>
+  <!-- Realtime Input Articulation -->
+  <Articulation File="SFZ\Violas - Realtime.sfz" Symbol="Realtime"/>
+  </Preset>
+  
   <!-- Export -->
   <MusicXML InstrumentSound="strings.viola"/>
   <MPE InstrumentSound="strings.viola.orchestral:section"/>

@@ -13,6 +13,23 @@
       <Param Name="Gain" Value="3"/>
     </Processor>
   </SamplerEffect>
+
+
+<StaffPad>
+<Instrument Vendor="Muse" Pack="Muse Strings" Category="Muse Strings" BracketGroup="Strings" Volume="-9" Reverb="40" FriendlyName="Violin 2 (Solo)" Abbreviation="Vln. 2" InsertableSymbols="Bow|OpenHarmonic|Mute|Pizz">
+  <!--DSP -->
+  <SamplerEffect>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="0.8"/>
+      <Param Name="Gain" Value="-7"/>
+      <Param Name="Freq" Value="4800"/>
+    </Processor>
+    <Processor Name="ParametricEqBand">
+      <Param Name="Q" Value="1.2"/>
+      <Param Name="Freq" Value="8500"/>
+      <Param Name="Gain" Value="3"/>
+    </Processor>
+  </SamplerEffect>
   <!-- Long Notes -->
   <Articulation File="SFZ\Violin 2 Solo - Legato Control.sfz" Class="Sustain"/>
   <Articulation File="SFZ\Violin 2 Solo - Staccato.sfz" Class="Sustain" ForDuration="|150ms"/>
@@ -45,6 +62,87 @@
   <Articulation File="SFZ\Violin 2 Solo - Col Legno.sfz" Symbol="Text" Name="Col Legno" OffsetStart="30"/>
   <!-- Realtime Input Articulation -->
   <Articulation File="SFZ\Violin 2 Solo - Realtime.sfz" Symbol="Realtime"/>
+  <MusicXML InstrumentSound="strings.violin"/>
+  </Instrument>
+  </StaffPad>
+
+
+  <Preset Name="Standard">
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Violin 2 Solo - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Violin 2 Solo - Staccato.sfz" Class="Sustain" ForDuration="|150ms"/>
+  <!-- Standard Preset Additions -->  
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Espressivo.sfz" Symbol="Text" Name="non-legato"/>   
+  <Articulation File="SFZ\Violin 2 Solo - Legato Control.sfz" Class="Slur"/>
+  <!-- Long Notes Continued -->   
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Sul Ponticello.sfz" Symbol="Text" Name="Sul Ponticello" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Sul Tasto.sfz" Symbol="Text" Name="Sul Tasto" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Harmonic.sfz" Class="Harmonics" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Marcato.sfz" Symbol="Marcato" Name="marcato"/>
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Marcato.sfz" Symbol="Accent" Name="accent"/>
+  <Articulation File="SFZ\Violin 2 Solo - Tremolo.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Minor 3rd.sfz" Symbol="Trill" ForInterval="3" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Major 3rd.sfz" Symbol="Trill" ForInterval="4" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Perfect 4th.sfz" Symbol="Trill" ForInterval="5" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Diminished 5th.sfz" Symbol="Trill" ForInterval="6" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Perfect 5th.sfz" Symbol="Trill" ForInterval="7" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Violin 2 Solo - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Violin 2 Solo - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Staccatissimo.sfz" Class="Staccato_Faster" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Tenuto - Eighth.sfz" Symbol="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Tenuto - Quarter.sfz" Symbol="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Tenuto - Half.sfz" Symbol="Accent" ForDuration="1000ms|1500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Pizzicato.sfz" Class="Pizzicato" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Pizzicato Snap.sfz" Class="Bartok" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Col Legno.sfz" Symbol="Text" Name="Col Legno" OffsetStart="30"/>
+  <!-- Realtime Input Articulation -->
+  <Articulation File="SFZ\Violin 2 Solo - Realtime.sfz" Symbol="Realtime"/>
+  </Preset>
+  
+  <Preset Name="Classic Phrasing">
+  <!-- Long Notes -->
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Espressivo.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Violin 2 Solo - Staccato.sfz" Class="Sustain" ForDuration="|150ms"/>  
+  <Articulation File="SFZ\Violin 2 Solo - Legato Control.sfz" Class="Slur"/>
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Sul Ponticello.sfz" Symbol="Text" Name="Sul Ponticello" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Sul Tasto.sfz" Symbol="Text" Name="Sul Tasto" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Harmonic.sfz" Class="Harmonics" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Marcato.sfz" Symbol="Marcato" Name="marcato"/>
+  <Articulation File="SFZ\Violin 2 Solo - Sustain Marcato.sfz" Symbol="Accent" Name="accent"/>
+  <Articulation File="SFZ\Violin 2 Solo - Tremolo.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Minor 3rd.sfz" Symbol="Trill" ForInterval="3" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Major 3rd.sfz" Symbol="Trill" ForInterval="4" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Perfect 4th.sfz" Symbol="Trill" ForInterval="5" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Diminished 5th.sfz" Symbol="Trill" ForInterval="6" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Trill Perfect 5th.sfz" Symbol="Trill" ForInterval="7" OffsetStart="30"/>
+  <!-- Quick repetitions -->
+  <Articulation File="SFZ\Violin 2 Solo - Staccato.sfz" ForRepetition="|150ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Staccato.sfz" Symbol="Legato" ForRepetition="|150ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Violin 2 Solo - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Staccatissimo.sfz" Class="Staccato_Faster" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Tenuto - Eighth.sfz" Symbol="Accent" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Tenuto - Quarter.sfz" Symbol="Accent" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Tenuto - Half.sfz" Symbol="Accent" ForDuration="1000ms|1500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Pizzicato.sfz" Class="Pizzicato" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Pizzicato Snap.sfz" Class="Bartok" OffsetStart="30"/>
+  <Articulation File="SFZ\Violin 2 Solo - Col Legno.sfz" Symbol="Text" Name="Col Legno" OffsetStart="30"/>
+  <!-- Realtime Input Articulation -->
+  <Articulation File="SFZ\Violin 2 Solo - Realtime.sfz" Symbol="Realtime"/>
+  </Preset>  
+  
+  
   <MusicXML InstrumentSound="strings.violin"/>
   <MPE InstrumentSound="strings.violin.orchestral:secondary"/>
 </Instrument>

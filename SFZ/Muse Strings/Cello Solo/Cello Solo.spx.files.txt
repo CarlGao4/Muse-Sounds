@@ -11,6 +11,7 @@ SFZ\Cello Solo - Portamento.sfz
 SFZ\Cello Solo - Realtime.sfz
 SFZ\Cello Solo - Staccatissimo.sfz
 SFZ\Cello Solo - Staccato.sfz
+SFZ\Cello Solo - Sustain Espressivo.sfz
 SFZ\Cello Solo - Sustain Fall.sfz
 SFZ\Cello Solo - Sustain Harmonic.sfz
 SFZ\Cello Solo - Sustain Marcato.sfz

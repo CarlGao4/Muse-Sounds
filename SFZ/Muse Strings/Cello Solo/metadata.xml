@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <Instrument Vendor="Muse" Pack="Muse Strings" Category="Muse Strings" BracketGroup="Strings" Volume="-6" Reverb="40" DefaultClef="Bass" FriendlyName="Violoncello (Solo)" Abbreviation="Vc." Pan="20" InsertableSymbols="Bow|OpenHarmonic|Mute|Pizz">
+
+  <StaffPad>
+<Instrument Vendor="Muse" Pack="Muse Strings" Category="Muse Strings" BracketGroup="Strings" Volume="-6" Reverb="40" DefaultClef="Bass" FriendlyName="Violoncello (Solo)" Abbreviation="Vc." Pan="20" InsertableSymbols="Bow|OpenHarmonic|Mute|Pizz">
   <!-- Others -->
   <Articulation File="SFZ\Cello Solo - Legato Control.sfz" Class="Sustain"/>
   <Articulation File="SFZ\Cello Solo - Legato Control Espressivo.sfz" Symbol="Text" Name="Espressivo"/>
@@ -32,6 +35,89 @@
   <Articulation File="SFZ\Cello Solo - Col Legno.sfz" Symbol="Text" Name="Col Legno" OffsetStart="30"/>
   <!-- Realtime Input Articulation -->
   <Articulation File="SFZ\Cello Solo - Realtime.sfz" Symbol="Realtime"/>
+  <!-- Export -->
+  <MusicXML InstrumentSound="strings.cello"/>
+  </Instrument>
+  </StaffPad>
+
+  <Preset Name="Standard">
+  <!-- Others -->
+  <Articulation File="SFZ\Cello Solo - Legato Control.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Cello Solo - Legato Control Espressivo.sfz" Symbol="Text" Name="Espressivo"/>
+  <Articulation File="SFZ\Cello Solo - Staccato.sfz" Class="Sustain" ForDuration="|150ms"/>
+  <!-- Standard Preset Additions -->  
+  <Articulation File="SFZ\Cello Solo - Sustain.sfz" Symbol="Text" Name="non-legato"/>  
+  <Articulation File="SFZ\Cello Solo - Sustain Espressivo.sfz" Symbol="Text" Name="non-legato|Espressivo"/>  
+  <Articulation File="SFZ\Cello Solo - Legato Control.sfz" Class="Slur"/>
+  <!-- Others Continued -->    
+  <Articulation File="SFZ\Cello Solo - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Sustain Sul Ponticello.sfz" Symbol="Text" Name="Sul Ponticello" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Sustain Sul Tasto.sfz" Symbol="Text" Name="Sul Tasto" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Sustain Harmonic.sfz" Class="Harmonics" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Sustain Marcato.sfz" Symbol="Marcato" Name="marcato"/>
+  <Articulation File="SFZ\Cello Solo - Sustain Marcato.sfz" Symbol="Accent" Name="accent"/>
+  <Articulation File="SFZ\Cello Solo - Tremolo.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Minor 3rd.sfz" Symbol="Trill" ForInterval="3" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Major 3rd.sfz" Symbol="Trill" ForInterval="4" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Perfect 4th.sfz" Symbol="Trill" ForInterval="5" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Diminished 5th.sfz" Symbol="Trill" ForInterval="6" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Perfect 5th.sfz" Symbol="Trill" ForInterval="7" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Fall.sfz" Symbol="Fall" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Sustain Fall.sfz" Symbol="Fall" ForDuration="|500ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Cello Solo - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Staccatissimo.sfz" Class="Staccato_Faster" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Tenuto - Eighth.sfz" Symbol="Tenuto" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Tenuto - Quarter.sfz" Symbol="Tenuto" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Tenuto - Half.sfz" Symbol="Tenuto" ForDuration="1000ms|1500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Pizzicato.sfz" Class="Pizzicato" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Pizzicato Snap.sfz" Class="Bartok" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Col Legno.sfz" Symbol="Text" Name="Col Legno" OffsetStart="30"/>
+  <!-- Realtime Input Articulation -->
+  <Articulation File="SFZ\Cello Solo - Realtime.sfz" Symbol="Realtime"/>
+  </Preset>
+  
+  <Preset Name="Classic Phrasing">
+  <!-- Others -->
+  <Articulation File="SFZ\Cello Solo - Sustain.sfz" Class="Sustain"/>
+  <Articulation File="SFZ\Cello Solo - Staccato.sfz" Class="Sustain" ForDuration="|150ms"/>  
+  <Articulation File="SFZ\Cello Solo - Sustain Espressivo.sfz" Symbol="Text" Name="Espressivo"/>
+  <Articulation File="SFZ\Cello Solo - Legato Control.sfz" Class="Slur"/>
+  <Articulation File="SFZ\Cello Solo - Legato Control Espressivo.sfz" Class="Slur" Symbol="Text" Name="Espressivo"/>  
+  <Articulation File="SFZ\Cello Solo - Sustain Nonvib.sfz" Class="Nonvib" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Sustain Sul Ponticello.sfz" Symbol="Text" Name="Sul Ponticello" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Sustain Sul Tasto.sfz" Symbol="Text" Name="Sul Tasto" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Sustain Harmonic.sfz" Class="Harmonics" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Sustain Marcato.sfz" Symbol="Marcato" Name="marcato"/>
+  <Articulation File="SFZ\Cello Solo - Sustain Marcato.sfz" Symbol="Accent" Name="accent"/>
+  <Articulation File="SFZ\Cello Solo - Tremolo.sfz" Class="Tremolo" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Half.sfz" Symbol="Trill" ForInterval="1" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Whole.sfz" Symbol="Trill" ForInterval="2" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Minor 3rd.sfz" Symbol="Trill" ForInterval="3" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Major 3rd.sfz" Symbol="Trill" ForInterval="4" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Perfect 4th.sfz" Symbol="Trill" ForInterval="5" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Diminished 5th.sfz" Symbol="Trill" ForInterval="6" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Trill Perfect 5th.sfz" Symbol="Trill" ForInterval="7" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Fall.sfz" Symbol="Fall" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Sustain Fall.sfz" Symbol="Fall" ForDuration="|500ms" OffsetStart="30"/>
+  <!-- Short Notes -->
+  <Articulation File="SFZ\Cello Solo - Staccato.sfz" Class="Staccato" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Staccatissimo.sfz" Class="Staccato_Faster" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Staccatissimo.sfz" Class="Staccatissimo" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Tenuto - Eighth.sfz" Symbol="Tenuto" ForDuration="|500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Tenuto - Quarter.sfz" Symbol="Tenuto" ForDuration="500ms|1000ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Tenuto - Half.sfz" Symbol="Tenuto" ForDuration="1000ms|1500ms" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Pizzicato.sfz" Class="Pizzicato" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Pizzicato Snap.sfz" Class="Bartok" OffsetStart="30"/>
+  <Articulation File="SFZ\Cello Solo - Col Legno.sfz" Symbol="Text" Name="Col Legno" OffsetStart="30"/>
+  <!-- Realtime Input Articulation -->
+  <Articulation File="SFZ\Cello Solo - Realtime.sfz" Symbol="Realtime"/>
+  </Preset>  
+  
+  
   <!-- Export -->
   <MusicXML InstrumentSound="strings.cello"/>
   <MPE InstrumentSound="strings.violoncello.orchestral"/>

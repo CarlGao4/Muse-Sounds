@@ -1,13 +1,16 @@
 SFZ\Contrabasses - Col Legno.sfz
 SFZ\Contrabasses - Fall.sfz
 SFZ\Contrabasses - Fast Runs.sfz
+SFZ\Contrabasses - Legato Control Slow.sfz
 SFZ\Contrabasses - Legato Control.sfz
+SFZ\Contrabasses - Legato Intervals Slow.sfz
 SFZ\Contrabasses - Legato Intervals.sfz
 SFZ\Contrabasses - Pizzicato Snap.sfz
 SFZ\Contrabasses - Pizzicato.sfz
 SFZ\Contrabasses - Realtime.sfz
 SFZ\Contrabasses - Staccatissimo.sfz
 SFZ\Contrabasses - Staccato.sfz
+SFZ\Contrabasses - Sustain Espressivo.sfz
 SFZ\Contrabasses - Sustain Fall.sfz
 SFZ\Contrabasses - Sustain Harmonic.sfz
 SFZ\Contrabasses - Sustain Marcato.sfz
