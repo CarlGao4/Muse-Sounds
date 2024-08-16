@@ -1,0 +1,36 @@
+// StaffPad Pro
+// Piccolo
+// Legato Master Control
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+preroll_time=0.2
+postroll_time=2
+relative_fade_time=100
+fade_out_function=linear
+file=Piccolo - Sustain.sfz
+
+<include>
+legato_phase=interval
+legato_minimum_duration=0.2
+preroll_time=0.2
+postroll_time=2
+relative_fade_time=100
+fade_in_function=linear
+file=Piccolo - Legato Intervals.sfz
+
+///////////////
+//Fast Legato//
+///////////////
+
+<include>
+legato_phase=interval
+legato_maximum_duration=0.2
+preroll_time=0.125
+postroll_time=0.125
+relative_fade_time=50
+file=Piccolo - Legato Intervals Fast.sfz
