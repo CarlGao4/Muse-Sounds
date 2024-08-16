@@ -1,0 +1,37 @@
+// Muse Guitars Vol. 1
+// Picked Steel
+// Legato Master Control
+// v1.0.0
+//
+// changelog:
+// 20.11.23 - Combined Sustain & SustainExt + added legato repeat release triggers
+// 23.11.23 - adjusted fade_in/out_functions to make for smoother legato crossfades
+//    ""    - lengthened sustain/interval relative_fade_times for smoother crossfade
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+fade_out_function=linear
+relative_fade_time=80
+file=Acoustic Steel Picked - Sustain.sfz
+
+<include>
+legato_phase=interval
+fade_in_function=linear
+relative_fade_time=80
+file=Acoustic Steel Picked - Legato Intervals.sfz
+
+<include>
+legato_phase=portamento
+fade_in_function=linear
+relative_fade_time=80
+file=Acoustic Steel Picked - Portamento.sfz
+
+<include>
+legato_phase=glissando
+fade_in_function=linear
+relative_fade_time=80
+file=Acoustic Steel Picked - Portamento.sfz

@@ -1,0 +1,30 @@
+// StaffPad Pro
+// Acoustic Plucked
+// Legato Master Control
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+file=Acoustic Steel Plucked - Sustain.sfz
+
+<include>
+legato_phase=interval
+legato_minimum_duration=0.125
+file=Acoustic Steel Plucked - Legato Intervals.sfz
+
+<include>
+legato_phase=interval
+legato_maximum_duration=0.125
+legato_interval_range=2
+file=Acoustic Steel Plucked - HammerPull.sfz
+
+<include>
+legato_phase=portamento
+file=Acoustic Steel Plucked - Portamento.sfz
+
+<include>
+legato_phase=glissando
+file=Acoustic Steel Plucked - Portamento.sfz

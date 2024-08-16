@@ -1,0 +1,24 @@
+// StaffPad Pro
+// Nylon Guitar
+// Legato Master Control
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+file=Acoustic Nylon - Sustain.sfz
+
+<include>
+legato_phase=interval
+file=Acoustic Nylon - Legato Intervals.sfz
+
+<include>
+legato_phase=portamento
+file=Acoustic Nylon - Portamento.sfz
+
+<include>
+legato_phase=glissando
+file=Acoustic Nylon - Portamento.sfz
+

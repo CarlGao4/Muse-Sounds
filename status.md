@@ -56,9 +56,9 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Sopranos
   - [x] Tenors
 - [ ] Muse Guitars Vol. 1 `0.9.8`
-  - [ ] Acoustic Nylon
-  - [ ] Acoustic Steel Picked
-  - [ ] Acoustic Steel Plucked
+  - [x] Acoustic Nylon
+  - [x] Acoustic Steel Picked
+  - [x] Acoustic Steel Plucked
   - [ ] Electric Bass
   - [ ] Electric LP - Clean
   - [ ] Electric SC - Clean

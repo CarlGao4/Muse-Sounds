@@ -2,9 +2,9 @@
 
 The Muse Sounds soundfont in sf2 and sf3 format only for research purpose
 
-[Progress - Instruments ![](https://util.muse-sounds.work/progress/62/86?color=70afea&width=150)](status.md) 62 / 86
+[Progress - Instruments ![](https://util.muse-sounds.work/progress/65/86?color=70afea&width=150)](status.md) 65 / 86
 
-[Progress - Files ![](https://util.muse-sounds.work/progress/576/1091?color=a953ff&width=150)](status.md) 576 / 1091
+[Progress - Files ![](https://util.muse-sounds.work/progress/625/1091?color=a953ff&width=150)](status.md) 625 / 1091
 
 **We are migrating hosted files to Cloudflare from GitHub Releases for better performance, and also due to the fact that GitHub limits the maximum file size. However, Cloudflare is not free and approximately costs $50 every year to host the files. If you like this project, please consider [donating](https://paypal.me/CarlGao4).**
 
