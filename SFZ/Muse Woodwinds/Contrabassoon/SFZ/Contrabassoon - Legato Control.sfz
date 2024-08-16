@@ -1,0 +1,19 @@
+// Contrabassoon
+// Legato Master Control
+
+
+//Standard Legato
+	
+<include>
+legato_phase=sustain
+preroll_time=0.2
+postroll_time=1.5
+relative_fade_time=100
+file=Contrabassoon - Sustain.sfz
+
+<include>
+legato_phase=interval
+preroll_time=0.2
+postroll_time=1.5
+relative_fade_time=100
+file=Contrabassoon - Legato Intervals.sfz
