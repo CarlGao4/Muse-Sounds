@@ -2,9 +2,9 @@
 
 The Muse Sounds soundfont in sf2 and sf3 format only for research purpose
 
-[Progress - Instruments ![](https://util.muse-sounds.work/progress/55/85?color=70afea&width=150)](status.md) 55 / 85
+[Progress - Instruments ![](https://util.muse-sounds.work/progress/55/85?color=70afea&width=150)](status) 55 / 85
 
-[Progress - Files ![](https://util.muse-sounds.work/progress/471/1334?color=a953ff&width=150)](status.md) 471 / 1334
+[Progress - Files ![](https://util.muse-sounds.work/progress/471/1334?color=a953ff&width=150)](status) 471 / 1334
 
 **We are migrating hosted files to Cloudflare from GitHub Releases for better performance, and also due to the fact that GitHub limits the maximum file size. However, Cloudflare is not free and approximately costs $50 every year to host the files. If you like this project, please consider [donating](https://paypal.me/CarlGao4).**
 
@@ -32,9 +32,9 @@ Besides, I also noticed that sf2 and sf3 files are too simple to contain all the
 
 ## Downloads
 
-See [status](status.md) for the status of this project and more information about the soundfonts.
+See [status](status) for the status of this project and more information about the soundfonts.
 
-See [instruments](instruments.md) for the list of instruments and download links.
+See [instruments](instruments) for the list of instruments and download links.
 
 ### Release files
 
@@ -90,7 +90,7 @@ SFZ
 
 - `Piano.spx` folder: As the original file is an encrypted archive, it actually contains more than one file. So I will extract the archive into the folder keeping the original file name and structure.
 - `Piano - Studio.sfz`: This is the extracted sfz file. It is a text file and can be opened with any text editor. However, it is not a standard sfz file.
-- The opus files in the `Piano.sts` archive will be compressed into 7-Zip format and uploaded for download. For download list, please refer to [instruments](instrument.md).
+- The opus files in the `Piano.sts` archive will be compressed into 7-Zip format and uploaded for download. For download list, please refer to [instruments](instruments).
 
 In fact, if you want to use a soundfont, you should save all files under `SFZ` in the same folder (like the diagram below). I keep the original folder structure to make it easier to match the original files.
 
@@ -112,13 +112,13 @@ The loss of SF2 format comes from conversion from opus to 24-bit wav. Though bot
 
 I will keep only one instrument in each SF2 or SF3 file. The reason is that the original Muse Sounds library is too large and contains too many files, exceeding the limit of SF2 and SF3 formats.
 
-You can download SF2 and SF3 soundfonts from [instruments list](instruments.md).
+You can download SF2 and SF3 soundfonts from [instruments list](instruments).
 
 ## How I extract the soundfont
 
 ### `sts`
 
-See [sts](sts.md) for more information.
+See [sts](sts) for more information.
 
 ### `spx`
 
