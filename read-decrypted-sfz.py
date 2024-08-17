@@ -99,6 +99,10 @@ var create_ui8array = () => {
     };
     return data;
 };
+var is_xml_start = (arrbuf) => {
+    const xml_start = new Uint8Array([0x3c, 0x3f, 0x78, 0x6d, 0x6c, 0x20, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e, 0x3d, 0x22, 0x31]);
+    return (new Uint8Array(arrbuf)).slice(0, 16).every((v, i) => v === xml_start[i]);
+};
 (function () {
     var step_by_step = false;
     var register_sbs = msg => {
@@ -135,13 +139,24 @@ var create_ui8array = () => {
 
     var replace_bytes = new Uint8Array();
     var register_replace = msg => {
-        var new_replace_bytes = new Uint8Array(msg.payload.length + replace_bytes.length);
+        var new_replace_bytes = new Uint8Array(Math.ceil((replace_bytes.length + msg.payload.length) / 16) * 16);
         new_replace_bytes.set(replace_bytes, 0);
         new_replace_bytes.set(msg.payload, replace_bytes.length);
         replace_bytes = new_replace_bytes;
         recv('replace_bytes', register_replace);
     };
     recv('replace_bytes', register_replace);
+
+    var replace_xml = new Uint8Array();
+    var replacing_xml = false;
+    var register_replace_xml = msg => {
+        var new_replace_xml = new Uint8Array(Math.ceil((replace_xml.length + msg.payload.length) / 16) * 16);
+        new_replace_xml.set(replace_xml, 0);
+        new_replace_xml.set(msg.payload, replace_xml.length);
+        replace_xml = new_replace_xml;
+        recv('replace_xml', register_replace_xml);
+    };
+    recv('replace_xml', register_replace_xml);
 
     var fast_mode_timeout = null;
     var last_addr = ptr("0x0");
@@ -150,7 +165,21 @@ var create_ui8array = () => {
         onEnter: function (args) {
             var addr = ptr(this.context.rbx);
 
-            if (replace_bytes.length > 0) {
+            if (!replacing_xml && replace_xml.length > 0 && is_xml_start(addr.readByteArray(16)))
+                replacing_xml = true;
+            if (replace_xml.length < 16 && replace_xml.length > 0) {
+                var replace_xml_16 = new Uint8Array(16);
+                replace_xml_16.set(replace_xml, 0);
+                replace_xml = replace_xml_16;
+            }
+            else if (replace_xml.length === 0 && replacing_xml)
+                replacing_xml = false;
+
+            if (replacing_xml) {
+                addr.writeByteArray(replace_xml.slice(0, 16));
+                replace_xml = replace_xml.slice(16);
+            }
+            else if (replace_bytes.length > 0) {
                 if (replace_bytes.length < 16) {
                     var replace_bytes_16 = new Uint8Array(16);
                     replace_bytes_16.set(replace_bytes, 0);
@@ -186,8 +215,10 @@ var create_ui8array = () => {
             }
             else {
                 if (read_bytes.length > 0) {
+                    sending_latest = true;
                     send("decode", read_bytes.get_ui8arr());
                     read_bytes = create_ui8array();
+                    sending_latest = false;
                 }
                 send("decode", buf);
             }
@@ -254,6 +285,7 @@ help_msg = """\
 'f' - Switch fast mode (Only retrieve decrypted data when user requests)
 'g' - Retrieve latest decrypted data (fast mode)
 'r' - Overwrite decrypted data with file content
+'x' - Overwrite next decrypted xml with file content
 'e' - Manually add a separator
 'Enter' - Continue (step-by-step mode)
 """
@@ -296,6 +328,18 @@ while True:
             with open(file_name, mode="rb") as f:
                 replace_bytes = f.read()
                 script.post({"type": "replace_bytes", "payload": list(replace_bytes)})
+        except FileNotFoundError:
+            print("File not found", file=sys.stderr)
+    elif r == "x":
+        print("Input a file name to overwrite next decrypted xml with file content", file=sys.stderr)
+        print("File length should be a multiple of 16, or it will be padded with \\x00", file=sys.stderr)
+        print("The next decrypted xml (starting with '<?xml version=\"1') will be replaced", file=sys.stderr)
+        print("This takes higher priority than 'r' command", file=sys.stderr)
+        file_name = input()
+        try:
+            with open(file_name, mode="rb") as f:
+                replace_xml = f.read()
+                script.post({"type": "replace_xml", "payload": list(replace_xml)})
         except FileNotFoundError:
             print("File not found", file=sys.stderr)
     elif r == "e":
