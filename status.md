@@ -51,7 +51,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Cimbasso
   - [x] Horn in F
   - [x] Horns a6
-  - [ ] Trombone
+  - [x] Trombone
   - [ ] Trombones a3
   - [ ] Trumpet
   - [ ] Trumpets a4

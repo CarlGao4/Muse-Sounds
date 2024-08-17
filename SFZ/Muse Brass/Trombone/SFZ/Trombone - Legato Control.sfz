@@ -1,0 +1,21 @@
+// Muse Orchestra
+// Trombone
+// Legato Master Control
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+preroll_time=1
+postroll_time=1
+relative_fade_time=100
+file=Trombone - Sustain.sfz
+
+<include>
+legato_phase=interval
+preroll_time=1
+postroll_time=1
+relative_fade_time=100
+file=Trombone - Legato Intervals.sfz
