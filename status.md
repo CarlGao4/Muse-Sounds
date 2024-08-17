@@ -28,6 +28,8 @@ Muse Percussion `0.5.10` Mark Tree has a problem that `SFZ\Mark Tree - Rolls - G
 
 Muse Strings `0.4.14` Violins 1 `SFZ\Violins 1 - Sustain Fall.sfz` should only be activated `ForDuration="|4"` according to the metadata file, which I guess means that the note should have a duration equals to or less than 4 16th notes. But all notes added "Fall" symbol will activate `SFZ\Violins 1 - Sustain Fall.sfz` instead of `SFZ\Violins 1 - Fall.sfz` even if the note has a duration more than 4 16th notes.
 
+Muse Strings `0.4.17` Violins 2 is same as Violins 1.
+
 Muse Woodwinds instruments including Bass Clarinet contains SFZ for harmonics, however MuseScore Studio 4 (4.3.2) currently does not pass harmonics to MuseSampler, so the harmonics SFZ files are not used. To use them, you need to use instruments like violins but apply Muse Woodwinds soundfonts.
 
 ## About the uploaded files
