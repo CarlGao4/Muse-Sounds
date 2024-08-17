@@ -237,7 +237,7 @@ def on_message(message, data):
             print(message, data, sep="\n", file=sys.stderr)
 
 
-script = session.create_script(script_code)
+script = session.create_script(script_code, runtime="v8")
 script.on("message", on_message)
 script.load()
 

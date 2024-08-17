@@ -9,7 +9,7 @@ Up until now, I've extracted the following versions:
 - Muse Harp `0.2.7`
 - Muse Keys `0.4.11`
 - Muse Percussion `0.5.10`
-- Muse Strings `0.4.16`
+- Muse Strings `0.4.17`
 - Muse Woodwinds `0.5.23`
 
 ### Muse Sounds Bugs I've found
@@ -112,7 +112,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Vibraphone
   - [x] Wood Blocks
   - [x] Xylophone
-- [ ] Muse Strings `0.4.16`
+- [ ] Muse Strings `0.4.17`
   - [ ] Contrabasses
   - [ ] Viola (Solo)
   - [ ] Violas
