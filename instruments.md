@@ -2,6 +2,8 @@
 
 Instrument files are hosted on GitHub and CloudFlare. If a same file is available on both platforms, the CloudFlare link is recommended. It's faster and you won't need to rename understrike (`_`) to space after downloading.
 
+For Chinese users: CloudFlare only has CDN nodes in Mainland China for business users. If your download speed is slow, you can manually change the domain name in the download link from `dl.muse-sounds.work` to `dl-cn.muse-sounds.work`, which may uses better CDN nodes and routing. However, I don't guarantee it's faster.
+
 ## About File Types
 
 - `*.sts.7z`: Compressed original sample files extracted from the sts file. Audio files are in opus format.
