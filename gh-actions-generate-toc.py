@@ -84,6 +84,8 @@ for i in objects:
         name = name.split(".", 1)[0]
     if catagory not in instruments:
         instruments[catagory] = {}
+    if catagory not in download_size:
+        download_size[catagory] = {}
     if name not in instruments[catagory]:
         instruments[catagory][name] = {}
     if name not in download_size[catagory]:
@@ -116,7 +118,7 @@ markdown += (
     "- `*.sf2`: Converted SF2 format soundfont file.\n"
     "- `*.sf3`: Converted SF3 format soundfont file.\n"
     "- `*.sfz.7z`: Compressed original SFZ files. May not standard SFZ format and can't be loaded by SFZ player.\n"
-    "- `sfz+flac.zip`: Converted SFZ files with FLAC audio files. You can use it directly in SFZ player.\n"
+    "- `sfz+flac.zip`: Converted SFZ files with FLAC audio files. You can use it directly in SFZ player.\n\n"
 )
 
 for catagory in sorted(instruments.keys()):
@@ -142,8 +144,8 @@ if markdown != old_markdown:
     with open("instruments.md", mode="wt", encoding="utf-8") as f:
         f.write(markdown)
     # Find out what instrument changed to set commit message
-    old_markdown_insts = dict((i[1], i[0]) for i in re.findall(r"(- \[(.*)\].*\r?\n(  - .*\r?\n?)*)", old_markdown))
-    new_markdown_insts = dict((i[1], i[0]) for i in re.findall(r"(- \[(.*)\].*\r?\n(  - .*\r?\n?)*)", markdown))
+    old_markdown_insts = dict((i[1], i[2]) for i in re.findall(r"(- \[?([^\[\]`\r\n]+)\]?.*\r?\n((  - .*\r?\n?)*))", old_markdown))
+    new_markdown_insts = dict((i[1], i[2]) for i in re.findall(r"(- \[?([^\[\]`\r\n]+)\]?.*\r?\n((  - .*\r?\n?)*))", markdown))
     added = set(new_markdown_insts.keys()) - set(old_markdown_insts.keys())
     removed = set(old_markdown_insts.keys()) - set(new_markdown_insts.keys())
     modified = {}
@@ -168,6 +170,7 @@ if markdown != old_markdown:
                     message += "    Removed: " + modified[i][0][j] + "\n"
                 elif modified[i][0][j] != modified[i][1][j]:
                     message += f"    Renamed: {modified[i][0][j]} -> {modified[i][1][j]}\n"
+    message = message.replace("\_", "_").replace("\\\\", "\\")
     print("-" * 80)
     print("Commit message:")
     print(message)

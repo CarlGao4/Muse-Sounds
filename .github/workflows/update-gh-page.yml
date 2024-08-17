@@ -7,13 +7,10 @@ on:
       - "*.md"
       - "*.py"
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Generate Instrument Table of Contents"]
-    types:
-      - completed
+  workflow_call:
 
 concurrency:
-  group: ${{ github.workflow }}
+  group: "gh-pages-update"
   cancel-in-progress: true
 
 jobs:

@@ -49,3 +49,7 @@ jobs:
         if: ${{ steps.generate-toc.outputs.continue_commit != 'false' }}
         with:
           commit-message: ${{ steps.generate-toc.outputs.commit_message }}
+
+  trigger-gh-pages-update:
+    needs: generate-instrument-toc
+    uses: ./.github/workflows/update-gh-page.yml
