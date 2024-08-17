@@ -16,7 +16,7 @@ Up until now, I've extracted the following versions:
 
 Many instruments have different SFZ files for trills of different intervals, but currently MuseScore Studio 4 (4.3.2) will only load the SFZ file for the first note of trill if the staff has more than one trill symbol and the intervals are different. For example, if you added a trill symbol first to C5 (Which should load SFZ of Major Trill) and then to E5 (Which should load SFZ of Minor Trill), only the SFZ of Major Trill will be loaded. Then the trill of E5 will be simulated with a series of fast notes of E5 and F5.
 
-Muse Brass instruments including Bass Trombone, Cimbasso, Horn in F, Horns a6, Trombone, Trombones a3, Trumpets a4 have different SFZ files for accented notes of different duration. However, the last SFZ file in metadata doesn't have a duration specified, so it will override the previous SFZ files.
+Muse Brass instruments including Bass Trombone, Cimbasso, Horn in F, Horns a6, Trombone, Trombones a3, Trumpets a4, Tuba have different SFZ files for accented notes of different duration. However, the last SFZ file in metadata doesn't have a duration specified, so it will override the previous SFZ files.
 
 Muse Brass `0.4.4` Trombones a3 has a problem that `Trombones a3 - Marcato Half.sfz` and `Trombones a3 - Marcato Quarter.sfz` are actually the same file, which actually should be `Trombones a3 - Marcato Half.sfz`.
 
@@ -57,7 +57,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Trombones a3
   - [x] Trumpet
   - [x] Trumpets a4
-  - [ ] Tuba
+  - [x] Tuba
 - [x] Muse Choir `0.3.19`
   - [x] Altos
   - [x] Basses
