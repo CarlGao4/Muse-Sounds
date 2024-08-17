@@ -48,14 +48,14 @@ Instruments in *italic* means that some SFZ files are not extracted. See below [
 
 If an instrument contains `Realtime` preset, I guess that it should require a MIDI keyboard to activate, so currently I can't extract them. They are not listed in the "SFZ files failed to extract or convert" section, but a star symbol is added to the instrument name in the list. The number indicating the count of unextracted SFZ files includes these Realtime presets.
 
-- [ ] Muse Brass `0.4.4`
+- [x] Muse Brass `0.4.4`
   - [x] Bass Trombone
   - [x] Cimbasso
   - [x] Horn in F
   - [x] Horns a6
   - [x] Trombone
   - [x] Trombones a3
-  - [ ] Trumpet
+  - [x] Trumpet
   - [ ] Trumpets a4
   - [ ] Tuba
 - [x] Muse Choir `0.3.19`

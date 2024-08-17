@@ -1,0 +1,21 @@
+// StaffPad Pro
+// Trumpet
+// Legato Master Control
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+preroll_time=1.3
+postroll_time=1.3
+relative_fade_time=100
+file=Trumpet - Sustain.sfz
+
+<include>
+legato_phase=interval
+preroll_time=1.3
+postroll_time=1.3
+relative_fade_time=100
+file=Trumpet - Legato Intervals.sfz
