@@ -121,7 +121,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [ ] Viola (Solo)
   - [ ] Violas
   - [x] Violin 1 (Solo)
-  - [ ] Violin 2 (Solo)
+  - [x] Violin 2 (Solo)
   - [ ] Violins 1
   - [ ] Violins 2
   - [ ] Violoncello (Solo)
