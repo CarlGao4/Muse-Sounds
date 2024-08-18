@@ -42,7 +42,7 @@ Some of the soundfonts have been converted to SF2 and SF3 format, and uploaded t
 
 I've also extracted some of the soundfonts in SFZ format, and uploaded to this repo. These are the "non-standard" SFZ files, which means that they may not be supported by some software. See [SFZ folder](SFZ) for theses files.
 
-### Uploaded original SFZ files
+### Extracted original SFZ files
 
 If an instrument is not listed here, it means that it doesn't have its own SFZ file or I haven't noticied that instrument.
 
@@ -123,7 +123,7 @@ These SFZ files are **NOT** standard and should be modified before using in othe
   - [x] Violins 1
   - [x] Violins 2
   - [x] Violoncello (Solo)
-  - [ ] Violoncellos
+  - [x] Violoncellos
 - [x] Muse Woodwinds `0.5.23`
   - [x] Alto Flute
   - [x] Alto Sax

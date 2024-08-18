@@ -1,0 +1,28 @@
+// StaffPad Pro
+// Cellos
+// Legato Master Control
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+preroll_time=1.5
+postroll_time=1.5
+relative_fade_time=100
+file=Cellos - Sustain Espressivo.sfz
+
+<include>
+legato_phase=interval
+preroll_time=1.7
+postroll_time=1.7
+relative_fade_time=100
+file=Cellos - Legato Intervals.sfz
+
+<include>
+legato_phase=portamento
+preroll_time=1.4
+postroll_time=1.6
+relative_fade_time=100
+file=Cellos - Portamento.sfz
