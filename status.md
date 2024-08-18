@@ -32,7 +32,7 @@ Muse Strings `0.4.17` Violins 2 is same as Violins 1. This has been fixed in `0.
 
 Muse Strings Violoncello Solo samples of Trill Whole and Trill Half are swapped. Which means that samples whose name contains "Whole" are actually half trill and vice versa. However, this is not a bug because the file names in the SFZ file are also swapped.
 
-Muse Woodwinds instruments including Bass Clarinet contains SFZ for harmonics, however MuseScore Studio 4 (4.3.2) currently does not pass harmonics to MuseSampler, so the harmonics SFZ files are not used. To use them, you need to use instruments like violins but apply Muse Woodwinds soundfonts.
+Muse Woodwinds instruments including Bass Clarinet, Clarinet in Bb, Contrabass Flute, Flute 1, Piccolo contain SFZ for harmonics, however MuseScore Studio 4 (4.3.2) currently does not pass harmonics on woodwinds to MuseSampler, so the harmonics SFZ files are not used. To use them, you need to use instruments like violins but apply Muse Woodwinds soundfonts.
 
 ## About the uploaded files
 
@@ -47,10 +47,6 @@ I've also extracted some of the soundfonts in SFZ format, and uploaded to this r
 If an instrument is not listed here, it means that it doesn't have its own SFZ file or I haven't noticied that instrument.
 
 These SFZ files are **NOT** standard and should be modified before using in other software.
-
-Instruments in *italic* means that some SFZ files are not extracted. See below [SFZ files failed to extract or convert](#sfz-files-failed-to-extract-or-convert) for more information. The number comes after the instrument name is the the count of unextracted SFZ files.
-
-If an instrument contains `Realtime` preset, I guess that it should require a MIDI keyboard to activate, so currently I can't extract them. They are not listed in the "SFZ files failed to extract or convert" section, but a star symbol is added to the instrument name in the list. The number indicating the count of unextracted SFZ files includes these Realtime presets.
 
 - [x] Muse Brass `0.4.4`
   - [x] Bass Trombone
@@ -125,7 +121,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Violin 1 (Solo)
   - [x] Violin 2 (Solo)
   - [x] Violins 1
-  - [ ] Violins 2
+  - [x] Violins 2
   - [x] Violoncello (Solo)
   - [ ] Violoncellos
 - [x] Muse Woodwinds `0.5.23`
@@ -146,9 +142,3 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Piccolo
   - [x] Soprano Sax
   - [x] Tenor Sax
-
-## SFZ files failed to extract or convert
-
-Some of the soundfonts have failed to extract or convert. Here is the list of them. Instruments which haven't been extracted is not listed.
-
-`Realtime` SFZ files are not listed here.

@@ -1,0 +1,34 @@
+// StaffPad Pro
+// Violins
+// Legato Master Control
+
+///////////////////
+//Standard Legato//
+///////////////////
+
+	
+<include>
+legato_phase=sustain
+// preroll_time=0.4 // changed from 1.7
+// postroll_time=0.4 // changed from 1.7
+// relative_fade_time=100 // changed from 100
+file=Violins 2 - Sustain Espressivo.sfz
+
+<include>
+legato_phase=interval
+// preroll_time=0.4 // changed from 1.7
+// postroll_time=0.4 // changed from 1.7
+// relative_fade_time=100 // changed from 100
+file=Violins 2 - Legato Intervals.sfz
+
+
+///////////////////
+//Portamento     //
+///////////////////
+
+<include>
+legato_phase=portamento
+preroll_time=1.4
+postroll_time=1.4
+relative_fade_time=100
+file=Violins 2 - Portamento.sfz
