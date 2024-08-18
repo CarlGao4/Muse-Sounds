@@ -2,6 +2,7 @@
 # This should be run with GitHub Actions
 
 import boto3
+import json
 import os
 import re
 import requests
@@ -70,6 +71,8 @@ secret_key = os.environ["SECRET_KEY"]
 bucket_name = os.environ["BUCKET_NAME"]
 
 release_files = {}
+descriptions = {}
+descriptions_pending = {}
 
 s3 = boto3.client(
     "s3", endpoint_url=endpoint_url, aws_access_key_id=access_key, aws_secret_access_key=secret_key, verify=True
@@ -101,8 +104,15 @@ for i in objects:
         if name not in release_files[catagory]:
             release_files[catagory][name] = []
         release_files[catagory][name].append(filename)
+    descriptions_pending[json.loads(i["ETag"])] = (catagory, name, filename)
     instruments[catagory][name][filename] = urllib.parse.urljoin(download_url_prefix, urllib.parse.quote(i["Key"]))
     download_size[catagory][name][filename] = i["Size"]
+
+r = requests.post("https://dl.muse-sounds.work/get-descriptions", json={"etags": list(descriptions_pending.keys())})
+if r.status_code == 200:
+    for etag, description in r.json().items():
+        if description is not None:
+            descriptions[descriptions_pending[etag]] = description
 
 
 # Generate markdown
@@ -141,10 +151,14 @@ markdown += (
 for catagory in sorted(release_files.keys()):
     markdown += f"### {catagory}\n\n"
     for name in sorted(release_files[catagory].keys()):
-        markdown += f"- {name}\n"
+        markdown += f"#### {name}\n"
         for asset in sorted(release_files[catagory][name], key=lambda x: x.rsplit(".", 1), reverse=True):
-            markdown += f"  - [{asset}]({instruments[catagory][name][asset]})\n"
-    markdown += "\n"
+            asset_name = asset.replace("\\_", "_").replace("\\[", "[").replace("\\]", "]").replace("\\\\", "\\")
+            markdown += f"<details><summary>{asset_name}</summary>\n\n"
+            if (catagory, name, asset) in descriptions:
+                markdown += "> " + "\n> ".join(descriptions[(catagory, name, asset)].splitlines()) + "\n\n"
+            markdown += f"> [Download {asset}]({instruments[catagory][name][asset]}) "
+            markdown += f"({human_readable_size(download_size[catagory][name][asset])})\n\n---\n\n</details>\n\n"
 
 markdown += (
     "## All Files\n\n"
@@ -157,14 +171,16 @@ for catagory in sorted(instruments.keys()):
     markdown += f"### {catagory}\n\n"
     for name in sorted(instruments[catagory].keys()):
         if catagory in instrument_urls and name in instrument_urls[catagory]:
-            markdown += f"- [{name}]({instrument_urls[catagory][name]})\n"
+            markdown += f"#### [{name}]({instrument_urls[catagory][name]})\n"
         else:
-            markdown += f"- {name}\n"
+            markdown += f"#### {name}\n"
         for asset in sorted(instruments[catagory][name].keys(), key=lambda x: x.rsplit(".", 1), reverse=True):
-            markdown += (
-                f"  - [{asset}]({instruments[catagory][name][asset]}) "
-                f"({human_readable_size(download_size[catagory][name][asset])})\n"
-            )
+            asset_name = asset.replace("\\_", "_").replace("\\[", "[").replace("\\]", "]").replace("\\\\", "\\")
+            markdown += f"<details><summary>{asset_name}</summary>\n\n"
+            if (catagory, name, asset) in descriptions:
+                markdown += "> " + "\n> ".join(descriptions[(catagory, name, asset)].splitlines()) + "\n\n"
+            markdown += f"> [Download {asset}]({instruments[catagory][name][asset]}) "
+            markdown += f"({human_readable_size(download_size[catagory][name][asset])})\n\n---\n\n</details>\n\n"
     markdown += "\n"
 
 print("Generated markdown:", file=sys.stderr)
@@ -176,14 +192,26 @@ if markdown != old_markdown:
     with open("instruments.md", mode="wt", encoding="utf-8") as f:
         f.write(markdown)
     # Find out what instrument changed to set commit message
-    old_markdown_insts = dict((i[1], i[2]) for i in re.findall(r"(- \[?([^\[\]`\r\n]+)\]?.*\r?\n((  - .*\r?\n?)*))", old_markdown))
-    new_markdown_insts = dict((i[1], i[2]) for i in re.findall(r"(- \[?([^\[\]`\r\n]+)\]?.*\r?\n((  - .*\r?\n?)*))", markdown))
+    old_markdown_insts = (
+        dict(i[:2] for i in re.findall(r"(?<=\n)- \[?([^\[\]`\r\n]+)\]?.*\r?\n((  - .*\r?\n?)*)", old_markdown)) or
+        dict((i[0], i[1]) for i in re.findall(r"#### \[?([^\[\]`\r\n]+)\]?.*\r?\n((<details><summary>.*</summary>[\s\S]+?</details>(\r?\n)*)*)", old_markdown))
+    )
+    new_markdown_insts = (
+        dict(i[:2] for i in re.findall(r"(?<=\n)- \[?([^\[\]`\r\n]+)\]?.*\r?\n((  - .*\r?\n?)*)", markdown)) or
+        dict((i[0], i[1]) for i in re.findall(r"#### \[?([^\[\]`\r\n]+)\]?.*\r?\n((<details><summary>.*</summary>[\s\S]+?</details>(\r?\n)*)*)", markdown))
+    )
     added = set(new_markdown_insts.keys()) - set(old_markdown_insts.keys())
     removed = set(old_markdown_insts.keys()) - set(new_markdown_insts.keys())
     modified = {}
     for i in set(new_markdown_insts.keys()) & set(old_markdown_insts.keys()):
-        links_old = dict((j[1], j[0]) for j in re.findall(r"\[(.*?)\]\((.*?)\)", old_markdown_insts[i]))
-        links_new = dict((j[1], j[0]) for j in re.findall(r"\[(.*?)\]\((.*?)\)", new_markdown_insts[i]))
+        links_old = (
+            dict(map(reversed, re.findall(r"<summary>(.*?)</summary>[\s\S]+?\]\((.*?)\) \(.*?\)\r?\n\r?\n---", old_markdown_insts[i]))) or
+            dict(map(reversed, re.findall(r"\[(.*?)\]\((.*?)\)", old_markdown_insts[i])))
+        )
+        links_new = (
+            dict(map(reversed, re.findall(r"<summary>(.*?)</summary>[\s\S]+?\]\((.*?)\) \(.*?\)\r?\n\r?\n---", new_markdown_insts[i]))) or
+            dict(map(reversed, re.findall(r"\[(.*?)\]\((.*?)\)", new_markdown_insts[i])))
+        )
         if links_old != links_new:
             modified[i] = (links_old, links_new)
     message = "Update Instrument Table of Contents\n"
@@ -201,7 +229,8 @@ if markdown != old_markdown:
                 elif j not in modified[i][1]:
                     message += "    Removed: " + modified[i][0][j] + "\n"
                 elif modified[i][0][j] != modified[i][1][j]:
-                    message += f"    Renamed: {modified[i][0][j]} -> {modified[i][1][j]}\n"
+                    if modified[i][0][j].replace("\_", "_").replace("\\\\", "\\") != modified[i][1][j].replace("\_", "_").replace("\\\\", "\\"):
+                        message += f"    Renamed: '{modified[i][0][j]}' -> '{modified[i][1][j]}'\n"
     message = message.replace("\_", "_").replace("\\\\", "\\")
     print("-" * 80)
     print("Commit message:")
