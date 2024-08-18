@@ -69,6 +69,8 @@ access_key = os.environ["ACCESS_KEY"]
 secret_key = os.environ["SECRET_KEY"]
 bucket_name = os.environ["BUCKET_NAME"]
 
+release_files = {}
+
 s3 = boto3.client(
     "s3", endpoint_url=endpoint_url, aws_access_key_id=access_key, aws_secret_access_key=secret_key, verify=True
 )
@@ -93,6 +95,12 @@ for i in objects:
     filename = re.sub(
         r"[\[\]_]", lambda m: f"\\{m[0]}", (i["Key"].rsplit("/", 1)[1] + " (CloudFlare)").replace("\\", "\\\\")
     )
+    if "release" in parts[0]:
+        if catagory not in release_files:
+            release_files[catagory] = {}
+        if name not in release_files[catagory]:
+            release_files[catagory][name] = []
+        release_files[catagory][name].append(filename)
     instruments[catagory][name][filename] = urllib.parse.urljoin(download_url_prefix, urllib.parse.quote(i["Key"]))
     download_size[catagory][name][filename] = i["Size"]
 
@@ -124,14 +132,35 @@ markdown += (
     "- `sfz+flac.zip`: Converted SFZ files with FLAC audio files. You can use it directly in SFZ player.\n\n"
 )
 
+markdown += (
+    "## Converted Releases\n\n"
+    "These are the instruments that have been converted to standard formats so you can use them in your favorite "
+    "software. There is no need to download extra files, just extract it (if it is archived) and load it. "
+    "I've checked the SFZ, SF2, and SF3 files in MuseScore 3.6.2 and they work well.\n\n"
+)
+for catagory in sorted(release_files.keys()):
+    markdown += f"### {catagory}\n\n"
+    for name in sorted(release_files[catagory].keys()):
+        markdown += f"- {name}\n"
+        for asset in sorted(release_files[catagory][name], key=lambda x: x.rsplit(".", 1), reverse=True):
+            markdown += f"  - [{asset}]({instruments[catagory][name][asset]})\n"
+    markdown += "\n"
+
+markdown += (
+    "## All Files\n\n"
+    "These are all the files available for download. They may be the original files, which may be non-standard formats "
+    "or have extra files that are not needed for most users. If you are not sure what to download, you should check the "
+    "converted releases above.\n\n"
+)
+
 for catagory in sorted(instruments.keys()):
-    markdown += f"## {catagory}\n\n"
+    markdown += f"### {catagory}\n\n"
     for name in sorted(instruments[catagory].keys()):
         if catagory in instrument_urls and name in instrument_urls[catagory]:
             markdown += f"- [{name}]({instrument_urls[catagory][name]})\n"
         else:
             markdown += f"- {name}\n"
-        for asset in sorted(instruments[catagory][name].keys(), key=lambda x: x.rsplit(".", 1)[1]):
+        for asset in sorted(instruments[catagory][name].keys(), key=lambda x: x.rsplit(".", 1), reverse=True):
             markdown += (
                 f"  - [{asset}]({instruments[catagory][name][asset]}) "
                 f"({human_readable_size(download_size[catagory][name][asset])})\n"

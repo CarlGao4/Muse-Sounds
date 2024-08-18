@@ -6,6 +6,7 @@ on:
     paths:
       - "*.md"
       - "*.py"
+      - "!gh-actions-generate-toc.py"
   workflow_dispatch:
   workflow_call:
 
