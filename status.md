@@ -118,7 +118,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Xylophone
 - [ ] Muse Strings `0.4.18`
   - [ ] Contrabasses
-  - [ ] Viola (Solo)
+  - [x] Viola (Solo)
   - [ ] Violas
   - [x] Violin 1 (Solo)
   - [x] Violin 2 (Solo)
