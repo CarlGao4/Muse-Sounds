@@ -53,3 +53,5 @@ jobs:
   trigger-gh-pages-update:
     needs: generate-instrument-toc
     uses: ./.github/workflows/update-gh-page.yml
+    secrets:
+      PAGES_TOKEN: ${{ secrets.PAGES_TOKEN }}
