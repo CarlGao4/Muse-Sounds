@@ -14,47 +14,6 @@ instruments = {}
 instrument_urls = {}
 download_size = {}
 
-# Retrieve file list from GitHub Releases
-
-repo = os.environ["GITHUB_REPOSITORY"]
-api_url = f"https://api.github.com/repos/{repo}/releases?per_page=100&page="
-headers = {
-    "Accept": "application/vnd.github+json",
-    "Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}",
-    "X-GitHub-Api-Version": "2022-11-28",
-}
-releases = []
-page = 1
-while True:
-    response = requests.get(api_url + str(page), headers=headers)
-    if not 200 <= response.status_code < 300:
-        raise Exception(f"GET request failed with status code {response.status_code}")
-    page_release = response.json()
-    if len(page_release) == 0:
-        break
-    releases += page_release
-    page += 1
-
-for release in releases:
-    if " - " not in release["name"]:
-        continue
-    catagory, name = release["name"].split(" - ", 1)
-    if catagory not in instruments:
-        instruments[catagory] = {}
-        instrument_urls[catagory] = {}
-        download_size[catagory] = {}
-    assert name not in instruments[catagory], f"Duplicate instrument name {name} in catagory {catagory}"
-    instruments[catagory][name] = {}
-    instrument_urls[catagory][name] = release["html_url"]
-    download_size[catagory][name] = {}
-    for asset in release["assets"]:
-        instruments[catagory][name][re.sub(r"[\[\]_]", lambda m: f"\\{m[0]}", asset["name"].replace("\\", "\\\\"))] = (
-            asset["browser_download_url"]
-        )
-        download_size[catagory][name][
-            re.sub(r"[\[\]_]", lambda m: f"\\{m[0]}", asset["name"].replace("\\", "\\\\"))
-        ] = asset["size"]
-
 try:
     with open("instruments.md", mode="rt", encoding="utf-8") as f:
         old_markdown = f.read()
@@ -95,9 +54,7 @@ for i in objects:
         instruments[catagory][name] = {}
     if name not in download_size[catagory]:
         download_size[catagory][name] = {}
-    filename = re.sub(
-        r"[\[\]_]", lambda m: f"\\{m[0]}", (i["Key"].rsplit("/", 1)[1] + " (CloudFlare)").replace("\\", "\\\\")
-    )
+    filename = re.sub(r"[\[\]_]", lambda m: f"\\{m[0]}", i["Key"].rsplit("/", 1)[1].replace("\\", "\\\\"))
     if "release" in parts[0]:
         if catagory not in release_files:
             release_files[catagory] = {}
@@ -128,9 +85,6 @@ def human_readable_size(size):
 markdown = "# Instrument List\n\n"
 
 markdown += (
-    "Instrument files are hosted on GitHub and CloudFlare. If a same file is available on both platforms, "
-    "the CloudFlare link is recommended. It's faster and you won't need to rename understrike "
-    "(`_`) to space after downloading.\n\n"
     "For Chinese users: CloudFlare only has CDN nodes in Mainland China for business users. If your download speed "
     "is slow, you can manually change the domain name in the download link from `dl.muse-sounds.work` to "
     "`dl-cn.muse-sounds.work`, which may uses better CDN nodes and routing. However, I don't guarantee it's faster.\n\n"
