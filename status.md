@@ -117,7 +117,7 @@ These SFZ files are **NOT** standard and should be modified before using in othe
 - [ ] Muse Strings `0.4.18`
   - [ ] Contrabasses
   - [x] Viola (Solo)
-  - [ ] Violas
+  - [x] Violas
   - [x] Violin 1 (Solo)
   - [x] Violin 2 (Solo)
   - [x] Violins 1

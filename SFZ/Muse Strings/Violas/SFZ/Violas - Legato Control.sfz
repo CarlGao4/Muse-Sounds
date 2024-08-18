@@ -1,0 +1,28 @@
+// StaffPad Pro
+// Violas
+// Legato Master Control
+
+///////////////////
+//Standard Legato//
+///////////////////
+	
+<include>
+legato_phase=sustain
+// preroll_time=1.7
+// postroll_time=1.7
+// relative_fade_time=100
+file=Violas - Sustain Espressivo.sfz
+
+<include>
+legato_phase=interval
+// preroll_time=1.7
+// postroll_time=1.7
+// relative_fade_time=100
+file=Violas - Legato Intervals.sfz
+
+<include>
+legato_phase=portamento
+preroll_time=1.2
+postroll_time=1.2
+relative_fade_time=100
+file=Violas - Portamento.sfz
