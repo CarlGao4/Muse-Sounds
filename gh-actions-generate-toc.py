@@ -73,9 +73,9 @@ s3 = boto3.client(
     "s3", endpoint_url=endpoint_url, aws_access_key_id=access_key, aws_secret_access_key=secret_key, verify=True
 )
 
-objects = s3.list_objects_v2(Bucket=bucket_name, MaxKeys=1000000)["Contents"]
+objects = s3.list_objects_v2(Bucket=bucket_name, MaxKeys=1000000, Prefix="public/")["Contents"]
 for i in objects:
-    parts = i["Key"].split("/")
+    parts = i["Key"].split("/")[1:]
     if len(parts) < 3 or parts[-1] == "":
         continue
     catagory = parts[1]
