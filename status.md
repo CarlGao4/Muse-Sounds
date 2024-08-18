@@ -30,6 +30,8 @@ Muse Strings `0.4.14` Violins 1 `SFZ\Violins 1 - Sustain Fall.sfz` should only b
 
 Muse Strings `0.4.17` Violins 2 is same as Violins 1. This has been fixed in `0.4.18`.
 
+Muse Strings Violoncello Solo samples of Trill Whole and Trill Half are swapped. Which means that samples whose name contains "Whole" are actually half trill and vice versa. However, this is not a bug because the file names in the SFZ file are also swapped.
+
 Muse Woodwinds instruments including Bass Clarinet contains SFZ for harmonics, however MuseScore Studio 4 (4.3.2) currently does not pass harmonics to MuseSampler, so the harmonics SFZ files are not used. To use them, you need to use instruments like violins but apply Muse Woodwinds soundfonts.
 
 ## About the uploaded files
@@ -124,7 +126,7 @@ If an instrument contains `Realtime` preset, I guess that it should require a MI
   - [x] Violin 2 (Solo)
   - [ ] Violins 1
   - [ ] Violins 2
-  - [ ] Violoncello (Solo)
+  - [x] Violoncello (Solo)
   - [ ] Violoncellos
 - [x] Muse Woodwinds `0.5.23`
   - [x] Alto Flute
