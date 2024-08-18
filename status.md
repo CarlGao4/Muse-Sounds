@@ -1,5 +1,7 @@
 # Project Status
 
+**For conversion status, please refer to [download list](instruments.md)**
+
 ## Extracted versions
 
 Up until now, I've extracted the following versions:
@@ -114,8 +116,8 @@ These SFZ files are **NOT** standard and should be modified before using in othe
   - [x] Vibraphone
   - [x] Wood Blocks
   - [x] Xylophone
-- [ ] Muse Strings `0.4.18`
-  - [ ] Contrabasses
+- [x] Muse Strings `0.4.18`
+  - [x] Contrabasses
   - [x] Viola (Solo)
   - [x] Violas
   - [x] Violin 1 (Solo)
