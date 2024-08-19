@@ -116,6 +116,8 @@ These are the instruments that have been converted to standard formats so you ca
 > Converted from `Muse Keys` -> `Piano` -> `Piano - Studio.sfz`.
 > 
 > **MuseScore 3 does not support this sfz. If you want to load it into MuseScore 3, please download `Piano - Studio (converted for MU3).sfz+flac.zip`.**
+>
+> Preview (Black Keys): <audio src="https://dl.muse-sounds.work/public-preview/Black%20Keys%20Piano%20Studio.m4a" controls>
 > 
 > Standard information:
 > - Key range: `A0`-`C8`
