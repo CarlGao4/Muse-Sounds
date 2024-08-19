@@ -115,8 +115,6 @@ These are the instruments that have been converted to standard formats so you ca
 #### Upright Piano
 <details><summary>Upright Piano Sustain.sf2</summary>
 
-> This soundfont is converted from Muse Sounds.
-> 
 > Presets:
 > 
 > - `Piano - Pop`: Original file: `Piano - Pop.sfz`
@@ -139,8 +137,6 @@ These are the instruments that have been converted to standard formats so you ca
 
 <details><summary>Upright Piano Sustain.sf3</summary>
 
-> This soundfont is converted from Muse Sounds.
-> 
 > Presets:
 > 
 > - `Piano - Pop`: Original file: `Piano - Pop.sfz`
@@ -156,6 +152,27 @@ These are the instruments that have been converted to standard formats so you ca
 > - `Muse Keys` version: `0.4.11`
 
 > [Download Upright Piano Sustain.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain.sf3) (20.306 MiB)
+
+---
+
+</details>
+
+<details><summary>Upright Piano Sustain (converted).sfz+flac.zip</summary>
+
+> Converted from `Muse Keys` -> `Upright Piano` -> `Upright Piano Sustain.sfz`.
+> 
+> Standard information
+> - `Key range`: `A0`-`F8`
+> 
+> Modifications:
+> - Removed unsupported opcodes
+> - Removed master volume control
+> - Added equalizer according to instrument definition file
+> 
+> Other information:
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Upright Piano Sustain (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain%20%28converted%29.sfz%2Bflac.zip) (42.155 MiB)
 
 ---
 
@@ -730,30 +747,6 @@ These are all the files available for download. They may be the original files, 
 </details>
 
 #### Grand Piano
-<details><summary>Piano.sfz.7z</summary>
-
-> Original sfz files for `Muse Keys` `Grand Piano` (`Piano.spx`).
-> 
-> These files may be non-standard and can't be played in many players, or should have keys modified before being played correctly. As a result, **download of this file is only for users who know what you are doing**.
-> 
-> `Muse Keys` version: `0.4.11`
-
-> [Download Piano.sfz.7z](https://dl.muse-sounds.work/public/sfz/Muse%20Keys/Grand%20Piano/Piano.sfz.7z) (7500 B)
-
----
-
-</details>
-
-<details><summary>Piano.sts.7z</summary>
-
-> Original sample files for `Muse Keys` `Grand Piano` (`Piano.sts`)
-
-> [Download Piano.sts.7z](https://dl.muse-sounds.work/public/sts/Muse%20Keys/Grand%20Piano/Piano.sts.7z) (189.07 MiB)
-
----
-
-</details>
-
 <details><summary>Piano - Pop.sf2</summary>
 
 > Presets:
@@ -844,6 +837,30 @@ These are all the files available for download. They may be the original files, 
 > - `Muse Keys` version: `0.4.11`
 
 > [Download Piano - Studio (converted for MU3).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Studio%20%28converted%20for%20MU3%29.sfz%2Bflac.zip) (1408.6 MiB)
+
+---
+
+</details>
+
+<details><summary>Piano.sfz.7z</summary>
+
+> Original sfz files for `Muse Keys` `Grand Piano` (`Piano.spx`).
+> 
+> These files may be non-standard and can't be played in many players, or should have keys modified before being played correctly. As a result, **download of this file is only for users who know what you are doing**.
+> 
+> `Muse Keys` version: `0.4.11`
+
+> [Download Piano.sfz.7z](https://dl.muse-sounds.work/public/sfz/Muse%20Keys/Grand%20Piano/Piano.sfz.7z) (7500 B)
+
+---
+
+</details>
+
+<details><summary>Piano.sts.7z</summary>
+
+> Original sample files for `Muse Keys` `Grand Piano` (`Piano.sts`)
+
+> [Download Piano.sts.7z](https://dl.muse-sounds.work/public/sts/Muse%20Keys/Grand%20Piano/Piano.sts.7z) (189.07 MiB)
 
 ---
 
@@ -950,34 +967,8 @@ These are all the files available for download. They may be the original files, 
 </details>
 
 #### Upright Piano
-<details><summary>Upright Piano.sfz.7z</summary>
-
-> Original sfz files for `Muse Keys` `Upright Piano` (`Upright Piano.spx`).
-> 
-> These files may be non-standard and can't be played in many players, or should have keys modified before being played correctly. As a result, **download of this file is only for users who know what you are doing**.
-> 
-> `Muse Keys` version: `0.4.11`
-
-> [Download Upright Piano.sfz.7z](https://dl.muse-sounds.work/public/sfz/Muse%20Keys/Upright%20Piano/Upright%20Piano.sfz.7z) (874 B)
-
----
-
-</details>
-
-<details><summary>Upright Piano.sts.7z</summary>
-
-> Original sample files for `Muse Keys` `Upright Piano` (`Upright Piano.sts`)
-
-> [Download Upright Piano.sts.7z](https://dl.muse-sounds.work/public/sts/Muse%20Keys/Upright%20Piano.sts.7z) (5144 KiB)
-
----
-
-</details>
-
 <details><summary>Upright Piano Sustain.sf2</summary>
 
-> This soundfont is converted from Muse Sounds.
-> 
 > Presets:
 > 
 > - `Piano - Pop`: Original file: `Piano - Pop.sfz`
@@ -1000,8 +991,6 @@ These are all the files available for download. They may be the original files, 
 
 <details><summary>Upright Piano Sustain.sf3</summary>
 
-> This soundfont is converted from Muse Sounds.
-> 
 > Presets:
 > 
 > - `Piano - Pop`: Original file: `Piano - Pop.sfz`
@@ -1017,6 +1006,51 @@ These are all the files available for download. They may be the original files, 
 > - `Muse Keys` version: `0.4.11`
 
 > [Download Upright Piano Sustain.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain.sf3) (20.306 MiB)
+
+---
+
+</details>
+
+<details><summary>Upright Piano Sustain (converted).sfz+flac.zip</summary>
+
+> Converted from `Muse Keys` -> `Upright Piano` -> `Upright Piano Sustain.sfz`.
+> 
+> Standard information
+> - `Key range`: `A0`-`F8`
+> 
+> Modifications:
+> - Removed unsupported opcodes
+> - Removed master volume control
+> - Added equalizer according to instrument definition file
+> 
+> Other information:
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Upright Piano Sustain (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain%20%28converted%29.sfz%2Bflac.zip) (42.155 MiB)
+
+---
+
+</details>
+
+<details><summary>Upright Piano.sfz.7z</summary>
+
+> Original sfz files for `Muse Keys` `Upright Piano` (`Upright Piano.spx`).
+> 
+> These files may be non-standard and can't be played in many players, or should have keys modified before being played correctly. As a result, **download of this file is only for users who know what you are doing**.
+> 
+> `Muse Keys` version: `0.4.11`
+
+> [Download Upright Piano.sfz.7z](https://dl.muse-sounds.work/public/sfz/Muse%20Keys/Upright%20Piano/Upright%20Piano.sfz.7z) (874 B)
+
+---
+
+</details>
+
+<details><summary>Upright Piano.sts.7z</summary>
+
+> Original sample files for `Muse Keys` `Upright Piano` (`Upright Piano.sts`)
+
+> [Download Upright Piano.sts.7z](https://dl.muse-sounds.work/public/sts/Muse%20Keys/Upright%20Piano.sts.7z) (5144 KiB)
 
 ---
 
