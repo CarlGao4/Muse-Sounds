@@ -1,5 +1,7 @@
 # Instrument List
 
+If the previews can't be displayed on GitHub, please [click here](https://about.muse-sounds.work/instruments).
+
 For Chinese users: CloudFlare only has CDN nodes in Mainland China for business users. If your download speed is slow, you can manually change the domain name in the download link from `dl.muse-sounds.work` to `dl-cn.muse-sounds.work`, which may uses better CDN nodes and routing. However, I don't guarantee it's faster.
 
 ## About File Types
