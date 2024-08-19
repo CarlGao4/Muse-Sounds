@@ -106,7 +106,7 @@ for catagory in sorted(release_files.keys()):
     markdown += f"### {catagory}\n\n"
     for name in sorted(release_files[catagory].keys()):
         markdown += f"#### {name}\n"
-        for asset in sorted(release_files[catagory][name], key=lambda x: tuple(reversed(x.rsplit(".", 1)))):
+        for asset in sorted(release_files[catagory][name], key=lambda x: tuple(reversed(re.match(r"(.*?(\.[^ ]+))", x).groups()))):
             asset_name = asset.replace("\\_", "_").replace("\\[", "[").replace("\\]", "]").replace("\\\\", "\\")
             markdown += f"<details><summary>{asset_name}</summary>\n\n"
             if (catagory, name, asset) in descriptions:
@@ -128,7 +128,7 @@ for catagory in sorted(instruments.keys()):
             markdown += f"#### [{name}]({instrument_urls[catagory][name]})\n"
         else:
             markdown += f"#### {name}\n"
-        for asset in sorted(instruments[catagory][name].keys(), key=lambda x: tuple(reversed(x.rsplit(".", 1)))):
+        for asset in sorted(instruments[catagory][name].keys(), key=lambda x: tuple(reversed(re.match(r"(.*?(\.[^ ]+))", x).groups()))):
             asset_name = asset.replace("\\_", "_").replace("\\[", "[").replace("\\]", "]").replace("\\\\", "\\")
             markdown += f"<details><summary>{asset_name}</summary>\n\n"
             if (catagory, name, asset) in descriptions:
