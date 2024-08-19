@@ -25,6 +25,8 @@ These are the instruments that have been converted to standard formats so you ca
 >   - `Key range`: `A0`-`C8`
 >   - `Samples`: 616
 > 
+> Preview (Black Keys): <audio src="https://dl.muse-sounds.work/public-preview/Black%20Keys%20Piano%20Pop%20sf2.m4a" controls preload="none"/>
+> 
 > Differences compared to the original file:
 > - Removed unsupported opcodes
 > - All samples have been truncated to 10s and have no loops
@@ -48,6 +50,8 @@ These are the instruments that have been converted to standard formats so you ca
 > - `Piano - Pop`: Original file: `Piano - Pop.sfz`
 >   - `Key range`: `A0`-`C8`
 >   - `Samples`: 616
+> 
+> Preview (Black Keys): <audio src="https://dl.muse-sounds.work/public-preview/Black%20Keys%20Piano%20Pop%20sf2.m4a" controls preload="none"/>
 > 
 > Differences compared to the original file:
 > - Removed unsupported opcodes
@@ -116,8 +120,8 @@ These are the instruments that have been converted to standard formats so you ca
 > Converted from `Muse Keys` -> `Piano` -> `Piano - Studio.sfz`.
 > 
 > **MuseScore 3 does not support this sfz. If you want to load it into MuseScore 3, please download `Piano - Studio (converted for MU3).sfz+flac.zip`.**
->
-> Preview (Black Keys): <audio src="https://dl.muse-sounds.work/public-preview/Black%20Keys%20Piano%20Studio.m4a" controls>
+> 
+> Preview (Black Keys): <audio src="https://dl.muse-sounds.work/public-preview/Black%20Keys%20Piano%20Studio.m4a" controls preload="none"/>
 > 
 > Standard information:
 > - Key range: `A0`-`C8`
@@ -143,7 +147,7 @@ These are the instruments that have been converted to standard formats so you ca
 
 > Presets:
 > 
-> - `Piano - Pop`: Original file: `Piano - Pop.sfz`
+> - `Upright Piano`: Original file: `Upright Piano Sustain.sfz`
 >   - `Key range`: `A0`-`F8`
 >   - `Samples`: 54
 >   - CC67 (Soft pedal) supported
@@ -165,7 +169,7 @@ These are the instruments that have been converted to standard formats so you ca
 
 > Presets:
 > 
-> - `Piano - Pop`: Original file: `Piano - Pop.sfz`
+> - `Upright Piano`: Original file: `Upright Piano Sustain.sfz`
 >   - `Key range`: `A0`-`F8`
 >   - `Samples`: 54
 >   - CC67 (Soft pedal) supported
@@ -780,6 +784,8 @@ These are all the files available for download. They may be the original files, 
 >   - `Key range`: `A0`-`C8`
 >   - `Samples`: 616
 > 
+> Preview (Black Keys): <audio src="https://dl.muse-sounds.work/public-preview/Black%20Keys%20Piano%20Pop%20sf2.m4a" controls preload="none"/>
+> 
 > Differences compared to the original file:
 > - Removed unsupported opcodes
 > - All samples have been truncated to 10s and have no loops
@@ -803,6 +809,8 @@ These are all the files available for download. They may be the original files, 
 > - `Piano - Pop`: Original file: `Piano - Pop.sfz`
 >   - `Key range`: `A0`-`C8`
 >   - `Samples`: 616
+> 
+> Preview (Black Keys): <audio src="https://dl.muse-sounds.work/public-preview/Black%20Keys%20Piano%20Pop%20sf2.m4a" controls preload="none"/>
 > 
 > Differences compared to the original file:
 > - Removed unsupported opcodes
@@ -871,6 +879,8 @@ These are all the files available for download. They may be the original files, 
 > Converted from `Muse Keys` -> `Piano` -> `Piano - Studio.sfz`.
 > 
 > **MuseScore 3 does not support this sfz. If you want to load it into MuseScore 3, please download `Piano - Studio (converted for MU3).sfz+flac.zip`.**
+> 
+> Preview (Black Keys): <audio src="https://dl.muse-sounds.work/public-preview/Black%20Keys%20Piano%20Studio.m4a" controls preload="none"/>
 > 
 > Standard information:
 > - Key range: `A0`-`C8`
@@ -1020,7 +1030,7 @@ These are all the files available for download. They may be the original files, 
 
 > Presets:
 > 
-> - `Piano - Pop`: Original file: `Piano - Pop.sfz`
+> - `Upright Piano`: Original file: `Upright Piano Sustain.sfz`
 >   - `Key range`: `A0`-`F8`
 >   - `Samples`: 54
 >   - CC67 (Soft pedal) supported
@@ -1042,7 +1052,7 @@ These are all the files available for download. They may be the original files, 
 
 > Presets:
 > 
-> - `Piano - Pop`: Original file: `Piano - Pop.sfz`
+> - `Upright Piano`: Original file: `Upright Piano Sustain.sfz`
 >   - `Key range`: `A0`-`F8`
 >   - `Samples`: 54
 >   - CC67 (Soft pedal) supported
