@@ -18,6 +18,35 @@ These are the instruments that have been converted to standard formats so you ca
 
 ### Muse Keys
 
+#### Dream Piano
+<details><summary>Dream Piano (converted).sfz+flac.zip</summary>
+
+> Converted from `Muse Keys` -> `Dream Piano` -> `Dream Piano.sfz`.
+> 
+> Standard information:
+> - Key range: `A0`-`C8`
+> 
+> Modifications:
+> - Removed unsupported opcodes
+> - Removed loops, all the notes will has an end
+> - Removed closing tags
+> - Added equalizer according to instrument definition file
+> 
+> Differences:
+> - Effects defined in instrument definition file not supported in SFZ. You can view its parameters in the GitHub repo.
+>   - Doubler
+>   - SyncDelay
+>   - VfdnReverb
+> 
+> Other information:
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Dream Piano (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Dream%20Piano/Dream%20Piano%20%28converted%29.sfz%2Bflac.zip) (411.85 MiB)
+
+---
+
+</details>
+
 #### Grand Piano
 <details><summary>Piano - Pop.sf2</summary>
 
@@ -49,7 +78,7 @@ These are the instruments that have been converted to standard formats so you ca
 
 > Presets:
 > 
-> - `Upright Piano`: Original file: `Piano - Realtime.sfz`
+> - `Piano - Realtime`: Original file: `Piano - Realtime.sfz`
 >   - `Key range`: `A0`-`C8`
 >   - `Samples`: 44
 >   - CC67 (Soft pedal) supported
@@ -99,7 +128,7 @@ These are the instruments that have been converted to standard formats so you ca
 
 > Presets:
 > 
-> - `Upright Piano`: Original file: `Piano - Realtime.sfz`
+> - `Piano - Realtime`: Original file: `Piano - Realtime.sfz`
 >   - `Key range`: `A0`-`C8`
 >   - `Samples`: 44
 >   - CC67 (Soft pedal) supported
@@ -147,8 +176,6 @@ These are the instruments that have been converted to standard formats so you ca
 > 
 > Standard information:
 > - `Key range`: `A0`-`C8`
-> - `Samples`: 44
-> - CC67 (Soft pedal) supported
 > 
 > Modifications:
 > - Removed unsupported opcodes
@@ -825,6 +852,34 @@ These are all the files available for download. They may be the original files, 
 </details>
 
 #### Dream Piano
+<details><summary>Dream Piano (converted).sfz+flac.zip</summary>
+
+> Converted from `Muse Keys` -> `Dream Piano` -> `Dream Piano.sfz`.
+> 
+> Standard information:
+> - Key range: `A0`-`C8`
+> 
+> Modifications:
+> - Removed unsupported opcodes
+> - Removed loops, all the notes will has an end
+> - Removed closing tags
+> - Added equalizer according to instrument definition file
+> 
+> Differences:
+> - Effects defined in instrument definition file not supported in SFZ. You can view its parameters in the GitHub repo.
+>   - Doubler
+>   - SyncDelay
+>   - VfdnReverb
+> 
+> Other information:
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Dream Piano (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Dream%20Piano/Dream%20Piano%20%28converted%29.sfz%2Bflac.zip) (411.85 MiB)
+
+---
+
+</details>
+
 <details><summary>Dream Piano.sfz.7z</summary>
 
 > Original sfz files for `Muse Keys` `Dream Piano` (`Dream Piano.spx`).
@@ -880,7 +935,7 @@ These are all the files available for download. They may be the original files, 
 
 > Presets:
 > 
-> - `Upright Piano`: Original file: `Piano - Realtime.sfz`
+> - `Piano - Realtime`: Original file: `Piano - Realtime.sfz`
 >   - `Key range`: `A0`-`C8`
 >   - `Samples`: 44
 >   - CC67 (Soft pedal) supported
@@ -930,7 +985,7 @@ These are all the files available for download. They may be the original files, 
 
 > Presets:
 > 
-> - `Upright Piano`: Original file: `Piano - Realtime.sfz`
+> - `Piano - Realtime`: Original file: `Piano - Realtime.sfz`
 >   - `Key range`: `A0`-`C8`
 >   - `Samples`: 44
 >   - CC67 (Soft pedal) supported
@@ -978,8 +1033,6 @@ These are all the files available for download. They may be the original files, 
 > 
 > Standard information:
 > - `Key range`: `A0`-`C8`
-> - `Samples`: 44
-> - CC67 (Soft pedal) supported
 > 
 > Modifications:
 > - Removed unsupported opcodes
