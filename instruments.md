@@ -17,7 +17,45 @@ These are the instruments that have been converted to standard formats so you ca
 ### Muse Keys
 
 #### Grand Piano
+<details><summary>Piano - Pop.sf2</summary>
+
+> Presets:
+> 
+> - `Piano - Pop`: Original file: `Piano - Pop.sfz`
+>   - `Key range`: `A0`-`C8`
+> 
+> Differences compared to the original file:
+> - Removed unsupported opcodes
+> - All samples have been truncated to 10s and have no loops
+> - Volumes have been applied to the samples
+> 
+> Other information:
+> 
+> - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Piano - Pop.sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Grand%20Piano/Piano%20-%20Pop.sf2) (1692.1 MiB)
+
+---
+
+</details>
+
 <details><summary>Piano - Pop.sf3</summary>
+
+> Presets:
+> 
+> - `Piano - Pop`: Original file: `Piano - Pop.sfz`
+>   - `Key range`: `A0`-`C8`
+> 
+> Differences compared to the original file:
+> - Removed unsupported opcodes
+> - All samples have been truncated to 10s and have no loops
+> - Volumes have been applied to the samples
+> 
+> Other information:
+> 
+> - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
+> - `Muse Keys` version: `0.4.11`
 
 > [Download Piano - Pop.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Grand%20Piano/Piano%20-%20Pop.sf3) (304.27 MiB)
 
@@ -665,7 +703,45 @@ These are all the files available for download. They may be the original files, 
 
 </details>
 
+<details><summary>Piano - Pop.sf2</summary>
+
+> Presets:
+> 
+> - `Piano - Pop`: Original file: `Piano - Pop.sfz`
+>   - `Key range`: `A0`-`C8`
+> 
+> Differences compared to the original file:
+> - Removed unsupported opcodes
+> - All samples have been truncated to 10s and have no loops
+> - Volumes have been applied to the samples
+> 
+> Other information:
+> 
+> - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Piano - Pop.sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Grand%20Piano/Piano%20-%20Pop.sf2) (1692.1 MiB)
+
+---
+
+</details>
+
 <details><summary>Piano - Pop.sf3</summary>
+
+> Presets:
+> 
+> - `Piano - Pop`: Original file: `Piano - Pop.sfz`
+>   - `Key range`: `A0`-`C8`
+> 
+> Differences compared to the original file:
+> - Removed unsupported opcodes
+> - All samples have been truncated to 10s and have no loops
+> - Volumes have been applied to the samples
+> 
+> Other information:
+> 
+> - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
+> - `Muse Keys` version: `0.4.11`
 
 > [Download Piano - Pop.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Grand%20Piano/Piano%20-%20Pop.sf3) (304.27 MiB)
 
