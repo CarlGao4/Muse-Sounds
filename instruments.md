@@ -45,6 +45,30 @@ These are the instruments that have been converted to standard formats so you ca
 
 </details>
 
+<details><summary>Piano - Realtime.sf2</summary>
+
+> Presets:
+> 
+> - `Upright Piano`: Original file: `Piano - Realtime.sfz`
+>   - `Key range`: `A0`-`C8`
+>   - `Samples`: 44
+>   - CC67 (Soft pedal) supported
+> 
+> Differences compared to the original file:
+> - Removed unsupported opcodes
+> - Volumes have been applied to the samples
+> - All samples have been truncated to 10s and have no loops
+> 
+> Other information:
+> - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Piano - Realtime.sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Grand%20Piano/Piano%20-%20Realtime.sf2) (120.87 MiB)
+
+---
+
+</details>
+
 <details><summary>Piano - Pop.sf3</summary>
 
 > Presets:
@@ -71,6 +95,30 @@ These are the instruments that have been converted to standard formats so you ca
 
 </details>
 
+<details><summary>Piano - Realtime.sf3</summary>
+
+> Presets:
+> 
+> - `Upright Piano`: Original file: `Piano - Realtime.sfz`
+>   - `Key range`: `A0`-`C8`
+>   - `Samples`: 44
+>   - CC67 (Soft pedal) supported
+> 
+> Differences compared to the original file:
+> - Removed unsupported opcodes
+> - Volumes have been applied to the samples
+> - All samples have been truncated to 10s and have no loops
+> 
+> Other information:
+> - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Piano - Realtime.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Grand%20Piano/Piano%20-%20Realtime.sf3) (21.975 MiB)
+
+---
+
+</details>
+
 <details><summary>Piano - Pop (converted).sfz+flac.zip</summary>
 
 > Converted from `Muse Keys` -> `Piano` -> `Piano - Pop.sfz`.
@@ -88,6 +136,30 @@ These are the instruments that have been converted to standard formats so you ca
 > - `Muse Keys` version: `0.4.11`
 
 > [Download Piano - Pop (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Pop%20%28converted%29.sfz%2Bflac.zip) (1408.6 MiB)
+
+---
+
+</details>
+
+<details><summary>Piano - Realtime (converted).sfz+flac.zip</summary>
+
+> Converted from `Muse Keys` -> `Piano` -> `Piano - Realtime.sfz`.
+> 
+> Standard information:
+> - `Key range`: `A0`-`C8`
+> - `Samples`: 44
+> - CC67 (Soft pedal) supported
+> 
+> Modifications:
+> - Removed unsupported opcodes
+> - Removed loops
+> - Removed closing tags
+> 
+> Other information:
+> - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Piano - Realtime (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Realtime%20%28converted%29.sfz%2Bflac.zip) (103.92 MiB)
 
 ---
 
@@ -804,6 +876,30 @@ These are all the files available for download. They may be the original files, 
 
 </details>
 
+<details><summary>Piano - Realtime.sf2</summary>
+
+> Presets:
+> 
+> - `Upright Piano`: Original file: `Piano - Realtime.sfz`
+>   - `Key range`: `A0`-`C8`
+>   - `Samples`: 44
+>   - CC67 (Soft pedal) supported
+> 
+> Differences compared to the original file:
+> - Removed unsupported opcodes
+> - Volumes have been applied to the samples
+> - All samples have been truncated to 10s and have no loops
+> 
+> Other information:
+> - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Piano - Realtime.sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Grand%20Piano/Piano%20-%20Realtime.sf2) (120.87 MiB)
+
+---
+
+</details>
+
 <details><summary>Piano - Pop.sf3</summary>
 
 > Presets:
@@ -830,6 +926,30 @@ These are all the files available for download. They may be the original files, 
 
 </details>
 
+<details><summary>Piano - Realtime.sf3</summary>
+
+> Presets:
+> 
+> - `Upright Piano`: Original file: `Piano - Realtime.sfz`
+>   - `Key range`: `A0`-`C8`
+>   - `Samples`: 44
+>   - CC67 (Soft pedal) supported
+> 
+> Differences compared to the original file:
+> - Removed unsupported opcodes
+> - Volumes have been applied to the samples
+> - All samples have been truncated to 10s and have no loops
+> 
+> Other information:
+> - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Piano - Realtime.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Grand%20Piano/Piano%20-%20Realtime.sf3) (21.975 MiB)
+
+---
+
+</details>
+
 <details><summary>Piano - Pop (converted).sfz+flac.zip</summary>
 
 > Converted from `Muse Keys` -> `Piano` -> `Piano - Pop.sfz`.
@@ -847,6 +967,30 @@ These are all the files available for download. They may be the original files, 
 > - `Muse Keys` version: `0.4.11`
 
 > [Download Piano - Pop (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Pop%20%28converted%29.sfz%2Bflac.zip) (1408.6 MiB)
+
+---
+
+</details>
+
+<details><summary>Piano - Realtime (converted).sfz+flac.zip</summary>
+
+> Converted from `Muse Keys` -> `Piano` -> `Piano - Realtime.sfz`.
+> 
+> Standard information:
+> - `Key range`: `A0`-`C8`
+> - `Samples`: 44
+> - CC67 (Soft pedal) supported
+> 
+> Modifications:
+> - Removed unsupported opcodes
+> - Removed loops
+> - Removed closing tags
+> 
+> Other information:
+> - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Piano - Realtime (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Realtime%20%28converted%29.sfz%2Bflac.zip) (103.92 MiB)
 
 ---
 
