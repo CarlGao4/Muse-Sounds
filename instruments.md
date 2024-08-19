@@ -23,6 +23,7 @@ These are the instruments that have been converted to standard formats so you ca
 > 
 > - `Piano - Pop`: Original file: `Piano - Pop.sfz`
 >   - `Key range`: `A0`-`C8`
+>   - `Samples`: 616
 > 
 > Differences compared to the original file:
 > - Removed unsupported opcodes
@@ -46,6 +47,7 @@ These are the instruments that have been converted to standard formats so you ca
 > 
 > - `Piano - Pop`: Original file: `Piano - Pop.sfz`
 >   - `Key range`: `A0`-`C8`
+>   - `Samples`: 616
 > 
 > Differences compared to the original file:
 > - Removed unsupported opcodes
@@ -105,6 +107,55 @@ These are the instruments that have been converted to standard formats so you ca
 > - `Muse Keys` version: `0.4.11`
 
 > [Download Piano - Studio (converted for MU3).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Studio%20%28converted%20for%20MU3%29.sfz%2Bflac.zip) (1408.6 MiB)
+
+---
+
+</details>
+
+#### Upright Piano
+<details><summary>Upright Piano Sustain.sf2</summary>
+
+> This soundfont is converted from Muse Sounds.
+> 
+> Presets:
+> 
+> - `Piano - Pop`: Original file: `Piano - Pop.sfz`
+>   - `Key range`: `A0`-`F8`
+>   - `Samples`: 54
+>   - CC67 (Soft pedal) supported
+> 
+> Differences compared to the original file:
+> - Removed unsupported opcodes
+> - Volumes have been applied to the samples
+> 
+> Other information:
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Upright Piano Sustain.sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain.sf2) (116.53 MiB)
+
+---
+
+</details>
+
+<details><summary>Upright Piano Sustain.sf3</summary>
+
+> This soundfont is converted from Muse Sounds.
+> 
+> Presets:
+> 
+> - `Piano - Pop`: Original file: `Piano - Pop.sfz`
+>   - `Key range`: `A0`-`F8`
+>   - `Samples`: 54
+>   - CC67 (Soft pedal) supported
+> 
+> Differences compared to the original file:
+> - Removed unsupported opcodes
+> - Volumes have been applied to the samples
+> 
+> Other information:
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Upright Piano Sustain.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain.sf3) (20.306 MiB)
 
 ---
 
@@ -709,6 +760,7 @@ These are all the files available for download. They may be the original files, 
 > 
 > - `Piano - Pop`: Original file: `Piano - Pop.sfz`
 >   - `Key range`: `A0`-`C8`
+>   - `Samples`: 616
 > 
 > Differences compared to the original file:
 > - Removed unsupported opcodes
@@ -732,6 +784,7 @@ These are all the files available for download. They may be the original files, 
 > 
 > - `Piano - Pop`: Original file: `Piano - Pop.sfz`
 >   - `Key range`: `A0`-`C8`
+>   - `Samples`: 616
 > 
 > Differences compared to the original file:
 > - Removed unsupported opcodes
@@ -916,6 +969,54 @@ These are all the files available for download. They may be the original files, 
 > Original sample files for `Muse Keys` `Upright Piano` (`Upright Piano.sts`)
 
 > [Download Upright Piano.sts.7z](https://dl.muse-sounds.work/public/sts/Muse%20Keys/Upright%20Piano.sts.7z) (5144 KiB)
+
+---
+
+</details>
+
+<details><summary>Upright Piano Sustain.sf2</summary>
+
+> This soundfont is converted from Muse Sounds.
+> 
+> Presets:
+> 
+> - `Piano - Pop`: Original file: `Piano - Pop.sfz`
+>   - `Key range`: `A0`-`F8`
+>   - `Samples`: 54
+>   - CC67 (Soft pedal) supported
+> 
+> Differences compared to the original file:
+> - Removed unsupported opcodes
+> - Volumes have been applied to the samples
+> 
+> Other information:
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Upright Piano Sustain.sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain.sf2) (116.53 MiB)
+
+---
+
+</details>
+
+<details><summary>Upright Piano Sustain.sf3</summary>
+
+> This soundfont is converted from Muse Sounds.
+> 
+> Presets:
+> 
+> - `Piano - Pop`: Original file: `Piano - Pop.sfz`
+>   - `Key range`: `A0`-`F8`
+>   - `Samples`: 54
+>   - CC67 (Soft pedal) supported
+> 
+> Differences compared to the original file:
+> - Removed unsupported opcodes
+> - Volumes have been applied to the samples
+> 
+> Other information:
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Upright Piano Sustain.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain.sf3) (20.306 MiB)
 
 ---
 
