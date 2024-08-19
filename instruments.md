@@ -74,8 +74,8 @@ These are the instruments that have been converted to standard formats so you ca
 > 
 > Modifications:
 > - Removed unsupported opcodes `loop_xfade` `loop_xfade_curve`
+> - Removed loops, all the notes will has an end
 > - Removed closing tags
-> - Removed master volume control
 > 
 > Other information:
 > - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
@@ -97,7 +97,6 @@ These are the instruments that have been converted to standard formats so you ca
 > Modifications:
 > - Removed unsupported opcodes `loop_xfade` `loop_xfade_curve`
 > - Removed closing tags
-> - Removed master volume control
 > - Removed loops, all the notes will has an end
 > - Added equalizer according to instrument definition file
 > - Removed "trigger", keeping only the "legato" group ("first" group removed) or MuseScore 3 will trigger nothing
@@ -107,6 +106,31 @@ These are the instruments that have been converted to standard formats so you ca
 > - `Muse Keys` version: `0.4.11`
 
 > [Download Piano - Studio (converted for MU3).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Studio%20%28converted%20for%20MU3%29.sfz%2Bflac.zip) (1408.6 MiB)
+
+---
+
+</details>
+
+<details><summary>Piano - Studio (converted).sfz+flac.zip</summary>
+
+> Converted from `Muse Keys` -> `Piano` -> `Piano - Studio.sfz`.
+> 
+> **MuseScore 3 does not support this sfz. If you want to load it into MuseScore 3, please download `Piano - Studio (converted for MU3).sfz+flac.zip`.**
+> 
+> Standard information:
+> - Key range: `A0`-`C8`
+> 
+> Modifications:
+> - Removed unsupported opcodes `loop_xfade` `loop_xfade_curve`
+> - Removed closing tags
+> - Removed loops, all the notes will has an end
+> - Added equalizer according to instrument definition file
+> 
+> Other information:
+> - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Piano - Studio (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Studio%20%28converted%29.sfz%2Bflac.zip) (1408.6 MiB)
 
 ---
 
@@ -166,13 +190,12 @@ These are the instruments that have been converted to standard formats so you ca
 > 
 > Modifications:
 > - Removed unsupported opcodes
-> - Removed master volume control
 > - Added equalizer according to instrument definition file
 > 
 > Other information:
 > - `Muse Keys` version: `0.4.11`
 
-> [Download Upright Piano Sustain (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain%20%28converted%29.sfz%2Bflac.zip) (42.155 MiB)
+> [Download Upright Piano Sustain (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain%20%28converted%29.sfz%2Bflac.zip) (42.149 MiB)
 
 ---
 
@@ -804,8 +827,8 @@ These are all the files available for download. They may be the original files, 
 > 
 > Modifications:
 > - Removed unsupported opcodes `loop_xfade` `loop_xfade_curve`
+> - Removed loops, all the notes will has an end
 > - Removed closing tags
-> - Removed master volume control
 > 
 > Other information:
 > - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
@@ -827,7 +850,6 @@ These are all the files available for download. They may be the original files, 
 > Modifications:
 > - Removed unsupported opcodes `loop_xfade` `loop_xfade_curve`
 > - Removed closing tags
-> - Removed master volume control
 > - Removed loops, all the notes will has an end
 > - Added equalizer according to instrument definition file
 > - Removed "trigger", keeping only the "legato" group ("first" group removed) or MuseScore 3 will trigger nothing
@@ -837,6 +859,31 @@ These are all the files available for download. They may be the original files, 
 > - `Muse Keys` version: `0.4.11`
 
 > [Download Piano - Studio (converted for MU3).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Studio%20%28converted%20for%20MU3%29.sfz%2Bflac.zip) (1408.6 MiB)
+
+---
+
+</details>
+
+<details><summary>Piano - Studio (converted).sfz+flac.zip</summary>
+
+> Converted from `Muse Keys` -> `Piano` -> `Piano - Studio.sfz`.
+> 
+> **MuseScore 3 does not support this sfz. If you want to load it into MuseScore 3, please download `Piano - Studio (converted for MU3).sfz+flac.zip`.**
+> 
+> Standard information:
+> - Key range: `A0`-`C8`
+> 
+> Modifications:
+> - Removed unsupported opcodes `loop_xfade` `loop_xfade_curve`
+> - Removed closing tags
+> - Removed loops, all the notes will has an end
+> - Added equalizer according to instrument definition file
+> 
+> Other information:
+> - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Piano - Studio (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Studio%20%28converted%29.sfz%2Bflac.zip) (1408.6 MiB)
 
 ---
 
@@ -1020,13 +1067,12 @@ These are all the files available for download. They may be the original files, 
 > 
 > Modifications:
 > - Removed unsupported opcodes
-> - Removed master volume control
 > - Added equalizer according to instrument definition file
 > 
 > Other information:
 > - `Muse Keys` version: `0.4.11`
 
-> [Download Upright Piano Sustain (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain%20%28converted%29.sfz%2Bflac.zip) (42.155 MiB)
+> [Download Upright Piano Sustain (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain%20%28converted%29.sfz%2Bflac.zip) (42.149 MiB)
 
 ---
 
