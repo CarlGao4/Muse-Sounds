@@ -15,7 +15,7 @@ instrument_urls = {}
 download_size = {}
 
 try:
-    with open("instruments.md", mode="rt", encoding="utf-8") as f:
+    with open("all-downloads.md", mode="rt", encoding="utf-8") as f:
         old_markdown = f.read()
 except FileNotFoundError:
     old_markdown = ""
@@ -82,10 +82,52 @@ def human_readable_size(size):
         size /= 1024
 
 
-markdown = "# Instrument List\n\n"
+markdown_insts = "# Instrument List\n\n"
 
-markdown += (
+markdown_insts += (
     "If the previews can't be displayed on GitHub, please [click here](https://about.muse-sounds.work/instruments).\n\n"
+    "For Chinese users: CloudFlare only has CDN nodes in Mainland China for business users. If your download speed "
+    "is slow, you can manually change the domain name in the download link from `dl.muse-sounds.work` to "
+    "`dl-cn.muse-sounds.work`, which may uses better CDN nodes and routing. However, I don't guarantee it's faster.\n\n"
+    "## About File Types\n\n"
+    "- `*.sf2`: Converted SF2 format soundfont file.\n"
+    "- `*.sf3`: Converted SF3 format soundfont file.\n"
+    "- `sfz+flac.zip`: Converted SFZ files with FLAC audio files. You can use it directly in SFZ player.\n\n"
+)
+
+markdown_insts += (
+    "## Converted Releases\n\n"
+    "These are the instruments that have been converted to standard formats so you can use them in your favorite "
+    "software. There is no need to download extra files, just extract it (if it is archived) and load it. "
+    "I've checked the SFZ, SF2, and SF3 files in MuseScore 3.6.2 and they work well.\n\n"
+)
+for catagory in sorted(release_files.keys()):
+    markdown_insts += f"### {catagory}\n\n"
+    for name in sorted(release_files[catagory].keys()):
+        markdown_insts += f"#### {name}\n"
+        for asset in sorted(release_files[catagory][name], key=lambda x: tuple(reversed(re.match(r"(.*?(\.[^ ]+))", x).groups()))):
+            asset_name = asset.replace("\\_", "_").replace("\\[", "[").replace("\\]", "]").replace("\\\\", "\\")
+            markdown_insts += f"<details><summary>{asset_name}</summary>\n\n"
+            if (catagory, name, asset) in descriptions:
+                markdown_insts += "> " + "\n> ".join(descriptions[(catagory, name, asset)].splitlines()) + "\n\n"
+            markdown_insts += f"> [Download {asset}]({instruments[catagory][name][asset]}) "
+            markdown_insts += f"({human_readable_size(download_size[catagory][name][asset])})\n\n---\n\n</details>\n\n"
+
+markdown_insts += (
+    "## All Files\n\n"
+    "These are all the files available for download. They may be the original files, which may be non-standard formats "
+    "or have extra files that are not needed for most users. If you are not sure what to download, you should check the "
+    "converted releases above.\n\n"
+    "If you are sure you need the original files, you can download them at [all downloads](all-downloads.md).\n\n"
+)
+
+markdown_full = "# All Downloads\n\n"
+
+markdown_full += (
+    "All files uploaded to the server are listed here. If you don't know what to download, you should check the "
+    "[converted releases](instruments.md) first.\n\n"
+    "These files may be the original files, which may be non-standard formats or have extra files that are not needed "
+    "for most users.\n\n"
     "For Chinese users: CloudFlare only has CDN nodes in Mainland China for business users. If your download speed "
     "is slow, you can manually change the domain name in the download link from `dl.muse-sounds.work` to "
     "`dl-cn.muse-sounds.work`, which may uses better CDN nodes and routing. However, I don't guarantee it's faster.\n\n"
@@ -97,63 +139,45 @@ markdown += (
     "- `sfz+flac.zip`: Converted SFZ files with FLAC audio files. You can use it directly in SFZ player.\n\n"
 )
 
-markdown += (
-    "## Converted Releases\n\n"
-    "These are the instruments that have been converted to standard formats so you can use them in your favorite "
-    "software. There is no need to download extra files, just extract it (if it is archived) and load it. "
-    "I've checked the SFZ, SF2, and SF3 files in MuseScore 3.6.2 and they work well.\n\n"
-)
-for catagory in sorted(release_files.keys()):
-    markdown += f"### {catagory}\n\n"
-    for name in sorted(release_files[catagory].keys()):
-        markdown += f"#### {name}\n"
-        for asset in sorted(release_files[catagory][name], key=lambda x: tuple(reversed(re.match(r"(.*?(\.[^ ]+))", x).groups()))):
-            asset_name = asset.replace("\\_", "_").replace("\\[", "[").replace("\\]", "]").replace("\\\\", "\\")
-            markdown += f"<details><summary>{asset_name}</summary>\n\n"
-            if (catagory, name, asset) in descriptions:
-                markdown += "> " + "\n> ".join(descriptions[(catagory, name, asset)].splitlines()) + "\n\n"
-            markdown += f"> [Download {asset}]({instruments[catagory][name][asset]}) "
-            markdown += f"({human_readable_size(download_size[catagory][name][asset])})\n\n---\n\n</details>\n\n"
-
-markdown += (
-    "## All Files\n\n"
-    "These are all the files available for download. They may be the original files, which may be non-standard formats "
-    "or have extra files that are not needed for most users. If you are not sure what to download, you should check the "
-    "converted releases above.\n\n"
-)
+markdown_full += "## Download Links\n\n"
 
 for catagory in sorted(instruments.keys()):
-    markdown += f"### {catagory}\n\n"
+    markdown_full += f"### {catagory}\n\n"
     for name in sorted(instruments[catagory].keys()):
         if catagory in instrument_urls and name in instrument_urls[catagory]:
-            markdown += f"#### [{name}]({instrument_urls[catagory][name]})\n"
+            markdown_full += f"#### [{name}]({instrument_urls[catagory][name]})\n"
         else:
-            markdown += f"#### {name}\n"
+            markdown_full += f"#### {name}\n"
         for asset in sorted(instruments[catagory][name].keys(), key=lambda x: tuple(reversed(re.match(r"(.*?(\.[^ ]+))", x).groups()))):
             asset_name = asset.replace("\\_", "_").replace("\\[", "[").replace("\\]", "]").replace("\\\\", "\\")
-            markdown += f"<details><summary>{asset_name}</summary>\n\n"
+            markdown_full += f"<details><summary>{asset_name}</summary>\n\n"
             if (catagory, name, asset) in descriptions:
-                markdown += "> " + "\n> ".join(descriptions[(catagory, name, asset)].splitlines()) + "\n\n"
-            markdown += f"> [Download {asset}]({instruments[catagory][name][asset]}) "
-            markdown += f"({human_readable_size(download_size[catagory][name][asset])})\n\n---\n\n</details>\n\n"
-    markdown += "\n"
+                markdown_full += "> " + "\n> ".join(descriptions[(catagory, name, asset)].splitlines()) + "\n\n"
+            markdown_full += f"> [Download {asset}]({instruments[catagory][name][asset]}) "
+            markdown_full += f"({human_readable_size(download_size[catagory][name][asset])})\n\n---\n\n</details>\n\n"
+    markdown_full += "\n"
 
-print("Generated markdown:", file=sys.stderr)
-print(markdown)
+print("Generated instruments markdown:", file=sys.stderr)
+print(markdown_insts)
+
+print("Generated full markdown:", file=sys.stderr)
+print(markdown_full)
 
 # Only write the file if the contents have changed
-if markdown != old_markdown:
+if markdown_full != old_markdown:
     os.system('echo "continue_commit=true" >> "$GITHUB_OUTPUT"')
     with open("instruments.md", mode="wt", encoding="utf-8") as f:
-        f.write(markdown)
+        f.write(markdown_insts)
+    with open("all-downloads.md", mode="wt", encoding="utf-8") as f:
+        f.write(markdown_full)
     # Find out what instrument changed to set commit message
     old_markdown_insts = (
         dict(i[:2] for i in re.findall(r"(?<=\n)- \[?([^\[\]`\r\n]+)\]?.*\r?\n((  - .*\r?\n?)*)", old_markdown)) or
         dict((i[0], i[1]) for i in re.findall(r"#### \[?([^\[\]`\r\n]+)\]?.*\r?\n((<details><summary>.*</summary>[\s\S]+?</details>(\r?\n)*)*)", old_markdown))
     )
     new_markdown_insts = (
-        dict(i[:2] for i in re.findall(r"(?<=\n)- \[?([^\[\]`\r\n]+)\]?.*\r?\n((  - .*\r?\n?)*)", markdown)) or
-        dict((i[0], i[1]) for i in re.findall(r"#### \[?([^\[\]`\r\n]+)\]?.*\r?\n((<details><summary>.*</summary>[\s\S]+?</details>(\r?\n)*)*)", markdown))
+        dict(i[:2] for i in re.findall(r"(?<=\n)- \[?([^\[\]`\r\n]+)\]?.*\r?\n((  - .*\r?\n?)*)", markdown_full)) or
+        dict((i[0], i[1]) for i in re.findall(r"#### \[?([^\[\]`\r\n]+)\]?.*\r?\n((<details><summary>.*</summary>[\s\S]+?</details>(\r?\n)*)*)", markdown_full))
     )
     added = set(new_markdown_insts.keys()) - set(old_markdown_insts.keys())
     removed = set(old_markdown_insts.keys()) - set(new_markdown_insts.keys())
