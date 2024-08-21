@@ -556,6 +556,100 @@ For Chinese users: CloudFlare only has CDN nodes in Mainland China for business 
 </details>
 
 #### Dream Piano
+<details><summary>Rhodes (from Dream Piano).sf2</summary>
+
+> Presets:
+> 
+> - `Rhodes (Dream Piano)`: No original file
+>   - `000:004`
+>   - `Key range`: `C1`-`G8`
+>   - `Samples`: 172
+>   - The original Dream Piano sfz has 2 groups, one for Rhodes, one for Grand Piano. This is the Rhodes group.
+> 
+> Previews:
+> - Black Keys <audio src="https://dl.muse-sounds.work/public-preview/Black%20Keys%20Rhodes.m4a" controls preload="none"/>
+> - Flight of the Bumble-bee <audio src="https://dl.muse-sounds.work/public-preview/Flight%20of%20the%20bumble%20bee%20Rhodes.m4a" controls preload="none"/>
+> - La Campanella <audio src="https://dl.muse-sounds.work/public-preview/La%20Campanella%20Rhodes.m4a" controls preload="none"/>
+> - Rush E Playable <audio src="https://dl.muse-sounds.work/public-preview/Rush%20E%20Playable%20Rhodes.m4a" controls preload="none"/>
+> - Winter Wind <audio src="https://dl.muse-sounds.work/public-preview/Winter%20Wind%20Rhodes.m4a" controls preload="none"/>
+> 
+> Other information:
+> 
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Rhodes (from Dream Piano).sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Dream%20Piano/Rhodes%20%28from%20Dream%20Piano%29.sf2) (497.87 MiB)
+
+---
+
+</details>
+
+<details><summary>Rhodes - minimal (from Dream Piano).sf2</summary>
+
+> Presets:
+> 
+> - `Rhodes minimal`: No original file
+>   - `000:004`
+>   - `Key range`: `C1`-`G8`
+>   - `Samples`: 43
+>   - The original Dream Piano sfz has 2 groups, one for Rhodes, one for Grand Piano. This is the Rhodes group, but I've removed other velocity groups keeping only F for all velocity
+> 
+> Other information:
+> 
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Rhodes - minimal (from Dream Piano).sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Dream%20Piano/Rhodes%20-%20minimal%20%28from%20Dream%20Piano%29.sf2) (130.15 MiB)
+
+---
+
+</details>
+
+<details><summary>Rhodes (from Dream Piano).sf3</summary>
+
+> Presets:
+> 
+> - `Rhodes (Dream Piano)`: No original file
+>   - `000:004`
+>   - `Key range`: `C1`-`G8`
+>   - `Samples`: 172
+>   - The original Dream Piano sfz has 2 groups, one for Rhodes, one for Grand Piano. This is the Rhodes group.
+> 
+> Previews:
+> - Black Keys <audio src="https://dl.muse-sounds.work/public-preview/Black%20Keys%20Rhodes.m4a" controls preload="none"/>
+> - Flight of the Bumble-bee <audio src="https://dl.muse-sounds.work/public-preview/Flight%20of%20the%20bumble%20bee%20Rhodes.m4a" controls preload="none"/>
+> - La Campanella <audio src="https://dl.muse-sounds.work/public-preview/La%20Campanella%20Rhodes.m4a" controls preload="none"/>
+> - Rush E Playable <audio src="https://dl.muse-sounds.work/public-preview/Rush%20E%20Playable%20Rhodes.m4a" controls preload="none"/>
+> - Winter Wind <audio src="https://dl.muse-sounds.work/public-preview/Winter%20Wind%20Rhodes.m4a" controls preload="none"/>
+> 
+> Other information:
+> 
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Rhodes (from Dream Piano).sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Dream%20Piano/Rhodes%20%28from%20Dream%20Piano%29.sf3) (91.381 MiB)
+
+---
+
+</details>
+
+<details><summary>Rhodes - minimal (from Dream Piano).sf3</summary>
+
+> Presets:
+> 
+> - `Rhodes minimal`: No original file
+>   - `000:004`
+>   - `Key range`: `C1`-`G8`
+>   - `Samples`: 43
+>   - The original Dream Piano sfz has 2 groups, one for Rhodes, one for Grand Piano. This is the Rhodes group, but I've removed other velocity groups keeping only F for all velocity
+> 
+> Other information:
+> 
+> - `Muse Keys` version: `0.4.11`
+
+> [Download Rhodes - minimal (from Dream Piano).sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Dream%20Piano/Rhodes%20-%20minimal%20%28from%20Dream%20Piano%29.sf3) (23.596 MiB)
+
+---
+
+</details>
+
 <details><summary>Dream Piano (converted).sfz+flac.zip</summary>
 
 > Converted from `Muse Keys` -> `Dream Piano` -> `Dream Piano.sfz`.
