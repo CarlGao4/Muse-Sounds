@@ -2,6 +2,7 @@
 # This should be run with GitHub Actions
 
 import boto3
+import datetime
 import json
 import os
 import re
@@ -11,8 +12,6 @@ import urllib.parse
 
 
 instruments = {}
-instrument_urls = {}
-download_size = {}
 
 try:
     with open("all-downloads.md", mode="rt", encoding="utf-8") as f:
@@ -48,12 +47,8 @@ for i in objects:
         name = name.split(".", 1)[0]
     if catagory not in instruments:
         instruments[catagory] = {}
-    if catagory not in download_size:
-        download_size[catagory] = {}
     if name not in instruments[catagory]:
         instruments[catagory][name] = {}
-    if name not in download_size[catagory]:
-        download_size[catagory][name] = {}
     filename = re.sub(r"[\[\]_]", lambda m: f"\\{m[0]}", i["Key"].rsplit("/", 1)[1].replace("\\", "\\\\"))
     if "release" in parts[0]:
         if catagory not in release_files:
@@ -62,8 +57,11 @@ for i in objects:
             release_files[catagory][name] = []
         release_files[catagory][name].append(filename)
     descriptions_pending[json.loads(i["ETag"])] = (catagory, name, filename)
-    instruments[catagory][name][filename] = urllib.parse.urljoin(download_url_prefix, urllib.parse.quote(i["Key"]))
-    download_size[catagory][name][filename] = i["Size"]
+    instruments[catagory][name][filename] = (
+        urllib.parse.urljoin(download_url_prefix, urllib.parse.quote(i["Key"])),  # type: str
+        i["Size"],  # type: int
+        i["LastModified"].astimezone(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M (UTC)")
+    )
 
 r = requests.post("https://dl.muse-sounds.work/get-descriptions", json={"etags": list(descriptions_pending.keys())})
 if r.status_code == 200:
@@ -86,13 +84,16 @@ markdown_insts = "# Instrument List\n\n"
 
 markdown_insts += (
     "If the previews can't be displayed on GitHub, please [click here](https://about.muse-sounds.work/instruments).\n\n"
+    "We constantly update converted releases and add new instruments for better effects. If a download link is "
+    "unavailable, please wait a moment and try again. We will not notify you of updates, so you could check last "
+    "updated time from time to time and download the latest version.\n\n"
     "For Chinese users: CloudFlare only has CDN nodes in Mainland China for business users. If your download speed "
     "is slow, you can manually change the domain name in the download link from `dl.muse-sounds.work` to "
     "`dl-cn.muse-sounds.work`, which may uses better CDN nodes and routing. However, I don't guarantee it's faster.\n\n"
     "## About File Types\n\n"
     "- `*.sf2`: Converted SF2 format soundfont file.\n"
     "- `*.sf3`: Converted SF3 format soundfont file.\n"
-    "- `sfz+flac.zip`: Converted SFZ files with FLAC audio files. You can use it directly in SFZ player.\n\n"
+    "- `*.sfz+flac.zip`: Converted SFZ files with FLAC audio files. You can use it directly in SFZ player.\n\n"
 )
 
 markdown_insts += (
@@ -110,8 +111,9 @@ for catagory in sorted(release_files.keys()):
             markdown_insts += f"<details><summary>{asset_name}</summary>\n\n"
             if (catagory, name, asset) in descriptions:
                 markdown_insts += "> " + "\n> ".join(descriptions[(catagory, name, asset)].splitlines()) + "\n\n"
-            markdown_insts += f"> [Download {asset}]({instruments[catagory][name][asset]}) "
-            markdown_insts += f"({human_readable_size(download_size[catagory][name][asset])})\n\n---\n\n</details>\n\n"
+            markdown_insts += f"> Last updated: {instruments[catagory][name][asset][2]}\n> \n"
+            markdown_insts += f"> [Download {asset}]({instruments[catagory][name][asset][0]}) "
+            markdown_insts += f"({human_readable_size(instruments[catagory][name][asset][1])})\n\n---\n\n</details>\n\n"
 
 markdown_insts += (
     "## All Files\n\n"
@@ -128,6 +130,9 @@ markdown_full += (
     "[converted releases](instruments.md) first.\n\n"
     "These files may be the original files, which may be non-standard formats or have extra files that are not needed "
     "for most users.\n\n"
+    "We constantly update converted releases and add new instruments for better effects. If a download link is "
+    "unavailable, please wait a moment and try again. We will not notify you of updates, so you could check last "
+    "updated time from time to time and download the latest version.\n\n"
     "For Chinese users: CloudFlare only has CDN nodes in Mainland China for business users. If your download speed "
     "is slow, you can manually change the domain name in the download link from `dl.muse-sounds.work` to "
     "`dl-cn.muse-sounds.work`, which may uses better CDN nodes and routing. However, I don't guarantee it's faster.\n\n"
@@ -136,7 +141,7 @@ markdown_full += (
     "- `*.sf2`: Converted SF2 format soundfont file.\n"
     "- `*.sf3`: Converted SF3 format soundfont file.\n"
     "- `*.sfz.7z`: Compressed original SFZ files. May not standard SFZ format and can't be loaded by SFZ player.\n"
-    "- `sfz+flac.zip`: Converted SFZ files with FLAC audio files. You can use it directly in SFZ player.\n\n"
+    "- `*.sfz+flac.zip`: Converted SFZ files with FLAC audio files. You can use it directly in SFZ player.\n\n"
 )
 
 markdown_full += "## Download Links\n\n"
@@ -144,17 +149,15 @@ markdown_full += "## Download Links\n\n"
 for catagory in sorted(instruments.keys()):
     markdown_full += f"### {catagory}\n\n"
     for name in sorted(instruments[catagory].keys()):
-        if catagory in instrument_urls and name in instrument_urls[catagory]:
-            markdown_full += f"#### [{name}]({instrument_urls[catagory][name]})\n"
-        else:
-            markdown_full += f"#### {name}\n"
+        markdown_full += f"#### {name}\n"
         for asset in sorted(instruments[catagory][name].keys(), key=lambda x: tuple(reversed(re.match(r"(.*?(\.[^ ]+))", x).groups()))):
             asset_name = asset.replace("\\_", "_").replace("\\[", "[").replace("\\]", "]").replace("\\\\", "\\")
             markdown_full += f"<details><summary>{asset_name}</summary>\n\n"
             if (catagory, name, asset) in descriptions:
                 markdown_full += "> " + "\n> ".join(descriptions[(catagory, name, asset)].splitlines()) + "\n\n"
-            markdown_full += f"> [Download {asset}]({instruments[catagory][name][asset]}) "
-            markdown_full += f"({human_readable_size(download_size[catagory][name][asset])})\n\n---\n\n</details>\n\n"
+            markdown_full += f"> Last updated: {instruments[catagory][name][asset][2]}\n> \n"
+            markdown_full += f"> [Download {asset}]({instruments[catagory][name][asset][0]}) "
+            markdown_full += f"({human_readable_size(instruments[catagory][name][asset][1])})\n\n---\n\n</details>\n\n"
     markdown_full += "\n"
 
 print("Generated instruments markdown:", file=sys.stderr)
