@@ -60,7 +60,7 @@ for i in objects:
     instruments[catagory][name][filename] = (
         urllib.parse.urljoin(download_url_prefix, urllib.parse.quote(i["Key"])),  # type: str
         i["Size"],  # type: int
-        i["LastModified"].astimezone(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M (UTC)")
+        i["LastModified"].astimezone(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     )
 
 r = requests.post("https://dl.muse-sounds.work/get-descriptions", json={"etags": list(descriptions_pending.keys())})
