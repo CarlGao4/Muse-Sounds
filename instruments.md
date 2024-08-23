@@ -40,7 +40,7 @@ These are the instruments that have been converted to standard formats so you ca
 > 
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-21 03:59 (UTC)
+> Last updated: 2024-08-21 03:59:35 UTC
 > 
 > [Download Rhodes (from Dream Piano).sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Dream%20Piano/Rhodes%20%28from%20Dream%20Piano%29.sf2) (497.87 MiB)
 
@@ -62,7 +62,7 @@ These are the instruments that have been converted to standard formats so you ca
 > 
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-21 03:56 (UTC)
+> Last updated: 2024-08-21 03:56:18 UTC
 > 
 > [Download Rhodes - minimal (from Dream Piano).sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Dream%20Piano/Rhodes%20-%20minimal%20%28from%20Dream%20Piano%29.sf2) (130.15 MiB)
 
@@ -91,7 +91,7 @@ These are the instruments that have been converted to standard formats so you ca
 > 
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-21 03:57 (UTC)
+> Last updated: 2024-08-21 03:57:48 UTC
 > 
 > [Download Rhodes (from Dream Piano).sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Dream%20Piano/Rhodes%20%28from%20Dream%20Piano%29.sf3) (91.381 MiB)
 
@@ -113,7 +113,7 @@ These are the instruments that have been converted to standard formats so you ca
 > 
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-21 03:56 (UTC)
+> Last updated: 2024-08-21 03:56:37 UTC
 > 
 > [Download Rhodes - minimal (from Dream Piano).sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Dream%20Piano/Rhodes%20-%20minimal%20%28from%20Dream%20Piano%29.sf3) (23.596 MiB)
 
@@ -143,7 +143,7 @@ These are the instruments that have been converted to standard formats so you ca
 > Other information:
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-19 11:52 (UTC)
+> Last updated: 2024-08-19 11:52:48 UTC
 > 
 > [Download Dream Piano (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Dream%20Piano/Dream%20Piano%20%28converted%29.sfz%2Bflac.zip) (411.85 MiB)
 
@@ -172,7 +172,7 @@ These are the instruments that have been converted to standard formats so you ca
 > - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-21 03:28 (UTC)
+> Last updated: 2024-08-21 03:28:00 UTC
 > 
 > [Download Piano - Pop.sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Grand%20Piano/Piano%20-%20Pop.sf2) (1692.1 MiB)
 
@@ -198,7 +198,7 @@ These are the instruments that have been converted to standard formats so you ca
 > - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-19 09:39 (UTC)
+> Last updated: 2024-08-19 09:39:41 UTC
 > 
 > [Download Piano - Realtime.sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Grand%20Piano/Piano%20-%20Realtime.sf2) (120.87 MiB)
 
@@ -226,7 +226,7 @@ These are the instruments that have been converted to standard formats so you ca
 > - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-21 03:06 (UTC)
+> Last updated: 2024-08-21 03:06:41 UTC
 > 
 > [Download Piano - Pop.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Grand%20Piano/Piano%20-%20Pop.sf3) (304.27 MiB)
 
@@ -252,7 +252,7 @@ These are the instruments that have been converted to standard formats so you ca
 > - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-19 09:37 (UTC)
+> Last updated: 2024-08-19 09:37:46 UTC
 > 
 > [Download Piano - Realtime.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Grand%20Piano/Piano%20-%20Realtime.sf3) (21.975 MiB)
 
@@ -276,7 +276,7 @@ These are the instruments that have been converted to standard formats so you ca
 > - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-19 03:30 (UTC)
+> Last updated: 2024-08-19 03:30:11 UTC
 > 
 > [Download Piano - Pop (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Pop%20%28converted%29.sfz%2Bflac.zip) (1408.6 MiB)
 
@@ -300,7 +300,7 @@ These are the instruments that have been converted to standard formats so you ca
 > - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-19 06:26 (UTC)
+> Last updated: 2024-08-19 06:26:46 UTC
 > 
 > [Download Piano - Realtime (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Realtime%20%28converted%29.sfz%2Bflac.zip) (103.92 MiB)
 
@@ -326,7 +326,7 @@ These are the instruments that have been converted to standard formats so you ca
 > - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-19 11:41 (UTC)
+> Last updated: 2024-08-19 11:41:11 UTC
 > 
 > [Download Piano - Studio (converted for MU3).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Studio%20%28converted%20for%20MU3%29.sfz%2Bflac.zip) (1408.6 MiB)
 
@@ -355,7 +355,7 @@ These are the instruments that have been converted to standard formats so you ca
 > - Samples will be played 0.06s earlier than the score in MuseScore Studio 4
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-19 11:35 (UTC)
+> Last updated: 2024-08-19 11:35:59 UTC
 > 
 > [Download Piano - Studio (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20-%20Studio%20%28converted%29.sfz%2Bflac.zip) (1408.6 MiB)
 
@@ -380,7 +380,7 @@ These are the instruments that have been converted to standard formats so you ca
 > Other information:
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-19 05:18 (UTC)
+> Last updated: 2024-08-19 05:18:58 UTC
 > 
 > [Download Upright Piano Sustain.sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain.sf2) (116.53 MiB)
 
@@ -404,7 +404,7 @@ These are the instruments that have been converted to standard formats so you ca
 > Other information:
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-19 05:18 (UTC)
+> Last updated: 2024-08-19 05:18:37 UTC
 > 
 > [Download Upright Piano Sustain.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain.sf3) (20.306 MiB)
 
@@ -426,7 +426,7 @@ These are the instruments that have been converted to standard formats so you ca
 > Other information:
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-19 03:28 (UTC)
+> Last updated: 2024-08-19 03:28:53 UTC
 > 
 > [Download Upright Piano Sustain (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Upright%20Piano/Upright%20Piano%20Sustain%20%28converted%29.sfz%2Bflac.zip) (42.149 MiB)
 
