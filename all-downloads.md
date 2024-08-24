@@ -613,6 +613,69 @@ For Chinese users: CloudFlare only has CDN nodes in Mainland China for business 
 ### Muse Keys
 
 #### Celesta
+<details><summary>Celesta.sf2</summary>
+
+> Presets:
+> 
+> - `Celesta`: Original file: `Celesta.sfz`
+>   - `000:008`
+>   - `Key range`: `C1`-`C8`
+>   - `Samples`: 196
+> 
+> Other information:
+> 
+> - `Muse Keys` version: `0.4.11`
+
+> Last updated: 2024-08-24 03:15:44 UTC
+> 
+> [Download Celesta.sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Celesta/Celesta.sf2) (346.16 MiB)
+
+---
+
+</details>
+
+<details><summary>Celesta.sf3</summary>
+
+> Presets:
+> 
+> - `Celesta`: Original file: `Celesta.sfz`
+>   - `000:008`
+>   - `Key range`: `C1`-`C8`
+>   - `Samples`: 196
+> 
+> Other information:
+> 
+> - `Muse Keys` version: `0.4.11`
+
+> Last updated: 2024-08-24 03:13:48 UTC
+> 
+> [Download Celesta.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Celesta/Celesta.sf3) (56.063 MiB)
+
+---
+
+</details>
+
+<details><summary>Celesta (converted).sfz+flac.zip</summary>
+
+> Converted from `Muse Keys` -> `Celesta` -> `Celesta.sfz`.
+> 
+> Standard information:
+> - Key range: `C1`-`C8`
+> 
+> Modifications:
+> - Removed closing tags
+> 
+> Other information:
+> - `Muse Keys` version: `0.4.11`
+
+> Last updated: 2024-08-24 03:17:46 UTC
+> 
+> [Download Celesta (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Celesta/Celesta%20%28converted%29.sfz%2Bflac.zip) (130.92 MiB)
+
+---
+
+</details>
+
 <details><summary>Celesta.sfz.7z</summary>
 
 > Original sfz files for `Muse Keys` `Celesta` (`Celesta.spx`).
