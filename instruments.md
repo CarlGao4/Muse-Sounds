@@ -363,6 +363,18 @@ These are the instruments that have been converted to standard formats so you ca
 
 </details>
 
+<details><summary>Piano Pack.sfz+flac.zip</summary>
+
+> Includes all SFZs and samples of Grand Piano. For details, please refer to descriptions of other sfz+flac.zip files under Grand Piano section.
+
+> Last updated: 2024-08-24 00:32:28 UTC
+> 
+> [Download Piano Pack.sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20Pack.sfz%2Bflac.zip) (1408.9 MiB)
+
+---
+
+</details>
+
 #### Upright Piano
 <details><summary>Upright Piano Sustain.sf2</summary>
 

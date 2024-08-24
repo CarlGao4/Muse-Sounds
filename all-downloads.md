@@ -1014,6 +1014,18 @@ For Chinese users: CloudFlare only has CDN nodes in Mainland China for business 
 
 </details>
 
+<details><summary>Piano Pack.sfz+flac.zip</summary>
+
+> Includes all SFZs and samples of Grand Piano. For details, please refer to descriptions of other sfz+flac.zip files under Grand Piano section.
+
+> Last updated: 2024-08-24 00:32:28 UTC
+> 
+> [Download Piano Pack.sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Grand%20Piano/Piano%20Pack.sfz%2Bflac.zip) (1408.9 MiB)
+
+---
+
+</details>
+
 <details><summary>Piano.sfz.7z</summary>
 
 > Original sfz files for `Muse Keys` `Grand Piano` (`Piano.spx`).
