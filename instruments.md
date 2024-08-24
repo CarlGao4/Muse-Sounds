@@ -142,6 +142,7 @@ These are the instruments that have been converted to standard formats so you ca
 > - Flight of the Bumble-bee <audio src="https://dl.muse-sounds.work/public-preview/Flight%20of%20the%20bumble%20bee%20Rhodes.m4a" controls preload="none"/>
 > - La Campanella <audio src="https://dl.muse-sounds.work/public-preview/La%20Campanella%20Rhodes.m4a" controls preload="none"/>
 > - Rush E Playable <audio src="https://dl.muse-sounds.work/public-preview/Rush%20E%20Playable%20Rhodes.m4a" controls preload="none"/>
+> - Rush E Impossible <audio src="https://dl.muse-sounds.work/public-preview/Rush%20E%20Impossible%20Rhodes.m4a" controls preload="none"/>
 > - Winter Wind <audio src="https://dl.muse-sounds.work/public-preview/Winter%20Wind%20Rhodes.m4a" controls preload="none"/>
 > 
 > Other information:
@@ -193,6 +194,7 @@ These are the instruments that have been converted to standard formats so you ca
 > - Flight of the Bumble-bee <audio src="https://dl.muse-sounds.work/public-preview/Flight%20of%20the%20bumble%20bee%20Rhodes.m4a" controls preload="none"/>
 > - La Campanella <audio src="https://dl.muse-sounds.work/public-preview/La%20Campanella%20Rhodes.m4a" controls preload="none"/>
 > - Rush E Playable <audio src="https://dl.muse-sounds.work/public-preview/Rush%20E%20Playable%20Rhodes.m4a" controls preload="none"/>
+> - Rush E Impossible <audio src="https://dl.muse-sounds.work/public-preview/Rush%20E%20Impossible%20Rhodes.m4a" controls preload="none"/>
 > - Winter Wind <audio src="https://dl.muse-sounds.work/public-preview/Winter%20Wind%20Rhodes.m4a" controls preload="none"/>
 > 
 > Other information:
