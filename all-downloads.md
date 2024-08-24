@@ -627,7 +627,7 @@ For Chinese users: CloudFlare only has CDN nodes in Mainland China for business 
 > 
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-24 03:38:19 UTC
+> Last updated: 2024-08-24 03:54:44 UTC
 > 
 > [Download Celesta (minimal).sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Celesta/Celesta%20%28minimal%29.sf2) (92.875 MiB)
 
@@ -648,7 +648,7 @@ For Chinese users: CloudFlare only has CDN nodes in Mainland China for business 
 > 
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-24 03:40:55 UTC
+> Last updated: 2024-08-24 03:56:41 UTC
 > 
 > [Download Celesta.sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Celesta/Celesta.sf2) (346.16 MiB)
 
@@ -670,7 +670,7 @@ For Chinese users: CloudFlare only has CDN nodes in Mainland China for business 
 > 
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-24 03:37:16 UTC
+> Last updated: 2024-08-24 03:55:13 UTC
 > 
 > [Download Celesta (minimal).sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Celesta/Celesta%20%28minimal%29.sf3) (15316 KiB)
 
@@ -691,9 +691,9 @@ For Chinese users: CloudFlare only has CDN nodes in Mainland China for business 
 > 
 > - `Muse Keys` version: `0.4.11`
 
-> Last updated: 2024-08-24 03:37:41 UTC
+> Last updated: 2024-08-24 03:55:53 UTC
 > 
-> [Download Celesta.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Celesta/Celesta.sf3) (56.066 MiB)
+> [Download Celesta.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Celesta/Celesta.sf3) (56.064 MiB)
 
 ---
 
