@@ -485,6 +485,92 @@ These are the instruments that have been converted to standard formats so you ca
 
 </details>
 
+#### Harpischord
+<details><summary>Harpsichord.sf2</summary>
+
+> Presets:
+> 
+> - `Harpischord`: Original file: `Harpischord.sfz`
+>   - `000:006`
+>   - `Key range`: `F1`-`F6`
+>   - `Samples`: 48
+> 
+> Other information:
+> 
+> - `Muse Keys` version: `0.4.11`
+
+> Last updated: 2024-08-27 03:05:21 UTC
+> 
+> [Download Harpsichord.sf2](https://dl.muse-sounds.work/public/release-sf2/Muse%20Keys/Harpischord/Harpsichord.sf2) (104.03 MiB)
+
+---
+
+</details>
+
+<details><summary>Harpsichord.sf3</summary>
+
+> Presets:
+> 
+> - `Harpischord`: Original file: `Harpischord.sfz`
+>   - `000:006`
+>   - `Key range`: `F1`-`F6`
+>   - `Samples`: 48
+> 
+> Other information:
+> 
+> - `Muse Keys` version: `0.4.11`
+
+> Last updated: 2024-08-27 03:04:58 UTC
+> 
+> [Download Harpsichord.sf3](https://dl.muse-sounds.work/public/release-sf3/Muse%20Keys/Harpischord/Harpsichord.sf3) (18622 KiB)
+
+---
+
+</details>
+
+<details><summary>Harpsichord (converted for MU3).sfz+flac.zip</summary>
+
+> Converted from `Muse Keys` -> `Harpischord` -> `Harpischord.sfz`.
+> 
+> Standard information:
+> - Key range: `F1`-`F6`
+> 
+> Modifications:
+> - Removed closing tags
+> - Removed "trigger", keeping only the "Sustain" group ("Release" group removed) or MuseScore 3 will trigger both at the same time resulting in chaos
+> 
+> Other information:
+> - `Muse Keys` version: `0.4.11`
+
+> Last updated: 2024-08-27 03:04:43 UTC
+> 
+> [Download Harpsichord (converted for MU3).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Harpischord/Harpsichord%20%28converted%20for%20MU3%29.sfz%2Bflac.zip) (55.188 MiB)
+
+---
+
+</details>
+
+<details><summary>Harpsichord (converted).sfz+flac.zip</summary>
+
+> Converted from `Muse Keys` -> `Harpischord` -> `Harpischord.sfz`.
+> 
+> Standard information:
+> - Key range: `F1`-`F6`
+> 
+> Modifications:
+> - Removed closing tags
+> 
+> Other information:
+> - `Muse Keys` version: `0.4.11`
+
+> Last updated: 2024-08-27 03:04:23 UTC
+> 
+> [Download Harpsichord (converted).sfz+flac.zip](https://dl.muse-sounds.work/public/release-sfz%2Bflac/Muse%20Keys/Harpischord/Harpsichord%20%28converted%29.sfz%2Bflac.zip) (55.193 MiB)
+
+---
+
+</details>
+
 #### Upright Piano
 <details><summary>Upright Piano Sustain.sf2</summary>
 
