@@ -554,6 +554,8 @@ These are the instruments that have been converted to standard formats so you ca
 
 > Converted from `Muse Keys` -> `Harpischord` -> `Harpischord.sfz`.
 > 
+> **MuseScore 3 does not support this sfz. If you want to load it into MuseScore 3, please download `Harpischord (converted for MU3).sfz+flac.zip`.**
+> 
 > Standard information:
 > - Key range: `F1`-`F6`
 > 

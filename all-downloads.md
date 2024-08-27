@@ -1261,6 +1261,8 @@ For Chinese users: CloudFlare only has CDN nodes in Mainland China for business 
 
 > Converted from `Muse Keys` -> `Harpischord` -> `Harpischord.sfz`.
 > 
+> **MuseScore 3 does not support this sfz. If you want to load it into MuseScore 3, please download `Harpischord (converted for MU3).sfz+flac.zip`.**
+> 
 > Standard information:
 > - Key range: `F1`-`F6`
 > 
