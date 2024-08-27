@@ -1,0 +1,9 @@
+SFZ\Marching Manuals LH.sfz
+SFZ\Marching Manuals RH.sfz
+SFZ\Marching Manuals.sfz
+SFZ\Show Style Tenors Line LH.sfz
+SFZ\Show Style Tenors Line RH.sfz
+SFZ\Show Style Tenors Line.sfz
+SFZ\Show Style Tenors Solo LH.sfz
+SFZ\Show Style Tenors Solo RH.sfz
+SFZ\Show Style Tenors Solo.sfz

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Drumline" Category="Muse Drumline" FriendlyName="Marching Cymbals" Abbreviation="Cym." BracketGroup="Percussion" AlternateNamesRegex="cymbals" Volume="0" Reverb="10" Pan="0" DefaultClef="PERCUSSION" StaffLines="1" InsertableSymbols="OpenHarmonic|Mute" DefaultStaffType="PERCUSSION">
+<Preset Name="Unison">
+ <!-- Crash -->
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" SetNote="D3" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Accent" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Marcato" SetNote="D3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Crash Choke -->
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Staccato" SetNote="D#3" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Staccato" Symbol="Accent" SetNote="D#3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Staccato" Symbol="Marcato" SetNote="D#3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Crunch -->
+ <Articulation File="SFZ\Cymbals - Line.sfz" Symbol="X" SetNote="F3" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Symbol="Accent|X" SetNote="F3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Symbol="Marcato|X" SetNote="F3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Sizzle-->
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="buzztremolo" SetNote="A3" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Accent|buzztremolo" SetNote="A3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Marcato|buzztremolo" SetNote="A3" SetVelocity="+20" SetDynamics="180"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="diamond" SetNote="A3" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Accent|diamond" SetNote="A3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Marcato|diamond" SetNote="A3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Punch-->
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="ornatex" SetNote="B3" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Accent|ornatex" SetNote="B3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Marcato|ornatex" SetNote="B3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Suc-->
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="plus" SetNote="D4" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Accent|plus" SetNote="D4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Marcato|plus" SetNote="D4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Tap-->
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Triangleup" SetNote="E4" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Accent|Triangleup" SetNote="E4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Marcato|Triangleup" SetNote="E4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Ting-->
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="trianglerounddown" SetNote="F#4" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Accent|trianglerounddown" SetNote="F#4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Marcato|trianglerounddown" SetNote="F#4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Whale Call-->
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="text" Name="Whale Call" SetNote="A#4" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Accent|text" Name="Whale Call" SetNote="A#4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Marcato|text" Name="Whale Call" SetNote="A#4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Zing-->
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="slashleftfilled" SetNote="G#4" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Accent|slashleftfilled" SetNote="G#4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Marcato|slashleftfilled" SetNote="G#4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Roll Closed-->
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Tremolo3" SetNote="D2" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Accent|Tremolo3" SetNote="D2" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Marcato|Tremolo3" SetNote="D2" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Roll Open-->
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Tremolo3|Text" Name="Open Roll" SetNote="D#2" />
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Accent|Tremolo3|Text" Name="Open Roll" SetNote="D#2" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - Line.sfz" Class="Sustain" Symbol="Marcato|Tremolo3|Text" Name="Open Roll" SetNote="D#2" SetVelocity="+20" SetDynamics="180"/>
+ </Preset>
+<Preset Name="Solo - 18 Inch">
+ <!-- Crash -->
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Class="Sustain" SetNote="D3" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato" SetNote="D3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Crash Choke -->
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Staccato" SetNote="D#3" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent|Staccato" SetNote="D#3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato|Staccato" SetNote="D#3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Crunch -->
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="X" SetNote="F3" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent|X" SetNote="F3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato|X" SetNote="F3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Sizzle-->
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="buzztremolo" SetNote="A3" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent|buzztremolo" SetNote="A3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato|buzztremolo" SetNote="A3" SetVelocity="+20" SetDynamics="180"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="diamond" SetNote="A3" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent|diamond" SetNote="A3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato|diamond" SetNote="A3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Punch-->
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="ornatex" SetNote="B3" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent|ornatex" SetNote="B3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato|ornatex" SetNote="B3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Suc-->
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="plus" SetNote="D4" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent|plus" SetNote="D4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato|plus" SetNote="D4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Tap-->
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Triangleup" SetNote="E4" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent|Triangleup" SetNote="E4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato|Triangleup" SetNote="E4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Ting-->
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="trianglerounddown" SetNote="F#4" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent|trianglerounddown" SetNote="F#4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato|trianglerounddown" SetNote="F#4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Whale Call-->
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="text" Name="Whale Call" SetNote="A#4" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent|text" Name="Whale Call" SetNote="A#4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato|text" Name="Whale Call" SetNote="A#4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Zing-->
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="slashleftfilled" SetNote="G#4" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent|slashleftfilled" SetNote="G#4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato|slashleftfilled" SetNote="G#4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Roll Closed-->
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Tremolo3" SetNote="D2" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent|Tremolo3" SetNote="D2" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato|Tremolo3" SetNote="D2" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Roll Open-->
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Tremolo3|Text" Name="Open Roll" SetNote="D#2" />
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Accent|Tremolo3|Text" Name="Open Roll" SetNote="D#2" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 18 Inch.sfz" Class="Sustain" Symbol="Marcato|Tremolo3|Text" Name="Open Roll" SetNote="D#2" SetVelocity="+20" SetDynamics="180"/>
+ </Preset>
+<Preset Name="Solo - 19 Inch">
+ <!-- Crash -->
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Class="Sustain" SetNote="D3" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato" SetNote="D3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Crash Choke -->
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Staccato" SetNote="D#3" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent|Staccato" SetNote="D#3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato|Staccato" SetNote="D#3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Crunch -->
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="X" SetNote="F3" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent|X" SetNote="F3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato|X" SetNote="F3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Sizzle-->
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="buzztremolo" SetNote="A3" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent|buzztremolo" SetNote="A3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato|buzztremolo" SetNote="A3" SetVelocity="+20" SetDynamics="180"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="diamond" SetNote="A3" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent|diamond" SetNote="A3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato|diamond" SetNote="A3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Punch-->
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="ornatex" SetNote="B3" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent|ornatex" SetNote="B3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato|ornatex" SetNote="B3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Suc-->
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="plus" SetNote="D4" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent|plus" SetNote="D4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato|plus" SetNote="D4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Tap-->
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Triangleup" SetNote="E4" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent|Triangleup" SetNote="E4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato|Triangleup" SetNote="E4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Ting-->
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="trianglerounddown" SetNote="F#4" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent|trianglerounddown" SetNote="F#4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato|trianglerounddown" SetNote="F#4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Whale Call-->
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="text" Name="Whale Call" SetNote="A#4" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent|text" Name="Whale Call" SetNote="A#4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato|text" Name="Whale Call" SetNote="A#4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Zing-->
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="slashleftfilled" SetNote="G#4" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent|slashleftfilled" SetNote="G#4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato|slashleftfilled" SetNote="G#4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Roll Closed-->
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Tremolo3" SetNote="D2" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent|Tremolo3" SetNote="D2" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato|Tremolo3" SetNote="D2" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Roll Open-->
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Tremolo3|Text" Name="Open Roll" SetNote="D#2" />
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Accent|Tremolo3|Text" Name="Open Roll" SetNote="D#2" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 19 Inch.sfz" Class="Sustain" Symbol="Marcato|Tremolo3|Text" Name="Open Roll" SetNote="D#2" SetVelocity="+20" SetDynamics="180"/>
+ </Preset>
+<Preset Name="Solo - 20 Inch">
+ <!-- Crash -->
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Class="Sustain" SetNote="D3" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent" SetNote="D3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato" SetNote="D3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Crash Choke -->
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Staccato" SetNote="D#3" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent|Staccato" SetNote="D#3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato|Staccato" SetNote="D#3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Crunch -->
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="X" SetNote="F3" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent|X" SetNote="F3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato|X" SetNote="F3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Sizzle-->
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="buzztremolo" SetNote="A3" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent|buzztremolo" SetNote="A3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato|buzztremolo" SetNote="A3" SetVelocity="+20" SetDynamics="180"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="diamond" SetNote="A3" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent|diamond" SetNote="A3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato|diamond" SetNote="A3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Punch-->
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="ornatex" SetNote="B3" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent|ornatex" SetNote="B3" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato|ornatex" SetNote="B3" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Suc-->
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="plus" SetNote="D4" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent|plus" SetNote="D4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato|plus" SetNote="D4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Tap-->
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Triangleup" SetNote="E4" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent|Triangleup" SetNote="E4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato|Triangleup" SetNote="E4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Ting-->
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="trianglerounddown" SetNote="F#4" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent|trianglerounddown" SetNote="F#4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato|trianglerounddown" SetNote="F#4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Whale Call-->
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="text" Name="Whale Call" SetNote="A#4" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent|text" Name="Whale Call" SetNote="A#4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato|text" Name="Whale Call" SetNote="A#4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Zing-->
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="slashleftfilled" SetNote="G#4" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent|slashleftfilled" SetNote="G#4" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato|slashleftfilled" SetNote="G#4" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Roll Closed-->
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Tremolo3" SetNote="D2" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent|Tremolo3" SetNote="D2" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato|Tremolo3" SetNote="D2" SetVelocity="+20" SetDynamics="180"/>
+ <!-- Roll Open-->
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Tremolo3|Text" Name="Open Roll" SetNote="D#2" />
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Accent|Tremolo3|Text" Name="Open Roll" SetNote="D#2" SetVelocity="+15" SetDynamics="150"/>
+ <Articulation File="SFZ\Cymbals - 20 Inch.sfz" Class="Sustain" Symbol="Marcato|Tremolo3|Text" Name="Open Roll" SetNote="D#2" SetVelocity="+20" SetDynamics="180"/>
+ </Preset>
+ <MuseScore Drumset="Marching Cymbals.drm" />
+ <MusicXML ExportTranspose="20" InstrumentSound="drum.bass-drum" />
+ <MPE InstrumentSound="percussions.cymbal.marching:crash:metal" />   
+</Instrument>

@@ -2,6 +2,8 @@
 
 **This is not official documentation.** This is a reverse-engineered documentation of the `sts` format used in the Muse Sounds library. The original documentation is not available.
 
+**`Muse Drumline` uses a new format which haven't been decrypted**. It seems that the new format stores its TOC in the corresponding `spx` file, and the `sts` file only contains encrypted data. I haven't found a way to decrypt the new format yet.
+
 ## Structure
 
 The file has three parts:

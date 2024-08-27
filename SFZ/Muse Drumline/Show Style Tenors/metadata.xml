@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Instrument Vendor="Muse" Pack="Muse Drumline" Category="Muse Drumline" FriendlyName="Show Style Tenors" Abbreviation="T.D." Reverb="0" DefaultStaffType="PERCUSSION" StaffLines="1" DefaultClef="PERCUSSION">
+    <Preset Name="Line">
+        <!-- Hits -->
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" SetNote="D3" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" Symbol="Accent" SetNote="D3" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" Symbol="Marcato" SetNote="D3" SetVelocity="+20" SetDynamics="180" />
+        <!-- Buzz Rolls -->
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" Symbol="Tremolo3" SetNote="D2" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" ForDuration="0|2" Symbol="buzztremolo" SetNote="D2" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D4" Symbol="Tremolo3|X" SetNote="F2" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" Symbol="Accent|Tremolo3" SetNote="D2" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" ForDuration="0|2" Symbol="Accent|buzztremolo" SetNote="D2" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D4" Symbol="Accent|Tremolo3|X" SetNote="F2" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" Symbol="Marcato|Tremolo3" SetNote="D2" SetVelocity="+20" SetDynamics="180" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" ForDuration="0|2" Symbol="Marcato|buzztremolo" SetNote="D2" SetVelocity="+20" SetDynamics="180" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D4" Symbol="Marcato|Tremolo3|X" SetNote="F2" SetVelocity="+20" SetDynamics="180" />
+        <!-- Buzz Stroke -->
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" ForDuration="4|128" Symbol="buzztremolo" SetNote="E4" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" ForDuration="4|128" Symbol="buzztremolo|Staccato" SetNote="F4" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" ForDuration="4|128" Symbol="Accent|buzztremolo" SetNote="E4" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" ForDuration="4|128" Symbol="Accent|buzztremolo|Staccato" SetNote="F4" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" ForDuration="4|128" Symbol="Marcato|buzztremolo" SetNote="E4" SetVelocity="+20" SetDynamics="180" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D3" ForDuration="4|128" Symbol="Marcato|buzztremolo|Staccato" SetNote="F4" SetVelocity="+20" SetDynamics="180" />
+        <!-- Rim Hit-->
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D4" Symbol="X" SetNote="D4" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D4" Symbol="Accent|X" SetNote="D4" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D4" Symbol="Marcato|X" SetNote="D4" SetVelocity="+20" SetDynamics="180" />
+        <!--Shell Hit-->
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D#4" Symbol="X" SetNote="D#4" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D#4" Symbol="Accent|X" SetNote="D#4" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="D#4" Symbol="Marcato|X" SetNote="D#4" SetVelocity="+20" SetDynamics="180" />
+        <!-- Shoulder Shot-->
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="F5" Symbol="ornatex" SetNote="F5" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="F5" Symbol="Accent|ornatex" SetNote="F5" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="F5" Symbol="Marctao|ornatex" SetNote="F5" SetVelocity="+20" SetDynamics="180" />
+        <!--Marching Manuals Sticks In, "Dut", Stick Click, Harness Hit-->
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="C1" Symbol="square" SetNote="C1" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="C#1" Symbol="trianglerounddown" SetNote="C#1" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="E1" Symbol="plus" SetNote="E1" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="F1" Symbol="plus" SetNote="F1" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" Symbol="square|Accent" ForNote="C1" SetNote="C1" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="C#1" Symbol="Accent|trianglerounddown" SetNote="C#1" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="E1" Symbol="Accent|plus" SetNote="E1" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="F1" Symbol="Accent|plus" SetNote="F1" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Line.sfz" ForNote="C1" Symbol="square|Marcato" SetNote="C1" SetVelocity="+20" SetDynamics="180" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="C#1" Symbol="Marcato|trianglerounddown" SetNote="C#1" SetVelocity="+20" SetDynamics="180" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="E1" Symbol="Marcato|plus" SetNote="E1" SetVelocity="+20" SetDynamics="180" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="F1" Symbol="Marcato|plus" SetNote="F1" SetVelocity="+20" SetDynamics="180" />
+        <!-- RH -->
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" SetNote="D3" Symbol="Lyric" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" Symbol="Lyric|Accent" SetNote="D3" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" Symbol="Lyric|Marcato" SetNote="D3" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!-- Buzz Rolls -->
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" Symbol="Lyric|Tremolo3" SetNote="D2" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" ForDuration="0|2" Symbol="Lyric|buzztremolo" SetNote="D2" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D4" Symbol="Lyric|Tremolo3|X" SetNote="F2" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" Symbol="Lyric|Accent|Tremolo3" SetNote="D2" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" ForDuration="0|2" Symbol="Lyric|Accent|buzztremolo" SetNote="D2" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D4" Symbol="Lyric|Accent|Tremolo3|X" SetNote="F2" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" Symbol="Lyric|Marcato|Tremolo3" SetNote="D2" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" ForDuration="0|2" Symbol="Lyric|Marcato|buzztremolo" SetNote="D2" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D4" Symbol="Lyric|Marcato|Tremolo3|X" SetNote="F2" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!-- Buzz Stroke -->
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|buzztremolo" SetNote="E4" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|buzztremolo|Staccato" SetNote="F4" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Accent|buzztremolo" SetNote="E4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Accent|buzztremolo|Staccato" SetNote="F4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Marcato|buzztremolo" SetNote="E4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Marcato|buzztremolo|Staccato" SetNote="F4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!-- Rim Hit-->
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D4" Symbol="Lyric|X" SetNote="D4" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D4" Symbol="Lyric|Accent|X" SetNote="D4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D4" Symbol="Lyric|Marcato|X" SetNote="D4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!--Shell Hit-->
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D#4" Symbol="Lyric|X" SetNote="D#4" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D#4" Symbol="Lyric|Accent|X" SetNote="D#4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="D#4" Symbol="Lyric|Marcato|X" SetNote="D#4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!-- Shoulder Shot-->
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="F5" Symbol="Lyric|ornatex" SetNote="F5" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="F5" Symbol="Lyric|Accent|ornatex" SetNote="F5" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="F5" Symbol="Lyric|Marctao|ornatex" SetNote="F5" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!--Marching Manuals Sticks In, "Dut", Stick Click, Harness Hit-->
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="C1" Symbol="Lyric|square" SetNote="C1" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="C#1" Symbol="Lyric|trianglerounddown" SetNote="C#1" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="E1" Symbol="Lyric|plus" SetNote="E1" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="F1" Symbol="Lyric|plus" SetNote="F1" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" Symbol="Lyric|square|Accent" ForNote="C1" SetNote="C1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="C#1" Symbol="Lyric|Accent|trianglerounddown" SetNote="C#1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="E1" Symbol="Lyric|Accent|plus" SetNote="E1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="F1" Symbol="Lyric|Accent|plus" SetNote="F1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Line RH.sfz" ForNote="C1" Symbol="Lyric|square|Marcato" SetNote="C1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="C#1" Symbol="Lyric|Marcato|trianglerounddown" SetNote="C#1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="E1" Symbol="Lyric|Marcato|plus" SetNote="E1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="F1" Symbol="Lyric|Marcato|plus" SetNote="F1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!-- LH -->
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" SetNote="D3" Symbol="Lyric" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" Symbol="Lyric|Accent" SetNote="D3" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" Symbol="Lyric|Marcato" SetNote="D3" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <!-- Buzz Rolls -->
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" Symbol="Lyric|Tremolo3" SetNote="D2" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" ForDuration="0|2" Symbol="Lyric|buzztremolo" SetNote="D2" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D4" Symbol="Lyric|Tremolo3|X" SetNote="F2" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" Symbol="Lyric|Accent|Tremolo3" SetNote="D2" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" ForDuration="0|2" Symbol="Lyric|Accent|buzztremolo" SetNote="D2" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D4" Symbol="Lyric|Accent|Tremolo3|X" SetNote="F2" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" Symbol="Lyric|Marcato|Tremolo3" SetNote="D2" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" ForDuration="0|2" Symbol="Lyric|Marcato|buzztremolo" SetNote="D2" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D4" Symbol="Lyric|Marcato|Tremolo3|X" SetNote="F2" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <!-- Buzz Stroke -->
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|buzztremolo" SetNote="E4" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|buzztremolo|Staccato" SetNote="F4" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Accent|buzztremolo" SetNote="E4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Accent|buzztremolo|Staccato" SetNote="F4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Marcato|buzztremolo" SetNote="E4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Marcato|buzztremolo|Staccato" SetNote="F4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <!-- Rim Hit-->
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D4" Symbol="Lyric|X" SetNote="D4" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D4" Symbol="Lyric|Accent|X" SetNote="D4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D4" Symbol="Lyric|Marcato|X" SetNote="D4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <!--Shell Hit-->
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D#4" Symbol="Lyric|X" SetNote="D#4" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D#4" Symbol="Lyric|Accent|X" SetNote="D#4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="D#4" Symbol="Lyric|Marcato|X" SetNote="D#4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <!-- Shoulder Shot-->
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="F5" Symbol="Lyric|ornatex" SetNote="F5" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="F5" Symbol="Lyric|Accent|ornatex" SetNote="F5" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="F5" Symbol="Lyric|Marctao|ornatex" SetNote="F5" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <!--Marching Manuals Sticks In, "Dut", Stick Click, Harness Hit-->
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="C1" Symbol="Lyric|square" SetNote="C1" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="C#1" Symbol="Lyric|trianglerounddown" SetNote="C#1" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="E1" Symbol="Lyric|plus" SetNote="E1" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="F1" Symbol="Lyric|plus" SetNote="F1" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" Symbol="Lyric|square|Accent" ForNote="C1" SetNote="C1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="C#1" Symbol="Lyric|Accent|trianglerounddown" SetNote="C#1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="E1" Symbol="Lyric|Accent|plus" SetNote="E1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="F1" Symbol="Lyric|Accent|plus" SetNote="F1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Line LH.sfz" ForNote="C1" Symbol="Lyric|square|Marcato" SetNote="C1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="C#1" Symbol="Lyric|Marcato|trianglerounddown" SetNote="C#1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="E1" Symbol="Lyric|Marcato|plus" SetNote="E1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="F1" Symbol="Lyric|Marcato|plus" SetNote="F1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+    </Preset>
+    <Preset Name="Solo">
+        <!-- Hits -->
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" SetNote="D3" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" Symbol="Accent" SetNote="D3" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" Symbol="Marcato" SetNote="D3" SetVelocity="+20" SetDynamics="180" />
+        <!-- Buzz Rolls -->
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" Symbol="Tremolo3" SetNote="D2" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" ForDuration="0|2" Symbol="buzztremolo" SetNote="D2" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D4" Symbol="Tremolo3|X" SetNote="F2" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" Symbol="Accent|Tremolo3" SetNote="D2" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" ForDuration="0|2" Symbol="Accent|buzztremolo" SetNote="D2" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D4" Symbol="Accent|Tremolo3|X" SetNote="F2" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" Symbol="Marcato|Tremolo3" SetNote="D2" SetVelocity="+20" SetDynamics="180" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" ForDuration="0|2" Symbol="Marcato|buzztremolo" SetNote="D2" SetVelocity="+20" SetDynamics="180" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D4" Symbol="Marcato|Tremolo3|X" SetNote="F2" SetVelocity="+20" SetDynamics="180" />
+        <!-- Buzz Stroke -->
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" ForDuration="4|128" Symbol="buzztremolo" SetNote="E4" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" ForDuration="4|128" Symbol="buzztremolo|Staccato" SetNote="F4" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" ForDuration="4|128" Symbol="Accent|buzztremolo" SetNote="E4" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" ForDuration="4|128" Symbol="Accent|buzztremolo|Staccato" SetNote="F4" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" ForDuration="4|128" Symbol="Marcato|buzztremolo" SetNote="E4" SetVelocity="+20" SetDynamics="180" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D3" ForDuration="4|128" Symbol="Marcato|buzztremolo|Staccato" SetNote="F4" SetVelocity="+20" SetDynamics="180" />
+        <!-- Rim Hit-->
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D4" Symbol="X" SetNote="D4" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D4" Symbol="Accent|X" SetNote="D4" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D4" Symbol="Marcato|X" SetNote="D4" SetVelocity="+20" SetDynamics="180" />
+        <!--Shell Hit-->
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D#4" Symbol="X" SetNote="D#4" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D#4" Symbol="Accent|X" SetNote="D#4" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="D#4" Symbol="Marcato|X" SetNote="D#4" SetVelocity="+20" SetDynamics="180" />
+        <!-- Shoulder Shot-->
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="F5" Symbol="ornatex" SetNote="F5" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="F5" Symbol="Accent|ornatex" SetNote="F5" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="F5" Symbol="Marctao|ornatex" SetNote="F5" SetVelocity="+20" SetDynamics="180" />
+        <!--Marching Manuals Sticks In, "Dut", Stick Click, Harness Hit-->
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="C1" Symbol="square" SetNote="C1" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="C#1" Symbol="trianglerounddown" SetNote="C#1" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="E1" Symbol="plus" SetNote="E1" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="F1" Symbol="plus" SetNote="F1" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" Symbol="square|Accent" ForNote="C1" SetNote="C1" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="C#1" Symbol="Accent|trianglerounddown" SetNote="C#1" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="E1" Symbol="Accent|plus" SetNote="E1" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="F1" Symbol="Accent|plus" SetNote="F1" SetVelocity="+15" SetDynamics="150" />
+        <Articulation File="SFZ\Show Style Tenors Solo.sfz" ForNote="C1" Symbol="square|Marcato" SetNote="C1" SetVelocity="+20" SetDynamics="180" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="C#1" Symbol="Marcato|trianglerounddown" SetNote="C#1" SetVelocity="+20" SetDynamics="180" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="E1" Symbol="Marcato|plus" SetNote="E1" SetVelocity="+20" SetDynamics="180" />
+        <Articulation File="SFZ\Marching Manuals.sfz" ForNote="F1" Symbol="Marcato|plus" SetNote="F1" SetVelocity="+20" SetDynamics="180" />
+        <!-- RH -->
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" SetNote="D3" Symbol="Lyric" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" Symbol="Lyric|Accent" SetNote="D3" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" Symbol="Lyric|Marcato" SetNote="D3" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!-- Buzz Rolls -->
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" Symbol="Lyric|Tremolo3" SetNote="D2" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" ForDuration="0|2" Symbol="Lyric|buzztremolo" SetNote="D2" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D4" Symbol="Lyric|Tremolo3|X" SetNote="F2" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" Symbol="Lyric|Accent|Tremolo3" SetNote="D2" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" ForDuration="0|2" Symbol="Lyric|Accent|buzztremolo" SetNote="D2" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D4" Symbol="Lyric|Accent|Tremolo3|X" SetNote="F2" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" Symbol="Lyric|Marcato|Tremolo3" SetNote="D2" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" ForDuration="0|2" Symbol="Lyric|Marcato|buzztremolo" SetNote="D2" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D4" Symbol="Lyric|Marcato|Tremolo3|X" SetNote="F2" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!-- Buzz Stroke -->
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|buzztremolo" SetNote="E4" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|buzztremolo|Staccato" SetNote="F4" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Accent|buzztremolo" SetNote="E4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Accent|buzztremolo|Staccato" SetNote="F4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Marcato|buzztremolo" SetNote="E4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Marcato|buzztremolo|Staccato" SetNote="F4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!-- Rim Hit-->
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D4" Symbol="Lyric|X" SetNote="D4" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D4" Symbol="Lyric|Accent|X" SetNote="D4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D4" Symbol="Lyric|Marcato|X" SetNote="D4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!--Shell Hit-->
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D#4" Symbol="Lyric|X" SetNote="D#4" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D#4" Symbol="Lyric|Accent|X" SetNote="D#4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="D#4" Symbol="Lyric|Marcato|X" SetNote="D#4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!-- Shoulder Shot-->
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="F5" Symbol="Lyric|ornatex" SetNote="F5" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="F5" Symbol="Lyric|Accent|ornatex" SetNote="F5" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="F5" Symbol="Lyric|Marctao|ornatex" SetNote="F5" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!--Marching Manuals Sticks In, "Dut", Stick Click, Harness Hit-->
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="C1" Symbol="Lyric|square" SetNote="C1" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="C#1" Symbol="Lyric|trianglerounddown" SetNote="C#1" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="E1" Symbol="Lyric|plus" SetNote="E1" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="F1" Symbol="Lyric|plus" SetNote="F1" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" Symbol="Lyric|square|Accent" ForNote="C1" SetNote="C1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="C#1" Symbol="Lyric|Accent|trianglerounddown" SetNote="C#1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="E1" Symbol="Lyric|Accent|plus" SetNote="E1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="F1" Symbol="Lyric|Accent|plus" SetNote="F1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Show Style Tenors Solo RH.sfz" ForNote="C1" Symbol="Lyric|square|Marcato" SetNote="C1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="C#1" Symbol="Lyric|Marcato|trianglerounddown" SetNote="C#1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="E1" Symbol="Lyric|Marcato|plus" SetNote="E1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <Articulation File="SFZ\Marching Manuals RH.sfz" ForNote="F1" Symbol="Lyric|Marcato|plus" SetNote="F1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="R" />
+        <!-- LH -->
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" SetNote="D3" Symbol="Lyric" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" Symbol="Lyric|Accent" SetNote="D3" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" Symbol="Lyric|Marcato" SetNote="D3" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <!-- Buzz Rolls -->
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" Symbol="Lyric|Tremolo3" SetNote="D2" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" ForDuration="0|2" Symbol="Lyric|buzztremolo" SetNote="D2" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D4" Symbol="Lyric|Tremolo3|X" SetNote="F2" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" Symbol="Lyric|Accent|Tremolo3" SetNote="D2" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" ForDuration="0|2" Symbol="Lyric|Accent|buzztremolo" SetNote="D2" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D4" Symbol="Lyric|Accent|Tremolo3|X" SetNote="F2" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" Symbol="Lyric|Marcato|Tremolo3" SetNote="D2" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" ForDuration="0|2" Symbol="Lyric|Marcato|buzztremolo" SetNote="D2" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D4" Symbol="Lyric|Marcato|Tremolo3|X" SetNote="F2" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <!-- Buzz Stroke -->
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|buzztremolo" SetNote="E4" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|buzztremolo|Staccato" SetNote="F4" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Accent|buzztremolo" SetNote="E4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Accent|buzztremolo|Staccato" SetNote="F4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Marcato|buzztremolo" SetNote="E4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D3" ForDuration="4|128" Symbol="Lyric|Marcato|buzztremolo|Staccato" SetNote="F4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <!-- Rim Hit-->
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D4" Symbol="Lyric|X" SetNote="D4" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D4" Symbol="Lyric|Accent|X" SetNote="D4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D4" Symbol="Lyric|Marcato|X" SetNote="D4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <!--Shell Hit-->
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D#4" Symbol="Lyric|X" SetNote="D#4" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D#4" Symbol="Lyric|Accent|X" SetNote="D#4" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="D#4" Symbol="Lyric|Marcato|X" SetNote="D#4" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <!-- Shoulder Shot-->
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="F5" Symbol="Lyric|ornatex" SetNote="F5" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="F5" Symbol="Lyric|Accent|ornatex" SetNote="F5" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="F5" Symbol="Lyric|Marctao|ornatex" SetNote="F5" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <!--Marching Manuals Sticks In, "Dut", Stick Click, Harness Hit-->
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="C1" Symbol="Lyric|square" SetNote="C1" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="C#1" Symbol="Lyric|trianglerounddown" SetNote="C#1" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="E1" Symbol="Lyric|plus" SetNote="E1" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="F1" Symbol="Lyric|plus" SetNote="F1" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" Symbol="Lyric|square|Accent" ForNote="C1" SetNote="C1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="C#1" Symbol="Lyric|Accent|trianglerounddown" SetNote="C#1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="E1" Symbol="Lyric|Accent|plus" SetNote="E1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="F1" Symbol="Lyric|Accent|plus" SetNote="F1" SetVelocity="+15" SetDynamics="150" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Show Style Tenors Solo LH.sfz" ForNote="C1" Symbol="Lyric|square|Marcato" SetNote="C1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="C#1" Symbol="Lyric|Marcato|trianglerounddown" SetNote="C#1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="E1" Symbol="Lyric|Marcato|plus" SetNote="E1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+        <Articulation File="SFZ\Marching Manuals LH.sfz" ForNote="F1" Symbol="Lyric|Marcato|plus" SetNote="F1" SetVelocity="+20" SetDynamics="180" Type="attribute" Lyric="L" />
+    </Preset>
+    <MuseScore Drumset="Show Style Tenors.drm" />
+    <!-- Export -->
+    <MusicXML ExportTranspose="20" InstrumentSound="drum.snare-drum" />
+</Instrument>

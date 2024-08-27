@@ -190,11 +190,7 @@ var is_xml_start = (arrbuf) => {
             }
 
             var buf = new Uint8Array(addr.readByteArray(16));
-
-            if (!last_addr.equals(0x0) && !last_addr.add(0x10).equals(addr) && !addr.add(0xf0).equals(last_addr)) {
-                buf = Uint8Array.from(Array.prototype.concat([0], Array.from(buf)));
-            }
-
+%s
             while (sending_latest) {}
 
             if (fast_mode) {
@@ -233,7 +229,14 @@ var is_xml_start = (arrbuf) => {
     });
     recv('quit', msg => injected.detach());
 })();
-""" % addr_auto
+""" % (
+    addr_auto,
+    """
+            if (!last_addr.equals(0x0) && !last_addr.add(0x10).equals(addr) && !addr.add(0xf0).equals(last_addr)) {
+                buf = Uint8Array.from(Array.prototype.concat([0], Array.from(buf)));
+            }
+    """ if replace_separator else ""
+)
 out = b""
 has_end = True
 read_lock = threading.RLock()

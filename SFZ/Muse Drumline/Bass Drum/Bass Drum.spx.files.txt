@@ -1,0 +1,77 @@
+SFZ\Bass Drum 1 - Brushes LH.sfz
+SFZ\Bass Drum 1 - Brushes RH.sfz
+SFZ\Bass Drum 1 - Brushes.sfz
+SFZ\Bass Drum 1 - Dreads.sfz
+SFZ\Bass Drum 1 - Hard Mallets LH.sfz
+SFZ\Bass Drum 1 - Hard Mallets RH.sfz
+SFZ\Bass Drum 1 - Hard Mallets.sfz
+SFZ\Bass Drum 1 - Hot Rods LH.sfz
+SFZ\Bass Drum 1 - Hot Rods RH.sfz
+SFZ\Bass Drum 1 - Hot Rods.sfz
+SFZ\Bass Drum 1 - Soft Mallets LH.sfz
+SFZ\Bass Drum 1 - Soft Mallets RH.sfz
+SFZ\Bass Drum 1 - Soft Mallets.sfz
+SFZ\Bass Drum 2 - Brushes LH.sfz
+SFZ\Bass Drum 2 - Brushes RH.sfz
+SFZ\Bass Drum 2 - Brushes.sfz
+SFZ\Bass Drum 2 - Dreads.sfz
+SFZ\Bass Drum 2 - Hard Mallets LH.sfz
+SFZ\Bass Drum 2 - Hard Mallets RH.sfz
+SFZ\Bass Drum 2 - Hard Mallets.sfz
+SFZ\Bass Drum 2 - Hot Rods LH.sfz
+SFZ\Bass Drum 2 - Hot Rods RH.sfz
+SFZ\Bass Drum 2 - Hot Rods.sfz
+SFZ\Bass Drum 2 - Soft Mallets LH.sfz
+SFZ\Bass Drum 2 - Soft Mallets RH.sfz
+SFZ\Bass Drum 2 - Soft Mallets.sfz
+SFZ\Bass Drum 3 - Brushes LH.sfz
+SFZ\Bass Drum 3 - Brushes RH.sfz
+SFZ\Bass Drum 3 - Brushes.sfz
+SFZ\Bass Drum 3 - Dreads.sfz
+SFZ\Bass Drum 3 - Hard Mallets LH.sfz
+SFZ\Bass Drum 3 - Hard Mallets RH.sfz
+SFZ\Bass Drum 3 - Hard Mallets.sfz
+SFZ\Bass Drum 3 - Hot Rods LH.sfz
+SFZ\Bass Drum 3 - Hot Rods RH.sfz
+SFZ\Bass Drum 3 - Hot Rods.sfz
+SFZ\Bass Drum 3 - Soft Mallets LH.sfz
+SFZ\Bass Drum 3 - Soft Mallets RH.sfz
+SFZ\Bass Drum 3 - Soft Mallets.sfz
+SFZ\Bass Drum 4 - Brushes LH.sfz
+SFZ\Bass Drum 4 - Brushes RH.sfz
+SFZ\Bass Drum 4 - Brushes.sfz
+SFZ\Bass Drum 4 - Dreads.sfz
+SFZ\Bass Drum 4 - Hard Mallets LH.sfz
+SFZ\Bass Drum 4 - Hard Mallets RH.sfz
+SFZ\Bass Drum 4 - Hard Mallets.sfz
+SFZ\Bass Drum 4 - Hot Rods LH.sfz
+SFZ\Bass Drum 4 - Hot Rods RH.sfz
+SFZ\Bass Drum 4 - Hot Rods.sfz
+SFZ\Bass Drum 4 - Soft Mallets LH.sfz
+SFZ\Bass Drum 4 - Soft Mallets RH.sfz
+SFZ\Bass Drum 4 - Soft Mallets.sfz
+SFZ\Bass Drum 5 - Brushes LH.sfz
+SFZ\Bass Drum 5 - Brushes RH.sfz
+SFZ\Bass Drum 5 - Brushes.sfz
+SFZ\Bass Drum 5 - Dreads.sfz
+SFZ\Bass Drum 5 - Hard Mallets LH.sfz
+SFZ\Bass Drum 5 - Hard Mallets RH.sfz
+SFZ\Bass Drum 5 - Hard Mallets.sfz
+SFZ\Bass Drum 5 - Hot Rods LH.sfz
+SFZ\Bass Drum 5 - Hot Rods RH.sfz
+SFZ\Bass Drum 5 - Hot Rods.sfz
+SFZ\Bass Drum 5 - Soft Mallets LH.sfz
+SFZ\Bass Drum 5 - Soft Mallets RH.sfz
+SFZ\Bass Drum 5 - Soft Mallets.sfz
+SFZ\Bass Drum Line - Brushes LH.sfz
+SFZ\Bass Drum Line - Brushes RH.sfz
+SFZ\Bass Drum Line - Brushes.sfz
+SFZ\Bass Drum Line - Hard Mallets LH.sfz
+SFZ\Bass Drum Line - Hard Mallets RH.sfz
+SFZ\Bass Drum Line - Hard Mallets.sfz
+SFZ\Bass Drum Line - Hot Rods LH.sfz
+SFZ\Bass Drum Line - Hot Rods RH.sfz
+SFZ\Bass Drum Line - Hot Rods.sfz
+SFZ\Bass Drum Line - Soft Mallets LH.sfz
+SFZ\Bass Drum Line - Soft Mallets RH.sfz
+SFZ\Bass Drum Line - Soft Mallets.sfz

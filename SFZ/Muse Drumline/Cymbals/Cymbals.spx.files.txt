@@ -1,0 +1,4 @@
+SFZ\Cymbals - 18 Inch.sfz
+SFZ\Cymbals - 19 Inch.sfz
+SFZ\Cymbals - 20 Inch.sfz
+SFZ\Cymbals - Line.sfz

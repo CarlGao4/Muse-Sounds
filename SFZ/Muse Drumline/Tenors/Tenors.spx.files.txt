@@ -1,0 +1,30 @@
+SFZ\Tenors - Line - Dreads LH.sfz
+SFZ\Tenors - Line - Dreads RH.sfz
+SFZ\Tenors - Line - Dreads.sfz
+SFZ\Tenors - Line - Hot Rods LH.sfz
+SFZ\Tenors - Line - Hot Rods RH.sfz
+SFZ\Tenors - Line - Hot Rods.sfz
+SFZ\Tenors - Line - Puffy Mallets LH.sfz
+SFZ\Tenors - Line - Puffy Mallets RH.sfz
+SFZ\Tenors - Line - Puffy Mallets.sfz
+SFZ\Tenors - Line - Rubber Sticks LH.sfz
+SFZ\Tenors - Line - Rubber Sticks RH.sfz
+SFZ\Tenors - Line - Rubber Sticks.sfz
+SFZ\Tenors - Line - Sticks LH.sfz
+SFZ\Tenors - Line - Sticks RH.sfz
+SFZ\Tenors - Line - Sticks.sfz
+SFZ\Tenors - Solo - Dreads LH.sfz
+SFZ\Tenors - Solo - Dreads RH.sfz
+SFZ\Tenors - Solo - Dreads.sfz
+SFZ\Tenors - Solo - Hot Rods LH.sfz
+SFZ\Tenors - Solo - Hot Rods RH.sfz
+SFZ\Tenors - Solo - Hot Rods.sfz
+SFZ\Tenors - Solo - Puffy Mallets LH.sfz
+SFZ\Tenors - Solo - Puffy Mallets RH.sfz
+SFZ\Tenors - Solo - Puffy Mallets.sfz
+SFZ\Tenors - Solo - Rubber Sticks LH.sfz
+SFZ\Tenors - Solo - Rubber Sticks RH.sfz
+SFZ\Tenors - Solo - Rubber Sticks.sfz
+SFZ\Tenors - Solo - Sticks LH.sfz
+SFZ\Tenors - Solo - Sticks RH.sfz
+SFZ\Tenors - Solo - Sticks.sfz
