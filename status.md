@@ -91,7 +91,7 @@ These SFZ files are **NOT** standard and should be modified before using in othe
   - [x] Suitcase Piano
   - [x] Upright Piano
   - [x] Wurly 200A
-- [x] Muse Percussion `0.5.10`
+- [x] Muse Percussion `0.5.11`
   - [x] Bass Drum
   - [x] Bell Tree
   - [x] Bongos
