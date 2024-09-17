@@ -1,0 +1,18 @@
+"Muse Keys/Celesta/Celesta.spx":                                                      69765 9348cfdfad0d9b589174eb2a9d25aa56b02e21db
+"Muse Keys/Celesta/SFZ/Celesta.sts":                                               18084497 bc0fb5d91e48675c322d4c7df4b7a3790b945673
+"Muse Keys/Dream Piano/Dream Piano.spx":                                              87573 a72e56885173ddc721dd6e69d1216df988722679
+"Muse Keys/Dream Piano/SFZ/Dream Piano.sts":                                       70622993 232d7e6feda077fb7d3ae571c32fa0749904e0dc
+"Muse Keys/Hammond Organ/Hammond Organ.spx":                                          61418 f211946ef7f4b988914a15bc3282df8ff10b361e
+"Muse Keys/Hammond Organ/SFZ/Hammond Organ.sts":                                    3879486 32cd4eeb526a3f77bed4f18279346df8b64f476c
+"Muse Keys/Harpsichord/Harpsichord.spx":                                              63173 f93af1f03901947debcfd4600b3b9ef71c68549d
+"Muse Keys/Harpsichord/SFZ/Harpsichord.sts":                                        7243158 45faf1509f9c7e9a9dc06c6101e94eaf813e92a5
+"Muse Keys/Piano/Piano.spx":                                                         277071 378c78da823588a813067268d91746354ae69e64
+"Muse Keys/Piano/SFZ/Piano.sts":                                                  198713847 e7402de5525edacd26c1d26f6d9df1b3f0258067
+"Muse Keys/Soft Piano/Soft Piano.spx":                                                64469 70412c65c74fdef9a32a49917f274b80725ffc19
+"Muse Keys/Soft Piano/SFZ/Soft Piano.sts":                                         50646992 88696b91d23360a6eb68c3d9126fdd70f0a054cb
+"Muse Keys/Suitcase Piano/Suitcase Piano.spx":                                        71653 a95065ec42890b818d911f4ac81400f50fa8fa9e
+"Muse Keys/Suitcase Piano/SFZ/Suitcase Piano.sts":                                 19646460 7ba1451a7d13a370c48171ed693923897704c24c
+"Muse Keys/Upright Piano/Upright Piano.spx":                                          59685 33b9a3f27123c27578d14c0e09d79a98079b2edb
+"Muse Keys/Upright Piano/SFZ/Upright Piano.sts":                                    5269433 c9ca0703c0e0ebec462135a7e9adfd735ffdf06c
+"Muse Keys/Wurly 200A/Wurly 200A.spx":                                                62181 f6fbbd732f4289308c7fbc8a1c7bf08dafc7b868
+"Muse Keys/Wurly 200A/SFZ/Wurly 200A.sts":                                          5007526 1ccefafba3fab6d6017d364e39a05c51e5e393c7
