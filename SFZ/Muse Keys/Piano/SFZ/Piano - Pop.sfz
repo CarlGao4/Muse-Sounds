@@ -629,10 +629,12 @@ volume=11.23
 
 <region>
 end=480000
+hikey=F#2
 hivel=113
-key=F#2
+lokey=F2
 lovel=95
 offset=2294
+pitch_keycenter=F#2
 sample=Steinway_Mixed_f_up_F#2.opus
 volume=8.55
 </region>
@@ -700,16 +702,6 @@ volume=9.70
 <region>
 end=480000
 hivel=113
-key=F2
-lovel=95
-offset=2622
-sample=Steinway_Mixed_f_up_F2.opus
-volume=11.00
-</region>
-
-<region>
-end=480000
-hivel=113
 key=F3
 lovel=95
 offset=2719
@@ -769,10 +761,12 @@ volume=11.11
 
 <region>
 end=480000
+hikey=G#2
 hivel=113
-key=G#2
+lokey=G2
 lovel=95
 offset=2761
+pitch_keycenter=G#2
 sample=Steinway_Mixed_f_up_G#2.opus
 volume=9.70
 </region>
@@ -835,16 +829,6 @@ lovel=95
 offset=2577
 sample=Steinway_Mixed_f_up_G1.opus
 volume=10.80
-</region>
-
-<region>
-end=480000
-hivel=113
-key=G2
-lovel=95
-offset=2677
-sample=Steinway_Mixed_f_up_G2.opus
-volume=7.92
 </region>
 
 <region>
@@ -1510,10 +1494,12 @@ volume=9.47
 
 <region>
 end=480000
+hikey=F#2
 hivel=127
-key=F#2
+lokey=F2
 lovel=114
 offset=3788
+pitch_keycenter=F#2
 sample=Steinway_Mixed_ff_up_F#2.opus
 volume=6.83
 </region>
@@ -1581,16 +1567,6 @@ volume=8.07
 <region>
 end=480000
 hivel=127
-key=F2
-lovel=114
-offset=4730
-sample=Steinway_Mixed_ff_up_F2.opus
-volume=8.78
-</region>
-
-<region>
-end=480000
-hivel=127
 key=F3
 lovel=114
 offset=4849
@@ -1650,10 +1626,12 @@ volume=9.12
 
 <region>
 end=480000
+hikey=G#2
 hivel=127
-key=G#2
+lokey=G2
 lovel=114
 offset=4836
+pitch_keycenter=G#2
 sample=Steinway_Mixed_ff_up_G#2.opus
 volume=7.42
 </region>
@@ -1716,16 +1694,6 @@ lovel=114
 offset=4671
 sample=Steinway_Mixed_ff_up_G1.opus
 volume=8.72
-</region>
-
-<region>
-end=480000
-hivel=127
-key=G2
-lovel=114
-offset=2838
-sample=Steinway_Mixed_ff_up_G2.opus
-volume=6.61
 </region>
 
 <region>
@@ -2391,10 +2359,12 @@ volume=12.57
 
 <region>
 end=480000
+hikey=F#2
 hivel=94
-key=F#2
+lokey=F2
 lovel=76
 offset=5178
+pitch_keycenter=F#2
 sample=Steinway_Mixed_mf_up_F#2.opus
 volume=10.31
 </region>
@@ -2462,16 +2432,6 @@ volume=11.77
 <region>
 end=480000
 hivel=94
-key=F2
-lovel=76
-offset=4638
-sample=Steinway_Mixed_mf_up_F2.opus
-volume=12.78
-</region>
-
-<region>
-end=480000
-hivel=94
 key=F3
 lovel=76
 offset=5147
@@ -2531,10 +2491,12 @@ volume=12.22
 
 <region>
 end=480000
+hikey=G#2
 hivel=94
-key=G#2
+lokey=G2
 lovel=76
 offset=5181
+pitch_keycenter=G#2
 sample=Steinway_Mixed_mf_up_G#2.opus
 volume=10.92
 </region>
@@ -2597,16 +2559,6 @@ lovel=76
 offset=5030
 sample=Steinway_Mixed_mf_up_G1.opus
 volume=12.25
-</region>
-
-<region>
-end=480000
-hivel=94
-key=G2
-lovel=76
-offset=5114
-sample=Steinway_Mixed_mf_up_G2.opus
-volume=9.58
 </region>
 
 <region>
@@ -3272,10 +3224,12 @@ volume=14.32
 
 <region>
 end=480000
+hikey=F#2
 hivel=75
-key=F#2
+lokey=F2
 lovel=57
 offset=10122
+pitch_keycenter=F#2
 sample=Steinway_Mixed_mp_up_F#2.opus
 volume=12.54
 </region>
@@ -3343,16 +3297,6 @@ volume=13.57
 <region>
 end=480000
 hivel=75
-key=F2
-lovel=57
-offset=10277
-sample=Steinway_Mixed_mp_up_F2.opus
-volume=15.01
-</region>
-
-<region>
-end=480000
-hivel=75
 key=F3
 lovel=57
 offset=10110
@@ -3412,10 +3356,12 @@ volume=14.28
 
 <region>
 end=480000
+hikey=G#2
 hivel=75
-key=G#2
+lokey=G2
 lovel=57
 offset=10160
+pitch_keycenter=G#2
 sample=Steinway_Mixed_mp_up_G#2.opus
 volume=13.87
 </region>
@@ -3478,16 +3424,6 @@ lovel=57
 offset=10009
 sample=Steinway_Mixed_mp_up_G1.opus
 volume=14.33
-</region>
-
-<region>
-end=480000
-hivel=75
-key=G2
-lovel=57
-offset=10306
-sample=Steinway_Mixed_mp_up_G2.opus
-volume=11.54
 </region>
 
 <region>
@@ -4153,10 +4089,12 @@ volume=16.29
 
 <region>
 end=480000
+hikey=F#2
 hivel=56
-key=F#2
+lokey=F2
 lovel=38
 offset=8119
+pitch_keycenter=F#2
 sample=Steinway_Mixed_p_up_F#2.opus
 volume=14.90
 </region>
@@ -4224,16 +4162,6 @@ volume=15.61
 <region>
 end=480000
 hivel=56
-key=F2
-lovel=38
-offset=8055
-sample=Steinway_Mixed_p_up_F2.opus
-volume=17.89
-</region>
-
-<region>
-end=480000
-hivel=56
 key=F3
 lovel=38
 offset=8149
@@ -4293,10 +4221,12 @@ volume=16.99
 
 <region>
 end=480000
+hikey=G#2
 hivel=56
-key=G#2
+lokey=G2
 lovel=38
 offset=8211
+pitch_keycenter=G#2
 sample=Steinway_Mixed_p_up_G#2.opus
 volume=16.66
 </region>
@@ -4359,16 +4289,6 @@ lovel=38
 offset=8026
 sample=Steinway_Mixed_p_up_G1.opus
 volume=17.65
-</region>
-
-<region>
-end=480000
-hivel=56
-key=G2
-lovel=38
-offset=8141
-sample=Steinway_Mixed_p_up_G2.opus
-volume=14.33
 </region>
 
 <region>
@@ -5032,10 +4952,12 @@ volume=18.67
 
 <region>
 end=480000
+hikey=F#2
 hivel=37
-key=F#2
+lokey=F2
 lovel=19
 offset=6051
+pitch_keycenter=F#2
 sample=Steinway_Mixed_pp_up_F#2.opus
 volume=17.52
 </region>
@@ -5103,16 +5025,6 @@ volume=18.53
 <region>
 end=480000
 hivel=37
-key=F2
-lovel=19
-offset=6210
-sample=Steinway_Mixed_pp_up_F2.opus
-volume=20.99
-</region>
-
-<region>
-end=480000
-hivel=37
 key=F3
 lovel=19
 offset=6200
@@ -5172,10 +5084,12 @@ volume=21.11
 
 <region>
 end=480000
+hikey=G#2
 hivel=37
-key=G#2
+lokey=G2
 lovel=19
 offset=6335
+pitch_keycenter=G#2
 sample=Steinway_Mixed_pp_up_G#2.opus
 volume=20.01
 </region>
@@ -5238,16 +5152,6 @@ lovel=19
 offset=6165
 sample=Steinway_Mixed_pp_up_G1.opus
 volume=20.16
-</region>
-
-<region>
-end=480000
-hivel=37
-key=G2
-lovel=19
-offset=6272
-sample=Steinway_Mixed_pp_up_G2.opus
-volume=17.30
 </region>
 
 <region>
@@ -5913,10 +5817,12 @@ volume=21.25
 
 <region>
 end=480000
+hikey=F#2
 hivel=18
-key=F#2
+lokey=F2
 lovel=0
 offset=4894
+pitch_keycenter=F#2
 sample=Steinway_Mixed_ppp_up_F#2.opus
 volume=20.04
 </region>
@@ -5984,16 +5890,6 @@ volume=21.31
 <region>
 end=480000
 hivel=18
-key=F2
-lovel=0
-offset=4925
-sample=Steinway_Mixed_ppp_up_F2.opus
-volume=23.25
-</region>
-
-<region>
-end=480000
-hivel=18
 key=F3
 lovel=0
 offset=4771
@@ -6053,10 +5949,12 @@ volume=24.21
 
 <region>
 end=480000
+hikey=G#2
 hivel=18
-key=G#2
+lokey=G2
 lovel=0
 offset=5135
+pitch_keycenter=G#2
 sample=Steinway_Mixed_ppp_up_G#2.opus
 volume=23.86
 </region>
@@ -6119,16 +6017,6 @@ lovel=0
 offset=5034
 sample=Steinway_Mixed_ppp_up_G1.opus
 volume=23.09
-</region>
-
-<region>
-end=480000
-hivel=18
-key=G2
-lovel=0
-offset=5105
-sample=Steinway_Mixed_ppp_up_G2.opus
-volume=20.41
 </region>
 
 <region>

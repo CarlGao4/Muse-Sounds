@@ -81,7 +81,7 @@ These SFZ files are **NOT** standard and should be modified before using in othe
   - [x] Electric SC - Clean
 - [x] Muse Harp `0.2.7`
   - [x] Harp
-- [x] Muse Keys `0.4.11`
+- [x] Muse Keys `0.4.13`
   - [x] Celesta
   - [x] Dream Piano
   - [x] Grand Piano
