@@ -1,0 +1,62 @@
+"Muse Percussion/Bass Drum/Bass Drum.spx":                                            64398 b1f421b92a5f5923ac2a3db3377c8b82bf8888b8
+"Muse Percussion/Bass Drum/SFZ/Bass Drum.sts":                                      8344121 4fcfeabb666da61f1734d80f1c9e2766997b7597
+"Muse Percussion/Bell Tree/Bell Tree.spx":                                            47876 8cae2b2fef56a80020f262891bd9eb9cfe239864
+"Muse Percussion/Bell Tree/SFZ/Bell Tree.sts":                                      2682089 a39d26b70fe0d241a305dfa3d250b0f8f40da0f3
+"Muse Percussion/Bongos/Bongos.spx":                                                  62180 6e5d0faa69d11dd9efcab83c68d41e4d23875d52
+"Muse Percussion/Bongos/SFZ/Bongos.sts":                                            6251907 ed87071c6c109d985cf24887368a98f01b9fbe91
+"Muse Percussion/Cabasa/Cabasa.spx":                                                  48549 f3fad3a3e915c090ed4a7a0cf31da5c0006097a5
+"Muse Percussion/Cabasa/SFZ/Cabasa.sts":                                            1007174 ec1c02cfc215d83a5864614b9ccba355df8217b8
+"Muse Percussion/Castanets/Castanets.spx":                                            47738 51cf8c7b190dc483d15819291e67a81bc67ea598
+"Muse Percussion/Castanets/SFZ/Castanets.sts":                                       748509 de6e62ca87b1136c5eb05dde93c94f23a5852b78
+"Muse Percussion/Claves/Claves.spx":                                                  45077 7dcb59e50412f6ece6c4f3a22446bc72a55590d4
+"Muse Percussion/Claves/SFZ/Claves.sts":                                             977792 3eda128ac1e47e2cdda0520de0c3bcb7f8b38ad6
+"Muse Percussion/Cowbell/Cowbell.spx":                                                50837 09409cc7f6906115ea66e2f3a11bfae554eafea8
+"Muse Percussion/Cowbell/SFZ/Cowbell.sts":                                          3825352 304925f97afeadf5dafff00c0d0ac4f9c411864f
+"Muse Percussion/Crotales/Crotales.spx":                                              49029 dc3d80afa374eae22ba28a370ec58bb2bb51456a
+"Muse Percussion/Crotales/SFZ/Crotales.sts":                                        8536584 7c1ea7f7dcd9258ad2dfb885473daacfd82e15fc
+"Muse Percussion/Drum Kit/Drum Kit.spx":                                              60005 6c252bdabb6ca42358c468716eb4781f16e037ae
+"Muse Percussion/Drum Kit/SFZ/Drum Kit.sts":                                        5023280 4da135a42ae9aeedfecfb5be302201399da573f8
+"Muse Percussion/Field Drum/Field Drum.spx":                                          80340 7c4f4c7a4092c65e79f82c9b69385345c7af2d84
+"Muse Percussion/Field Drum/SFZ/Field Drum.sts":                                   10970184 f9c067c865dd79a72485e28c7921725d8378e0e0
+"Muse Percussion/Glockenspiel/Glockenspiel.spx":                                     166324 beeb7951726ebba2c1b657af6f3d872527662e73
+"Muse Percussion/Glockenspiel/SFZ/Glockenspiel.sts":                              292122674 41fc054b265e06370e8388a609aeac4e0f6efe94
+"Muse Percussion/Gong/Gong.spx":                                                      62024 844536c90d0663425516bcb645ecf3bb991182ca
+"Muse Percussion/Gong/SFZ/Gong.sts":                                               19205827 e2df5c87c054906205e9cd7ccdade9973d043aab
+"Muse Percussion/Marimba/Marimba.spx":                                               229044 a531cdd8857c15b789360609e6589dafbf105f28
+"Muse Percussion/Marimba/SFZ/Marimba.sts":                                        190601795 f9f8583b1e03f1fb8b8788a3d08811b352871fa3
+"Muse Percussion/Mark Tree/Mark Tree.spx":                                            47460 c7edd9d02a3d7ec66370e37d6beb16662ebf956f
+"Muse Percussion/Mark Tree/SFZ/Mark Tree.sts":                                      6695237 1295344b3a843947593af8b398d1d90d42945aeb
+"Muse Percussion/Metronome/Metronome.spx":                                            43893 35abd31e7116872e9f2c067ae83315c800cec0cd
+"Muse Percussion/Metronome/SFZ/Metronome.sts":                                         1398 5ec558860502cccfd47ab722d496f536de46433a
+"Muse Percussion/Piatti/Piatti.spx":                                                  53236 d817c63088d8420ebcfa415b0f48af59d59c2546
+"Muse Percussion/Piatti/SFZ/Piatti.sts":                                            6300873 8eb2db12f9e6c7b1920f675603c1be7342b176af
+"Muse Percussion/Shaker/Shaker.spx":                                                  53215 06e69ca4d3c3077feba896066771ff6e8bd59ac3
+"Muse Percussion/Shaker/SFZ/Shaker.sts":                                            1993775 d367d6545bf4d8f7876ab17f1d7581a32fd91e69
+"Muse Percussion/Sleigh Bells/Sleigh Bells.spx":                                      44853 aaf37a1053209a0d98e050be49544fbc1b634243
+"Muse Percussion/Sleigh Bells/SFZ/Sleigh Bells.sts":                                 249862 c965ad63012049c9f8236ed0d4d732a44f646dc0
+"Muse Percussion/Snare/Snare.spx":                                                    83412 b41839e2345dd40a3135a553298396970e5cb499
+"Muse Percussion/Snare/SFZ/Snare.sts":                                             14034697 e192e74bea57827b000ec0be23df99a89dac0164
+"Muse Percussion/Suspended Cymbal/Suspended Cymbal.spx":                              77084 9510998eb2c43243ec8bea6ea1f04f190870a109
+"Muse Percussion/Suspended Cymbal/SFZ/Suspended Cymbal.sts":                       24723144 9b60cee04dcac735aa9f55aa7c94bc2c8210ab9a
+"Muse Percussion/Taikos/Taikos.spx":                                                  58852 098f80c47f7b2a9d5fa96fcedd57eceefdfef37b
+"Muse Percussion/Taikos/SFZ/Taikos.sts":                                           13522680 b9fd14ca638a734decc22a2733d08d2986e2d5d3
+"Muse Percussion/Tam-Tam/Tam-Tam.spx":                                                52340 f3f59edb9dfd4be3f47feba75b9cda65eab7034b
+"Muse Percussion/Tam-Tam/SFZ/Tam-Tam.sts":                                         16281840 4a459a845d7ad79b7b7667bf8e6eddebf2eb2f61
+"Muse Percussion/Tambourine/Tambourine.spx":                                          51674 0b9a30a2f24aab6b01c92b83c7aa6231347f3c59
+"Muse Percussion/Tambourine/SFZ/Tambourine.sts":                                    1497633 e86e0c89270582d856e5c383c8a6e066e581de94
+"Muse Percussion/Timbales/Timbales.spx":                                              68970 aa6009b6c57752de004f811b9da8791accf52ec4
+"Muse Percussion/Timbales/SFZ/Timbales.sts":                                        6795206 bc608314ed01a1da32dd575cb5ab21d96771701e
+"Muse Percussion/Timpani/Timpani.spx":                                               253326 80dcd26f4b1c006f35d1d4c69b66dcee8af40e3d
+"Muse Percussion/Timpani/SFZ/Timpani.sts":                                        376745298 276ed958922576e5817ff59a1e2160538fef1509
+"Muse Percussion/Toms/Toms.spx":                                                      69274 76d9c771c80204fb0483e76ab27e21d534a010cb
+"Muse Percussion/Toms/SFZ/Toms.sts":                                                7593380 ee1c29f4e5cc0da75fa3469d77b4c31b78b91065
+"Muse Percussion/Triangle/Triangle.spx":                                              56442 96c0865ad7506e2b063e184b276481698b990231
+"Muse Percussion/Triangle/SFZ/Triangle.sts":                                        6320389 8be6d6df16f0dd5961ec86e88943b0d625930d60
+"Muse Percussion/Tubular Bells/Tubular Bells.spx":                                    64122 19fbf1741930ab49ffce1fd3578844ac0228a17f
+"Muse Percussion/Tubular Bells/SFZ/Tubular Bells.sts":                             35491380 737178d1f59a361014eaa74a25db5bc11c559c03
+"Muse Percussion/Vibraphone/Vibraphone.spx":                                         188222 f8944e7e76551a7a17274f115a3905b04f82cbc9
+"Muse Percussion/Vibraphone/SFZ/Vibraphone.sts":                                  100800520 0b653d6b2162860bf115aa2c8f9439676c8fd313
+"Muse Percussion/Woodblocks/Woodblocks.spx":                                          50266 f6befcac6ff207c6d06b2e00825c431cfbb1c31e
+"Muse Percussion/Woodblocks/SFZ/Woodblocks.sts":                                    1462342 76a0ca925842831506437181c2eb9f7c71a562fe
+"Muse Percussion/Xylophone/Xylophone.spx":                                           215892 f71ea1a7f34ee018d89505eb683480947720b8b0
+"Muse Percussion/Xylophone/SFZ/Xylophone.sts":                                     98509257 c8b585be2d55a875b05832f32b8b3b670ec7ca52
