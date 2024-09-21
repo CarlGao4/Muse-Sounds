@@ -101,6 +101,7 @@ var create_ui8array = () => {
 };
 var is_xml_start = (arrbuf) => {
     const xml_start = new Uint8Array([0x3c, 0x3f, 0x78, 0x6d, 0x6c, 0x20, 0x76, 0x65, 0x72, 0x73, 0x69, 0x6f, 0x6e, 0x3d, 0x22, 0x31]);
+    // <?xml version="1
     return (new Uint8Array(arrbuf)).slice(0, 16).every((v, i) => v === xml_start[i]);
 };
 (function () {

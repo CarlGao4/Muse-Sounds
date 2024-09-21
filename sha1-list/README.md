@@ -15,19 +15,6 @@ import os
 import pathlib
 
 os.chdir("Your Muse Sounds folder")  # TODO: Fill this
-hashes = {
-    i: list(j)
-    for i, j in itertools.groupby(
-        (
-            (
-                i[2:].replace("\\", "/"),
-                (os.path.getsize(i), hashlib.sha1(pathlib.Path(i).read_bytes(), usedforsecurity=False).hexdigest()),
-            )
-            for i in glob.glob("./*/**/*.*", recursive=True)
-        ),
-        lambda x: x[0].split("/")[0],
-    )
-}
 # TODO: Uncomment this and fill the version number
 """
 versions = {
@@ -42,6 +29,21 @@ versions = {
     "Muse Woodwinds": "xxx"
 }
 """
+hashes = {}
+for i in versions:
+    hashes.update({
+        k: list(v)
+        for k, v in itertools.groupby(
+            (
+                (
+                    k[2:].replace("\\", "/"),
+                    (os.path.getsize(k), hashlib.sha1(pathlib.Path(k).read_bytes(), usedforsecurity=False).hexdigest()),
+                )
+                for k in glob.glob(f"./{i}/**/*.*", recursive=True)
+            ),
+            lambda x: x[0].split("/")[0],
+        )
+    })
 
 os.chdir("Your Muse Sounds SHA1 List folder")  # TODO: Fill this
 
