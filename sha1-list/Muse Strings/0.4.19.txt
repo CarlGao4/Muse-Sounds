@@ -1,0 +1,18 @@
+"Muse Strings/Cello Solo/Cello Solo.spx":                                           4314800 39640f5ed47107d02e7f83e3c8273197144597e0
+"Muse Strings/Cello Solo/SFZ/Cello Solo.sts":                                     710229196 a1e8345cf987e29c3297381dd9ceef8494b6e8ee
+"Muse Strings/Cellos/Cellos.spx":                                                   1249681 f5b54c033f763a093cd84360e58838400003c7b5
+"Muse Strings/Cellos/SFZ/Cellos.sts":                                             649473933 e0bc3478f6626b9ada43b9463e8ae00dd2570913
+"Muse Strings/Contrabasses/Contrabasses.spx":                                       1031345 7d9ed702068fb9300f601dad56cdabe4ac0889a0
+"Muse Strings/Contrabasses/SFZ/Contrabasses.sts":                                 439266079 67aa397ac355ef5eed0ee2abd8292d8a5c51fa2d
+"Muse Strings/Viola Solo/Viola Solo.spx":                                           2535361 975f7cb8a822eab57fbb0046ba102e2dc0bda623
+"Muse Strings/Viola Solo/SFZ/Viola Solo.sts":                                     521776660 349dcae4efe5e5c2bdd9c281d95004a4968f4969
+"Muse Strings/Violas/Violas.spx":                                                   1345515 13547541c638f99099971e340a0edf0b53d19216
+"Muse Strings/Violas/SFZ/Violas.sts":                                             558991510 60359048f22ee4d64e29bce211b32949e6be93b2
+"Muse Strings/Violin 1 Solo/Violin 1 Solo.spx":                                     3591542 c4c8fd403e403d2817019c3ef056f72e0b2a7670
+"Muse Strings/Violin 1 Solo/SFZ/Violin 1 Solo.sts":                               543073266 d502e4a6fbbab3acfdd28d2bf8fcc6966ff1ad37
+"Muse Strings/Violin 2 Solo/Violin 2 Solo.spx":                                     3293324 7108fa76963fd9bcfb6500cdf805d64cb90ef23d
+"Muse Strings/Violin 2 Solo/SFZ/Violin 2 Solo.sts":                               682656066 fce165dd2673e05567de302ed8125e68620d93b7
+"Muse Strings/Violins 1/Violins 1.spx":                                             1219889 915db7af5a8be7dd6265f45b71b3e0a327445832
+"Muse Strings/Violins 1/SFZ/Violins 1.sts":                                       675925718 345bd5e1726d331fe925246cd4d73444c4c41f0b
+"Muse Strings/Violins 2/Violins 2.spx":                                             1222545 74e120fd748125d360b7af5f2341d403e485a9b6
+"Muse Strings/Violins 2/SFZ/Violins 2.sts":                                       658730434 71be48f3c649d60ea3d74dfc2d0c30399878a1d8
