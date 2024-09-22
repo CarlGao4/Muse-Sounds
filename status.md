@@ -66,11 +66,11 @@ These SFZ files are **NOT** standard and should be modified before using in othe
   - [x] Basses
   - [x] Sopranos
   - [x] Tenors
-- [ ] Muse Drumline `0.9.9`
+- [x] Muse Drumline `0.9.9`
   - [x] Marching Bass Drums
   - [x] Marching Cymbals
   - [x] Marching Snares
-  - [ ] Marching Tenors
+  - [x] Marching Tenors
   - [x] Show Style Tenors
 - [x] Muse Guitars Vol. 1 `0.9.8`
   - [x] Acoustic Nylon
