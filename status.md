@@ -69,7 +69,7 @@ These SFZ files are **NOT** standard and should be modified before using in othe
 - [ ] Muse Drumline `0.9.9`
   - [x] Marching Bass Drums
   - [x] Marching Cymbals
-  - [ ] Marching Snares
+  - [x] Marching Snares
   - [ ] Marching Tenors
   - [x] Show Style Tenors
 - [x] Muse Guitars Vol. 1 `0.9.8`
