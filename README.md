@@ -4,9 +4,9 @@ The Muse Sounds soundfont in sf2 and sf3 format only for research purpose
 
 Extraction status:
 
-[Progress - Instruments ![](https://util.muse-sounds.work/progress/87/91?color=70afea&width=150)](status.md) 87 / 91
+[Progress - Instruments ![](https://util.muse-sounds.work/progress/88/91?color=70afea&width=150)](status.md) 88 / 91
 
-[Progress - Files ![](https://util.muse-sounds.work/progress/1168/1256?color=a953ff&width=150)](status.md) 1168 / 1256
+[Progress - Files ![](https://util.muse-sounds.work/progress/1168/1256?color=a953ff&width=150)](status.md) 1172 / 1256
 
 **Up until now, all SFZ fils have been extracted and uploaded. Current status is converting into standard formats including SF2 (and SF3) for simple instruments (like Upright Piano), SFZ for complex instruments (like Grand Piano), and VST (Kontakt) for more complex instruments (like Muse Strings). For convertion status and download links, see [instruments](instruments.md).**
 
