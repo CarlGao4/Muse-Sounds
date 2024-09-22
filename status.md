@@ -71,7 +71,7 @@ These SFZ files are **NOT** standard and should be modified before using in othe
   - [x] Marching Cymbals
   - [ ] Marching Snares
   - [ ] Marching Tenors
-  - [ ] Show Style Tenors
+  - [x] Show Style Tenors
 - [x] Muse Guitars Vol. 1 `0.9.8`
   - [x] Acoustic Nylon
   - [x] Acoustic Steel Picked
