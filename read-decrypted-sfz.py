@@ -13,6 +13,7 @@ assert sys.platform == "win32", "This script is for Windows only"
 
 
 # TODO: Set this to False if you don't want to print the output to console
+# At this time, the script will only print a dot each time a decrypted data is retrieved
 print_output = True
 
 # TODO: Output file name, set this to empty string if you don't want to save the output
@@ -256,6 +257,8 @@ def on_message(message, data):
                     has_end = True
                 else:
                     has_end = False
+            else:
+                print(".", end="", flush=True)
         elif message["type"] == "send" and message["payload"] == "step_by_step_waiting":
             step_by_step_waiting = True
         elif message["type"] == "send" and message["payload"] == "step_by_step_true":

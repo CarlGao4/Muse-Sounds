@@ -7,7 +7,7 @@
 Up until now, I've extracted the following versions:
 - Muse Brass `0.4.4`
 - Muse Choir `0.3.19`
-- Muse Drumline `0.9.7`
+- Muse Drumline `0.9.9`
 - Muse Guitars Vol. 1 `0.9.8`
 - Muse Harp `0.2.7`
 - Muse Keys `0.4.13`
@@ -66,8 +66,8 @@ These SFZ files are **NOT** standard and should be modified before using in othe
   - [x] Basses
   - [x] Sopranos
   - [x] Tenors
-- [ ] Muse Drumline
-  - [ ] Marching Bass Drums
+- [ ] Muse Drumline `0.9.9`
+  - [x] Marching Bass Drums
   - [ ] Marching Cymbals
   - [ ] Marching Snares
   - [ ] Marching Tenors
