@@ -7,6 +7,7 @@ on:
       - "*.md"
       - "*.py"
       - "!gh-actions-generate-toc.py"
+      - ".github/workflows/update-gh-page.yml"
   workflow_dispatch:
   workflow_call:
     secrets:
@@ -23,7 +24,7 @@ jobs:
     steps:
       - name: Call GitHub Actions API
         run: |
-          curl -L \
+          curl -L -f \
             -X POST \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer ${{ secrets.PAGES_TOKEN }}" \
