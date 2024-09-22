@@ -121,14 +121,26 @@
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X" ForNote="f#2" SetNote="f#2" />
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X|Harmonics" ForNote="f#2" SetNote="a#2" />
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X|Open" ForNote="f#2" SetNote="a#2" />
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X" ForNote="a#2" SetNote="a#2" />
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="circlex" ForNote="a#2" SetNote="a#2" />
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X|Harmonics" ForNote="a#2" SetNote="a#2" />
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X|Open" ForNote="a#2" SetNote="a#2" />
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="diamond" ForNote="a#2" SetNote="a#2" />
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|X" ForNote="f#2" SetNote="f#2" SetVelocity="+10" SetDynamics="120"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|X|Harmonics" ForNote="f#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|X|Open" ForNote="f#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|X" ForNote="a#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|circlex" ForNote="a#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|X|Harmonics" ForNote="a#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|X|Open" ForNote="a#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|diamond" ForNote="a#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|X" ForNote="f#2" SetNote="f#2" SetVelocity="+15" SetDynamics="150"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|X|Harmonics" ForNote="f#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|X|Open" ForNote="f#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|X" ForNote="a#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|circlex" ForNote="a#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|X|Harmonics" ForNote="a#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|X|Open" ForNote="a#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|diamond" ForNote="a#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
   <!-- Pedal Hi Hat -->
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X" ForNote="g#2" SetNote="g#2" />
@@ -208,14 +220,26 @@
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X" ForNote="f#2" SetNote="f#2" />
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X|Harmonics" ForNote="f#2" SetNote="a#2" />
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X|Open" ForNote="f#2" SetNote="a#2" />
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X" ForNote="a#2" SetNote="a#2" />
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="circlex" ForNote="a#2" SetNote="a#2" />
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X|Harmonics" ForNote="a#2" SetNote="a#2" />
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X|Open" ForNote="a#2" SetNote="a#2" />
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="diamond" ForNote="a#2" SetNote="a#2" />
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|X" ForNote="f#2" SetNote="f#2" SetVelocity="+10" SetDynamics="120"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|X|Harmonics" ForNote="f#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|X|Open" ForNote="f#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|X" ForNote="a#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|circlex" ForNote="a#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|X|Harmonics" ForNote="a#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|X|Open" ForNote="a#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Accent|diamond" ForNote="a#2" SetNote="a#2" SetVelocity="+10" SetDynamics="120"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|X" ForNote="f#2" SetNote="f#2" SetVelocity="+15" SetDynamics="150"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|X|Harmonics" ForNote="f#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|X|Open" ForNote="f#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|X" ForNote="a#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|circlex" ForNote="a#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|X|Harmonics" ForNote="a#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
+  <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|X|Open" ForNote="a#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="Marcato|diamond" ForNote="a#2" SetNote="a#2" SetVelocity="+15" SetDynamics="150"/>
   <!-- Pedal Hi Hat -->
   <Articulation File="SFZ\Pop Drum Kit.sfz" Symbol="X" ForNote="g#2" SetNote="g#2" />
